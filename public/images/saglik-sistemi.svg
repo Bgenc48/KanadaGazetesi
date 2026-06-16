@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Kanada sağlık sistemi">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b5d8a"/>
+      <stop offset="1" stop-color="#4f86b5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky2)"/>
+
+  <!-- kâğıt kart -->
+  <rect x="430" y="210" width="740" height="580" rx="14" fill="#f7f4ec"/>
+
+  <!-- nabız çizgisi -->
+  <polyline points="430,500 600,500 660,500 700,380 760,640 820,460 870,500 1170,500"
+            fill="none" stroke="#1b1714" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- artı (sağlık) -->
+  <g fill="#c1121f">
+    <rect x="940" y="300" width="86" height="240" rx="10"/>
+    <rect x="863" y="377" width="240" height="86" rx="10"/>
+  </g>
+
+  <!-- köşe yaprak -->
+  <g transform="translate(486 300) scale(0.45)" fill="#c1121f" opacity="0.16">
+    <polygon points="100,10 112,40 150,30 135,62 170,70 150,92 192,108 150,112 165,150 128,130 120,175 100,160 80,175 72,130 35,150 50,112 8,108 50,92 30,70 65,62 50,30 88,40"/>
+  </g>
+
+  <text x="486" y="730" font-family="Georgia, serif" font-size="40" fill="#1b1714" font-style="italic">Kamusal, ücretsiz — ve ilk üç ay kritik.</text>
+</svg>

@@ -1,0 +1,33 @@
+---
+import { getSection } from '../data/sections';
+
+export interface Props {
+  section?: string;
+  label?: string;
+  href?: string;
+  /** Doğrudan renk geçersiz kılma (CSS değeri) */
+  color?: string;
+  class?: string;
+}
+const { section, label, href, color, class: className } = Astro.props;
+const meta = section ? getSection(section) : undefined;
+const text = label ?? meta?.name ?? '';
+const accent = color ?? (meta ? `var(${meta.accent})` : 'var(--crimson)');
+const link = href ?? (meta ? `/bolum/${meta.id}` : undefined);
+---
+{
+  link ? (
+    <a class:list={['kicker', className]} style={`color:${accent}`} href={link}>
+      {text}
+    </a>
+  ) : (
+    <span class:list={['kicker', className]} style={`color:${accent}`}>{text}</span>
+  )
+}
+
+<style>
+  a.kicker:hover {
+    text-decoration: none;
+    filter: brightness(0.85);
+  }
+</style>

@@ -1,0 +1,24 @@
+{
+  "name": "kanada-gazetesi",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kanada Gazetesi — Kanada'daki Türk diasporası için bağımsız, kaliteli haber ve rehber yayını.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "new": "node scripts/new-article.mjs",
+    "photos": "node scripts/fetch-photos.mjs",
+    "photos:force": "node scripts/fetch-photos.mjs --force",
+    "publish": "node scripts/fetch-photos.mjs && astro build"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.11",
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^5.6.1",
+    "sharp": "^0.35.1"
+  }
+}

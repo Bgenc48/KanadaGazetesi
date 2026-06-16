@@ -1,0 +1,46 @@
+---
+import type { Article } from '../utils/format';
+import { formatDateShortTR, isoDate, readingTime } from '../utils/format';
+
+export interface Props {
+  article: Article;
+  withReadingTime?: boolean;
+  withAuthorTitle?: boolean;
+}
+const { article, withReadingTime = true, withAuthorTitle = false } = Astro.props;
+const { author, authorTitle, pubDate } = article.data;
+const mins = readingTime(article.body ?? '');
+---
+<p class="byline meta">
+  <span class="byline__author">{author}</span>{
+    withAuthorTitle && authorTitle && <span class="byline__title">, {authorTitle}</span>
+  }
+  <span class="byline__sep">·</span>
+  <time datetime={isoDate(pubDate)}>{formatDateShortTR(pubDate)}</time>
+  {
+    withReadingTime && (
+      <>
+        <span class="byline__sep">·</span>
+        <span>{mins} dk okuma</span>
+      </>
+    )
+  }
+</p>
+
+<style>
+  .byline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    align-items: baseline;
+  }
+  .byline__author {
+    font-weight: 700;
+    color: var(--ink-soft);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .byline__sep {
+    opacity: 0.5;
+  }
+</style>

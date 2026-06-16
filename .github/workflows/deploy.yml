@@ -1,0 +1,49 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # Otomatik foto yenilemesi içerik commit'lediğinde yeniden yayınla.
+  # (Yerleşik GITHUB_TOKEN ile yapılan push `on: push`'u TETİKLEMEZ; bu yüzden
+  #  "Refresh Photos" iş akışının tamamlanmasına bağlanıyoruz.)
+  workflow_run:
+    workflows: ["Refresh Photos"]
+    types: [completed]
+    branches: [main]
+
+# Aynı anda tek dağıtım; süren bir dağıtımı iptal etme.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # workflow_run ile tetiklendiyse yalnızca üst akış BAŞARILIYSA dağıt.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Build Astro & upload Pages artifact
+        uses: withastro/action@v6
+        with:
+          node-version: 20
+          package-manager: npm
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

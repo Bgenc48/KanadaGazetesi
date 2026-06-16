@@ -1,0 +1,44 @@
+# build output
+dist/
+.output/
+
+# dependencies
+node_modules/
+
+# astro
+.astro/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment
+.env
+.env.production
+.env.local
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/*
+!.vscode/extensions.json
+
+# memory buffer (kept local)
+.remember/
+
+# quarantined stray files from sibling editions
+_quarantine/
+
+# extracted design-system handoff bundle (reference only)
+_design_pkg/
+
+# playwright MCP session captures (local dev only)
+.playwright-mcp/
+
+# local development screenshots (root-level only)
+/article-full.png
+/home-full.png
+/home-mobile.png

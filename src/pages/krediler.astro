@@ -1,0 +1,91 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import credits from '../data/photo-credits.json';
+
+// photo-credits.json: { "/images/xxx.jpg": { ...kayıt } }
+const entries = Object.values(credits as Record<string, any>).sort((a, b) =>
+  String(a.title || '').localeCompare(String(b.title || ''), 'tr'),
+);
+---
+<BaseLayout
+  title="Fotoğraf Kaynakları ve Telif"
+  description="Kanada Gazetesi'nde kullanılan fotoğrafların kaynak ve lisans bilgileri."
+  path="/krediler"
+>
+  <article class="credits wrap--narrow">
+    <header class="credits__head">
+      <p class="kicker">Şeffaflık</p>
+      <h1 class="credits__title">Fotoğraf Kaynakları ve Telif</h1>
+      <p class="credits__lede">
+        Gazetemizde kullanılan fotoğraflar, ticari kullanıma açık ve uygun lisanslı
+        kaynaklardan alınır. Lisansların gerektirdiği atıfları burada topluca veriyoruz.
+        Özgün illüstrasyonlar Kanada Gazetesi’ne aittir.
+      </p>
+    </header>
+
+    {
+      entries.length === 0 ? (
+        <p class="credits__empty">
+          Henüz dış kaynaklı fotoğraf kullanılmadı. Mevcut görseller özgün
+          illüstrasyonlardır.
+        </p>
+      ) : (
+        <ul class="credits__list">
+          {entries.map((c: any) => (
+            <li class="credits__item">
+              <div class="credits__meta">
+                <p class="credits__name">{c.title || c.query || c.file}</p>
+                <p class="meta">
+                  {c.author && (
+                    <>Foto: {c.authorUrl ? <a href={c.authorUrl} rel="noopener" target="_blank">{c.author}</a> : c.author} · </>
+                  )}
+                  {c.sourceUrl ? <a href={c.sourceUrl} rel="noopener" target="_blank">{c.provider || 'Kaynak'}</a> : c.provider}
+                  {c.license && (
+                    <> · {c.licenseUrl ? <a href={c.licenseUrl} rel="noopener" target="_blank">{c.license}</a> : c.license}</>
+                  )}
+                </p>
+              </div>
+              {c.slug && (
+                <a class="credits__use" href={`/makale/${c.slug}`}>İlgili yazı →</a>
+              )}
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  </article>
+</BaseLayout>
+
+<style>
+  .credits { padding-top: clamp(1.6rem, 1.1rem + 2.5vw, 3rem); }
+  .credits__title { font-size: var(--step-3); margin: 0.4rem 0 0; }
+  .credits__lede {
+    font-family: var(--font-serif);
+    font-size: var(--step-0);
+    color: var(--ink-soft);
+    margin-top: 0.9rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid var(--rule);
+    max-width: 60ch;
+  }
+  .credits__empty { margin-top: 1.6rem; color: var(--ink-soft); }
+  .credits__list { list-style: none; margin: 1.4rem 0 0; padding: 0; }
+  .credits__item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .credits__name { font-family: var(--font-display); font-size: 1.05rem; }
+  .credits__meta a { text-decoration: underline; text-decoration-color: var(--crimson); }
+  .credits__use {
+    flex: none;
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 0.78rem;
+    color: var(--crimson);
+    white-space: nowrap;
+  }
+</style>

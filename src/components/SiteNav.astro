@@ -1,0 +1,133 @@
+---
+import Logo from './Logo.astro';
+import { sections } from '../data/sections';
+
+const path = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? path === '/' : path.startsWith(href);
+
+const links = [
+  { href: '/', label: 'Anasayfa' },
+  ...sections.map((s) => ({ href: `/bolum/${s.id}`, label: s.name })),
+];
+---
+
+<nav class="sitenav" aria-label="Bölümler">
+  <div class="wrap sitenav__inner">
+    <a href="/" class="sitenav__brand" aria-label="Ana sayfa">
+      <Logo size={26} />
+      <span>Kanada&nbsp;Gazetesi</span>
+    </a>
+
+    <ul class="sitenav__list">
+      {
+        links.map((l) => (
+          <li>
+            <a
+              href={l.href}
+              class:list={['sitenav__link', { 'is-active': isActive(l.href) }]}
+              aria-current={isActive(l.href) ? 'page' : undefined}
+            >
+              {l.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <a href="/hakkimizda" class="sitenav__about">Hakkımızda</a>
+  </div>
+</nav>
+
+<style>
+  .sitenav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    backdrop-filter: saturate(140%) blur(8px);
+    border-top: 1px solid var(--rule);
+    border-bottom: 2px solid var(--ink);
+  }
+  .sitenav__inner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-height: 3rem;
+  }
+  .sitenav__brand {
+    display: none;
+    align-items: center;
+    gap: 0.45rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.98rem;
+    flex: none;
+    white-space: nowrap;
+  }
+  .sitenav__brand:hover {
+    text-decoration: none;
+  }
+  .sitenav__list {
+    display: flex;
+    align-items: stretch;
+    gap: 0.2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .sitenav__list::-webkit-scrollbar {
+    display: none;
+  }
+  .sitenav__link {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    padding: 0.9rem 0.7rem 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+    color: var(--ink-soft);
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .sitenav__link:hover {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom-color: var(--rule-strong);
+  }
+  .sitenav__link.is-active {
+    color: var(--crimson);
+    border-bottom-color: var(--crimson);
+  }
+  .sitenav__about {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--crimson);
+    flex: none;
+  }
+
+  @media (min-width: 880px) {
+    .sitenav__brand {
+      display: inline-flex;
+    }
+    .sitenav__list {
+      flex: 0 1 auto;
+      justify-content: center;
+      margin-inline: auto;
+    }
+  }
+  @media (max-width: 560px) {
+    .sitenav__about {
+      display: none;
+    }
+  }
+</style>

@@ -1,0 +1,57 @@
+---
+import type { Article } from '../utils/format';
+import { getSection } from '../data/sections';
+import ArticleCard from './ArticleCard.astro';
+import SectionHeading from './SectionHeading.astro';
+
+export interface Props {
+  section: string;
+  articles: Article[];
+  limit?: number;
+}
+const { section, articles, limit = 4 } = Astro.props;
+const meta = getSection(section);
+const items = articles.slice(0, limit);
+const accent = meta ? `var(${meta.accent})` : 'var(--crimson)';
+---
+{
+  meta && items.length > 0 && (
+    <section class="stream" style={`--accent:${accent}`} aria-labelledby={`stream-${section}`}>
+      <SectionHeading
+        accent={accent}
+        href={`/bolum/${meta.id}`}
+        action="Tümü"
+        eyebrow={meta.english}
+        id={`stream-${section}`}
+      >
+        <a href={`/bolum/${meta.id}`}>{meta.name}</a>
+      </SectionHeading>
+      <div class="stream__grid">
+        {items.map((a, i) => (
+          <ArticleCard article={a} variant={i === 0 ? 'feature' : 'standard'} />
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .stream {
+    padding-top: 1.4rem;
+  }
+  .stream__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.6rem 1.4rem;
+  }
+  @media (min-width: 640px) {
+    .stream__grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (min-width: 980px) {
+    .stream__grid { grid-template-columns: 2fr 1fr 1fr; }
+    /* ilk (feature) kart iki satır kaplasın */
+    .stream__grid > :global(.card--feature) {
+      grid-row: span 1;
+    }
+  }
+</style>

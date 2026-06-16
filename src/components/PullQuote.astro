@@ -1,0 +1,51 @@
+---
+/**
+ * PullQuote — büyük Didone alıntı + kızıl çizgi. Opsiyonel atıf (cite).
+ * align: left | center
+ */
+export interface Props {
+  cite?: string;
+  align?: 'left' | 'center';
+  class?: string;
+}
+const { cite, align = 'left', class: className } = Astro.props;
+---
+<figure class:list={['kpq', `kpq--${align}`, className]}>
+  <blockquote class="kpq__quote">
+    {align === 'center' && <span class="kpq__mark">“</span>}
+    <slot />
+    {align === 'center' && <span class="kpq__mark">”</span>}
+  </blockquote>
+  {cite && <figcaption class="kpq__cite">— {cite}</figcaption>}
+</figure>
+
+<style>
+  .kpq { margin: 1.6em 0; }
+  .kpq--left {
+    padding: 0.25rem 0 0.25rem 1.5rem;
+    border-left: 3px solid var(--crimson-500);
+    text-align: left;
+  }
+  .kpq--center { text-align: center; padding: 0; }
+  .kpq__quote {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: var(--w-medium);
+    font-style: italic;
+    font-size: var(--fs-d3);
+    line-height: 1.22;
+    letter-spacing: -0.005em;
+    color: var(--ink-900);
+    text-wrap: balance;
+  }
+  .kpq__mark { color: var(--crimson-500); font-weight: var(--w-bold); }
+  .kpq__cite {
+    margin-top: 0.6rem;
+    font-family: var(--font-sans);
+    font-weight: var(--w-semibold);
+    font-size: var(--fs-small);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-500);
+  }
+</style>

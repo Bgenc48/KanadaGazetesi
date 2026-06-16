@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Kanada kışı">
+  <defs>
+    <linearGradient id="wintersky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22507a"/>
+      <stop offset="1" stop-color="#bcd2e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wintersky)"/>
+
+  <!-- düşük güneş -->
+  <circle cx="1240" cy="270" r="86" fill="#c1121f" opacity="0.92"/>
+
+  <!-- kar tepeleri -->
+  <path d="M0 780 Q400 720 800 770 T1600 760 L1600 1000 L0 1000 Z" fill="#f7f4ec"/>
+  <path d="M0 860 Q500 810 1000 850 T1600 840 L1600 1000 L0 1000 Z" fill="#efebdf"/>
+
+  <!-- çamlar -->
+  <g fill="#163f3b">
+    <g transform="translate(300 0)">
+      <polygon points="0,760 70,560 140,760"/>
+      <polygon points="14,700 70,520 126,700"/>
+      <rect x="60" y="760" width="20" height="40"/>
+    </g>
+    <g transform="translate(560 30)">
+      <polygon points="0,760 55,600 110,760"/>
+      <polygon points="11,712 55,572 99,712"/>
+      <rect x="47" y="760" width="16" height="34"/>
+    </g>
+    <g transform="translate(1040 10)">
+      <polygon points="0,760 62,580 124,760"/>
+      <polygon points="12,706 62,544 112,706"/>
+      <rect x="54" y="760" width="18" height="36"/>
+    </g>
+  </g>
+
+  <!-- kar taneleri -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="180" cy="160" r="7"/><circle cx="420" cy="90" r="5"/><circle cx="640" cy="220" r="6"/>
+    <circle cx="900" cy="120" r="7"/><circle cx="1120" cy="200" r="5"/><circle cx="1420" cy="120" r="6"/>
+    <circle cx="260" cy="380" r="6"/><circle cx="520" cy="300" r="5"/><circle cx="760" cy="430" r="7"/>
+    <circle cx="980" cy="360" r="5"/><circle cx="1300" cy="420" r="6"/><circle cx="1500" cy="320" r="5"/>
+    <circle cx="120" cy="560" r="6"/><circle cx="700" cy="600" r="5"/><circle cx="1380" cy="600" r="6"/>
+  </g>
+</svg>

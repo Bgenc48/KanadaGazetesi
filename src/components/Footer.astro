@@ -1,0 +1,145 @@
+---
+import Logo from './Logo.astro';
+import { site } from '../data/site';
+import { sections } from '../data/sections';
+
+export interface Props {
+  year?: number;
+}
+const { year = new Date().getFullYear() } = Astro.props;
+---
+<footer class="footer">
+  <div class="wrap">
+    <hr class="rule--double" />
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="/" class="footer__mark" aria-label="Ana sayfa">
+          <Logo size={40} />
+          <span>Kanada Gazetesi</span>
+        </a>
+        <p class="footer__desc">{site.description}</p>
+        <p class="footer__social meta">
+          <a href={site.social.instagram} rel="me noopener" target="_blank">Instagram</a>
+          <a href={site.social.x} rel="me noopener" target="_blank">X</a>
+          <a href={site.social.youtube} rel="me noopener" target="_blank">YouTube</a>
+        </p>
+      </div>
+
+      <nav class="footer__col" aria-label="Bölümler">
+        <h3 class="footer__head">Bölümler</h3>
+        <ul>
+          {sections.map((s) => (
+            <li><a href={`/bolum/${s.id}`}>{s.name}</a></li>
+          ))}
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-label="Kurumsal">
+        <h3 class="footer__head">Gazete</h3>
+        <ul>
+          <li><a href="/hakkimizda">Hakkımızda</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+          <li><a href="/krediler">Foto Kaynakları</a></li>
+          <li><a href={`mailto:${site.email}`}>İletişim</a></li>
+          <li><a href="/hakkimizda#kunye">Künye</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col footer__contact">
+        <h3 class="footer__head">İletişim</h3>
+        <p class="meta">Haber ipucu, görüş ve düzeltmeler için:</p>
+        <p><a href={`mailto:${site.email}`}>{site.email}</a></p>
+        <p class="meta footer__cities">{site.cities.join(' · ')}</p>
+      </div>
+    </div>
+
+    <div class="footer__legal meta">
+      <p>© {year} {site.name}. Bağımsız dijital yayın.</p>
+      <p>
+        Buradaki göç, vergi ve hukuk bilgileri genel bilgilendirme amaçlıdır;
+        resmî kaynaklarla doğrulayın.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    margin-top: clamp(3rem, 2rem + 4vw, 6rem);
+    padding-bottom: 2.5rem;
+  }
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2.5rem 0 1.5rem;
+  }
+  .footer__mark {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  .footer__mark:hover { text-decoration: none; }
+  .footer__desc {
+    margin-top: 0.9rem;
+    max-width: 44ch;
+    color: var(--ink-soft);
+    font-size: var(--step--1);
+    line-height: 1.55;
+  }
+  .footer__social {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+  }
+  .footer__head {
+    font-family: var(--font-sans);
+    font-size: 0.74rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--crimson);
+    margin-bottom: 0.8rem;
+  }
+  .footer__col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.5rem;
+  }
+  .footer__col a {
+    font-size: var(--step--1);
+    color: var(--ink-soft);
+  }
+  .footer__col a:hover { color: var(--ink); }
+  .footer__cities {
+    margin-top: 1rem;
+    line-height: 1.7;
+  }
+  .footer__legal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.6rem 2rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1.2rem;
+  }
+  .footer__legal p:last-child {
+    max-width: 52ch;
+    opacity: 0.85;
+  }
+
+  @media (min-width: 720px) {
+    .footer__grid {
+      grid-template-columns: 2fr 1fr 1fr 1.4fr;
+      gap: 2.5rem;
+    }
+  }
+</style>

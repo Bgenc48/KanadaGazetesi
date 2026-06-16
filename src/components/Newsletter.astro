@@ -1,0 +1,110 @@
+---
+/**
+ * Bülten kayıt çağrısı. Şu an form yalnızca arayüz olarak hazır;
+ * yayına geçerken bir e-posta servisine (Buttondown, Mailchimp vb.) bağlanır.
+ */
+export interface Props {
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+---
+<section class:list={['newsletter', { 'newsletter--compact': compact }]} aria-labelledby="nl-title">
+  <div class="newsletter__inner">
+    <div class="newsletter__copy">
+      <p class="kicker">Haftalık Bülten</p>
+      <h2 id="nl-title" class="newsletter__title">
+        Kanada’daki Türk hayatına dair her şey, her Pazar gelen kutunuzda.
+      </h2>
+      <p class="newsletter__sub">
+        Göç haberleri, topluluk etkinlikleri ve işe yarar rehberler.
+        Spam yok, reklam yok; istediğiniz an çıkabilirsiniz.
+      </p>
+    </div>
+    <form class="newsletter__form" method="post" action="#" novalidate>
+      <label class="visually-hidden" for="nl-email">E-posta adresiniz</label>
+      <input
+        id="nl-email"
+        type="email"
+        name="email"
+        placeholder="eposta@ornek.com"
+        autocomplete="email"
+        required
+      />
+      <button class="btn" type="submit">Abone Ol</button>
+    </form>
+  </div>
+</section>
+
+<style>
+  .newsletter {
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: var(--radius);
+    padding: clamp(1.6rem, 1rem + 3vw, 3rem);
+    position: relative;
+    overflow: hidden;
+  }
+  .newsletter::before {
+    /* köşede dekoratif kızıl hilal hissi veren büyük daire */
+    content: '';
+    position: absolute;
+    right: -80px;
+    top: -80px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, var(--crimson), transparent 70%);
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .newsletter__inner {
+    position: relative;
+    display: grid;
+    gap: 1.6rem;
+    align-items: center;
+  }
+  .newsletter .kicker {
+    color: #f0b8bd;
+  }
+  .newsletter__title {
+    color: var(--paper);
+    font-size: var(--step-2);
+    margin-top: 0.6rem;
+    max-width: 22ch;
+  }
+  .newsletter__sub {
+    color: color-mix(in srgb, var(--paper) 78%, transparent);
+    margin-top: 0.8rem;
+    font-size: var(--step-0);
+    max-width: 52ch;
+  }
+  .newsletter__form {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .newsletter__form input {
+    flex: 1 1 240px;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    padding: 0.7em 1em;
+    border: 1.5px solid color-mix(in srgb, var(--paper) 40%, transparent);
+    background: transparent;
+    color: var(--paper);
+    border-radius: var(--radius);
+  }
+  .newsletter__form input::placeholder {
+    color: color-mix(in srgb, var(--paper) 55%, transparent);
+  }
+  .newsletter__form input:focus-visible {
+    outline-color: var(--crimson);
+    border-color: var(--paper);
+  }
+
+  @media (min-width: 760px) {
+    .newsletter:not(.newsletter--compact) .newsletter__inner {
+      grid-template-columns: 1.3fr 1fr;
+      gap: 2.5rem;
+    }
+  }
+</style>

@@ -1,0 +1,149 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LeadStory from '../components/LeadStory.astro';
+import SectionStream from '../components/SectionStream.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { sections } from '../data/sections';
+import {
+  getPublishedArticles,
+  getLeadArticle,
+  getArticlesBySection,
+} from '../utils/format';
+
+const articles = await getPublishedArticles();
+const lead = await getLeadArticle(articles);
+const rest = articles.filter((a) => a.id !== lead?.id);
+
+// Sağ kolon: manşet dışındaki en yeni 5 yazı
+const rail = rest.slice(0, 5);
+
+// Bölüm akışları — yalnızca yazısı olan bölümler gösterilir
+const streams = sections
+  .map((s) => ({ section: s, items: articles.filter((a) => a.data.section === s.id) }))
+  .filter((s) => s.items.length > 0);
+---
+
+<BaseLayout>
+  {
+    lead && (
+      <section class="wrap front" aria-label="Günün manşeti">
+        <div class="front__lead">
+          <LeadStory article={lead} />
+        </div>
+        {rail.length > 0 && (
+          <aside class="front__rail" aria-label="Öne çıkan diğer haberler">
+            <h2 class="front__rail-title">Gündem</h2>
+            <ul class="front__rail-list">
+              {rail.map((a) => (
+                <li>
+                  <ArticleCard article={a} variant="list" showExcerpt={false} />
+                </li>
+              ))}
+            </ul>
+          </aside>
+        )}
+      </section>
+    )
+  }
+
+  {lead && <div class="wrap"><hr class="rule--double front__div" /></div>}
+
+  {
+    !lead && (
+      <section class="wrap front-empty">
+        <p class="kicker">Yakında</p>
+        <h1>Kanada Gazetesi hazırlanıyor</h1>
+        <p class="front-empty__lede">
+          İlk sayımızın yazıları çok yakında bu sayfada. Bizi takipte kalın.
+        </p>
+      </section>
+    )
+  }
+
+  <div class="wrap streams">
+    {streams.map(({ section }) => (
+      <SectionStream
+        section={section.id}
+        articles={articles.filter((a) => a.data.section === section.id)}
+        limit={4}
+      />
+    ))}
+  </div>
+
+  <div class="wrap home-nl">
+    <Newsletter />
+  </div>
+</BaseLayout>
+
+<style>
+  .front {
+    padding-top: clamp(1.4rem, 1rem + 2vw, 2.6rem);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .front__rail-title {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--crimson);
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .front__rail-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1.1rem;
+  }
+  .front__rail-list li {
+    padding-bottom: 1.1rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .front__rail-list li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .front__div {
+    margin: clamp(2rem, 1.5rem + 2vw, 3.2rem) auto 0;
+  }
+
+  .streams {
+    display: grid;
+    gap: clamp(2.2rem, 1.8rem + 2vw, 3.4rem);
+    padding-top: clamp(1.6rem, 1.2rem + 1.5vw, 2.6rem);
+  }
+
+  .home-nl {
+    margin-top: clamp(2.6rem, 2rem + 3vw, 4rem);
+  }
+
+  .front-empty {
+    padding: clamp(3rem, 2rem + 5vw, 6rem) 0;
+    text-align: center;
+  }
+  .front-empty__lede {
+    color: var(--ink-soft);
+    max-width: 46ch;
+    margin: 1rem auto 0;
+    font-size: var(--step-1);
+  }
+
+  @media (min-width: 940px) {
+    .front {
+      grid-template-columns: minmax(0, 2.2fr) minmax(0, 1fr);
+      gap: 2.6rem;
+      align-items: start;
+    }
+    .front__rail {
+      position: sticky;
+      top: 4rem;
+    }
+  }
+</style>

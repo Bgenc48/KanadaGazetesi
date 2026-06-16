@@ -1,0 +1,75 @@
+---
+/**
+ * Button — editoryal düğme: kare köşe, Archivo etiket, kızıl primary.
+ * variant: primary | secondary | ghost | link · size: sm | md | lg
+ */
+export interface Props {
+  variant?: 'primary' | 'secondary' | 'ghost' | 'link';
+  size?: 'sm' | 'md' | 'lg';
+  href?: string;
+  type?: 'button' | 'submit';
+  block?: boolean;
+  class?: string;
+}
+const {
+  variant = 'primary',
+  size = 'md',
+  href,
+  type = 'button',
+  block = false,
+  class: className,
+} = Astro.props;
+const Tag = href ? 'a' : 'button';
+const cls = ['kbtn', `kbtn--${variant}`, `kbtn--${size}`, block ? 'kbtn--block' : '', className]
+  .filter(Boolean)
+  .join(' ');
+---
+<Tag class={cls} href={href} type={href ? undefined : type}>
+  <slot />
+</Tag>
+
+<style>
+  .kbtn {
+    font-family: var(--font-sans);
+    font-weight: var(--w-semibold);
+    letter-spacing: 0.04em;
+    line-height: 1;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background var(--dur) var(--ease-out), color var(--dur) var(--ease-out),
+      border-color var(--dur) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+  }
+  .kbtn:hover { text-decoration: none; }
+  .kbtn:active { transform: translateY(1px); }
+  .kbtn--block { display: flex; width: 100%; }
+
+  .kbtn--sm { padding: 0.4rem 0.85rem; font-size: 0.8125rem; }
+  .kbtn--md { padding: 0.625rem 1.25rem; font-size: var(--fs-small); }
+  .kbtn--lg { padding: 0.85rem 1.75rem; font-size: var(--fs-body); }
+
+  .kbtn--primary { background: var(--accent); color: var(--paper-050); border-color: var(--accent); }
+  .kbtn--primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+
+  .kbtn--secondary { background: transparent; color: var(--ink-900); border-color: var(--ink-900); }
+  .kbtn--secondary:hover { background: var(--ink-900); color: var(--paper-050); }
+
+  .kbtn--ghost { background: transparent; color: var(--ink-700); }
+  .kbtn--ghost:hover { background: var(--paper-100); }
+
+  .kbtn--link {
+    background: transparent;
+    color: var(--text-link);
+    padding: 0;
+    text-transform: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+  .kbtn--link:hover { color: var(--accent-press); text-decoration: underline; }
+</style>

@@ -1,0 +1,15 @@
+# Kanada Gazetesi — Netlify dağıtım yapılandırması
+# (Vercel için ayrıca vercel.json'a gerek yok: framework otomatik algılanır.)
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Astro statik site: temiz URL'ler ve 404
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

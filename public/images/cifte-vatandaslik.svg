@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Çifte vatandaşlık: iki pasaport">
+  <defs>
+    <mask id="moonp">
+      <rect width="600" height="800" fill="#fff"/>
+      <circle cx="312" cy="250" r="46" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="1600" height="1000" fill="#efebdf"/>
+
+  <!-- sol pasaport (Türkiye) -->
+  <g transform="translate(470 250) rotate(-7)">
+    <rect x="0" y="0" width="430" height="560" rx="20" fill="#1b1714"/>
+    <rect x="26" y="26" width="378" height="508" rx="10" fill="none" stroke="#5b524733" stroke-width="2"/>
+    <g transform="translate(-20 30)">
+      <circle cx="300" cy="240" r="56" fill="#c1121f" mask="url(#moonp)"/>
+      <polygon points="396,212 405,239 433,239 410,256 419,283 396,266 373,283 382,256 359,239 387,239" fill="#c1121f"/>
+    </g>
+    <text x="215" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#f2e8d5" letter-spacing="4">PASAPORT</text>
+  </g>
+
+  <!-- sağ pasaport (Kanada) -->
+  <g transform="translate(720 200) rotate(6)">
+    <rect x="0" y="0" width="430" height="560" rx="20" fill="#c1121f"/>
+    <rect x="26" y="26" width="378" height="508" rx="10" fill="none" stroke="#ffffff33" stroke-width="2"/>
+    <g transform="translate(115 150) scale(1.0)" fill="#f7f4ec">
+      <polygon points="100,10 112,40 150,30 135,62 170,70 150,92 192,108 150,112 165,150 128,130 120,175 100,160 80,175 72,130 35,150 50,112 8,108 50,92 30,70 65,62 50,30 88,40"/>
+      <rect x="96" y="158" width="8" height="40" fill="#f7f4ec"/>
+    </g>
+    <text x="215" y="490" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#f7f4ec" letter-spacing="4">PASSPORT</text>
+  </g>
+</svg>

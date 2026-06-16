@@ -1,0 +1,75 @@
+---
+/**
+ * Divider — markanın çizgi sistemi: hairline | strong | accent | double | ornament.
+ * Opsiyonel `label` ile etiketli ayraç. `ornament` hilal-yıldız molası verir.
+ */
+export interface Props {
+  variant?: 'hairline' | 'strong' | 'accent' | 'double' | 'ornament';
+  label?: string;
+  class?: string;
+}
+const { variant = 'hairline', label, class: className } = Astro.props;
+---
+{
+  variant === 'double' ? (
+    <hr class:list={['kdiv-double', className]} />
+  ) : variant === 'ornament' ? (
+    <div class:list={['kdiv-orn', className]} role="separator">
+      <span class="kdiv-orn__line" />
+      <svg viewBox="0 0 100 100" width="20" height="20" aria-hidden="true" class="kdiv-orn__mark">
+        <mask id="kgdiv"><rect width="100" height="100" fill="#fff" /><circle cx="63" cy="50" r="24.5" fill="#000" /></mask>
+        <circle cx="50" cy="50" r="31" fill="currentColor" mask="url(#kgdiv)" />
+        <polygon fill="currentColor" points="72,40 74.35,46.76 81.51,46.91 75.80,51.24 77.88,58.09 72,54 66.12,58.09 68.20,51.24 62.49,46.91 69.65,46.76" />
+      </svg>
+      <span class="kdiv-orn__line" />
+    </div>
+  ) : label ? (
+    <div class:list={['kdiv-label', className]}>
+      <span class="kdiv-label__text">{label}</span>
+      <span class:list={['kdiv-label__line', `kdiv-line--${variant}`]} />
+    </div>
+  ) : (
+    <hr class:list={['kdiv', `kdiv-line--${variant}`, className]} />
+  )
+}
+
+<style>
+  .kdiv { border: 0; }
+  .kdiv-line--hairline { border-top: 1px solid var(--ink-200); }
+  .kdiv-line--strong { border-top: 2px solid var(--ink-900); }
+  .kdiv-line--accent { border-top: 2px solid var(--crimson-500); }
+
+  .kdiv-double {
+    border: 0;
+    border-top: 3px solid var(--ink-900);
+    border-bottom: 1px solid var(--ink-900);
+    height: 4px;
+    margin: 0;
+  }
+
+  .kdiv-orn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--crimson-500);
+    margin: 0.5rem 0;
+  }
+  .kdiv-orn__line { flex: 1; height: 1px; background: var(--ink-200); }
+  .kdiv-orn__mark { flex: none; }
+
+  .kdiv-label {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+  }
+  .kdiv-label__text {
+    flex: 0 0 auto;
+    font-family: var(--font-sans);
+    font-weight: var(--w-bold);
+    font-size: var(--fs-micro);
+    letter-spacing: var(--tr-kicker);
+    text-transform: uppercase;
+    color: var(--ink-500);
+  }
+  .kdiv-label__line { flex: 1; }
+</style>

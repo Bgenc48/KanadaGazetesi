@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { sections } from '../data/sections';
+---
+
+<BaseLayout title="Sayfa bulunamadı" path="/404">
+  <section class="wrap notfound">
+    <p class="notfound__code">404</p>
+    <h1 class="notfound__title">Bu sayfa yerinde yok</h1>
+    <p class="notfound__lede">
+      Aradığınız yazı taşınmış, kaldırılmış ya da hiç var olmamış olabilir.
+      Aşağıdaki bölümlerden devam edebilirsiniz.
+    </p>
+    <ul class="notfound__links">
+      <li><a href="/">Anasayfa</a></li>
+      {sections.map((s) => (
+        <li><a href={`/bolum/${s.id}`}>{s.name}</a></li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .notfound {
+    padding: clamp(3rem, 2rem + 6vw, 7rem) 0;
+    text-align: center;
+  }
+  .notfound__code {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: var(--step-5);
+    color: var(--crimson);
+    line-height: 1;
+  }
+  .notfound__title {
+    margin: 0.4rem 0 0;
+    font-size: var(--step-3);
+  }
+  .notfound__lede {
+    color: var(--ink-soft);
+    max-width: 48ch;
+    margin: 1rem auto 0;
+    font-size: var(--step-0);
+  }
+  .notfound__links {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.2rem;
+    justify-content: center;
+  }
+  .notfound__links a {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+  }
+  .notfound__links a:hover {
+    color: var(--crimson);
+    border-bottom-color: var(--crimson);
+    text-decoration: none;
+  }
+</style>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Toronto'da Türk hayatı">
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a0e18"/>
+      <stop offset="0.55" stop-color="#c1121f"/>
+      <stop offset="1" stop-color="#e08a3c"/>
+    </linearGradient>
+    <mask id="moon3">
+      <rect width="1600" height="1000" fill="#fff"/>
+      <circle cx="1270" cy="220" r="52" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sunset)"/>
+
+  <!-- hilal + yıldız ay -->
+  <circle cx="1230" cy="220" r="64" fill="#f7f4ec" mask="url(#moon3)"/>
+  <polygon points="1360,190 1369,217 1397,217 1374,234 1383,261 1360,244 1337,261 1346,234 1323,217 1351,217" fill="#f7f4ec"/>
+
+  <!-- silüet -->
+  <g fill="#1b1714">
+    <rect x="0" y="760" width="1600" height="240"/>
+    <!-- binalar -->
+    <rect x="120" y="620" width="90" height="140"/>
+    <rect x="230" y="560" width="70" height="200"/>
+    <rect x="320" y="650" width="110" height="110"/>
+    <rect x="980" y="600" width="90" height="160"/>
+    <rect x="1090" y="540" width="74" height="220"/>
+    <rect x="1180" y="640" width="120" height="120"/>
+    <rect x="1330" y="600" width="90" height="160"/>
+    <rect x="1440" y="660" width="90" height="100"/>
+    <!-- CN Tower benzeri kule -->
+    <rect x="690" y="360" width="36" height="400"/>
+    <path d="M678 470 Q708 430 738 470 L726 520 L690 520 Z" />
+    <rect x="700" y="250" width="16" height="120"/>
+    <circle cx="708" cy="250" r="10"/>
+  </g>
+</svg>

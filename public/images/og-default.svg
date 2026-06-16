@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Kanada Gazetesi">
+  <defs>
+    <mask id="ogmoon">
+      <rect width="1200" height="630" fill="#fff"/>
+      <circle cx="372" cy="250" r="34" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="1200" height="630" fill="#f7f4ec"/>
+  <rect width="1200" height="14" fill="#c1121f"/>
+  <rect y="616" width="1200" height="14" fill="#c1121f"/>
+
+  <!-- hilal + yıldız -->
+  <g transform="translate(120 0)">
+    <circle cx="360" cy="250" r="40" fill="#c1121f" mask="url(#ogmoon)"/>
+    <polygon points="424,228 431,248 452,248 435,261 442,281 424,268 406,281 413,261 396,248 417,248" fill="#c1121f"/>
+  </g>
+
+  <!-- maple yaprak -->
+  <g transform="translate(620 175) scale(0.55)" fill="#c1121f">
+    <polygon points="100,10 112,40 150,30 135,62 170,70 150,92 192,108 150,112 165,150 128,130 120,175 100,160 80,175 72,130 35,150 50,112 8,108 50,92 30,70 65,62 50,30 88,40"/>
+    <rect x="96" y="158" width="8" height="40" fill="#c1121f"/>
+  </g>
+
+  <text x="600" y="420" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="92" fill="#1b1714">Kanada Gazetesi</text>
+  <text x="600" y="478" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="34" fill="#443d35">Kanada'daki Türk diasporasının bağımsız gazetesi</text>
+</svg>

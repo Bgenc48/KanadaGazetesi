@@ -1,0 +1,81 @@
+---
+/**
+ * SectionHeading — bir bölüm bloğunu açan çizgi-ve-etiket başlığı.
+ * 3px ink üst çizgi, döndürülmüş kare işaret + büyük harf Archivo etiket
+ * (bölüm tonunda), opsiyonel sağ aksiyon bağlantısı.
+ */
+export interface Props {
+  /** Bölüm vurgu rengi (CSS değeri), örn. var(--accent-toplum) */
+  accent?: string;
+  href?: string;
+  action?: string;
+  /** Üstte İngilizce/ikincil etiket */
+  eyebrow?: string;
+  id?: string;
+  class?: string;
+}
+const { accent = 'var(--ink-900)', href, action, eyebrow, id, class: className } = Astro.props;
+---
+<div class:list={['ksh', className]}>
+  <h2 class="ksh__title" id={id} style={`--c:${accent}`}>
+    <span class="ksh__diamond" />
+    <slot />
+    {eyebrow && <span class="ksh__eyebrow">{eyebrow}</span>}
+  </h2>
+  {action && (
+    <a class="ksh__action" href={href ?? '#'} style={`--c:${accent}`}>{action} →</a>
+  )}
+</div>
+
+<style>
+  .ksh {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 3px solid var(--ink-900);
+    padding-top: 0.5rem;
+    margin-bottom: 1.4rem;
+  }
+  .ksh__title {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-weight: var(--w-bold);
+    font-size: 1.0625rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--c);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1.1;
+  }
+  .ksh__title a { color: inherit; }
+  .ksh__title a:hover { text-decoration: none; filter: brightness(0.85); }
+  .ksh__diamond {
+    width: 8px;
+    height: 8px;
+    background: var(--c);
+    display: inline-block;
+    transform: rotate(45deg);
+    flex: none;
+  }
+  .ksh__eyebrow {
+    font-weight: var(--w-medium);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    color: var(--ink-400);
+    text-transform: uppercase;
+  }
+  .ksh__action {
+    margin-left: auto;
+    font-family: var(--font-sans);
+    font-weight: var(--w-semibold);
+    font-size: var(--fs-small);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--c);
+    white-space: nowrap;
+    flex: none;
+  }
+</style>

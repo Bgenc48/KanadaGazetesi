@@ -1,0 +1,51 @@
+name: Refresh Photos
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Her Pazartesi 06:00 UTC
+  workflow_dispatch:
+
+# Üretilen dosyaları yerleşik token ile geri push edebilmek için.
+permissions:
+  contents: write
+
+# Çakışan yenileme koşularını engelle.
+concurrency:
+  group: refresh-photos
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch & optimize licensed photos (keyless — Openverse/Wikimedia)
+        # İsteğe bağlı: depo gizli anahtarları eklenirse Pexels/Unsplash öncelikli olur.
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: node scripts/fetch-photos.mjs
+
+      - name: Commit & push changes
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images src/content src/data
+          if git diff --staged --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -m "chore: fotoğrafları yenile [skip ci]"
+            git push
+          fi

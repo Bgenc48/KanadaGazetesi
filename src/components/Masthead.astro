@@ -1,0 +1,115 @@
+---
+import Logo from './Logo.astro';
+import { site } from '../data/site';
+import { formatDateTR } from '../utils/format';
+
+const today = formatDateTR(new Date(), { weekday: true });
+const editionYear = new Date().getFullYear();
+---
+
+<header class="masthead">
+  <div class="wrap masthead__strip meta">
+    <span class="masthead__date">{today} · Toronto</span>
+    <span class="masthead__edition">
+      Yıl {editionYear - site.founded + 1} · Dijital Baskı
+    </span>
+    <span class="masthead__price">Ücretsiz · Bağımsız · Reklamsız</span>
+  </div>
+
+  <hr class="rule masthead__hairline" />
+
+  <a href="/" class="masthead__brand wrap" aria-label={`${site.name} ana sayfa`}>
+    <Logo size={56} />
+    <span class="masthead__wordmark">
+      <span class="masthead__name">Kanada Gazetesi</span>
+      <span class="masthead__tagline">{site.tagline}</span>
+    </span>
+    <Logo size={56} />
+  </a>
+
+  <div class="wrap">
+    <hr class="rule--double" />
+  </div>
+</header>
+
+<style>
+  .masthead {
+    padding-top: 0.7rem;
+    background: var(--paper);
+  }
+  .masthead__strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.68rem;
+    padding-bottom: 0.5rem;
+  }
+  .masthead__edition {
+    color: var(--crimson);
+    font-weight: 700;
+  }
+  .masthead__price {
+    text-align: right;
+  }
+  .masthead__hairline {
+    border-color: var(--ink);
+  }
+  .masthead__brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(0.8rem, 3vw, 2rem);
+    padding: 1.1rem 0 0.9rem;
+    text-align: center;
+  }
+  .masthead__brand:hover {
+    text-decoration: none;
+  }
+  .masthead__brand :global(.kg-logo) {
+    flex: none;
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .masthead__brand:hover :global(.kg-logo) {
+    transform: rotate(-8deg) scale(1.04);
+  }
+  .masthead__wordmark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .masthead__name {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: var(--step-5);
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'ss01';
+    color: var(--ink);
+  }
+  .masthead__tagline {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: clamp(0.85rem, 0.7rem + 0.6vw, 1.1rem);
+    color: var(--ink-soft);
+    margin-top: 0.4rem;
+    letter-spacing: 0.01em;
+  }
+
+  /* Mobilde yan logoları gizle, isim ortada kalsın */
+  @media (max-width: 560px) {
+    .masthead__brand :global(.kg-logo:last-child) {
+      display: none;
+    }
+    .masthead__strip {
+      justify-content: center;
+      text-align: center;
+    }
+    .masthead__price {
+      display: none;
+    }
+  }
+</style>

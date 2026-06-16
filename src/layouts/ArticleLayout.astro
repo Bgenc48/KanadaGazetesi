@@ -1,0 +1,366 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Kicker from '../components/Kicker.astro';
+import Byline from '../components/Byline.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { getSection } from '../data/sections';
+import { site } from '../data/site';
+import photoCredits from '../data/photo-credits.json';
+import {
+  deriveExcerpt,
+  formatDateTR,
+  isoDate,
+  getArticlesBySection,
+  type Article,
+} from '../utils/format';
+
+export interface Props {
+  article: Article;
+}
+const { article } = Astro.props;
+const d = article.data;
+const meta = getSection(d.section);
+const accent = meta ? `var(${meta.accent})` : 'var(--crimson)';
+const description = d.deck ?? deriveExcerpt(article, 200);
+const path = `/makale/${article.id}`;
+
+// Lisanslı fotoğrafın yapısal atıf kaydı (varsa) — bağlantılı kredi için.
+const photo = d.heroImage
+  ? (photoCredits as Record<string, any>)[d.heroImage]
+  : undefined;
+
+// İlgili yazılar — aynı bölüm, kendisi hariç, en yeni 3
+const related = (await getArticlesBySection(d.section))
+  .filter((a) => a.id !== article.id)
+  .slice(0, 3);
+
+const shareUrl = new URL(path, site.url).href;
+const shareText = encodeURIComponent(d.title);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: d.title,
+  description,
+  datePublished: isoDate(d.pubDate),
+  dateModified: isoDate(d.updatedDate ?? d.pubDate),
+  inLanguage: d.lang === 'en' ? 'en-CA' : 'tr-CA',
+  articleSection: meta?.name,
+  author: { '@type': 'Person', name: d.author },
+  publisher: {
+    '@type': 'Organization',
+    name: site.name,
+    logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', site.url).href },
+  },
+  ...(d.heroImage ? { image: [new URL(d.heroImage, site.url).href] } : {}),
+  mainEntityOfPage: shareUrl,
+};
+---
+<BaseLayout
+  title={d.title}
+  description={description}
+  image={d.heroImage ?? '/images/og-default.svg'}
+  type="article"
+  path={path}
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />
+
+  <article class="article" style={`--accent:${accent}`}>
+    <header class="wrap--narrow article__head">
+      <Kicker section={d.section} />
+      <h1 class="article__title">{d.title}</h1>
+      {d.deck && <p class="article__deck">{d.deck}</p>}
+      <div class="article__byline">
+        <Byline article={article} withAuthorTitle={true} />
+      </div>
+    </header>
+
+    {
+      d.heroImage && (
+        <figure class="article__hero wrap">
+          <img src={d.heroImage} alt={d.heroAlt ?? d.title} fetchpriority="high" />
+          {(d.heroAlt || photo || d.heroCredit) && (
+            <figcaption class="meta">
+              {d.heroAlt}
+              {photo ? (
+                <span class="article__credit">
+                  {' · '}Foto:{' '}
+                  {photo.author &&
+                    (photo.authorUrl ? (
+                      <a href={photo.authorUrl} rel="noopener nofollow" target="_blank">{photo.author}</a>
+                    ) : (
+                      photo.author
+                    ))}
+                  {photo.sourceUrl && (
+                    <>
+                      {' · '}
+                      <a href={photo.sourceUrl} rel="noopener nofollow" target="_blank">{photo.provider}</a>
+                    </>
+                  )}
+                  {photo.license && (
+                    <>
+                      {' · '}
+                      {photo.licenseUrl ? (
+                        <a href={photo.licenseUrl} rel="noopener nofollow license" target="_blank">{photo.license}</a>
+                      ) : (
+                        photo.license
+                      )}
+                    </>
+                  )}
+                </span>
+              ) : (
+                d.heroCredit && <span class="article__credit"> · {d.heroCredit}</span>
+              )}
+            </figcaption>
+          )}
+        </figure>
+      )
+    }
+
+    <div class="wrap--narrow">
+      {
+        d.advisory && (
+          <aside class="advisory" role="note">
+            <strong>Bilgilendirme.</strong> Bu yazıdaki göç, vergi ve hukuk bilgileri
+            genel niteliktedir ve resmî danışmanlık yerine geçmez. Başvuru yapmadan önce
+            <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" rel="noopener" target="_blank"> IRCC</a>,
+            <a href="https://www.canada.ca/en/revenue-agency.html" rel="noopener" target="_blank"> CRA</a>
+            gibi resmî kaynaklardan ve gerektiğinde lisanslı bir danışmandan teyit alın.
+          </aside>
+        )
+      }
+
+      <div class:list={['prose', { dropcap: d.lead }]}>
+        <slot />
+      </div>
+
+      {
+        d.updatedDate && (
+          <p class="article__updated meta">
+            Son güncelleme: {formatDateTR(d.updatedDate)}
+          </p>
+        )
+      }
+
+      {
+        d.tags.length > 0 && (
+          <ul class="article__tags">
+            {d.tags.map((t) => (
+              <li class="ktagchip"><span class="ktagchip__hash">#</span>{t}</li>
+            ))}
+          </ul>
+        )
+      }
+
+      <div class="article__share">
+        <span class="meta">Paylaş:</span>
+        <a class="btn btn--ghost" href={`https://wa.me/?text=${shareText}%20${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn--ghost" href={`https://x.com/intent/tweet?text=${shareText}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener">X</a>
+        <a class="btn btn--ghost" href={`mailto:?subject=${shareText}&body=${encodeURIComponent(shareUrl)}`}>E-posta</a>
+      </div>
+    </div>
+  </article>
+
+  <div class="wrap article__nl">
+    <Newsletter />
+  </div>
+
+  {
+    related.length > 0 && (
+      <section class="wrap related" aria-labelledby="related-title">
+        <h2 id="related-title" class="related__title" style={`--accent:${accent}`}>
+          {meta?.name} bölümünden
+        </h2>
+        <div class="related__grid">
+          {related.map((a) => (
+            <ArticleCard article={a} variant="standard" />
+          ))}
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>
+
+<style>
+  .article__head {
+    padding-top: clamp(1.5rem, 1rem + 2vw, 3rem);
+    text-align: left;
+  }
+  .article__title {
+    font-size: var(--step-4);
+    line-height: 1;
+    margin: 0.6rem 0 0;
+    letter-spacing: -0.022em;
+  }
+  .article__deck {
+    font-size: var(--step-1);
+    line-height: 1.42;
+    color: var(--ink-soft);
+    margin-top: 0.9rem;
+    max-width: 54ch;
+    font-style: italic;
+  }
+  .article__byline {
+    margin-top: 1.1rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--rule);
+  }
+  .article__hero {
+    margin: 1.8rem auto;
+  }
+  .article__hero img {
+    width: 100%;
+    border-radius: var(--radius);
+  }
+  .article__hero figcaption {
+    margin-top: 0.6rem;
+    line-height: 1.4;
+  }
+  .article__credit { color: var(--ink-mute); }
+  .article__credit a {
+    color: var(--ink-mute);
+    text-decoration: underline;
+    text-decoration-color: var(--rule-strong);
+  }
+  .article__credit a:hover { color: var(--crimson); text-decoration-color: var(--crimson); }
+
+  .advisory {
+    background: var(--crimson-tint);
+    border-left: 3px solid var(--crimson);
+    padding: 1rem 1.2rem;
+    font-size: var(--step--1);
+    line-height: 1.55;
+    border-radius: 2px;
+    margin-bottom: 1.8rem;
+  }
+  .advisory a { text-decoration: underline; text-decoration-color: var(--crimson); }
+
+  /* --- Makale gövdesi (markdown) --- */
+  .prose {
+    font-size: 1.18rem;
+    line-height: 1.72;
+  }
+  .prose :global(p) { margin: 0 0 1.2em; }
+  .prose :global(h2) {
+    font-size: var(--step-2);
+    margin: 2em 0 0.5em;
+    line-height: 1.12;
+  }
+  .prose :global(h3) {
+    font-size: var(--step-1);
+    margin: 1.6em 0 0.4em;
+  }
+  .prose :global(a) {
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-underline-offset: 3px;
+  }
+  .prose :global(a:hover) { color: var(--accent); }
+  .prose :global(ul),
+  .prose :global(ol) { margin: 0 0 1.3em; padding-left: 1.3em; }
+  .prose :global(li) { margin-bottom: 0.5em; }
+  .prose :global(li::marker) { color: var(--accent); }
+  .prose :global(blockquote) {
+    margin: 1.6em 0;
+    padding: 0.2em 0 0.2em 1.3em;
+    border-left: 3px solid var(--accent);
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-style: italic;
+    line-height: 1.3;
+    color: var(--ink-soft);
+  }
+  .prose :global(strong) { font-weight: 650; }
+  .prose :global(hr) {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 2.2em auto;
+    width: 40%;
+  }
+  .prose :global(img) {
+    width: 100%;
+    border-radius: var(--radius);
+    margin: 1.5em 0 0.5em;
+  }
+  .prose :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    margin: 1.5em 0;
+  }
+  .prose :global(th),
+  .prose :global(td) {
+    text-align: left;
+    padding: 0.6em 0.8em;
+    border-bottom: 1px solid var(--rule);
+  }
+  .prose :global(th) {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-mute);
+  }
+  .prose :global(code) {
+    font-family: ui-monospace, 'SFMono-Regular', Menlo, monospace;
+    font-size: 0.9em;
+    background: var(--paper-2);
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+  }
+
+  .article__updated {
+    margin-top: 2rem;
+    font-style: italic;
+  }
+  .article__tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1.4rem 0 0;
+    margin: 0;
+  }
+  .article__tags .ktagchip {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.8125rem;
+    letter-spacing: 0.01em;
+    color: var(--ink-700);
+    background: transparent;
+    border: 1px solid var(--ink-200);
+    padding: 0.3rem 0.7rem;
+    border-radius: var(--radius-pill);
+  }
+  .article__tags .ktagchip__hash { color: var(--crimson-500); margin-right: 0.15em; }
+  .article__share {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.8rem 0 0;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule);
+  }
+  .article__share .btn { padding: 0.45em 0.9em; font-size: 0.72rem; }
+
+  .article__nl { margin-top: clamp(2.5rem, 2rem + 3vw, 4rem); }
+
+  .related { margin-top: clamp(2.5rem, 2rem + 3vw, 4rem); }
+  .related__title {
+    font-size: var(--step-2);
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .related__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+  @media (min-width: 720px) {
+    .related__grid { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>

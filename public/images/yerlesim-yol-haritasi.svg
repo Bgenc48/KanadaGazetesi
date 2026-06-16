@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Kanada'ya yerleşmenin yol haritası">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16504d"/>
+      <stop offset="1" stop-color="#3a8a82"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8cdb5"/>
+      <stop offset="1" stop-color="#c4b89c"/>
+    </linearGradient>
+    <mask id="moon">
+      <rect width="1600" height="1000" fill="#fff"/>
+      <circle cx="850" cy="300" r="78" fill="#000"/>
+    </mask>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <path d="M0 620 L1600 620 L1600 1000 L0 1000 Z" fill="url(#land)"/>
+
+  <!-- hilal + yıldız (yükselen güneş) -->
+  <circle cx="800" cy="300" r="92" fill="#c1121f" mask="url(#moon)"/>
+  <polygon points="930,250 942,287 981,287 949,310 961,347 930,324 899,347 911,310 879,287 918,287" fill="#c1121f"/>
+
+  <!-- yol -->
+  <path d="M800 620 L890 1000 L710 1000 Z" fill="#1b1714"/>
+  <g stroke="#f2e8d5" stroke-width="6" stroke-dasharray="34 30" opacity="0.85">
+    <line x1="800" y1="624" x2="800" y2="1000"/>
+  </g>
+
+  <!-- tepe çizgisi -->
+  <path d="M0 620 Q 380 590 760 618 T 1600 612" fill="none" stroke="#0f3a37" stroke-width="3" opacity="0.5"/>
+
+  <!-- uçan yaprak (stilize) -->
+  <g transform="translate(300 250) scale(0.7)" fill="#c1121f" opacity="0.92">
+    <polygon points="100,10 112,40 150,30 135,62 170,70 150,92 192,108 150,112 165,150 128,130 120,175 100,160 80,175 72,130 35,150 50,112 8,108 50,92 30,70 65,62 50,30 88,40"/>
+    <rect x="96" y="158" width="8" height="38" fill="#c1121f"/>
+  </g>
+
+  <text x="80" y="930" font-family="Georgia, serif" font-size="40" fill="#1b1714" opacity="0.85" font-style="italic">Yol belirli; gerisi sabır.</text>
+</svg>

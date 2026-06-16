@@ -1,0 +1,51 @@
+---
+/**
+ * Badge — küçük durum işareti: Son Dakika, Abonelere Özel, Güncellendi.
+ * tone: neutral | crimson | brass | ivy | slate · solid · dot
+ */
+export interface Props {
+  tone?: 'neutral' | 'crimson' | 'brass' | 'ivy' | 'slate';
+  solid?: boolean;
+  dot?: boolean;
+  class?: string;
+}
+const { tone = 'neutral', solid = false, dot = false, class: className } = Astro.props;
+const cls = ['kbadge', `kbadge--${tone}`, solid ? 'kbadge--solid' : '', className]
+  .filter(Boolean)
+  .join(' ');
+---
+<span class={cls}>
+  {dot && <span class="kbadge__dot" />}
+  <slot />
+</span>
+
+<style>
+  .kbadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    font-family: var(--font-sans);
+    font-weight: var(--w-bold);
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 0.32em 0.6em;
+    border-radius: var(--radius-1);
+    border: 1px solid var(--ink-200);
+    color: var(--ink-700);
+    background: var(--paper-200);
+  }
+  .kbadge__dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+  .kbadge--crimson { color: var(--crimson-600); background: var(--crimson-100); border-color: var(--crimson-400); }
+  .kbadge--brass { color: var(--brass-600); background: var(--brass-100); border-color: var(--brass-500); }
+  .kbadge--ivy { color: var(--ivy-600); background: #e3efe8; border-color: var(--ivy-600); }
+  .kbadge--slate { color: var(--slate-600); background: #e3eaf1; border-color: var(--slate-600); }
+
+  .kbadge--solid { color: var(--paper-050); background: var(--ink-700); border-color: var(--ink-700); }
+  .kbadge--solid.kbadge--crimson { background: var(--crimson-600); border-color: var(--crimson-600); }
+  .kbadge--solid.kbadge--brass { background: var(--brass-600); border-color: var(--brass-600); }
+  .kbadge--solid.kbadge--ivy { background: var(--ivy-600); border-color: var(--ivy-600); }
+  .kbadge--solid.kbadge--slate { background: var(--slate-600); border-color: var(--slate-600); }
+</style>

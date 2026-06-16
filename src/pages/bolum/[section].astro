@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { SECTIONS } from '../../content.config';
+import { getSection } from '../../data/sections';
+import { getArticlesBySection } from '../../utils/format';
+
+export function getStaticPaths() {
+  return SECTIONS.map((section) => ({ params: { section } }));
+}
+
+const { section } = Astro.params;
+const meta = getSection(section);
+if (!meta) {
+  return Astro.redirect('/404');
+}
+const articles = await getArticlesBySection(section);
+const accent = `var(${meta.accent})`;
+const [feature, ...rest] = articles;
+---
+
+<BaseLayout
+  title={meta.name}
+  description={meta.description}
+  path={`/bolum/${meta.id}`}
+>
+  <header class="wrap sectionhead" style={`--accent:${accent}`}>
+    <p class="sectionhead__en">{meta.english}</p>
+    <h1 class="sectionhead__title">{meta.name}</h1>
+    <p class="sectionhead__desc">{meta.description}</p>
+  </header>
+
+  <div class="wrap">
+    {
+      articles.length === 0 ? (
+        <p class="sectionempty">
+          Bu bölümde henüz yazı yok. İlk yazılar çok yakında.
+        </p>
+      ) : (
+        <div class="sectiongrid">
+          {feature && (
+            <div class="sectiongrid__feature">
+              <ArticleCard article={feature} variant="feature" />
+            </div>
+          )}
+          {rest.map((a) => (
+            <ArticleCard article={a} variant="standard" />
+          ))}
+        </div>
+      )
+    }
+  </div>
+
+  <div class="wrap section-nl">
+    <Newsletter />
+  </div>
+</BaseLayout>
+
+<style>
+  .sectionhead {
+    padding: clamp(1.8rem, 1.2rem + 2.5vw, 3.2rem) 0 0;
+    border-bottom: 2px solid var(--accent);
+    margin-bottom: clamp(1.6rem, 1.2rem + 1.5vw, 2.4rem);
+  }
+  .sectionhead__en {
+    font-family: var(--font-sans);
+    font-size: 0.74rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--ink-mute);
+  }
+  .sectionhead__title {
+    font-size: var(--step-4);
+    color: var(--accent);
+    margin: 0.4rem 0 0.6rem;
+    letter-spacing: -0.02em;
+  }
+  .sectionhead__desc {
+    font-family: var(--font-serif);
+    font-size: var(--step-1);
+    color: var(--ink-soft);
+    max-width: 60ch;
+    padding-bottom: 1.2rem;
+  }
+
+  .sectionempty {
+    padding: 3rem 0;
+    color: var(--ink-soft);
+    font-size: var(--step-1);
+  }
+
+  .sectiongrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.8rem 1.5rem;
+  }
+  @media (min-width: 640px) {
+    .sectiongrid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .sectiongrid__feature {
+      grid-column: 1 / -1;
+    }
+  }
+  @media (min-width: 980px) {
+    .sectiongrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .sectiongrid__feature {
+      grid-column: 1 / -1;
+    }
+  }
+
+  .section-nl {
+    margin-top: clamp(2.6rem, 2rem + 3vw, 4rem);
+  }
+</style>

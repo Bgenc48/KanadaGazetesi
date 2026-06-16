@@ -1,0 +1,211 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+import { sections } from '../data/sections';
+
+const established = site.founded;
+---
+
+<BaseLayout
+  title="Hakkımızda"
+  description={`${site.name} — neden bir Kanada Türk gazetesi? Misyonumuz, değerlerimiz ve künyemiz.`}
+  path="/hakkimizda"
+>
+  <article class="about wrap--narrow">
+    <header class="about__head">
+      <p class="kicker">Hakkımızda</p>
+      <h1 class="about__title">Neden bir Kanada Türk gazetesi?</h1>
+      <p class="about__lede">
+        Kanada, on yıllardır Türkiye’den gelen ailelerin, öğrencilerin ve
+        profesyonellerin yeni bir hayat kurduğu bir ülke. Toronto’dan
+        Montréal’e, Vancouver’dan Calgary’ye uzanan büyük bir Türk topluluğu var.
+        Ama bu topluluğun kendi dilinde güvenebileceği, derli toplu tek bir
+        yayını yoktu. <strong>Kanada Gazetesi</strong> bu boşluğu doldurmak için kuruldu.
+      </p>
+    </header>
+
+    <div class="about__body">
+      <p>
+        Toronto’da bir kira sözleşmesinin önünde, Montréal’de bir sağlık kartı
+        kuyruğunda, Ottawa’da bir vatandaşlık başvurusunda, Vancouver’da bir
+        diploma denkliği sürecinde aynı soruların yanıtı aranıyor: Oturum nasıl
+        alınır? Sağlık kartım ne zaman aktifleşir? Kredi skorumu nasıl kurarım?
+        Çocuğuma Türkçeyi nasıl korurum? Bu sorular tek tek WhatsApp gruplarında,
+        kulaktan kulağa dolaşıyor — çoğu zaman eksik, bazen yanlış yanıtlarla.
+      </p>
+
+      <p>
+        Biz bu dağınık bilgiyi <strong>derli toplu, doğrulanmış ve kalıcı</strong>
+        bir gazeteciliğe dönüştürmek istiyoruz. Haberi günü kurtarmak için değil,
+        yıllarca işe yarasın diye yazıyoruz.
+      </p>
+
+      <h2>Ne yapıyoruz?</h2>
+      <p>Gazetemiz beş bölümde yayın yapıyor:</p>
+      <ul>
+        {sections.map((s) => (
+          <li>
+            <a href={`/bolum/${s.id}`}><strong>{s.name}</strong></a> — {s.description}
+          </li>
+        ))}
+      </ul>
+
+      <h2>Değerlerimiz</h2>
+      <ul>
+        <li>
+          <strong>Bağımsızlık.</strong> Hiçbir kurumun, şirketin ya da hükümetin
+          sözcüsü değiliz. Tek taahhüdümüz okurumuza.
+        </li>
+        <li>
+          <strong>Doğruluk.</strong> Resmî işlemlere dair her bilginin kaynağını
+          gösterir, değişen kuralları açıkça belirtir ve okuru daima IRCC, CRA ve
+          eyalet makamları gibi resmî kaynaklardan teyit almaya yönlendiririz.
+        </li>
+        <li>
+          <strong>Fayda.</strong> Süslü değil, işe yarar yazarız. İyi bir yazı,
+          okuyanın ertesi gün bir adım atmasını sağlar.
+        </li>
+        <li>
+          <strong>İki kültürlü bakış.</strong> Hem Türkiye’yi hem Kanada’yı
+          tanıyan bir gözle yazıyoruz; ne köklerinizi unutturmaya, ne de yeni
+          ülkenize yabancılaştırmaya çalışıyoruz.
+        </li>
+      </ul>
+
+      <h2>Bir düzeltme mi var? Bir ipucu mu?</h2>
+      <p>
+        Gazetecilik, okurla birlikte yapılır. Bir bilgi eksikse, bir gelişme
+        gözümüzden kaçtıysa ya da Kanada’nın bir köşesinden anlatılmaya değer bir
+        hikâye biliyorsanız bize yazın:
+        <a href={`mailto:${site.email}`}>{site.email}</a>.
+      </p>
+    </div>
+
+    <aside id="kunye" class="kunye">
+      <h2 class="kunye__title">Künye</h2>
+      <dl class="kunye__list">
+        <div><dt>Yayın</dt><dd>{site.name}</dd></div>
+        <div><dt>Slogan</dt><dd>{site.tagline}</dd></div>
+        <div><dt>Kuruluş</dt><dd>{established}</dd></div>
+        <div><dt>Yayın türü</dt><dd>Bağımsız dijital gazete</dd></div>
+        <div><dt>Dil</dt><dd>Türkçe</dd></div>
+        <div><dt>İletişim</dt><dd><a href={`mailto:${site.email}`}>{site.email}</a></dd></div>
+        <div>
+          <dt>Sosyal</dt>
+          <dd>
+            <a href={site.social.instagram} rel="me noopener" target="_blank">Instagram</a> ·
+            <a href={site.social.x} rel="me noopener" target="_blank">X</a> ·
+            <a href={site.social.youtube} rel="me noopener" target="_blank">YouTube</a>
+          </dd>
+        </div>
+      </dl>
+      <p class="kunye__note meta">
+        Buradaki göç, vergi ve hukuk bilgileri genel bilgilendirme amaçlıdır;
+        resmî danışmanlık yerine geçmez. Başvuru yapmadan önce IRCC, CRA ve
+        eyalet makamları gibi resmî kaynaklardan teyit alın.
+      </p>
+    </aside>
+  </article>
+</BaseLayout>
+
+<style>
+  .about {
+    padding-top: clamp(1.6rem, 1.1rem + 2.5vw, 3rem);
+  }
+  .about__title {
+    font-size: var(--step-4);
+    line-height: 1.02;
+    letter-spacing: -0.022em;
+    margin: 0.5rem 0 0;
+  }
+  .about__lede {
+    font-family: var(--font-serif);
+    font-size: var(--step-1);
+    line-height: 1.5;
+    color: var(--ink-soft);
+    margin-top: 1.1rem;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .about__body {
+    font-size: 1.16rem;
+    line-height: 1.72;
+    margin-top: 1.6rem;
+  }
+  .about__body :is(p, ul) {
+    margin: 0 0 1.2em;
+  }
+  .about__body h2 {
+    font-size: var(--step-2);
+    margin: 1.8em 0 0.5em;
+  }
+  .about__body ul {
+    padding-left: 1.2em;
+  }
+  .about__body li {
+    margin-bottom: 0.6em;
+  }
+  .about__body li::marker {
+    color: var(--crimson);
+  }
+  .about__body a {
+    text-decoration: underline;
+    text-decoration-color: var(--crimson);
+    text-underline-offset: 3px;
+  }
+
+  .kunye {
+    margin-top: 2.6rem;
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: clamp(1.4rem, 1rem + 2vw, 2.2rem);
+  }
+  .kunye__title {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--crimson);
+    margin-bottom: 1rem;
+  }
+  .kunye__list {
+    display: grid;
+    gap: 0.7rem;
+    margin: 0;
+  }
+  .kunye__list > div {
+    display: grid;
+    grid-template-columns: 9rem 1fr;
+    gap: 0.6rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .kunye__list dt {
+    font-family: var(--font-sans);
+    font-size: 0.74rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-mute);
+    padding-top: 0.15rem;
+  }
+  .kunye__list dd {
+    margin: 0;
+  }
+  .kunye__list a {
+    text-decoration: underline;
+    text-decoration-color: var(--crimson);
+  }
+  .kunye__note {
+    margin-top: 1.1rem;
+    line-height: 1.55;
+  }
+
+  @media (max-width: 480px) {
+    .kunye__list > div {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+    }
+  }
+</style>
