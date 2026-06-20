@@ -1,21 +1,34 @@
 ---
 import type { Article } from '../utils/format';
-import { formatDateShortTR, isoDate, readingTime } from '../utils/format';
+import { formatDateShortTR, isoDate, readingTime, slugify } from '../utils/format';
 
 export interface Props {
   article: Article;
   withReadingTime?: boolean;
   withAuthorTitle?: boolean;
+  /** Yazar adını yazar sayfasına bağla */
+  linkAuthor?: boolean;
 }
-const { article, withReadingTime = true, withAuthorTitle = false } = Astro.props;
+const {
+  article,
+  withReadingTime = true,
+  withAuthorTitle = false,
+  linkAuthor = false,
+} = Astro.props;
 const { author, authorTitle, pubDate } = article.data;
 const mins = readingTime(article.body ?? '');
 ---
 
 <p class="byline meta">
-  <span class="byline__author">{author}</span>{
-    withAuthorTitle && authorTitle && <span class="byline__title">, {authorTitle}</span>
-  }
+  {
+    linkAuthor ? (
+      <a class="byline__author" href={`/yazar/${slugify(author)}`}>
+        {author}
+      </a>
+    ) : (
+      <span class="byline__author">{author}</span>
+    )
+  }{withAuthorTitle && authorTitle && <span class="byline__title">, {authorTitle}</span>}
   <span class="byline__sep">·</span>
   <time datetime={isoDate(pubDate)}>{formatDateShortTR(pubDate)}</time>
   {

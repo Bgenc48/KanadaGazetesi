@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getAllTags, getArticlesByTag, slugify, type Article } from '../../utils/format';
+
+export async function getStaticPaths() {
+  const tags = await getAllTags();
+  const paths = await Promise.all(
+    tags.map(async ({ tag, count }) => ({
+      params: { tag: slugify(tag) },
+      props: { tag, count, articles: await getArticlesByTag(tag) },
+    })),
+  );
+  return paths;
+}
+
+interface Props {
+  tag: string;
+  count: number;
+  articles: Article[];
+}
+const { tag, count, articles } = Astro.props as Props;
+const slug = slugify(tag);
+---
+
+<BaseLayout
+  title={`#${tag}`}
+  description={`"${tag}" etiketli ${count} yazı — Kanada Gazetesi.`}
+  path={`/etiket/${slug}`}
+>
+  <header class="wrap taghead">
+    <p class="kicker">Etiket</p>
+    <h1 class="taghead__title">#{tag}</h1>
+    <p class="taghead__meta meta">
+      {count} yazı · <a href="/etiketler">tüm etiketler</a>
+    </p>
+  </header>
+
+  <div class="wrap taggrid">
+    {articles.map((a) => <ArticleCard article={a} variant="standard" />)}
+  </div>
+</BaseLayout>
+
+<style>
+  .taghead {
+    padding: clamp(1.8rem, 1.2rem + 2.5vw, 3.2rem) 0 0;
+    border-bottom: 2px solid var(--crimson);
+    margin-bottom: clamp(1.6rem, 1.2rem + 1.5vw, 2.4rem);
+  }
+  .taghead__title {
+    font-size: var(--step-4);
+    margin: 0.4rem 0 0.5rem;
+    letter-spacing: -0.02em;
+  }
+  .taghead__meta {
+    padding-bottom: 1.2rem;
+  }
+  .taggrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.8rem 1.5rem;
+  }
+  @media (min-width: 640px) {
+    .taggrid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width: 980px) {
+    .taggrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

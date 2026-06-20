@@ -1,0 +1,19 @@
+{
+  "name": "Kanada Gazetesi",
+  "short_name": "KG",
+  "description": "Kanada'daki Türk diasporasının bağımsız gazetesi",
+  "lang": "tr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbf8f1",
+  "theme_color": "#b41e26",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

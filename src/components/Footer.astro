@@ -39,23 +39,27 @@ const { year = new Date().getFullYear() } = Astro.props;
         </ul>
       </nav>
 
-      <nav class="footer__col" aria-label="Kurumsal">
+      <nav class="footer__col" aria-label="Gazete">
         <h3 class="footer__head">Gazete</h3>
         <ul>
           <li><a href="/hakkimizda">Hakkımızda</a></li>
+          <li><a href="/yazarlar">Yazarlar</a></li>
+          <li><a href="/etiketler">Etiketler</a></li>
+          <li><a href="/ara">Ara</a></li>
           <li><a href="/rss.xml">RSS</a></li>
-          <li><a href="/krediler">Foto Kaynakları</a></li>
-          <li><a href={`mailto:${site.email}`}>İletişim</a></li>
-          <li><a href="/hakkimizda#kunye">Künye</a></li>
         </ul>
       </nav>
 
-      <div class="footer__col footer__contact">
-        <h3 class="footer__head">İletişim</h3>
-        <p class="meta">Haber ipucu, görüş ve düzeltmeler için:</p>
-        <p><a href={`mailto:${site.email}`}>{site.email}</a></p>
-        <p class="meta footer__cities">{site.cities.join(' · ')}</p>
-      </div>
+      <nav class="footer__col" aria-label="Kurumsal ve yasal">
+        <h3 class="footer__head">Kurumsal</h3>
+        <ul>
+          <li><a href="/yayin-ilkeleri">Yayın İlkeleri</a></li>
+          <li><a href="/duzeltmeler">Düzeltmeler</a></li>
+          <li><a href="/gizlilik">Gizlilik</a></li>
+          <li><a href="/krediler">Foto Kaynakları</a></li>
+          <li><a href="/iletisim">İletişim</a></li>
+        </ul>
+      </nav>
     </div>
 
     <div class="footer__legal meta">

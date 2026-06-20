@@ -161,6 +161,56 @@
   --accent-tk: var(--crimson-500); /* türkiye–kanada — kızıl */
   --accent-yasam: var(--amber-600); /* yaşam — amber */
   --accent-rehber: var(--brass-600); /* rehber — pirinç */
+
+  color-scheme: light;
+}
+
+/* ----------------------------------------------------------------
+   Karanlık tema — yalnızca ham ölçekleri yeniden eşleriz; tüm
+   anlamsal ve köprü değişkenleri var() ile bunlardan türediği için
+   otomatik olarak güncellenir. Tema, <head>'deki satır-içi script
+   tarafından data-theme ile ayarlanır (FOUC önlenir).
+   ---------------------------------------------------------------- */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* Mürekkep → açık (metin) */
+  --ink-900: #f3ece0;
+  --ink-800: #e6ddcd;
+  --ink-700: #d6ccba; /* gövde */
+  --ink-600: #b9ad99;
+  --ink-500: #9c8f7b; /* ikincil */
+  --ink-400: #7e7460;
+  --ink-300: #5f5747;
+  --ink-200: #3c362c; /* çizgi/kenarlık */
+  --ink-100: #2b261e; /* ince ayraç */
+
+  /* Kâğıt → koyu (yüzeyler) */
+  --paper-000: #1b1712; /* kart */
+  --paper-050: #141009; /* sayfa */
+  --paper-100: #211c15; /* girintili */
+  --paper-200: #2a241b; /* tint blok */
+  --paper-300: #332c21;
+
+  /* Kızıl — koyu zeminde okunaklı olsun diye parlatılır */
+  --crimson-700: #d05055;
+  --crimson-600: #e15b61;
+  --crimson-500: #ec6a70; /* marka birincil */
+  --crimson-400: #f08a8f;
+  --crimson-100: #3a1d1f; /* tint arka plan */
+
+  /* Pirinç / işlevsel aksanlar — koyu zemin için parlatılır */
+  --brass-600: #c7a772;
+  --brass-500: #d8bd8d;
+  --brass-100: #34291a;
+  --ivy-600: #6fc09c;
+  --slate-600: #84acd6;
+  --amber-600: #d7a04c;
+}
+
+:root[data-theme='dark'] body {
+  /* Eski-stil rakam dokusunu koru, ama hafif yumuşat */
+  -webkit-font-smoothing: antialiased;
 }
 
 /* ----------------------------------------------------------------

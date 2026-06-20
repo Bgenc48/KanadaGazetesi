@@ -1,0 +1,103 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { formatDateTR } from '../utils/format';
+
+export interface Props {
+  title: string;
+  description?: string;
+  kicker?: string;
+  lede?: string;
+  path?: string;
+  /** "Son güncelleme" tarihi (ISO veya Date) */
+  updated?: string | Date;
+}
+const { title, description, kicker, lede, path, updated } = Astro.props;
+const updatedDate = updated ? new Date(updated) : undefined;
+---
+
+<BaseLayout title={title} description={description ?? lede} path={path}>
+  <article class="page wrap--narrow">
+    <header class="page__head">
+      {kicker && <p class="kicker">{kicker}</p>}
+      <h1 class="page__title">{title}</h1>
+      {lede && <p class="page__lede">{lede}</p>}
+      {
+        updatedDate && (
+          <p class="page__updated meta">Son güncelleme: {formatDateTR(updatedDate)}</p>
+        )
+      }
+    </header>
+
+    <div class="page__body prose">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-top: clamp(1.6rem, 1.1rem + 2.5vw, 3rem);
+    padding-bottom: 2rem;
+  }
+  .page__title {
+    font-size: var(--step-3);
+    margin: 0.4rem 0 0;
+  }
+  .page__lede {
+    font-family: var(--font-serif);
+    font-size: var(--step-1);
+    color: var(--ink-soft);
+    margin-top: 0.9rem;
+    max-width: 60ch;
+  }
+  .page__updated {
+    margin-top: 0.8rem;
+  }
+  .page__head {
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.8rem;
+  }
+
+  .prose {
+    font-size: 1.06rem;
+    line-height: 1.7;
+    max-width: 66ch;
+  }
+  .prose :global(h2) {
+    font-size: var(--step-1);
+    margin: 1.8em 0 0.4em;
+    line-height: 1.15;
+  }
+  .prose :global(h3) {
+    font-size: var(--step-0);
+    font-family: var(--font-sans);
+    font-weight: 700;
+    margin: 1.4em 0 0.3em;
+  }
+  .prose :global(p) {
+    margin: 0 0 1.1em;
+  }
+  .prose :global(ul),
+  .prose :global(ol) {
+    margin: 0 0 1.2em;
+    padding-left: 1.3em;
+  }
+  .prose :global(li) {
+    margin-bottom: 0.45em;
+  }
+  .prose :global(li::marker) {
+    color: var(--crimson);
+  }
+  .prose :global(a) {
+    text-decoration: underline;
+    text-decoration-color: var(--crimson);
+    text-underline-offset: 3px;
+  }
+  .prose :global(a:hover) {
+    color: var(--crimson);
+  }
+  .prose :global(strong) {
+    font-weight: 650;
+  }
+</style>

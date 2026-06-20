@@ -1,0 +1,106 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { site } from '../../data/site';
+import {
+  getAllAuthors,
+  getArticlesByAuthor,
+  slugify,
+  type Article,
+} from '../../utils/format';
+
+export async function getStaticPaths() {
+  const authors = await getAllAuthors();
+  const paths = await Promise.all(
+    authors.map(async ({ author, count }) => ({
+      params: { author: slugify(author) },
+      props: { author, count, articles: await getArticlesByAuthor(author) },
+    })),
+  );
+  return paths;
+}
+
+interface Props {
+  author: string;
+  count: number;
+  articles: Article[];
+}
+const { author, count, articles } = Astro.props as Props;
+const slug = slugify(author);
+// Yazar unvanını en güncel yazıdan al (varsa)
+const authorTitle = articles.find((a) => a.data.authorTitle)?.data.authorTitle;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  mainEntity: {
+    '@type': 'Person',
+    name: author,
+    ...(authorTitle ? { jobTitle: authorTitle } : {}),
+    url: new URL(`/yazar/${slug}`, site.url).href,
+  },
+};
+---
+
+<BaseLayout
+  title={author}
+  description={`${author} imzalı ${count} yazı — Kanada Gazetesi.`}
+  path={`/yazar/${slug}`}
+>
+  <script
+    is:inline
+    type="application/ld+json"
+    slot="head"
+    set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')}
+  />
+
+  <header class="wrap authorhead">
+    <p class="kicker">Yazar</p>
+    <h1 class="authorhead__name">{author}</h1>
+    {authorTitle && <p class="authorhead__title">{authorTitle}</p>}
+    <p class="authorhead__meta meta">
+      {count} yazı · <a href="/yazarlar">tüm yazarlar</a>
+    </p>
+  </header>
+
+  <div class="wrap authorgrid">
+    {articles.map((a) => <ArticleCard article={a} variant="standard" />)}
+  </div>
+</BaseLayout>
+
+<style>
+  .authorhead {
+    padding: clamp(1.8rem, 1.2rem + 2.5vw, 3.2rem) 0 0;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: clamp(1.6rem, 1.2rem + 1.5vw, 2.4rem);
+  }
+  .authorhead__name {
+    font-size: var(--step-4);
+    margin: 0.4rem 0 0.3rem;
+    letter-spacing: -0.02em;
+  }
+  .authorhead__title {
+    font-family: var(--font-sans);
+    color: var(--ink-mute);
+    font-size: var(--step--1);
+    margin-bottom: 0.5rem;
+  }
+  .authorhead__meta {
+    padding-bottom: 1.2rem;
+  }
+  .authorgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.8rem 1.5rem;
+  }
+  @media (min-width: 640px) {
+    .authorgrid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width: 980px) {
+    .authorgrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

@@ -1,0 +1,63 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { site } from '../data/site';
+---
+
+<PageLayout
+  title="Gizlilik Politikası"
+  kicker="Yasal"
+  lede="Kişisel verilerinizi nasıl ele aldığımızı açıkça anlatıyoruz."
+  path="/gizlilik"
+  updated="2026-06-20"
+>
+  <p>
+    Kanada Gazetesi olarak gizliliğinize saygı duyuyoruz. Bu politika; Kanada Kişisel
+    Bilgilerin Korunması ve Elektronik Belgeler Yasası (PIPEDA) ve genel veri koruma
+    ilkeleri (GDPR) gözetilerek hazırlanmıştır.
+  </p>
+
+  <h2>Hangi verileri topluyoruz?</h2>
+  <ul>
+    <li>
+      <strong>Çerezsiz varsayılan:</strong> Sitemiz, temel gezinme için kişisel veri toplamayı
+      gerektirmez ve takip amaçlı üçüncü taraf çerezleri kullanmaz.
+    </li>
+    <li>
+      <strong>Tema tercihi:</strong> Aydınlık/karanlık tema seçiminiz yalnızca tarayıcınızda
+      (localStorage) saklanır; sunucumuza gönderilmez.
+    </li>
+    <li>
+      <strong>Bülten:</strong> Bültenimize abone olursanız, yalnızca e-posta adresinizi ve onay
+      durumunuzu saklarız. Dilediğiniz an abonelikten çıkabilirsiniz.
+    </li>
+    <li>
+      <strong>İletişim:</strong> Bize yazdığınızda, paylaştığınız bilgiler yalnızca talebinizi
+      yanıtlamak için kullanılır.
+    </li>
+  </ul>
+
+  <h2>Analitik</h2>
+  <p>
+    Kullanım istatistikleri için yalnızca gizliliğe saygılı, kişisel kimlik içermeyen
+    ölçüm yöntemleri tercih ederiz. Reklam ağı tabanlı profilleme yapmayız.
+  </p>
+
+  <h2>Haklarınız</h2>
+  <p>
+    Sizinle ilgili tuttuğumuz verilere erişme, düzeltme ve silinmesini isteme hakkına
+    sahipsiniz. Bu haklarınızı kullanmak için
+    <a href={`mailto:${site.email}`}>{site.email}</a> adresinden bize ulaşabilirsiniz.
+  </p>
+
+  <h2>Üçüncü taraf bağlantılar</h2>
+  <p>
+    Yazılarımız resmî kurumlara ve dış kaynaklara bağlantı verebilir. Bu sitelerin
+    gizlilik uygulamalarından Kanada Gazetesi sorumlu değildir.
+  </p>
+
+  <h2>Değişiklikler</h2>
+  <p>
+    Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişikliklerde bu sayfadaki "Son
+    güncelleme" tarihini yenileriz.
+  </p>
+</PageLayout>

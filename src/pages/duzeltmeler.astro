@@ -1,0 +1,44 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { site } from '../data/site';
+
+// Düzeltmeler ileride bir içerik koleksiyonundan beslenebilir; şimdilik
+// editöryel şeffaflık taahhüdünü açıklayan kalıcı bir sayfa.
+const corrections: { date: string; title: string; note: string }[] = [];
+---
+
+<PageLayout
+  title="Düzeltmeler"
+  kicker="Şeffaflık"
+  lede="Hata yaptığımızda bunu gizlemez, açıkça düzeltiriz."
+  path="/duzeltmeler"
+  updated="2026-06-20"
+>
+  <p>
+    Doğruluk, gazeteciliğin temelidir. Bir yazımızda maddi bir hata fark ederseniz lütfen <a
+      href={`mailto:${site.email}`}>{site.email}</a
+    > adresinden veya <a href="/iletisim">iletişim</a> sayfamızdan bize bildirin. Doğrulanan
+    düzeltmeler ilgili yazıda görünür biçimde işaretlenir ve önemli olanlar burada listelenir.
+  </p>
+
+  <h2>Düzeltme günlüğü</h2>
+  {
+    corrections.length === 0 ? (
+      <p>
+        Bu sayfada henüz yayımlanmış bir düzeltme bulunmuyor. Yayımlandıkça tarih
+        sırasıyla burada yer alacak.
+      </p>
+    ) : (
+      <ul>
+        {corrections.map((c) => (
+          <li>
+            <strong>
+              {c.date} — {c.title}:
+            </strong>{' '}
+            {c.note}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</PageLayout>
