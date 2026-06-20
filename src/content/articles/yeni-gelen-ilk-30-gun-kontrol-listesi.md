@@ -8,6 +8,8 @@ pubDate: 2026-06-01
 photoQuery: "moving boxes new home family"
 excerpt: "SIN, sağlık kartı, banka hesabı, telefon, konut ve okul kaydı: Kanada’ya yeni gelenler için ilk 30 günün eksiksiz, sıralı kontrol listesi."
 tags: ["yeni gelen", "kontrol listesi", "SIN", "yerleşim"]
+series: "Yeni Gelenler Rehberi"
+seriesOrder: 2
 advisory: true
 heroImage: "/images/yeni-gelen-ilk-30-gun-kontrol-listesi.jpg"
 heroCredit: "Wonderlane / Openverse (CC BY 2.0)"

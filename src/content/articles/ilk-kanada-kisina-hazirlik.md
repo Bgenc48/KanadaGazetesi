@@ -11,6 +11,8 @@ heroAlt: "Karla kaplı bir Kanada sokağında yürüyen, kalın giyinmiş insanl
 heroCredit: "Lima Pix / Openverse (CC BY 2.0)"
 excerpt: "Katmanlı giyinme, kış lastiği, evin ısıtılması ve kara karşı küçük yerel sırlar. Türkiye’den gelenler için ilk Kanada kışını rahat geçirme rehberi."
 tags: ["kış", "yaşam", "giyim", "araba"]
+series: "Yeni Gelenler Rehberi"
+seriesOrder: 3
 ---
 
 İstanbul’un, İzmir’in, hatta Ankara’nın kışını yaşamış biri için Kanada kışı yeni bir kategoridir. Birçok bölgede sıcaklık haftalarca eksi rakamlarda kalır, rüzgârla birlikte hissedilen soğuk daha da düşer. Ama Kanadalılar bu mevsimde hayatı durdurmaz — kayağa gider, göl üzerinde paten kayar, kar yürüyüşü yapar. Sırrı tek kelimede: **hazırlık.**

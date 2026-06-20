@@ -37,6 +37,10 @@ const articles = defineCollection({
     /** Kart ve liste görünümleri için kısa özet */
     excerpt: z.string().optional(),
     tags: z.array(z.string()).default([]),
+    /** Çok parçalı dizinin adı (ör. "Yeni Gelenler Rehberi") */
+    series: z.string().optional(),
+    /** Dizideki sıra (küçükten büyüğe) */
+    seriesOrder: z.number().optional(),
     featured: z.boolean().default(false),
     /** Ana sayfada en üstte yer alacak tek "günün haberi" */
     lead: z.boolean().default(false),

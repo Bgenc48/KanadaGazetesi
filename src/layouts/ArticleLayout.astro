@@ -15,6 +15,7 @@ import {
   slugify,
   tableOfContents,
   getArticlesBySection,
+  getArticlesBySeries,
   type Article,
 } from '../utils/format';
 
@@ -46,6 +47,22 @@ const photo = d.heroImage
 const related = (await getArticlesBySection(d.section))
   .filter((a) => a.id !== article.id)
   .slice(0, 3);
+
+// Dizi bilgisi — bu yazı bir dizinin parçasıysa konumunu hesapla
+let seriesInfo: { name: string; slug: string; position: number; total: number } | null =
+  null;
+if (d.series) {
+  const items = await getArticlesBySeries(d.series);
+  const idx = items.findIndex((a) => a.id === article.id);
+  if (idx !== -1) {
+    seriesInfo = {
+      name: d.series,
+      slug: slugify(d.series),
+      position: idx + 1,
+      total: items.length,
+    };
+  }
+}
 
 const shareUrl = new URL(path, site.url).href;
 const shareText = encodeURIComponent(d.title);
@@ -114,6 +131,15 @@ const jsonLd = {
     slot="head"
     set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')}
   />
+
+  <div
+    class="readprog"
+    role="progressbar"
+    aria-label="Okuma ilerlemesi"
+    aria-hidden="true"
+  >
+    <span class="readprog__bar" data-read-progress></span>
+  </div>
 
   <article
     class="article"
@@ -221,6 +247,19 @@ const jsonLd = {
       }
 
       {
+        seriesInfo && (
+          <aside class="seriesbox" data-pagefind-ignore>
+            <p class="seriesbox__label">Dizi</p>
+            <p class="seriesbox__text">
+              Bu yazı <a href={`/dizi/${seriesInfo.slug}`}>{seriesInfo.name}</a> dizisinin{' '}
+              <strong>{seriesInfo.position}. bölümü</strong> ({seriesInfo.total}{' '}
+              bölümden).
+            </p>
+          </aside>
+        )
+      }
+
+      {
         showToc && (
           <nav class="toc" aria-label="İçindekiler" data-pagefind-ignore>
             <p class="toc__title">İçindekiler</p>
@@ -303,9 +342,85 @@ const jsonLd = {
       </section>
     )
   }
+
+  <script is:inline>
+    (function () {
+      const bar = document.querySelector('[data-read-progress]');
+      const article = document.querySelector('.article');
+      if (!bar || !article) return;
+      let ticking = false;
+      function update() {
+        const rect = article.getBoundingClientRect();
+        const vh = window.innerHeight || document.documentElement.clientHeight;
+        const total = rect.height - vh;
+        const scrolled = Math.min(Math.max(-rect.top, 0), Math.max(total, 0));
+        const pct = total > 0 ? (scrolled / total) * 100 : 0;
+        bar.style.width = pct.toFixed(1) + '%';
+        ticking = false;
+      }
+      function onScroll() {
+        if (!ticking) {
+          window.requestAnimationFrame(update);
+          ticking = true;
+        }
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('resize', onScroll, { passive: true });
+      update();
+    })();
+  </script>
 </BaseLayout>
 
 <style>
+  .readprog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: transparent;
+    z-index: 60;
+    pointer-events: none;
+  }
+  .readprog__bar {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--accent);
+    transition: width 0.1s linear;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .readprog__bar {
+      transition: none;
+    }
+  }
+
+  .seriesbox {
+    margin: 0 0 1.6rem;
+    padding: 0.9rem 1.2rem;
+    border-left: 3px solid var(--brass-600);
+    background: var(--brass-100);
+    border-radius: 2px;
+  }
+  .seriesbox__label {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--brass-600);
+    margin-bottom: 0.2rem;
+  }
+  .seriesbox__text {
+    font-size: var(--step--1);
+    line-height: 1.5;
+  }
+  .seriesbox__text a {
+    text-decoration: underline;
+    text-decoration-color: var(--brass-600);
+    font-weight: 600;
+  }
+
   .toc {
     margin: 0 0 2rem;
     padding: 1rem 1.2rem;

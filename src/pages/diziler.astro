@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllSeries, slugify } from '../utils/format';
+
+const series = await getAllSeries();
+---
+
+<BaseLayout
+  title="Diziler"
+  description="Kanada Gazetesi'nin çok parçalı rehber dizileri."
+  path="/diziler"
+>
+  <header class="wrap serieslisthead">
+    <p class="kicker">Dizin</p>
+    <h1>Diziler</h1>
+    <p class="meta">{series.length} dizi</p>
+  </header>
+
+  {
+    series.length === 0 ? (
+      <p class="wrap seriesempty">Henüz bir dizi yok.</p>
+    ) : (
+      <ul class="wrap serieslist">
+        {series.map(({ series: name, count }) => (
+          <li class="serieslist__item">
+            <a href={`/dizi/${slugify(name)}`} class="serieslist__link">
+              <span class="serieslist__name">{name}</span>
+              <span class="serieslist__count meta">{count} bölüm</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</BaseLayout>
+
+<style>
+  .serieslisthead {
+    padding: clamp(1.8rem, 1.2rem + 2.5vw, 3.2rem) 0 1.2rem;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 1.6rem;
+  }
+  .seriesempty {
+    color: var(--ink-soft);
+    padding-bottom: 2rem;
+  }
+  .serieslist {
+    list-style: none;
+    padding: 0 0 2rem;
+    margin: 0;
+  }
+  .serieslist__item {
+    border-bottom: 1px solid var(--rule);
+  }
+  .serieslist__link {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  .serieslist__link:hover {
+    text-decoration: none;
+  }
+  .serieslist__name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--step-1);
+  }
+  .serieslist__link:hover .serieslist__name {
+    color: var(--brass-600);
+  }
+</style>
