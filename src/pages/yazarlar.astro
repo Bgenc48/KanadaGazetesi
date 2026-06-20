@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getAllAuthors, slugify } from '../utils/format';
+import { getAllAuthors, getAuthorMap, slugify } from '../utils/format';
 
-const authors = await getAllAuthors();
+const [authors, authorMap] = await Promise.all([getAllAuthors(), getAuthorMap()]);
 ---
 
 <BaseLayout
@@ -21,7 +21,14 @@ const authors = await getAllAuthors();
       authors.map(({ author, count }) => (
         <li class="authorlist__item">
           <a href={`/yazar/${slugify(author)}`} class="authorlist__link">
-            <span class="authorlist__name">{author}</span>
+            <span class="authorlist__main">
+              <span class="authorlist__name">{author}</span>
+              {authorMap.get(author)?.data.role && (
+                <span class="authorlist__role meta">
+                  {authorMap.get(author)!.data.role}
+                </span>
+              )}
+            </span>
             <span class="authorlist__count meta">{count} yazı</span>
           </a>
         </li>
@@ -56,10 +63,18 @@ const authors = await getAllAuthors();
   .authorlist__link:hover {
     text-decoration: none;
   }
+  .authorlist__main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
   .authorlist__name {
     font-family: var(--font-display);
     font-weight: 700;
     font-size: var(--step-1);
+  }
+  .authorlist__role {
+    font-size: 0.8rem;
   }
   .authorlist__link:hover .authorlist__name {
     color: var(--crimson);

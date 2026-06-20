@@ -4,6 +4,7 @@ import Kicker from '../components/Kicker.astro';
 import Byline from '../components/Byline.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import Newsletter from '../components/Newsletter.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getSection } from '../data/sections';
 import { site } from '../data/site';
 import photoCredits from '../data/photo-credits.json';
@@ -12,17 +13,27 @@ import {
   formatDateTR,
   isoDate,
   slugify,
+  tableOfContents,
   getArticlesBySection,
   type Article,
 } from '../utils/format';
 
+export interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
 export interface Props {
   article: Article;
+  headings?: Heading[];
 }
-const { article } = Astro.props;
+const { article, headings = [] } = Astro.props;
 const d = article.data;
 const meta = getSection(d.section);
 const accent = meta ? `var(${meta.accent})` : 'var(--crimson)';
+// İçindekiler: yalnızca h2'ler; en az 3 başlık varsa göster
+const toc = tableOfContents(headings);
+const showToc = toc.length > 0;
 const description = d.deck ?? deriveExcerpt(article, 200);
 const path = `/makale/${article.id}`;
 
@@ -110,6 +121,16 @@ const jsonLd = {
     data-pagefind-body
     data-pagefind-meta={`section:${meta?.name ?? ''}`}
   >
+    <div class="wrap--narrow" data-pagefind-ignore>
+      <Breadcrumbs
+        items={[
+          { label: 'Anasayfa', href: '/' },
+          { label: meta?.name ?? 'Bölüm', href: `/bolum/${d.section}` },
+          { label: d.title },
+        ]}
+      />
+    </div>
+
     <header class="wrap--narrow article__head">
       <Kicker section={d.section} />
       <h1 class="article__title">{d.title}</h1>
@@ -199,6 +220,21 @@ const jsonLd = {
         )
       }
 
+      {
+        showToc && (
+          <nav class="toc" aria-label="İçindekiler" data-pagefind-ignore>
+            <p class="toc__title">İçindekiler</p>
+            <ol class="toc__list">
+              {toc.map((h) => (
+                <li>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )
+      }
+
       <div class:list={['prose', { dropcap: d.lead }]}>
         <slot />
       </div>
@@ -270,6 +306,42 @@ const jsonLd = {
 </BaseLayout>
 
 <style>
+  .toc {
+    margin: 0 0 2rem;
+    padding: 1rem 1.2rem;
+    background: var(--paper-100);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-2);
+  }
+  .toc__title {
+    font-family: var(--font-sans);
+    font-size: 0.74rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ink-mute);
+    margin-bottom: 0.6rem;
+  }
+  .toc__list {
+    margin: 0;
+    padding-left: 1.2rem;
+    display: grid;
+    gap: 0.4rem;
+  }
+  .toc__list li::marker {
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .toc__list a {
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+  .toc__list a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
   .article__head {
     padding-top: clamp(1.5rem, 1rem + 2vw, 3rem);
     text-align: left;

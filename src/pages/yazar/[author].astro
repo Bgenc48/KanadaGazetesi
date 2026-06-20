@@ -1,20 +1,29 @@
 ---
+import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { site } from '../../data/site';
 import {
   getAllAuthors,
   getArticlesByAuthor,
+  getAuthorMap,
   slugify,
   type Article,
+  type Author,
 } from '../../utils/format';
 
 export async function getStaticPaths() {
-  const authors = await getAllAuthors();
+  const [authors, authorMap] = await Promise.all([getAllAuthors(), getAuthorMap()]);
   const paths = await Promise.all(
     authors.map(async ({ author, count }) => ({
       params: { author: slugify(author) },
-      props: { author, count, articles: await getArticlesByAuthor(author) },
+      props: {
+        author,
+        count,
+        articles: await getArticlesByAuthor(author),
+        profile: authorMap.get(author) ?? null,
+      },
     })),
   );
   return paths;
@@ -24,11 +33,15 @@ interface Props {
   author: string;
   count: number;
   articles: Article[];
+  profile: Author | null;
 }
-const { author, count, articles } = Astro.props as Props;
+const { author, count, articles, profile } = Astro.props as Props;
 const slug = slugify(author);
-// Yazar unvanını en güncel yazıdan al (varsa)
-const authorTitle = articles.find((a) => a.data.authorTitle)?.data.authorTitle;
+// Rol/unvan: önce profil, sonra en güncel yazıdaki authorTitle
+const role =
+  profile?.data.role ?? articles.find((a) => a.data.authorTitle)?.data.authorTitle;
+const social = profile?.data.social;
+const Bio = profile ? (await render(profile)).Content : null;
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -36,8 +49,11 @@ const jsonLd = {
   mainEntity: {
     '@type': 'Person',
     name: author,
-    ...(authorTitle ? { jobTitle: authorTitle } : {}),
+    ...(role ? { jobTitle: role } : {}),
     url: new URL(`/yazar/${slug}`, site.url).href,
+    ...(social
+      ? { sameAs: [social.x, social.instagram, social.website].filter(Boolean) }
+      : {}),
   },
 };
 ---
@@ -54,10 +70,48 @@ const jsonLd = {
     set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')}
   />
 
+  <div class="wrap">
+    <Breadcrumbs
+      items={[
+        { label: 'Anasayfa', href: '/' },
+        { label: 'Yazarlar', href: '/yazarlar' },
+        { label: author },
+      ]}
+    />
+  </div>
+
   <header class="wrap authorhead">
     <p class="kicker">Yazar</p>
     <h1 class="authorhead__name">{author}</h1>
-    {authorTitle && <p class="authorhead__title">{authorTitle}</p>}
+    {role && <p class="authorhead__title">{role}</p>}
+    {
+      Bio && (
+        <div class="authorhead__bio">
+          <Bio />
+        </div>
+      )
+    }
+    {
+      social && (
+        <p class="authorhead__social meta">
+          {social.x && (
+            <a href={social.x} rel="me noopener" target="_blank">
+              X
+            </a>
+          )}
+          {social.instagram && (
+            <a href={social.instagram} rel="me noopener" target="_blank">
+              Instagram
+            </a>
+          )}
+          {social.website && (
+            <a href={social.website} rel="me noopener" target="_blank">
+              Web
+            </a>
+          )}
+        </p>
+      )
+    }
     <p class="authorhead__meta meta">
       {count} yazı · <a href="/yazarlar">tüm yazarlar</a>
     </p>
@@ -70,7 +124,7 @@ const jsonLd = {
 
 <style>
   .authorhead {
-    padding: clamp(1.8rem, 1.2rem + 2.5vw, 3.2rem) 0 0;
+    padding: clamp(1.4rem, 1rem + 2vw, 2.4rem) 0 0;
     border-bottom: 2px solid var(--ink);
     margin-bottom: clamp(1.6rem, 1.2rem + 1.5vw, 2.4rem);
   }
@@ -83,10 +137,27 @@ const jsonLd = {
     font-family: var(--font-sans);
     color: var(--ink-mute);
     font-size: var(--step--1);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
+  }
+  .authorhead__bio {
+    max-width: 60ch;
+    color: var(--ink-soft);
+    line-height: 1.6;
+  }
+  .authorhead__bio :global(a) {
+    text-decoration: underline;
+    text-decoration-color: var(--crimson);
+  }
+  .authorhead__social {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
   }
   .authorhead__meta {
-    padding-bottom: 1.2rem;
+    padding: 0.8rem 0 1.2rem;
   }
   .authorgrid {
     display: grid;

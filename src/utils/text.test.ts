@@ -7,6 +7,7 @@ import {
   readingTimeLabel,
   deriveExcerpt,
   slugify,
+  tableOfContents,
 } from './text';
 
 describe('formatDateTR', () => {
@@ -67,6 +68,26 @@ describe('deriveExcerpt', () => {
   });
   it('handles missing body gracefully', () => {
     expect(deriveExcerpt({ data: {} })).toBe('');
+  });
+});
+
+describe('tableOfContents', () => {
+  const headings = [
+    { depth: 1, slug: 'baslik', text: 'Başlık' },
+    { depth: 2, slug: 'a', text: 'A' },
+    { depth: 3, slug: 'a1', text: 'A1' },
+    { depth: 2, slug: 'b', text: 'B' },
+    { depth: 2, slug: 'c', text: 'C' },
+  ];
+  it('returns only the requested depth (h2) when above the threshold', () => {
+    const toc = tableOfContents(headings);
+    expect(toc.map((h) => h.slug)).toEqual(['a', 'b', 'c']);
+  });
+  it('returns empty below the minimum count', () => {
+    expect(tableOfContents(headings, 2, 4)).toEqual([]);
+  });
+  it('respects a custom depth', () => {
+    expect(tableOfContents(headings, 3, 1).map((h) => h.slug)).toEqual(['a1']);
   });
 });
 

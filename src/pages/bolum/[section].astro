@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Newsletter from '../../components/Newsletter.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { SECTIONS } from '../../content.config';
 import { getSection } from '../../data/sections';
 import { getArticlesBySection } from '../../utils/format';
@@ -21,6 +22,17 @@ const [feature, ...rest] = articles;
 ---
 
 <BaseLayout title={meta.name} description={meta.description} path={`/bolum/${meta.id}`}>
+  <link
+    slot="head"
+    rel="alternate"
+    type="application/rss+xml"
+    title={`${meta.name} — RSS`}
+    href={`/bolum/${meta.id}/rss.xml`}
+  />
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Anasayfa', href: '/' }, { label: meta.name }]} />
+  </div>
+
   <header class="wrap sectionhead" style={`--accent:${accent}`}>
     <p class="sectionhead__en">{meta.english}</p>
     <h1 class="sectionhead__title">{meta.name}</h1>

@@ -1,6 +1,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Article = CollectionEntry<'articles'>;
+export type Author = CollectionEntry<'authors'>;
 
 // Saf metin/tarih yardımcıları text.ts'te tutulur (test edilebilirlik için)
 // ve buradan yeniden dışa aktarılır; mevcut importlar bozulmaz.
@@ -12,6 +13,8 @@ export {
   readingTimeLabel,
   deriveExcerpt,
   slugify,
+  tableOfContents,
+  type TocHeading,
 } from './text';
 
 /** Tüm yayımlanmış yazılar, tarihe göre yeniden eskiye (gelecek tarihliler hariç) */
@@ -70,4 +73,15 @@ export async function getAllAuthors(): Promise<{ author: string; count: number }
 export async function getArticlesByAuthor(author: string): Promise<Article[]> {
   const all = await getPublishedArticles();
   return all.filter((a) => a.data.author === author);
+}
+
+/** Tüm yazar profillerini ada göre eşleyen bir harita döndürür. */
+export async function getAuthorMap(): Promise<Map<string, Author>> {
+  const authors = await getCollection('authors');
+  return new Map(authors.map((a) => [a.data.name, a]));
+}
+
+/** Bir yazar adına karşılık gelen profil (varsa). */
+export async function getAuthorProfile(name: string): Promise<Author | undefined> {
+  return (await getAuthorMap()).get(name);
 }
