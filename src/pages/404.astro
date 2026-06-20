@@ -9,13 +9,17 @@ import { sections } from '../data/sections';
     <h1 class="notfound__title">Bu sayfa yerinde yok</h1>
     <p class="notfound__lede">
       Aradığınız yazı taşınmış, kaldırılmış ya da hiç var olmamış olabilir.
-      Aşağıdaki bölümlerden devam edebilirsiniz.
+      <a href="/ara">Arama yapabilir</a> veya aşağıdaki bölümlerden devam edebilirsiniz.
     </p>
     <ul class="notfound__links">
       <li><a href="/">Anasayfa</a></li>
-      {sections.map((s) => (
-        <li><a href={`/bolum/${s.id}`}>{s.name}</a></li>
-      ))}
+      {
+        sections.map((s) => (
+          <li>
+            <a href={`/bolum/${s.id}`}>{s.name}</a>
+          </li>
+        ))
+      }
     </ul>
   </section>
 </BaseLayout>

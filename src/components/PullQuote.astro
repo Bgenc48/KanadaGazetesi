@@ -10,6 +10,7 @@ export interface Props {
 }
 const { cite, align = 'left', class: className } = Astro.props;
 ---
+
 <figure class:list={['kpq', `kpq--${align}`, className]}>
   <blockquote class="kpq__quote">
     {align === 'center' && <span class="kpq__mark">“</span>}
@@ -20,13 +21,18 @@ const { cite, align = 'left', class: className } = Astro.props;
 </figure>
 
 <style>
-  .kpq { margin: 1.6em 0; }
+  .kpq {
+    margin: 1.6em 0;
+  }
   .kpq--left {
     padding: 0.25rem 0 0.25rem 1.5rem;
     border-left: 3px solid var(--crimson-500);
     text-align: left;
   }
-  .kpq--center { text-align: center; padding: 0; }
+  .kpq--center {
+    text-align: center;
+    padding: 0;
+  }
   .kpq__quote {
     margin: 0;
     font-family: var(--font-display);
@@ -38,7 +44,10 @@ const { cite, align = 'left', class: className } = Astro.props;
     color: var(--ink-900);
     text-wrap: balance;
   }
-  .kpq__mark { color: var(--crimson-500); font-weight: var(--w-bold); }
+  .kpq__mark {
+    color: var(--crimson-500);
+    font-weight: var(--w-bold);
+  }
   .kpq__cite {
     margin-top: 0.6rem;
     font-family: var(--font-sans);

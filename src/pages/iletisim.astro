@@ -1,0 +1,40 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { site } from '../data/site';
+---
+
+<PageLayout
+  title="İletişim"
+  kicker="Bize ulaşın"
+  lede="Haber ipucu, görüş, düzeltme ve iş birliği için kapımız açık."
+  path="/iletisim"
+>
+  <h2>E-posta</h2>
+  <p>
+    Genel iletişim ve haber ipuçları için:
+    <a href={`mailto:${site.email}`}>{site.email}</a>
+  </p>
+
+  <h2>Haber ipucu</h2>
+  <p>
+    Kanada'daki Türk toplumunu ilgilendiren bir gelişme mi var? Belge, fotoğraf veya
+    tanıklığınızı bizimle paylaşın. Kaynaklarımızın gizliliğine saygı duyarız; talep
+    ederseniz adınızı yayımlamayız.
+  </p>
+
+  <h2>Düzeltme talebi</h2>
+  <p>
+    Bir yazımızda hata gördüyseniz <a href="/duzeltmeler">Düzeltmeler</a>
+    sayfamızdaki süreci izleyin. Şeffaf biçimde düzeltiriz.
+  </p>
+
+  <h2>Sosyal medya</h2>
+  <p>
+    <a href={site.social.instagram} rel="me noopener" target="_blank">Instagram</a>
+    · <a href={site.social.x} rel="me noopener" target="_blank">X</a>
+    · <a href={site.social.youtube} rel="me noopener" target="_blank">YouTube</a>
+  </p>
+
+  <h2>Şehirler</h2>
+  <p>{site.cities.join(' · ')}</p>
+</PageLayout>

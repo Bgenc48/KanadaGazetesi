@@ -8,6 +8,7 @@ export interface Props {
 }
 const { year = new Date().getFullYear() } = Astro.props;
 ---
+
 <footer class="footer">
   <div class="wrap">
     <hr class="rule--double" />
@@ -28,36 +29,44 @@ const { year = new Date().getFullYear() } = Astro.props;
       <nav class="footer__col" aria-label="Bölümler">
         <h3 class="footer__head">Bölümler</h3>
         <ul>
-          {sections.map((s) => (
-            <li><a href={`/bolum/${s.id}`}>{s.name}</a></li>
-          ))}
+          {
+            sections.map((s) => (
+              <li>
+                <a href={`/bolum/${s.id}`}>{s.name}</a>
+              </li>
+            ))
+          }
         </ul>
       </nav>
 
-      <nav class="footer__col" aria-label="Kurumsal">
+      <nav class="footer__col" aria-label="Gazete">
         <h3 class="footer__head">Gazete</h3>
         <ul>
           <li><a href="/hakkimizda">Hakkımızda</a></li>
+          <li><a href="/yazarlar">Yazarlar</a></li>
+          <li><a href="/etiketler">Etiketler</a></li>
+          <li><a href="/ara">Ara</a></li>
           <li><a href="/rss.xml">RSS</a></li>
-          <li><a href="/krediler">Foto Kaynakları</a></li>
-          <li><a href={`mailto:${site.email}`}>İletişim</a></li>
-          <li><a href="/hakkimizda#kunye">Künye</a></li>
         </ul>
       </nav>
 
-      <div class="footer__col footer__contact">
-        <h3 class="footer__head">İletişim</h3>
-        <p class="meta">Haber ipucu, görüş ve düzeltmeler için:</p>
-        <p><a href={`mailto:${site.email}`}>{site.email}</a></p>
-        <p class="meta footer__cities">{site.cities.join(' · ')}</p>
-      </div>
+      <nav class="footer__col" aria-label="Kurumsal ve yasal">
+        <h3 class="footer__head">Kurumsal</h3>
+        <ul>
+          <li><a href="/yayin-ilkeleri">Yayın İlkeleri</a></li>
+          <li><a href="/duzeltmeler">Düzeltmeler</a></li>
+          <li><a href="/gizlilik">Gizlilik</a></li>
+          <li><a href="/krediler">Foto Kaynakları</a></li>
+          <li><a href="/iletisim">İletişim</a></li>
+        </ul>
+      </nav>
     </div>
 
     <div class="footer__legal meta">
       <p>© {year} {site.name}. Bağımsız dijital yayın.</p>
       <p>
-        Buradaki göç, vergi ve hukuk bilgileri genel bilgilendirme amaçlıdır;
-        resmî kaynaklarla doğrulayın.
+        Buradaki göç, vergi ve hukuk bilgileri genel bilgilendirme amaçlıdır; resmî
+        kaynaklarla doğrulayın.
       </p>
     </div>
   </div>
@@ -82,7 +91,9 @@ const { year = new Date().getFullYear() } = Astro.props;
     font-weight: 700;
     font-size: 1.3rem;
   }
-  .footer__mark:hover { text-decoration: none; }
+  .footer__mark:hover {
+    text-decoration: none;
+  }
   .footer__desc {
     margin-top: 0.9rem;
     max-width: 44ch;
@@ -118,7 +129,9 @@ const { year = new Date().getFullYear() } = Astro.props;
     font-size: var(--step--1);
     color: var(--ink-soft);
   }
-  .footer__col a:hover { color: var(--ink); }
+  .footer__col a:hover {
+    color: var(--ink);
+  }
   .footer__cities {
     margin-top: 1rem;
     line-height: 1.7;

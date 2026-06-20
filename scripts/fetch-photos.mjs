@@ -53,7 +53,10 @@ function parseArgs(argv) {
       const key = a.slice(2);
       const next = argv[i + 1];
       if (next === undefined || next.startsWith('--')) out[key] = true;
-      else { out[key] = next; i++; }
+      else {
+        out[key] = next;
+        i++;
+      }
     } else out._.push(a);
   }
   return out;
@@ -69,12 +72,14 @@ function acceptable(c, minWidth) {
 
 /** Manzara (yatay) ve yeterince büyük olanları öne al. */
 function rankCandidates(list, minWidth) {
-  return [...list].sort((a, b) => {
-    const la = a.width && a.height ? (a.width >= a.height ? 1 : 0) : 0;
-    const lb = b.width && b.height ? (b.width >= b.height ? 1 : 0) : 0;
-    if (la !== lb) return lb - la;
-    return (b.width || 0) - (a.width || 0);
-  }).filter((c) => acceptable(c, minWidth));
+  return [...list]
+    .sort((a, b) => {
+      const la = a.width && a.height ? (a.width >= a.height ? 1 : 0) : 0;
+      const lb = b.width && b.height ? (b.width >= b.height ? 1 : 0) : 0;
+      if (la !== lb) return lb - la;
+      return (b.width || 0) - (a.width || 0);
+    })
+    .filter((c) => acceptable(c, minWidth));
 }
 
 async function findPhoto(query, { order, env, limit, minWidth, log }) {
@@ -134,7 +139,13 @@ async function main() {
   let fail = 0;
   for (const item of work) {
     log(`▶ ${item.slug}\n    sorgu: "${item.query}"`);
-    const candidate = await findPhoto(item.query, { order, env: process.env, limit, minWidth, log });
+    const candidate = await findPhoto(item.query, {
+      order,
+      env: process.env,
+      limit,
+      minWidth,
+      log,
+    });
     if (!candidate) {
       log(`    ✗ uygun fotoğraf bulunamadı\n`);
       fail++;
@@ -144,7 +155,9 @@ async function main() {
     const outPath = path.join(IMAGES, `${item.slug}.jpg`);
 
     if (dry) {
-      log(`    [dry] ${candidate.provider} · ${candidate.license} · ${candidate.author || '—'}`);
+      log(
+        `    [dry] ${candidate.provider} · ${candidate.license} · ${candidate.author || '—'}`,
+      );
       log(`    [dry] ${candidate.imageUrl}\n    [dry] → ${outFile}\n`);
       ok++;
       continue;
@@ -186,7 +199,9 @@ async function main() {
       log(
         `    ✓ ${candidate.provider} · ${candidate.license || '—'} · ${candidate.author || '—'}`,
       );
-      log(`      → ${outFile} (${info.width}×${info.height}, ${Math.round(info.bytes / 1024)} KB)\n`);
+      log(
+        `      → ${outFile} (${info.width}×${info.height}, ${Math.round(info.bytes / 1024)} KB)\n`,
+      );
       ok++;
     } catch (err) {
       log(`    ✗ ${err.message}\n`);

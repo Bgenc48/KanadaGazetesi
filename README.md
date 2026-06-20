@@ -19,6 +19,25 @@ npm run preview  # derlemeyi yerelde önizle
 
 Gereksinim: **Node 20+**.
 
+## Kalite ve testler
+
+```bash
+npm run lint        # ESLint
+npm run format      # Prettier ile biçimlendir (format:check ile doğrula)
+npm run typecheck   # astro check (TypeScript)
+npm test            # Vitest birim testleri
+npm run check       # lint + typecheck + test (hepsi bir arada)
+```
+
+Tüm bu kontroller her PR'da GitHub Actions ile (Node 20 ve 22) çalışır.
+`npm run build`, üretim derlemesinden sonra **Pagefind** arama indeksini
+otomatik üretir (`postbuild`). Site içi arama `/ara` adresinde sunulur.
+
+Öne çıkan okur/SEO özellikleri: karanlık tema (otomatik + manuel), etiket
+(`/etiketler`) ve yazar (`/yazarlar`) arşivleri, yapısal veri (NewsArticle,
+BreadcrumbList, Organization), PWA manifesti ve yayın ilkeleri/gizlilik/
+düzeltme sayfaları.
+
 ## Proje yapısı
 
 ```
@@ -47,18 +66,18 @@ public/images/            # kahraman görseller (SVG) + OG/favicon
 
 ```yaml
 ---
-title: "Başlık"
-deck: "Manşet altı / spot cümle"
-section: "goc-ve-yerlesim"   # goc-ve-yerlesim | toplum | turkiye-kanada | yasam | rehber
-author: "Göç Masası"
+title: 'Başlık'
+deck: 'Manşet altı / spot cümle'
+section: 'goc-ve-yerlesim' # goc-ve-yerlesim | toplum | turkiye-kanada | yasam | rehber
+author: 'Göç Masası'
 pubDate: 2026-06-13
-heroImage: "/images/ornek.svg"   # opsiyonel — yoksa zarif renkli alan gösterilir
-heroAlt: "Görsel açıklaması"
-excerpt: "Kart ve liste için kısa özet"
-tags: ["etiket1", "etiket2"]
-featured: true     # bölüm akışında öne çıkar
-lead: false        # ana sayfa manşeti (tek yazıda true olmalı)
-advisory: true     # resmî bilgi içeren yazılarda uyarı kutusu gösterir
+heroImage: '/images/ornek.svg' # opsiyonel — yoksa zarif renkli alan gösterilir
+heroAlt: 'Görsel açıklaması'
+excerpt: 'Kart ve liste için kısa özet'
+tags: ['etiket1', 'etiket2']
+featured: true # bölüm akışında öne çıkar
+lead: false # ana sayfa manşeti (tek yazıda true olmalı)
+advisory: true # resmî bilgi içeren yazılarda uyarı kutusu gösterir
 ---
 ```
 

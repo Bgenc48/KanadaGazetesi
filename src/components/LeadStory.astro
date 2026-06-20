@@ -15,19 +15,36 @@ const meta = getSection(section);
 const accent = meta ? `var(${meta.accent})` : 'var(--crimson)';
 const excerpt = deck ?? deriveExcerpt(article, 240);
 ---
+
 <article class="lead">
   <a class="lead__media" href={href} tabindex="-1" aria-hidden="true">
-    {heroImage ? (
-      <img src={heroImage} alt={heroAlt ?? ''} fetchpriority="high" decoding="async" />
-    ) : (
-      <span class="lead__media-empty">
-        <svg viewBox="0 0 100 100" width="22%" aria-hidden="true">
-          <mask id={`kglead-${article.id}`}><rect width="100" height="100" fill="#fff" /><circle cx="63" cy="50" r="24.5" fill="#000" /></mask>
-          <circle cx="50" cy="50" r="31" fill="currentColor" mask={`url(#kglead-${article.id})`} />
-          <polygon fill="currentColor" points="72,40 74.35,46.76 81.51,46.91 75.80,51.24 77.88,58.09 72,54 66.12,58.09 68.20,51.24 62.49,46.91 69.65,46.76" />
-        </svg>
-      </span>
-    )}
+    {
+      heroImage ? (
+        <img src={heroImage} alt={heroAlt ?? ''} fetchpriority="high" decoding="async" />
+      ) : (
+        <span class="lead__media-empty">
+          <svg viewBox="0 0 100 100" width="22%" aria-hidden="true">
+            <mask id={`kglead-${article.id}`}>
+              <>
+                <rect width="100" height="100" fill="#fff" />
+                <circle cx="63" cy="50" r="24.5" fill="#000" />
+              </>
+            </mask>
+            <circle
+              cx="50"
+              cy="50"
+              r="31"
+              fill="currentColor"
+              mask={`url(#kglead-${article.id})`}
+            />
+            <polygon
+              fill="currentColor"
+              points="72,40 74.35,46.76 81.51,46.91 75.80,51.24 77.88,58.09 72,54 66.12,58.09 68.20,51.24 62.49,46.91 69.65,46.76"
+            />
+          </svg>
+        </span>
+      )
+    }
     {heroCredit && <span class="lead__credit">{heroCredit}</span>}
   </a>
 
@@ -62,7 +79,9 @@ const excerpt = deck ?? deriveExcerpt(article, 240);
     filter: saturate(0.92) contrast(1.02);
     transition: transform 0.6s var(--ease-out);
   }
-  .lead:hover .lead__media img { transform: scale(1.02); }
+  .lead:hover .lead__media img {
+    transform: scale(1.02);
+  }
   .lead__media-empty {
     display: flex;
     align-items: center;
@@ -72,10 +91,17 @@ const excerpt = deck ?? deriveExcerpt(article, 240);
     border: 1px solid var(--ink-100);
     border-radius: var(--radius-2);
     background:
-      repeating-linear-gradient(135deg, rgba(22, 18, 13, 0.035) 0 1px, transparent 1px 7px),
+      repeating-linear-gradient(
+        135deg,
+        rgba(22, 18, 13, 0.035) 0 1px,
+        transparent 1px 7px
+      ),
       linear-gradient(160deg, var(--paper-200), var(--paper-300));
   }
-  .lead__media-empty svg { max-width: 110px; opacity: 0.5; }
+  .lead__media-empty svg {
+    max-width: 110px;
+    opacity: 0.5;
+  }
   .lead__credit {
     position: absolute;
     right: 0.5rem;

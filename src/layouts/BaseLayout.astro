@@ -31,6 +31,37 @@ const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${site
 const canonical = new URL(path, site.url).href;
 const ogImage = new URL(image, site.url).href;
 const year = new Date().getFullYear();
+
+// Site geneli yapısal veri: kuruluş + arama eylemi (Google sitelinks search box)
+const orgJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'NewsMediaOrganization',
+      '@id': `${site.url}/#organization`,
+      name: site.name,
+      url: site.url,
+      logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', site.url).href },
+      sameAs: Object.values(site.social),
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${site.url}/#website`,
+      url: site.url,
+      name: site.name,
+      inLanguage: 'tr-CA',
+      publisher: { '@id': `${site.url}/#organization` },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${site.url}/ara?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+  ],
+};
 ---
 
 <!doctype html>
@@ -39,13 +70,30 @@ const year = new Date().getFullYear();
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
+
+    <!-- Tema: boyamadan önce data-theme ayarla (FOUC önlenir) -->
+    <script is:inline>
+      (function () {
+        try {
+          const stored = localStorage.getItem('theme');
+          const dark = stored
+            ? stored === 'dark'
+            : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        } catch {
+          /* localStorage erişilemezse varsayılan tema kullanılır */
+        }
+      })();
+    </script>
+
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <meta name="theme-color" content="#c1121f" />
+    <meta name="theme-color" content="#b41e26" />
 
-    <!-- İkon -->
+    <!-- İkon & PWA -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph -->
     <meta property="og:site_name" content={site.name} />
@@ -76,6 +124,13 @@ const year = new Date().getFullYear();
       type="application/rss+xml"
       title={`${site.name} — RSS`}
       href="/rss.xml"
+    />
+
+    <!-- Site geneli yapısal veri -->
+    <script
+      is:inline
+      type="application/ld+json"
+      set:html={JSON.stringify(orgJsonLd).replace(/</g, '\\u003c')}
     />
 
     <slot name="head" />

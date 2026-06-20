@@ -13,12 +13,34 @@
     "new": "node scripts/new-article.mjs",
     "photos": "node scripts/fetch-photos.mjs",
     "photos:force": "node scripts/fetch-photos.mjs --force",
-    "publish": "node scripts/fetch-photos.mjs && astro build"
+    "publish": "node scripts/fetch-photos.mjs && astro build",
+    "postbuild": "pagefind --site dist",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "astro check",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run lint && npm run typecheck && npm run test"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
     "astro": "^5.6.1",
     "sharp": "^0.35.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.5.0",
+    "eslint-plugin-astro": "^1.7.0",
+    "globals": "^17.6.0",
+    "pagefind": "^1.5.2",
+    "prettier": "^3.8.4",
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.61.1",
+    "vitest": "^4.1.9"
   }
 }

@@ -17,12 +17,12 @@ alanlarını günceller. Atıf bilgisi `src/data/photo-credits.json`'a yazılır
 
 Sıra `scripts/lib/config.mjs` içindeki `providerOrder()` ile belirlenir:
 
-| Sağlayıcı | Anahtar | Lisans | Not |
-| --- | --- | --- | --- |
-| **Pexels** | `PEXELS_API_KEY` | Pexels License (atıf zorunlu değil) | Varsa ilk tercih |
-| **Unsplash** | `UNSPLASH_ACCESS_KEY` | Unsplash License | İndirme tetikleyici + UTM atıf otomatik |
-| **Openverse** | yok | yalnız `commercial,modification` (CC0/PDM/BY/BY-SA) | **Varsayılan, anahtarsız** |
-| **Wikimedia Commons** | yok | istemcide süzülür (NC/ND reddedilir) | Simge yapılar için ideal |
+| Sağlayıcı             | Anahtar               | Lisans                                              | Not                                     |
+| --------------------- | --------------------- | --------------------------------------------------- | --------------------------------------- |
+| **Pexels**            | `PEXELS_API_KEY`      | Pexels License (atıf zorunlu değil)                 | Varsa ilk tercih                        |
+| **Unsplash**          | `UNSPLASH_ACCESS_KEY` | Unsplash License                                    | İndirme tetikleyici + UTM atıf otomatik |
+| **Openverse**         | yok                   | yalnız `commercial,modification` (CC0/PDM/BY/BY-SA) | **Varsayılan, anahtarsız**              |
+| **Wikimedia Commons** | yok                   | istemcide süzülür (NC/ND reddedilir)                | Simge yapılar için ideal                |
 
 > Varsayılan olarak **anahtarsız** Openverse + Wikimedia kullanılır — hiçbir
 > kurulum gerekmez. Pexels/Unsplash anahtarı eklerseniz onlar öncelik kazanır.
@@ -69,11 +69,13 @@ UNSPLASH_ACCESS_KEY=...
 Statik site **GitHub Pages**'e iki iş akışıyla yayınlanır:
 
 ### `.github/workflows/deploy.yml`
+
 - Tetikleyici: `main`'e push, elle (`workflow_dispatch`) ve **"Refresh Photos"
   tamamlanınca** (`workflow_run`).
 - `withastro/action@v6` ile derler, `actions/deploy-pages@v5` ile yayınlar.
 
 ### `.github/workflows/refresh-photos.yml`
+
 - Tetikleyici: her **Pazartesi 06:00 UTC** (cron) + elle.
 - Anahtarsız olarak `node scripts/fetch-photos.mjs` çalıştırır, değişen
   dosyaları (`public/images`, `src/content`, `src/data`) commit'leyip push'lar.

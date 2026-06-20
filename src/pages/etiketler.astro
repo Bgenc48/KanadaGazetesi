@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllTags, slugify } from '../utils/format';
+
+const tags = await getAllTags();
+// En çok kullanılan etikete göre yazı tipi boyutu (etiket bulutu)
+const max = tags.length ? tags[0].count : 1;
+const min = tags.length ? tags[tags.length - 1].count : 1;
+const scale = (n: number) => {
+  if (max === min) return 1.05;
+  return 0.9 + ((n - min) / (max - min)) * 0.9; // 0.9rem–1.8rem
+};
+---
+
+<BaseLayout
+  title="Etiketler"
+  description="Kanada Gazetesi'ndeki tüm konu etiketleri."
+  path="/etiketler"
+>
+  <header class="wrap taglisthead">
+    <p class="kicker">Dizin</p>
+    <h1>Etiketler</h1>
+    <p class="meta">{tags.length} konu başlığı</p>
+  </header>
+
+  <div class="wrap tagcloud">
+    {
+      tags.map(({ tag, count }) => (
+        <a
+          class="tagcloud__item"
+          href={`/etiket/${slugify(tag)}`}
+          style={`font-size:${scale(count)}rem`}
+        >
+          <span class="tagcloud__hash">#</span>
+          {tag}
+          <span class="tagcloud__count">{count}</span>
+        </a>
+      ))
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .taglisthead {
+    padding: clamp(1.8rem, 1.2rem + 2.5vw, 3.2rem) 0 1.2rem;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 1.8rem;
+  }
+  .tagcloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem 1rem;
+    align-items: baseline;
+    padding-bottom: 2rem;
+  }
+  .tagcloud__item {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--ink-soft);
+    border-bottom: 1px solid transparent;
+  }
+  .tagcloud__item:hover {
+    color: var(--crimson);
+    text-decoration: none;
+    border-bottom-color: var(--crimson);
+  }
+  .tagcloud__hash {
+    color: var(--crimson-500);
+  }
+  .tagcloud__count {
+    font-size: 0.7em;
+    color: var(--ink-mute);
+    vertical-align: super;
+    margin-left: 0.1em;
+  }
+</style>

@@ -16,67 +16,71 @@ const established = site.founded;
       <p class="kicker">Hakkımızda</p>
       <h1 class="about__title">Neden bir Kanada Türk gazetesi?</h1>
       <p class="about__lede">
-        Kanada, on yıllardır Türkiye’den gelen ailelerin, öğrencilerin ve
-        profesyonellerin yeni bir hayat kurduğu bir ülke. Toronto’dan
-        Montréal’e, Vancouver’dan Calgary’ye uzanan büyük bir Türk topluluğu var.
-        Ama bu topluluğun kendi dilinde güvenebileceği, derli toplu tek bir
-        yayını yoktu. <strong>Kanada Gazetesi</strong> bu boşluğu doldurmak için kuruldu.
+        Kanada, on yıllardır Türkiye’den gelen ailelerin, öğrencilerin ve profesyonellerin
+        yeni bir hayat kurduğu bir ülke. Toronto’dan Montréal’e, Vancouver’dan Calgary’ye
+        uzanan büyük bir Türk topluluğu var. Ama bu topluluğun kendi dilinde
+        güvenebileceği, derli toplu tek bir yayını yoktu. <strong>Kanada Gazetesi</strong> bu
+        boşluğu doldurmak için kuruldu.
       </p>
     </header>
 
     <div class="about__body">
       <p>
-        Toronto’da bir kira sözleşmesinin önünde, Montréal’de bir sağlık kartı
-        kuyruğunda, Ottawa’da bir vatandaşlık başvurusunda, Vancouver’da bir
-        diploma denkliği sürecinde aynı soruların yanıtı aranıyor: Oturum nasıl
-        alınır? Sağlık kartım ne zaman aktifleşir? Kredi skorumu nasıl kurarım?
-        Çocuğuma Türkçeyi nasıl korurum? Bu sorular tek tek WhatsApp gruplarında,
-        kulaktan kulağa dolaşıyor — çoğu zaman eksik, bazen yanlış yanıtlarla.
+        Toronto’da bir kira sözleşmesinin önünde, Montréal’de bir sağlık kartı kuyruğunda,
+        Ottawa’da bir vatandaşlık başvurusunda, Vancouver’da bir diploma denkliği
+        sürecinde aynı soruların yanıtı aranıyor: Oturum nasıl alınır? Sağlık kartım ne
+        zaman aktifleşir? Kredi skorumu nasıl kurarım? Çocuğuma Türkçeyi nasıl korurum? Bu
+        sorular tek tek WhatsApp gruplarında, kulaktan kulağa dolaşıyor — çoğu zaman
+        eksik, bazen yanlış yanıtlarla.
       </p>
 
       <p>
         Biz bu dağınık bilgiyi <strong>derli toplu, doğrulanmış ve kalıcı</strong>
-        bir gazeteciliğe dönüştürmek istiyoruz. Haberi günü kurtarmak için değil,
-        yıllarca işe yarasın diye yazıyoruz.
+        bir gazeteciliğe dönüştürmek istiyoruz. Haberi günü kurtarmak için değil, yıllarca işe
+        yarasın diye yazıyoruz.
       </p>
 
       <h2>Ne yapıyoruz?</h2>
       <p>Gazetemiz beş bölümde yayın yapıyor:</p>
       <ul>
-        {sections.map((s) => (
-          <li>
-            <a href={`/bolum/${s.id}`}><strong>{s.name}</strong></a> — {s.description}
-          </li>
-        ))}
+        {
+          sections.map((s) => (
+            <li>
+              <a href={`/bolum/${s.id}`}>
+                <strong>{s.name}</strong>
+              </a>{' '}
+              — {s.description}
+            </li>
+          ))
+        }
       </ul>
 
       <h2>Değerlerimiz</h2>
       <ul>
         <li>
-          <strong>Bağımsızlık.</strong> Hiçbir kurumun, şirketin ya da hükümetin
-          sözcüsü değiliz. Tek taahhüdümüz okurumuza.
+          <strong>Bağımsızlık.</strong> Hiçbir kurumun, şirketin ya da hükümetin sözcüsü değiliz.
+          Tek taahhüdümüz okurumuza.
         </li>
         <li>
-          <strong>Doğruluk.</strong> Resmî işlemlere dair her bilginin kaynağını
-          gösterir, değişen kuralları açıkça belirtir ve okuru daima IRCC, CRA ve
-          eyalet makamları gibi resmî kaynaklardan teyit almaya yönlendiririz.
+          <strong>Doğruluk.</strong> Resmî işlemlere dair her bilginin kaynağını gösterir, değişen
+          kuralları açıkça belirtir ve okuru daima IRCC, CRA ve eyalet makamları gibi resmî
+          kaynaklardan teyit almaya yönlendiririz.
         </li>
         <li>
-          <strong>Fayda.</strong> Süslü değil, işe yarar yazarız. İyi bir yazı,
-          okuyanın ertesi gün bir adım atmasını sağlar.
+          <strong>Fayda.</strong> Süslü değil, işe yarar yazarız. İyi bir yazı, okuyanın ertesi
+          gün bir adım atmasını sağlar.
         </li>
         <li>
-          <strong>İki kültürlü bakış.</strong> Hem Türkiye’yi hem Kanada’yı
-          tanıyan bir gözle yazıyoruz; ne köklerinizi unutturmaya, ne de yeni
-          ülkenize yabancılaştırmaya çalışıyoruz.
+          <strong>İki kültürlü bakış.</strong> Hem Türkiye’yi hem Kanada’yı tanıyan bir gözle
+          yazıyoruz; ne köklerinizi unutturmaya, ne de yeni ülkenize yabancılaştırmaya çalışıyoruz.
         </li>
       </ul>
 
       <h2>Bir düzeltme mi var? Bir ipucu mu?</h2>
       <p>
-        Gazetecilik, okurla birlikte yapılır. Bir bilgi eksikse, bir gelişme
-        gözümüzden kaçtıysa ya da Kanada’nın bir köşesinden anlatılmaya değer bir
-        hikâye biliyorsanız bize yazın:
+        Gazetecilik, okurla birlikte yapılır. Bir bilgi eksikse, bir gelişme gözümüzden
+        kaçtıysa ya da Kanada’nın bir köşesinden anlatılmaya değer bir hikâye biliyorsanız
+        bize yazın:
         <a href={`mailto:${site.email}`}>{site.email}</a>.
       </p>
     </div>
@@ -89,20 +93,23 @@ const established = site.founded;
         <div><dt>Kuruluş</dt><dd>{established}</dd></div>
         <div><dt>Yayın türü</dt><dd>Bağımsız dijital gazete</dd></div>
         <div><dt>Dil</dt><dd>Türkçe</dd></div>
-        <div><dt>İletişim</dt><dd><a href={`mailto:${site.email}`}>{site.email}</a></dd></div>
+        <div>
+          <dt>İletişim</dt><dd><a href={`mailto:${site.email}`}>{site.email}</a></dd>
+        </div>
         <div>
           <dt>Sosyal</dt>
           <dd>
-            <a href={site.social.instagram} rel="me noopener" target="_blank">Instagram</a> ·
+            <a href={site.social.instagram} rel="me noopener" target="_blank">Instagram</a
+            > ·
             <a href={site.social.x} rel="me noopener" target="_blank">X</a> ·
             <a href={site.social.youtube} rel="me noopener" target="_blank">YouTube</a>
           </dd>
         </div>
       </dl>
       <p class="kunye__note meta">
-        Buradaki göç, vergi ve hukuk bilgileri genel bilgilendirme amaçlıdır;
-        resmî danışmanlık yerine geçmez. Başvuru yapmadan önce IRCC, CRA ve
-        eyalet makamları gibi resmî kaynaklardan teyit alın.
+        Buradaki göç, vergi ve hukuk bilgileri genel bilgilendirme amaçlıdır; resmî
+        danışmanlık yerine geçmez. Başvuru yapmadan önce IRCC, CRA ve eyalet makamları
+        gibi resmî kaynaklardan teyit alın.
       </p>
     </aside>
   </article>

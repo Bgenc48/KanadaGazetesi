@@ -8,7 +8,7 @@ on:
   # (Yerleşik GITHUB_TOKEN ile yapılan push `on: push`'u TETİKLEMEZ; bu yüzden
   #  "Refresh Photos" iş akışının tamamlanmasına bağlanıyoruz.)
   workflow_run:
-    workflows: ["Refresh Photos"]
+    workflows: ['Refresh Photos']
     types: [completed]
     branches: [main]
 

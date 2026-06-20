@@ -20,11 +20,7 @@ const accent = `var(${meta.accent})`;
 const [feature, ...rest] = articles;
 ---
 
-<BaseLayout
-  title={meta.name}
-  description={meta.description}
-  path={`/bolum/${meta.id}`}
->
+<BaseLayout title={meta.name} description={meta.description} path={`/bolum/${meta.id}`}>
   <header class="wrap sectionhead" style={`--accent:${accent}`}>
     <p class="sectionhead__en">{meta.english}</p>
     <h1 class="sectionhead__title">{meta.name}</h1>
@@ -34,9 +30,7 @@ const [feature, ...rest] = articles;
   <div class="wrap">
     {
       articles.length === 0 ? (
-        <p class="sectionempty">
-          Bu bölümde henüz yazı yok. İlk yazılar çok yakında.
-        </p>
+        <p class="sectionempty">Bu bölümde henüz yazı yok. İlk yazılar çok yakında.</p>
       ) : (
         <div class="sectiongrid">
           {feature && (

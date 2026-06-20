@@ -8,7 +8,11 @@ export interface Props {
 }
 const { compact = false } = Astro.props;
 ---
-<section class:list={['newsletter', { 'newsletter--compact': compact }]} aria-labelledby="nl-title">
+
+<section
+  class:list={['newsletter', { 'newsletter--compact': compact }]}
+  aria-labelledby="nl-title"
+>
   <div class="newsletter__inner">
     <div class="newsletter__copy">
       <p class="kicker">Haftalık Bülten</p>
@@ -16,8 +20,8 @@ const { compact = false } = Astro.props;
         Kanada’daki Türk hayatına dair her şey, her Pazar gelen kutunuzda.
       </h2>
       <p class="newsletter__sub">
-        Göç haberleri, topluluk etkinlikleri ve işe yarar rehberler.
-        Spam yok, reklam yok; istediğiniz an çıkabilirsiniz.
+        Göç haberleri, topluluk etkinlikleri ve işe yarar rehberler. Spam yok, reklam yok;
+        istediğiniz an çıkabilirsiniz.
       </p>
     </div>
     <form class="newsletter__form" method="post" action="#" novalidate>

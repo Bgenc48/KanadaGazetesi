@@ -9,16 +9,26 @@ export const HERO_QUALITY = 82;
  * NC (gayri-ticari) ve ND (türev yasak) lisansları KABUL ETMEYİZ.
  */
 export const ALLOWED_LICENSES = new Set([
-  'cc0', 'pdm', 'pd', 'public domain',
-  'by', 'cc-by', 'cc by',
-  'by-sa', 'cc-by-sa', 'cc by-sa',
-  'pexels', 'unsplash',
+  'cc0',
+  'pdm',
+  'pd',
+  'public domain',
+  'by',
+  'cc-by',
+  'cc by',
+  'by-sa',
+  'cc-by-sa',
+  'cc by-sa',
+  'pexels',
+  'unsplash',
 ]);
 
 /** Sağlayıcı sırası: anahtarsız olanlar önce; anahtar varsa eklenir. */
 export function providerOrder(env = process.env) {
   if (env.PHOTO_PROVIDERS) {
-    return env.PHOTO_PROVIDERS.split(',').map((s) => s.trim()).filter(Boolean);
+    return env.PHOTO_PROVIDERS.split(',')
+      .map((s) => s.trim())
+      .filter(Boolean);
   }
   const order = [];
   if (env.PEXELS_API_KEY) order.push('pexels');
@@ -32,7 +42,12 @@ export function providerOrder(env = process.env) {
 export function isLicenseAllowed(license) {
   if (!license) return false;
   const l = String(license).toLowerCase();
-  if (l.includes('nc') || l.includes('noncommercial') || l.includes('nd') || l.includes('noderiv')) {
+  if (
+    l.includes('nc') ||
+    l.includes('noncommercial') ||
+    l.includes('nd') ||
+    l.includes('noderiv')
+  ) {
     return false;
   }
   for (const ok of ALLOWED_LICENSES) {

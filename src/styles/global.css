@@ -7,29 +7,29 @@
 
 :root {
   /* ── Mürekkep (sıcak siyaha yakın → griler) ── */
-  --ink-900: #16120d;   /* manşet, ana metin */
+  --ink-900: #16120d; /* manşet, ana metin */
   --ink-800: #241e17;
-  --ink-700: #3d352b;   /* gövde metni */
+  --ink-700: #3d352b; /* gövde metni */
   --ink-600: #574d40;
-  --ink-500: #6f6557;   /* ikincil metin */
+  --ink-500: #6f6557; /* ikincil metin */
   --ink-400: #948877;
-  --ink-300: #b8ac99;   /* koyu üstü ince çizgi, pasif */
-  --ink-200: #d8cebc;   /* çizgi, kenarlık */
-  --ink-100: #ece3d2;   /* ince ayraç */
+  --ink-300: #b8ac99; /* koyu üstü ince çizgi, pasif */
+  --ink-200: #d8cebc; /* çizgi, kenarlık */
+  --ink-100: #ece3d2; /* ince ayraç */
 
   /* ── Kâğıt (sıcak gazete) ── */
   --paper-000: #ffffff;
-  --paper-050: #fbf8f1;  /* ana sayfa yüzeyi */
-  --paper-100: #f5efe2;  /* girintili yüzey / kartlar */
-  --paper-200: #ece3d2;  /* tint blokları */
+  --paper-050: #fbf8f1; /* ana sayfa yüzeyi */
+  --paper-100: #f5efe2; /* girintili yüzey / kartlar */
+  --paper-200: #ece3d2; /* tint blokları */
   --paper-300: #e2d6bf;
 
   /* ── Kızıl (marka aksanı — Türk kırmızısı + Kanada kırmızısı) ── */
-  --crimson-700: #7c1518;  /* basılı / derin */
-  --crimson-600: #9a1b21;  /* hover */
-  --crimson-500: #b41e26;  /* marka birincil */
+  --crimson-700: #7c1518; /* basılı / derin */
+  --crimson-600: #9a1b21; /* hover */
+  --crimson-500: #b41e26; /* marka birincil */
   --crimson-400: #c8434a;
-  --crimson-100: #f3dcdd;  /* tint arka plan */
+  --crimson-100: #f3dcdd; /* tint arka plan */
 
   /* ── Pirinç (premium / aboneye özel — az kullanılır) ── */
   --brass-600: #8a6d3b;
@@ -37,9 +37,9 @@
   --brass-100: #efe6d3;
 
   /* ── Editoryal işlevsel aksanlar ── */
-  --ivy-600:  #2f5d4a;   /* kültür / başarı */
-  --slate-600:#324a63;   /* ekonomi / bilgi */
-  --amber-600:#9c6a1f;   /* uyarı */
+  --ivy-600: #2f5d4a; /* kültür / başarı */
+  --slate-600: #324a63; /* ekonomi / bilgi */
+  --amber-600: #9c6a1f; /* uyarı */
 
   /* ── Anlamsal takmalar ── */
   --text-strong: var(--ink-900);
@@ -78,10 +78,10 @@
   --fs-d1: clamp(2.2rem, 1.5rem + 3vw, 3.6rem);
   --fs-d2: clamp(1.7rem, 1.3rem + 1.8vw, 2.5rem);
   --fs-d3: clamp(1.35rem, 1.15rem + 1vw, 1.75rem);
-  --fs-lead: 1.3125rem;  /* 21px */
-  --fs-body: 1.0625rem;  /* 17px */
+  --fs-lead: 1.3125rem; /* 21px */
+  --fs-body: 1.0625rem; /* 17px */
   --fs-small: 0.9375rem; /* 15px */
-  --fs-micro: 0.75rem;   /* 12px */
+  --fs-micro: 0.75rem; /* 12px */
 
   --lh-tight: 1.04;
   --lh-snug: 1.18;
@@ -103,25 +103,25 @@
   --space-8: 4rem;
   --space-9: 6rem;
 
-  --measure: 38rem;          /* ideal okuma sütunu ~66ch */
-  --content-max: 75rem;      /* sayfa içerik genişliği */
+  --measure: 38rem; /* ideal okuma sütunu ~66ch */
+  --content-max: 75rem; /* sayfa içerik genişliği */
   --gutter: clamp(1rem, 0.6rem + 2vw, 2.5rem);
   --max-w: var(--content-max);
 
   /* ── Köşeler (baskı duyarlılığı — keskin) ── */
   --radius-0: 0;
-  --radius-1: 2px;     /* girdi, çip */
-  --radius-2: 4px;     /* kart, düğme */
+  --radius-1: 2px; /* girdi, çip */
+  --radius-2: 4px; /* kart, düğme */
   --radius-pill: 999px;
   --radius: var(--radius-2);
 
   --hair: 1px;
-  --rule-thick: 3px;   /* manşet çift çizgi ağırlığı */
+  --rule-thick: 3px; /* manşet çift çizgi ağırlığı */
 
   /* ── Gölge (yumuşak, kâğıt; çizgilere yaslanırız) ── */
   --shadow-xs: 0 1px 2px rgba(22, 18, 13, 0.06);
   --shadow-sm: 0 1px 3px rgba(22, 18, 13, 0.08), 0 1px 2px rgba(22, 18, 13, 0.04);
-  --shadow-md: 0 4px 14px rgba(22, 18, 13, 0.10), 0 1px 3px rgba(22, 18, 13, 0.06);
+  --shadow-md: 0 4px 14px rgba(22, 18, 13, 0.1), 0 1px 3px rgba(22, 18, 13, 0.06);
   --shadow-lg: 0 18px 48px rgba(22, 18, 13, 0.16), 0 4px 12px rgba(22, 18, 13, 0.08);
 
   /* ── Hareket ── */
@@ -156,11 +156,61 @@
   --step-5: var(--fs-mast);
 
   /* Bölüm vurguları (yalnız kicker/çizgi tonu — büyük alan değil) */
-  --accent-goc: var(--slate-600);    /* göç & yerleşim — slate */
-  --accent-toplum: var(--ivy-600);   /* toplum — ivy */
-  --accent-tk: var(--crimson-500);   /* türkiye–kanada — kızıl */
-  --accent-yasam: var(--amber-600);  /* yaşam — amber */
+  --accent-goc: var(--slate-600); /* göç & yerleşim — slate */
+  --accent-toplum: var(--ivy-600); /* toplum — ivy */
+  --accent-tk: var(--crimson-500); /* türkiye–kanada — kızıl */
+  --accent-yasam: var(--amber-600); /* yaşam — amber */
   --accent-rehber: var(--brass-600); /* rehber — pirinç */
+
+  color-scheme: light;
+}
+
+/* ----------------------------------------------------------------
+   Karanlık tema — yalnızca ham ölçekleri yeniden eşleriz; tüm
+   anlamsal ve köprü değişkenleri var() ile bunlardan türediği için
+   otomatik olarak güncellenir. Tema, <head>'deki satır-içi script
+   tarafından data-theme ile ayarlanır (FOUC önlenir).
+   ---------------------------------------------------------------- */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* Mürekkep → açık (metin) */
+  --ink-900: #f3ece0;
+  --ink-800: #e6ddcd;
+  --ink-700: #d6ccba; /* gövde */
+  --ink-600: #b9ad99;
+  --ink-500: #9c8f7b; /* ikincil */
+  --ink-400: #7e7460;
+  --ink-300: #5f5747;
+  --ink-200: #3c362c; /* çizgi/kenarlık */
+  --ink-100: #2b261e; /* ince ayraç */
+
+  /* Kâğıt → koyu (yüzeyler) */
+  --paper-000: #1b1712; /* kart */
+  --paper-050: #141009; /* sayfa */
+  --paper-100: #211c15; /* girintili */
+  --paper-200: #2a241b; /* tint blok */
+  --paper-300: #332c21;
+
+  /* Kızıl — koyu zeminde okunaklı olsun diye parlatılır */
+  --crimson-700: #d05055;
+  --crimson-600: #e15b61;
+  --crimson-500: #ec6a70; /* marka birincil */
+  --crimson-400: #f08a8f;
+  --crimson-100: #3a1d1f; /* tint arka plan */
+
+  /* Pirinç / işlevsel aksanlar — koyu zemin için parlatılır */
+  --brass-600: #c7a772;
+  --brass-500: #d8bd8d;
+  --brass-100: #34291a;
+  --ivy-600: #6fc09c;
+  --slate-600: #84acd6;
+  --amber-600: #d7a04c;
+}
+
+:root[data-theme='dark'] body {
+  /* Eski-stil rakam dokusunu koru, ama hafif yumuşat */
+  -webkit-font-smoothing: antialiased;
 }
 
 /* ----------------------------------------------------------------
@@ -190,7 +240,10 @@ body {
   font-size: var(--fs-body);
   line-height: var(--lh-body);
   /* Eski-stil rakamlar + ligatür: editoryal okuma dokusu */
-  font-feature-settings: "onum" 1, "kern" 1, "liga" 1;
+  font-feature-settings:
+    'onum' 1,
+    'kern' 1,
+    'liga' 1;
   font-optical-sizing: auto;
   min-height: 100vh;
   overflow-x: hidden;
@@ -242,13 +295,23 @@ h4 {
   text-wrap: balance;
 }
 
-h1 { font-size: var(--fs-d1); }
-h2 { font-size: var(--fs-d2); }
-h3 { font-size: var(--fs-d3); }
+h1 {
+  font-size: var(--fs-d1);
+}
+h2 {
+  font-size: var(--fs-d2);
+}
+h3 {
+  font-size: var(--fs-d3);
+}
 
-p { text-wrap: pretty; }
+p {
+  text-wrap: pretty;
+}
 
-strong { font-weight: var(--w-semibold); }
+strong {
+  font-weight: var(--w-semibold);
+}
 
 /* Üst-etiket / bölüm rozeti (Archivo, kızıl, geniş tracking + tik) */
 .kicker {
@@ -334,8 +397,11 @@ strong { font-weight: var(--w-semibold); }
   color: var(--paper-050);
   cursor: pointer;
   border-radius: var(--radius-2);
-  transition: background var(--dur) var(--ease-out), color var(--dur) var(--ease-out),
-    border-color var(--dur) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+  transition:
+    background var(--dur) var(--ease-out),
+    color var(--dur) var(--ease-out),
+    border-color var(--dur) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out);
 }
 
 .btn:hover {

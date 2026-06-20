@@ -14,9 +14,14 @@ const meta = getSection(section);
 const items = articles.slice(0, limit);
 const accent = meta ? `var(${meta.accent})` : 'var(--crimson)';
 ---
+
 {
   meta && items.length > 0 && (
-    <section class="stream" style={`--accent:${accent}`} aria-labelledby={`stream-${section}`}>
+    <section
+      class="stream"
+      style={`--accent:${accent}`}
+      aria-labelledby={`stream-${section}`}
+    >
       <SectionHeading
         accent={accent}
         href={`/bolum/${meta.id}`}
@@ -45,10 +50,14 @@ const accent = meta ? `var(${meta.accent})` : 'var(--crimson)';
     gap: 1.6rem 1.4rem;
   }
   @media (min-width: 640px) {
-    .stream__grid { grid-template-columns: 1fr 1fr; }
+    .stream__grid {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   @media (min-width: 980px) {
-    .stream__grid { grid-template-columns: 2fr 1fr 1fr; }
+    .stream__grid {
+      grid-template-columns: 2fr 1fr 1fr;
+    }
     /* ilk (feature) kart iki satır kaplasın */
     .stream__grid > :global(.card--feature) {
       grid-row: span 1;

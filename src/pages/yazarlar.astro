@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllAuthors, slugify } from '../utils/format';
+
+const authors = await getAllAuthors();
+---
+
+<BaseLayout
+  title="Yazarlar"
+  description="Kanada Gazetesi yazar ve katkıda bulunanları."
+  path="/yazarlar"
+>
+  <header class="wrap authorlisthead">
+    <p class="kicker">Künye</p>
+    <h1>Yazarlar</h1>
+    <p class="meta">{authors.length} imza</p>
+  </header>
+
+  <ul class="wrap authorlist">
+    {
+      authors.map(({ author, count }) => (
+        <li class="authorlist__item">
+          <a href={`/yazar/${slugify(author)}`} class="authorlist__link">
+            <span class="authorlist__name">{author}</span>
+            <span class="authorlist__count meta">{count} yazı</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>
+
+<style>
+  .authorlisthead {
+    padding: clamp(1.8rem, 1.2rem + 2.5vw, 3.2rem) 0 1.2rem;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 1.6rem;
+  }
+  .authorlist {
+    list-style: none;
+    padding: 0 0 2rem;
+    margin: 0;
+    display: grid;
+    gap: 0;
+  }
+  .authorlist__item {
+    border-bottom: 1px solid var(--rule);
+  }
+  .authorlist__link {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  .authorlist__link:hover {
+    text-decoration: none;
+  }
+  .authorlist__name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--step-1);
+  }
+  .authorlist__link:hover .authorlist__name {
+    color: var(--crimson);
+  }
+</style>

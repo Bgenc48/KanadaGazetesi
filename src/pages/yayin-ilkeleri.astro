@@ -1,0 +1,61 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { site } from '../data/site';
+---
+
+<PageLayout
+  title="Yayın İlkeleri ve Etik"
+  kicker="Güven"
+  lede="Kanada Gazetesi, bağımsız ve güvenilir habercilik için aşağıdaki ilkelere bağlıdır."
+  path="/yayin-ilkeleri"
+  updated="2026-06-20"
+>
+  <h2>Bağımsızlık</h2>
+  <p>
+    Kanada Gazetesi bağımsız bir dijital yayındır. Hiçbir siyasi parti, devlet kurumu veya
+    ticari çıkar grubunun denetiminde değildir. Editöryel kararlar yalnızca kamu yararı ve
+    haber değeri gözetilerek alınır.
+  </p>
+
+  <h2>Doğruluk ve kaynak</h2>
+  <ul>
+    <li>Her iddia, mümkün olduğunca birincil ve resmî kaynaklara dayandırılır.</li>
+    <li>
+      Göç, vergi ve hukuk içeren konularda IRCC, CRA ve eyalet makamları gibi resmî
+      kaynaklara atıf yapılır.
+    </li>
+    <li>
+      Bu tür yazılar genel bilgilendirme amaçlıdır; resmî danışmanlık yerine geçmez ve
+      "Bilgilendirme" kutusuyla işaretlenir.
+    </li>
+  </ul>
+
+  <h2>Tarafsızlık ve çıkar çatışması</h2>
+  <p>
+    Yazarlarımız, haberini yaptıkları konularda kişisel çıkar çatışması bulunması hâlinde
+    bunu açıkça belirtir. Sponsorlu içerikler her zaman "sponsorlu" etiketiyle ve
+    editöryel içerikten ayrı sunulur.
+  </p>
+
+  <h2>Şeffaflık</h2>
+  <p>
+    Kullandığımız fotoğrafların kaynak ve lisansları
+    <a href="/krediler">Fotoğraf Kaynakları</a> sayfasında listelenir. Künye bilgilerimize <a
+      href="/hakkimizda#kunye">Hakkımızda</a
+    > sayfasından ulaşabilirsiniz.
+  </p>
+
+  <h2>Düzeltme politikası</h2>
+  <p>
+    Hatalar şeffaf biçimde düzeltilir. Bir hata fark ettiğinizde
+    <a href="/duzeltmeler">Düzeltmeler</a> sayfamızdan veya
+    <a href={`mailto:${site.email}`}>{site.email}</a> adresinden bize ulaşın.
+  </p>
+
+  <h2>Geri bildirim</h2>
+  <p>
+    Haber ipucu, görüş ve eleştirileriniz için
+    <a href="/iletisim">İletişim</a> sayfamızı kullanabilirsiniz. Okur katkısı gazeteciliğimizin
+    temelidir.
+  </p>
+</PageLayout>

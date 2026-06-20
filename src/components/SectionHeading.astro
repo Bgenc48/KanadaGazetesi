@@ -14,17 +14,29 @@ export interface Props {
   id?: string;
   class?: string;
 }
-const { accent = 'var(--ink-900)', href, action, eyebrow, id, class: className } = Astro.props;
+const {
+  accent = 'var(--ink-900)',
+  href,
+  action,
+  eyebrow,
+  id,
+  class: className,
+} = Astro.props;
 ---
+
 <div class:list={['ksh', className]}>
   <h2 class="ksh__title" id={id} style={`--c:${accent}`}>
-    <span class="ksh__diamond" />
+    <span class="ksh__diamond"></span>
     <slot />
     {eyebrow && <span class="ksh__eyebrow">{eyebrow}</span>}
   </h2>
-  {action && (
-    <a class="ksh__action" href={href ?? '#'} style={`--c:${accent}`}>{action} →</a>
-  )}
+  {
+    action && (
+      <a class="ksh__action" href={href ?? '#'} style={`--c:${accent}`}>
+        {action} →
+      </a>
+    )
+  }
 </div>
 
 <style>
@@ -50,8 +62,13 @@ const { accent = 'var(--ink-900)', href, action, eyebrow, id, class: className }
     gap: 0.5rem;
     line-height: 1.1;
   }
-  .ksh__title a { color: inherit; }
-  .ksh__title a:hover { text-decoration: none; filter: brightness(0.85); }
+  .ksh__title a {
+    color: inherit;
+  }
+  .ksh__title a:hover {
+    text-decoration: none;
+    filter: brightness(0.85);
+  }
   .ksh__diamond {
     width: 8px;
     height: 8px;

@@ -15,13 +15,16 @@ const text = label ?? meta?.name ?? '';
 const accent = color ?? (meta ? `var(${meta.accent})` : 'var(--crimson)');
 const link = href ?? (meta ? `/bolum/${meta.id}` : undefined);
 ---
+
 {
   link ? (
     <a class:list={['kicker', className]} style={`color:${accent}`} href={link}>
       {text}
     </a>
   ) : (
-    <span class:list={['kicker', className]} style={`color:${accent}`}>{text}</span>
+    <span class:list={['kicker', className]} style={`color:${accent}`}>
+      {text}
+    </span>
   )
 }
 

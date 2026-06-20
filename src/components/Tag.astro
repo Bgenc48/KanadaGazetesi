@@ -10,6 +10,7 @@ export interface Props {
 const { href = '#', active = false, class: className } = Astro.props;
 const cls = ['ktag', active ? 'is-active' : '', className].filter(Boolean).join(' ');
 ---
+
 <a class={cls} href={href}><span class="ktag__hash">#</span><slot /></a>
 
 <style>
@@ -26,15 +27,26 @@ const cls = ['ktag', active ? 'is-active' : '', className].filter(Boolean).join(
     border: 1px solid var(--ink-200);
     color: var(--ink-700);
     background: transparent;
-    transition: background var(--dur) var(--ease-out), color var(--dur) var(--ease-out),
+    transition:
+      background var(--dur) var(--ease-out),
+      color var(--dur) var(--ease-out),
       border-color var(--dur) var(--ease-out);
   }
-  .ktag__hash { color: var(--crimson-500); margin-right: 0.15em; }
-  .ktag:hover { border-color: var(--ink-900); color: var(--ink-900); text-decoration: none; }
+  .ktag__hash {
+    color: var(--crimson-500);
+    margin-right: 0.15em;
+  }
+  .ktag:hover {
+    border-color: var(--ink-900);
+    color: var(--ink-900);
+    text-decoration: none;
+  }
   .ktag.is-active {
     background: var(--ink-900);
     color: var(--paper-050);
     border-color: var(--ink-900);
   }
-  .ktag.is-active .ktag__hash { color: var(--crimson-400); }
+  .ktag.is-active .ktag__hash {
+    color: var(--crimson-400);
+  }
 </style>

@@ -7,10 +7,10 @@ import { glob } from 'astro/loaders';
  */
 export const SECTIONS = [
   'goc-ve-yerlesim', // Göç ve Yerleşim — Immigration & settlement
-  'toplum',          // Toplum — community life & culture
-  'turkiye-kanada',  // Türkiye–Kanada — relations & explainers
-  'yasam',           // Yaşam — practical living in Canada
-  'rehber',          // Rehber — service guides / how-to
+  'toplum', // Toplum — community life & culture
+  'turkiye-kanada', // Türkiye–Kanada — relations & explainers
+  'yasam', // Yaşam — practical living in Canada
+  'rehber', // Rehber — service guides / how-to
 ] as const;
 
 const articles = defineCollection({
