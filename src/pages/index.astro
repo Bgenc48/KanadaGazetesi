@@ -5,11 +5,7 @@ import SectionStream from '../components/SectionStream.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { sections } from '../data/sections';
-import {
-  getPublishedArticles,
-  getLeadArticle,
-  getArticlesBySection,
-} from '../utils/format';
+import { getPublishedArticles, getLeadArticle } from '../utils/format';
 
 const articles = await getPublishedArticles();
 const lead = await getLeadArticle(articles);
@@ -47,7 +43,13 @@ const streams = sections
     )
   }
 
-  {lead && <div class="wrap"><hr class="rule--double front__div" /></div>}
+  {
+    lead && (
+      <div class="wrap">
+        <hr class="rule--double front__div" />
+      </div>
+    )
+  }
 
   {
     !lead && (
@@ -62,13 +64,15 @@ const streams = sections
   }
 
   <div class="wrap streams">
-    {streams.map(({ section }) => (
-      <SectionStream
-        section={section.id}
-        articles={articles.filter((a) => a.data.section === section.id)}
-        limit={4}
-      />
-    ))}
+    {
+      streams.map(({ section }) => (
+        <SectionStream
+          section={section.id}
+          articles={articles.filter((a) => a.data.section === section.id)}
+          limit={4}
+        />
+      ))
+    }
   </div>
 
   <div class="wrap home-nl">

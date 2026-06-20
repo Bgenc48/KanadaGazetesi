@@ -10,6 +10,7 @@ export interface Props {
 }
 const { size = 40, color = 'var(--crimson)', title = 'Kanada Gazetesi' } = Astro.props;
 ---
+
 <svg
   width={size}
   height={size}
@@ -20,13 +21,12 @@ const { size = 40, color = 'var(--crimson)', title = 'Kanada Gazetesi' } = Astro
 >
   <defs>
     <mask id={`kg-crescent-${size}`}>
-      <rect width="100" height="100" fill="white" />
-      <circle cx="63" cy="50" r="24.5" fill="black" />
+      <rect width="100" height="100" fill="white"></rect>
+      <circle cx="63" cy="50" r="24.5" fill="black"></circle>
     </mask>
   </defs>
-  <circle cx="50" cy="50" r="31" fill={color} mask={`url(#kg-crescent-${size})`} />
+  <circle cx="50" cy="50" r="31" fill={color} mask={`url(#kg-crescent-${size})`}></circle>
   <polygon
     points="72,40 74.35,46.76 81.51,46.91 75.80,51.24 77.88,58.09 72,54 66.12,58.09 68.20,51.24 62.49,46.91 69.65,46.76"
-    fill={color}
-  />
+    fill={color}></polygon>
 </svg>

@@ -60,8 +60,7 @@ export const sections: SectionMeta[] = [
     name: 'Rehber',
     kicker: 'Rehber',
     english: 'Guides',
-    description:
-      'Adım adım, kullanışlı kılavuzlar. Bir kez yazılır, yıllarca işe yarar.',
+    description: 'Adım adım, kullanışlı kılavuzlar. Bir kez yazılır, yıllarca işe yarar.',
     accent: '--accent-rehber',
   },
 ];

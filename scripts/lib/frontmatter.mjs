@@ -33,8 +33,7 @@ export function setFrontmatterFields(filePath, updates) {
   const lines = m[1].split(/\r?\n/);
   for (const [key, value] of Object.entries(updates)) {
     if (value === undefined || value === null) continue;
-    const serialized =
-      typeof value === 'string' ? JSON.stringify(value) : String(value);
+    const serialized = typeof value === 'string' ? JSON.stringify(value) : String(value);
     const line = `${key}: ${serialized}`;
     const idx = lines.findIndex((l) => new RegExp(`^${key}:`).test(l));
     if (idx >= 0) lines[idx] = line;

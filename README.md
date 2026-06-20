@@ -47,18 +47,18 @@ public/images/            # kahraman görseller (SVG) + OG/favicon
 
 ```yaml
 ---
-title: "Başlık"
-deck: "Manşet altı / spot cümle"
-section: "goc-ve-yerlesim"   # goc-ve-yerlesim | toplum | turkiye-kanada | yasam | rehber
-author: "Göç Masası"
+title: 'Başlık'
+deck: 'Manşet altı / spot cümle'
+section: 'goc-ve-yerlesim' # goc-ve-yerlesim | toplum | turkiye-kanada | yasam | rehber
+author: 'Göç Masası'
 pubDate: 2026-06-13
-heroImage: "/images/ornek.svg"   # opsiyonel — yoksa zarif renkli alan gösterilir
-heroAlt: "Görsel açıklaması"
-excerpt: "Kart ve liste için kısa özet"
-tags: ["etiket1", "etiket2"]
-featured: true     # bölüm akışında öne çıkar
-lead: false        # ana sayfa manşeti (tek yazıda true olmalı)
-advisory: true     # resmî bilgi içeren yazılarda uyarı kutusu gösterir
+heroImage: '/images/ornek.svg' # opsiyonel — yoksa zarif renkli alan gösterilir
+heroAlt: 'Görsel açıklaması'
+excerpt: 'Kart ve liste için kısa özet'
+tags: ['etiket1', 'etiket2']
+featured: true # bölüm akışında öne çıkar
+lead: false # ana sayfa manşeti (tek yazıda true olmalı)
+advisory: true # resmî bilgi içeren yazılarda uyarı kutusu gösterir
 ---
 ```
 

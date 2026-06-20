@@ -10,16 +10,31 @@ export interface Props {
 }
 const { variant = 'hairline', label, class: className } = Astro.props;
 ---
+
 {
   variant === 'double' ? (
     <hr class:list={['kdiv-double', className]} />
   ) : variant === 'ornament' ? (
     <div class:list={['kdiv-orn', className]} role="separator">
       <span class="kdiv-orn__line" />
-      <svg viewBox="0 0 100 100" width="20" height="20" aria-hidden="true" class="kdiv-orn__mark">
-        <mask id="kgdiv"><rect width="100" height="100" fill="#fff" /><circle cx="63" cy="50" r="24.5" fill="#000" /></mask>
+      <svg
+        viewBox="0 0 100 100"
+        width="20"
+        height="20"
+        aria-hidden="true"
+        class="kdiv-orn__mark"
+      >
+        <mask id="kgdiv">
+          <>
+            <rect width="100" height="100" fill="#fff" />
+            <circle cx="63" cy="50" r="24.5" fill="#000" />
+          </>
+        </mask>
         <circle cx="50" cy="50" r="31" fill="currentColor" mask="url(#kgdiv)" />
-        <polygon fill="currentColor" points="72,40 74.35,46.76 81.51,46.91 75.80,51.24 77.88,58.09 72,54 66.12,58.09 68.20,51.24 62.49,46.91 69.65,46.76" />
+        <polygon
+          fill="currentColor"
+          points="72,40 74.35,46.76 81.51,46.91 75.80,51.24 77.88,58.09 72,54 66.12,58.09 68.20,51.24 62.49,46.91 69.65,46.76"
+        />
       </svg>
       <span class="kdiv-orn__line" />
     </div>
@@ -34,10 +49,18 @@ const { variant = 'hairline', label, class: className } = Astro.props;
 }
 
 <style>
-  .kdiv { border: 0; }
-  .kdiv-line--hairline { border-top: 1px solid var(--ink-200); }
-  .kdiv-line--strong { border-top: 2px solid var(--ink-900); }
-  .kdiv-line--accent { border-top: 2px solid var(--crimson-500); }
+  .kdiv {
+    border: 0;
+  }
+  .kdiv-line--hairline {
+    border-top: 1px solid var(--ink-200);
+  }
+  .kdiv-line--strong {
+    border-top: 2px solid var(--ink-900);
+  }
+  .kdiv-line--accent {
+    border-top: 2px solid var(--crimson-500);
+  }
 
   .kdiv-double {
     border: 0;
@@ -54,8 +77,14 @@ const { variant = 'hairline', label, class: className } = Astro.props;
     color: var(--crimson-500);
     margin: 0.5rem 0;
   }
-  .kdiv-orn__line { flex: 1; height: 1px; background: var(--ink-200); }
-  .kdiv-orn__mark { flex: none; }
+  .kdiv-orn__line {
+    flex: 1;
+    height: 1px;
+    background: var(--ink-200);
+  }
+  .kdiv-orn__mark {
+    flex: none;
+  }
 
   .kdiv-label {
     display: flex;
@@ -71,5 +100,7 @@ const { variant = 'hairline', label, class: className } = Astro.props;
     text-transform: uppercase;
     color: var(--ink-500);
   }
-  .kdiv-label__line { flex: 1; }
+  .kdiv-label__line {
+    flex: 1;
+  }
 </style>

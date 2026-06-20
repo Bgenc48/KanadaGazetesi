@@ -74,7 +74,9 @@ const fm = [
   `author: ${JSON.stringify(args.author || 'Kanada Gazetesi')}`,
   ...(args.authorTitle ? [`authorTitle: ${JSON.stringify(args.authorTitle)}`] : []),
   `pubDate: ${today}`,
-  ...(typeof args.photo === 'string' ? [`photoQuery: ${JSON.stringify(args.photo)}`] : []),
+  ...(typeof args.photo === 'string'
+    ? [`photoQuery: ${JSON.stringify(args.photo)}`]
+    : []),
   `excerpt: ${JSON.stringify(args.excerpt || args.deck || '')}`,
   `tags: ${JSON.stringify(tags)}`,
   `featured: ${args.featured ? 'true' : 'false'}`,

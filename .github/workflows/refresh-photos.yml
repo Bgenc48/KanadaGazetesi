@@ -2,7 +2,7 @@ name: Refresh Photos
 
 on:
   schedule:
-    - cron: '0 6 * * 1'   # Her Pazartesi 06:00 UTC
+    - cron: '0 6 * * 1' # Her Pazartesi 06:00 UTC
   workflow_dispatch:
 
 # Üretilen dosyaları yerleşik token ile geri push edebilmek için.

@@ -11,6 +11,7 @@ const { article, withReadingTime = true, withAuthorTitle = false } = Astro.props
 const { author, authorTitle, pubDate } = article.data;
 const mins = readingTime(article.body ?? '');
 ---
+
 <p class="byline meta">
   <span class="byline__author">{author}</span>{
     withAuthorTitle && authorTitle && <span class="byline__title">, {authorTitle}</span>

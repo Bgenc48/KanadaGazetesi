@@ -14,6 +14,7 @@ const cls = ['kbadge', `kbadge--${tone}`, solid ? 'kbadge--solid' : '', classNam
   .filter(Boolean)
   .join(' ');
 ---
+
 <span class={cls}>
   {dot && <span class="kbadge__dot" />}
   <slot />
@@ -36,16 +37,53 @@ const cls = ['kbadge', `kbadge--${tone}`, solid ? 'kbadge--solid' : '', classNam
     color: var(--ink-700);
     background: var(--paper-200);
   }
-  .kbadge__dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .kbadge__dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+  }
 
-  .kbadge--crimson { color: var(--crimson-600); background: var(--crimson-100); border-color: var(--crimson-400); }
-  .kbadge--brass { color: var(--brass-600); background: var(--brass-100); border-color: var(--brass-500); }
-  .kbadge--ivy { color: var(--ivy-600); background: #e3efe8; border-color: var(--ivy-600); }
-  .kbadge--slate { color: var(--slate-600); background: #e3eaf1; border-color: var(--slate-600); }
+  .kbadge--crimson {
+    color: var(--crimson-600);
+    background: var(--crimson-100);
+    border-color: var(--crimson-400);
+  }
+  .kbadge--brass {
+    color: var(--brass-600);
+    background: var(--brass-100);
+    border-color: var(--brass-500);
+  }
+  .kbadge--ivy {
+    color: var(--ivy-600);
+    background: #e3efe8;
+    border-color: var(--ivy-600);
+  }
+  .kbadge--slate {
+    color: var(--slate-600);
+    background: #e3eaf1;
+    border-color: var(--slate-600);
+  }
 
-  .kbadge--solid { color: var(--paper-050); background: var(--ink-700); border-color: var(--ink-700); }
-  .kbadge--solid.kbadge--crimson { background: var(--crimson-600); border-color: var(--crimson-600); }
-  .kbadge--solid.kbadge--brass { background: var(--brass-600); border-color: var(--brass-600); }
-  .kbadge--solid.kbadge--ivy { background: var(--ivy-600); border-color: var(--ivy-600); }
-  .kbadge--solid.kbadge--slate { background: var(--slate-600); border-color: var(--slate-600); }
+  .kbadge--solid {
+    color: var(--paper-050);
+    background: var(--ink-700);
+    border-color: var(--ink-700);
+  }
+  .kbadge--solid.kbadge--crimson {
+    background: var(--crimson-600);
+    border-color: var(--crimson-600);
+  }
+  .kbadge--solid.kbadge--brass {
+    background: var(--brass-600);
+    border-color: var(--brass-600);
+  }
+  .kbadge--solid.kbadge--ivy {
+    background: var(--ivy-600);
+    border-color: var(--ivy-600);
+  }
+  .kbadge--solid.kbadge--slate {
+    background: var(--slate-600);
+    border-color: var(--slate-600);
+  }
 </style>

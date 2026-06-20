@@ -3,8 +3,7 @@ import Logo from './Logo.astro';
 import { sections } from '../data/sections';
 
 const path = Astro.url.pathname;
-const isActive = (href: string) =>
-  href === '/' ? path === '/' : path.startsWith(href);
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
 
 const links = [
   { href: '/', label: 'Anasayfa' },
@@ -94,7 +93,9 @@ const links = [
     align-items: center;
     border-bottom: 3px solid transparent;
     color: var(--ink-soft);
-    transition: color 0.15s ease, border-color 0.15s ease;
+    transition:
+      color 0.15s ease,
+      border-color 0.15s ease;
   }
   .sitenav__link:hover {
     color: var(--ink);
