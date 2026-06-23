@@ -37,6 +37,10 @@ const articles = defineCollection({
     /** Kart ve liste görünümleri için kısa özet */
     excerpt: z.string().optional(),
     tags: z.array(z.string()).default([]),
+    /** Çok parçalı dizinin adı (ör. "Yeni Gelenler Rehberi") */
+    series: z.string().optional(),
+    /** Dizideki sıra (küçükten büyüğe) */
+    seriesOrder: z.number().optional(),
     featured: z.boolean().default(false),
     /** Ana sayfada en üstte yer alacak tek "günün haberi" */
     lead: z.boolean().default(false),
@@ -46,4 +50,27 @@ const articles = defineCollection({
   }),
 });
 
-export const collections = { articles };
+const authors = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/authors' }),
+  schema: z.object({
+    /** Görünen ad — makale frontmatter'ındaki `author` ile birebir eşleşmeli */
+    name: z.string(),
+    /** Kısa rol/unvan (ör. "Göç ve yerleşim masası") */
+    role: z.string().optional(),
+    /** İletişim e-postası */
+    email: z.string().optional(),
+    /** Profil görseli (/images/... veya tam URL) */
+    avatar: z.string().optional(),
+    /** İlişkili bölüm (varsa) */
+    section: z.enum(SECTIONS).optional(),
+    social: z
+      .object({
+        x: z.string().optional(),
+        instagram: z.string().optional(),
+        website: z.string().optional(),
+      })
+      .optional(),
+  }),
+});
+
+export const collections = { articles, authors };

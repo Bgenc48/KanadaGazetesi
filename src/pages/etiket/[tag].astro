@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getAllTags, getArticlesByTag, slugify, type Article } from '../../utils/format';
 
 export async function getStaticPaths() {
@@ -28,6 +29,16 @@ const slug = slugify(tag);
   description={`"${tag}" etiketli ${count} yazı — Kanada Gazetesi.`}
   path={`/etiket/${slug}`}
 >
+  <div class="wrap">
+    <Breadcrumbs
+      items={[
+        { label: 'Anasayfa', href: '/' },
+        { label: 'Etiketler', href: '/etiketler' },
+        { label: `#${tag}` },
+      ]}
+    />
+  </div>
+
   <header class="wrap taghead">
     <p class="kicker">Etiket</p>
     <h1 class="taghead__title">#{tag}</h1>

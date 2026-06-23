@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import {
+  getAllSeries,
+  getArticlesBySeries,
+  slugify,
+  type Article,
+} from '../../utils/format';
+
+export async function getStaticPaths() {
+  const series = await getAllSeries();
+  return Promise.all(
+    series.map(async ({ series: name, count }) => ({
+      params: { series: slugify(name) },
+      props: { name, count, articles: await getArticlesBySeries(name) },
+    })),
+  );
+}
+
+interface Props {
+  name: string;
+  count: number;
+  articles: Article[];
+}
+const { name, count, articles } = Astro.props as Props;
+---
+
+<BaseLayout
+  title={name}
+  description={`"${name}" dizisi — ${count} bölüm. Kanada Gazetesi.`}
+  path={`/dizi/${slugify(name)}`}
+>
+  <div class="wrap">
+    <Breadcrumbs
+      items={[
+        { label: 'Anasayfa', href: '/' },
+        { label: 'Diziler', href: '/diziler' },
+        { label: name },
+      ]}
+    />
+  </div>
+
+  <header class="wrap serieshead">
+    <p class="kicker">Dizi</p>
+    <h1 class="serieshead__title">{name}</h1>
+    <p class="serieshead__meta meta">{count} bölüm · sırayla okuyun</p>
+  </header>
+
+  <ol class="wrap serieslist">
+    {
+      articles.map((a, i) => (
+        <li class="serieslist__item">
+          <span class="serieslist__num">{i + 1}</span>
+          <div class="serieslist__card">
+            <ArticleCard article={a} variant="standard" />
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+</BaseLayout>
+
+<style>
+  .serieshead {
+    padding: clamp(1.4rem, 1rem + 2vw, 2.4rem) 0 0;
+    border-bottom: 2px solid var(--brass-600);
+    margin-bottom: clamp(1.6rem, 1.2rem + 1.5vw, 2.4rem);
+  }
+  .serieshead__title {
+    font-size: var(--step-4);
+    margin: 0.4rem 0 0.4rem;
+    letter-spacing: -0.02em;
+  }
+  .serieshead__meta {
+    padding-bottom: 1.2rem;
+  }
+  .serieslist {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 2rem;
+    display: grid;
+    gap: 1.6rem;
+  }
+  .serieslist__item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: start;
+  }
+  .serieslist__num {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: var(--step-2);
+    color: var(--brass-600);
+    line-height: 1;
+    min-width: 1.4em;
+  }
+</style>

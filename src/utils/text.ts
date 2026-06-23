@@ -67,6 +67,26 @@ export function deriveExcerpt(entry: ExcerptSource, max = 180): string {
   return text.length > max ? text.slice(0, max).replace(/\s+\S*$/, '') + '…' : text;
 }
 
+export interface TocHeading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+/**
+ * Makale başlıklarından içindekiler listesi üretir. Belirli bir derinlikteki
+ * (varsayılan h2) başlıkları döndürür; eşik (`min`) altındaysa boş döner —
+ * böylece kısa yazılarda gereksiz TOC gösterilmez.
+ */
+export function tableOfContents(
+  headings: TocHeading[],
+  depth = 2,
+  min = 3,
+): TocHeading[] {
+  const items = headings.filter((h) => h.depth === depth);
+  return items.length >= min ? items : [];
+}
+
 /** URL/slug üretimi — Türkçe karakterleri çevirir, güvenli slug verir. */
 export function slugify(input: string): string {
   const map: Record<string, string> = {

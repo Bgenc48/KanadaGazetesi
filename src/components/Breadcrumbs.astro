@@ -1,0 +1,64 @@
+---
+export interface Crumb {
+  label: string;
+  href?: string;
+}
+export interface Props {
+  items: Crumb[];
+}
+const { items } = Astro.props;
+---
+
+<nav class="crumbs" aria-label="Sayfa konumu">
+  <ol class="crumbs__list">
+    {
+      items.map((item, i) => (
+        <li class="crumbs__item">
+          {item.href && i < items.length - 1 ? (
+            <a href={item.href}>{item.label}</a>
+          ) : (
+            <span aria-current="page">{item.label}</span>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+</nav>
+
+<style>
+  .crumbs {
+    padding-top: clamp(1rem, 0.7rem + 1vw, 1.6rem);
+  }
+  .crumbs__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem 0.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+    color: var(--ink-mute);
+  }
+  .crumbs__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .crumbs__item:not(:last-child)::after {
+    content: '/';
+    color: var(--rule-strong);
+  }
+  .crumbs__item a {
+    color: var(--ink-soft);
+  }
+  .crumbs__item a:hover {
+    color: var(--crimson);
+  }
+  .crumbs__item [aria-current='page'] {
+    color: var(--ink);
+    font-weight: 600;
+  }
+</style>

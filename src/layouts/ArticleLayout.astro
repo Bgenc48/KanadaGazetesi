@@ -4,6 +4,7 @@ import Kicker from '../components/Kicker.astro';
 import Byline from '../components/Byline.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import Newsletter from '../components/Newsletter.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getSection } from '../data/sections';
 import { site } from '../data/site';
 import photoCredits from '../data/photo-credits.json';
@@ -12,17 +13,28 @@ import {
   formatDateTR,
   isoDate,
   slugify,
+  tableOfContents,
   getArticlesBySection,
+  getArticlesBySeries,
   type Article,
 } from '../utils/format';
 
+export interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
 export interface Props {
   article: Article;
+  headings?: Heading[];
 }
-const { article } = Astro.props;
+const { article, headings = [] } = Astro.props;
 const d = article.data;
 const meta = getSection(d.section);
 const accent = meta ? `var(${meta.accent})` : 'var(--crimson)';
+// İçindekiler: yalnızca h2'ler; en az 3 başlık varsa göster
+const toc = tableOfContents(headings);
+const showToc = toc.length > 0;
 const description = d.deck ?? deriveExcerpt(article, 200);
 const path = `/makale/${article.id}`;
 
@@ -35,6 +47,22 @@ const photo = d.heroImage
 const related = (await getArticlesBySection(d.section))
   .filter((a) => a.id !== article.id)
   .slice(0, 3);
+
+// Dizi bilgisi — bu yazı bir dizinin parçasıysa konumunu hesapla
+let seriesInfo: { name: string; slug: string; position: number; total: number } | null =
+  null;
+if (d.series) {
+  const items = await getArticlesBySeries(d.series);
+  const idx = items.findIndex((a) => a.id === article.id);
+  if (idx !== -1) {
+    seriesInfo = {
+      name: d.series,
+      slug: slugify(d.series),
+      position: idx + 1,
+      total: items.length,
+    };
+  }
+}
 
 const shareUrl = new URL(path, site.url).href;
 const shareText = encodeURIComponent(d.title);
@@ -104,12 +132,31 @@ const jsonLd = {
     set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')}
   />
 
+  <div
+    class="readprog"
+    role="progressbar"
+    aria-label="Okuma ilerlemesi"
+    aria-hidden="true"
+  >
+    <span class="readprog__bar" data-read-progress></span>
+  </div>
+
   <article
     class="article"
     style={`--accent:${accent}`}
     data-pagefind-body
     data-pagefind-meta={`section:${meta?.name ?? ''}`}
   >
+    <div class="wrap--narrow" data-pagefind-ignore>
+      <Breadcrumbs
+        items={[
+          { label: 'Anasayfa', href: '/' },
+          { label: meta?.name ?? 'Bölüm', href: `/bolum/${d.section}` },
+          { label: d.title },
+        ]}
+      />
+    </div>
+
     <header class="wrap--narrow article__head">
       <Kicker section={d.section} />
       <h1 class="article__title">{d.title}</h1>
@@ -199,6 +246,34 @@ const jsonLd = {
         )
       }
 
+      {
+        seriesInfo && (
+          <aside class="seriesbox" data-pagefind-ignore>
+            <p class="seriesbox__label">Dizi</p>
+            <p class="seriesbox__text">
+              Bu yazı <a href={`/dizi/${seriesInfo.slug}`}>{seriesInfo.name}</a> dizisinin{' '}
+              <strong>{seriesInfo.position}. bölümü</strong> ({seriesInfo.total}{' '}
+              bölümden).
+            </p>
+          </aside>
+        )
+      }
+
+      {
+        showToc && (
+          <nav class="toc" aria-label="İçindekiler" data-pagefind-ignore>
+            <p class="toc__title">İçindekiler</p>
+            <ol class="toc__list">
+              {toc.map((h) => (
+                <li>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )
+      }
+
       <div class:list={['prose', { dropcap: d.lead }]}>
         <slot />
       </div>
@@ -267,9 +342,121 @@ const jsonLd = {
       </section>
     )
   }
+
+  <script is:inline>
+    (function () {
+      const bar = document.querySelector('[data-read-progress]');
+      const article = document.querySelector('.article');
+      if (!bar || !article) return;
+      let ticking = false;
+      function update() {
+        const rect = article.getBoundingClientRect();
+        const vh = window.innerHeight || document.documentElement.clientHeight;
+        const total = rect.height - vh;
+        const scrolled = Math.min(Math.max(-rect.top, 0), Math.max(total, 0));
+        const pct = total > 0 ? (scrolled / total) * 100 : 0;
+        bar.style.width = pct.toFixed(1) + '%';
+        ticking = false;
+      }
+      function onScroll() {
+        if (!ticking) {
+          window.requestAnimationFrame(update);
+          ticking = true;
+        }
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('resize', onScroll, { passive: true });
+      update();
+    })();
+  </script>
 </BaseLayout>
 
 <style>
+  .readprog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: transparent;
+    z-index: 60;
+    pointer-events: none;
+  }
+  .readprog__bar {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--accent);
+    transition: width 0.1s linear;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .readprog__bar {
+      transition: none;
+    }
+  }
+
+  .seriesbox {
+    margin: 0 0 1.6rem;
+    padding: 0.9rem 1.2rem;
+    border-left: 3px solid var(--brass-600);
+    background: var(--brass-100);
+    border-radius: 2px;
+  }
+  .seriesbox__label {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--brass-600);
+    margin-bottom: 0.2rem;
+  }
+  .seriesbox__text {
+    font-size: var(--step--1);
+    line-height: 1.5;
+  }
+  .seriesbox__text a {
+    text-decoration: underline;
+    text-decoration-color: var(--brass-600);
+    font-weight: 600;
+  }
+
+  .toc {
+    margin: 0 0 2rem;
+    padding: 1rem 1.2rem;
+    background: var(--paper-100);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-2);
+  }
+  .toc__title {
+    font-family: var(--font-sans);
+    font-size: 0.74rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ink-mute);
+    margin-bottom: 0.6rem;
+  }
+  .toc__list {
+    margin: 0;
+    padding-left: 1.2rem;
+    display: grid;
+    gap: 0.4rem;
+  }
+  .toc__list li::marker {
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .toc__list a {
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+  .toc__list a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
   .article__head {
     padding-top: clamp(1.5rem, 1rem + 2vw, 3rem);
     text-align: left;

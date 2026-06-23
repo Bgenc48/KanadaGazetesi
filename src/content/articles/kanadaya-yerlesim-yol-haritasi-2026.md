@@ -11,6 +11,8 @@ heroAlt: "Kanada bayrağı önünde yeni vatandaşlık belgesini tutan eller"
 heroCredit: "ankakay / Openverse (CC BY 2.0)"
 excerpt: "Express Entry, eyalet adaylığı, oturum ve vatandaşlık: Türkiye’den Kanada’ya kalıcı bir hayat kurmanın temel basamaklarını adım adım anlattık."
 tags: ["express entry", "oturum", "vatandaşlık", "PNP", "göç"]
+series: "Yeni Gelenler Rehberi"
+seriesOrder: 1
 featured: true
 lead: true
 advisory: true

@@ -1,6 +1,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Article = CollectionEntry<'articles'>;
+export type Author = CollectionEntry<'authors'>;
 
 // Saf metin/tarih yardımcıları text.ts'te tutulur (test edilebilirlik için)
 // ve buradan yeniden dışa aktarılır; mevcut importlar bozulmaz.
@@ -12,6 +13,8 @@ export {
   readingTimeLabel,
   deriveExcerpt,
   slugify,
+  tableOfContents,
+  type TocHeading,
 } from './text';
 
 /** Tüm yayımlanmış yazılar, tarihe göre yeniden eskiye (gelecek tarihliler hariç) */
@@ -70,4 +73,40 @@ export async function getAllAuthors(): Promise<{ author: string; count: number }
 export async function getArticlesByAuthor(author: string): Promise<Article[]> {
   const all = await getPublishedArticles();
   return all.filter((a) => a.data.author === author);
+}
+
+/** Tüm yazar profillerini ada göre eşleyen bir harita döndürür. */
+export async function getAuthorMap(): Promise<Map<string, Author>> {
+  const authors = await getCollection('authors');
+  return new Map(authors.map((a) => [a.data.name, a]));
+}
+
+/** Bir yazar adına karşılık gelen profil (varsa). */
+export async function getAuthorProfile(name: string): Promise<Author | undefined> {
+  return (await getAuthorMap()).get(name);
+}
+
+/** Bir dizinin yazıları — seriesOrder, sonra tarih (eskiden yeniye) sıralı. */
+export async function getArticlesBySeries(series: string): Promise<Article[]> {
+  const all = await getPublishedArticles();
+  return all
+    .filter((a) => a.data.series === series)
+    .sort((a, b) => {
+      const ao = a.data.seriesOrder ?? Number.MAX_SAFE_INTEGER;
+      const bo = b.data.seriesOrder ?? Number.MAX_SAFE_INTEGER;
+      if (ao !== bo) return ao - bo;
+      return a.data.pubDate.valueOf() - b.data.pubDate.valueOf();
+    });
+}
+
+/** Tüm diziler (sayımlarıyla), çoktan aza. */
+export async function getAllSeries(): Promise<{ series: string; count: number }[]> {
+  const all = await getPublishedArticles();
+  const counts = new Map<string, number>();
+  for (const a of all) {
+    if (a.data.series) counts.set(a.data.series, (counts.get(a.data.series) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([series, count]) => ({ series, count }))
+    .sort((a, b) => b.count - a.count || a.series.localeCompare(b.series, 'tr'));
 }
