@@ -480,3 +480,67 @@ strong {
     scroll-behavior: auto !important;
   }
 }
+
+/* ----------------------------------------------------------------
+   Yazdırma — temiz, mürekkep tasarruflu makale çıktısı
+   ---------------------------------------------------------------- */
+@media print {
+  :root {
+    --surface-page: #fff;
+    --text-body: #000;
+    --text-strong: #000;
+  }
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+  /* Gereksiz arayüz öğelerini gizle */
+  .skip-link,
+  .masthead,
+  .sitenav,
+  .footer,
+  .readprog,
+  .crumbs,
+  .toc,
+  .article__share,
+  .article__nl,
+  .related,
+  [class*='newsletter'] {
+    display: none !important;
+  }
+  main {
+    width: auto;
+  }
+  .wrap,
+  .wrap--narrow {
+    width: auto;
+    max-width: none;
+    margin: 0;
+  }
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+  /* Gövde bağlantılarının hedefini görünür kıl */
+  .prose a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.85em;
+    word-break: break-all;
+  }
+  .article__hero,
+  img {
+    max-width: 100% !important;
+  }
+  h1,
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  p,
+  li,
+  blockquote,
+  figure {
+    page-break-inside: avoid;
+  }
+}

@@ -112,3 +112,33 @@ export function slugify(input: string): string {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 }
+
+export interface RelatableArticle {
+  id: string;
+  data: { tags: string[]; section: string; pubDate: Date };
+}
+
+/**
+ * İlgili yazıları puanlar: paylaşılan etiket sayısı (ağırlıklı), sonra aynı
+ * bölüm, sonra tazelik. Kendisi hariç tutulur. Saf ve test edilebilir.
+ */
+export function rankRelated<T extends RelatableArticle>(
+  current: T,
+  candidates: T[],
+  limit = 3,
+): T[] {
+  const curTags = new Set(current.data.tags);
+  return candidates
+    .filter((a) => a.id !== current.id)
+    .map((a) => {
+      const shared = a.data.tags.filter((t) => curTags.has(t)).length;
+      const sameSection = a.data.section === current.data.section ? 1 : 0;
+      return { a, score: shared * 10 + sameSection };
+    })
+    .sort(
+      (x, y) =>
+        y.score - x.score || y.a.data.pubDate.valueOf() - x.a.data.pubDate.valueOf(),
+    )
+    .slice(0, limit)
+    .map((x) => x.a);
+}
