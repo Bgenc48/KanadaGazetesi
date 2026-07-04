@@ -113,6 +113,37 @@ export function slugify(input: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+/**
+ * Metni satırlara böler (OG kartı başlığı gibi sabit-genişlik alanlar için).
+ * Kelime bazlı sarar; `maxLines` aşılırsa son satırı "…" ile kısaltır.
+ */
+export function wrapText(text: string, maxChars = 22, maxLines = 3): string[] {
+  const words = text.split(/\s+/).filter(Boolean);
+  const lines: string[] = [];
+  let line = '';
+  for (const word of words) {
+    const candidate = line ? `${line} ${word}` : word;
+    if (candidate.length > maxChars && line) {
+      lines.push(line);
+      line = word;
+    } else {
+      line = candidate;
+    }
+  }
+  if (line) lines.push(line);
+
+  if (lines.length <= maxLines) return lines;
+
+  // Fazla satırları son satırda birleştirip "…" ile kısalt
+  const kept = lines.slice(0, maxLines);
+  const overflow = lines.slice(maxLines - 1).join(' ');
+  kept[maxLines - 1] =
+    overflow.length > maxChars
+      ? overflow.slice(0, maxChars - 1).replace(/\s+\S*$/, '') + '…'
+      : overflow;
+  return kept;
+}
+
 export interface RelatableArticle {
   id: string;
   data: { tags: string[]; section: string; pubDate: Date };
