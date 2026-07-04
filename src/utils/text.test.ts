@@ -9,6 +9,7 @@ import {
   slugify,
   tableOfContents,
   rankRelated,
+  wrapText,
 } from './text';
 
 describe('formatDateTR', () => {
@@ -115,6 +116,27 @@ describe('rankRelated', () => {
   });
   it('respects the limit', () => {
     expect(rankRelated(current, candidates, 2)).toHaveLength(2);
+  });
+});
+
+describe('wrapText', () => {
+  it('keeps a short title on one line', () => {
+    expect(wrapText('Kısa başlık', 24, 3)).toEqual(['Kısa başlık']);
+  });
+  it('wraps on word boundaries within maxChars', () => {
+    const out = wrapText('Kanada Gazetesi bağımsız haber yayını', 18, 3);
+    expect(out.every((l) => l.length <= 18)).toBe(true);
+    expect(out.join(' ')).toBe('Kanada Gazetesi bağımsız haber yayını');
+  });
+  it('truncates with an ellipsis past maxLines', () => {
+    const long = 'bir iki üç dört beş altı yedi sekiz dokuz on onbir oniki';
+    const out = wrapText(long, 10, 2);
+    expect(out).toHaveLength(2);
+    expect(out[out.length - 1].endsWith('…')).toBe(true);
+  });
+  it('never emits empty lines', () => {
+    const out = wrapText('a b c d e f g h', 3, 4);
+    expect(out.every((l) => l.trim().length > 0)).toBe(true);
   });
 });
 

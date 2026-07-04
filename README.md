@@ -34,9 +34,13 @@ Tüm bu kontroller her PR'da GitHub Actions ile (Node 20 ve 22) çalışır.
 otomatik üretir (`postbuild`). Site içi arama `/ara` adresinde sunulur.
 
 Öne çıkan okur/SEO özellikleri: karanlık tema (otomatik + manuel), etiket
-(`/etiketler`) ve yazar (`/yazarlar`) arşivleri, yapısal veri (NewsArticle,
-BreadcrumbList, Organization), PWA manifesti ve yayın ilkeleri/gizlilik/
-düzeltme sayfaları.
+(`/etiketler`), yazar (`/yazarlar`) ve dizi (`/diziler`) arşivleri, makale
+içindekiler ve okuma-ilerleme çubuğu, etiket-duyarlı ilgili yazılar, yapısal
+veri (NewsArticle, BreadcrumbList, Organization), PWA manifesti, makale
+yazdırma stili ve yayın ilkeleri/gizlilik/düzeltme sayfaları.
+
+Her makale için, `sharp` ile derleme sırasında **markalı OG paylaşım görseli**
+(`/og/[id].png`, 1200×630) otomatik üretilir; bölüm rengi ve künye ile.
 
 ## Proje yapısı
 
