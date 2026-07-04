@@ -8,6 +8,7 @@ import {
   deriveExcerpt,
   slugify,
   tableOfContents,
+  rankRelated,
 } from './text';
 
 describe('formatDateTR', () => {
@@ -88,6 +89,32 @@ describe('tableOfContents', () => {
   });
   it('respects a custom depth', () => {
     expect(tableOfContents(headings, 3, 1).map((h) => h.slug)).toEqual(['a1']);
+  });
+});
+
+describe('rankRelated', () => {
+  const mk = (id: string, tags: string[], section: string, day: number) => ({
+    id,
+    data: { tags, section, pubDate: new Date(`2026-06-${day}T00:00:00Z`) },
+  });
+  const current = mk('cur', ['göç', 'vize'], 'goc-ve-yerlesim', 10);
+  const candidates = [
+    mk('a', ['göç', 'vize'], 'toplum', 1), // 2 shared tags
+    mk('b', ['vize'], 'goc-ve-yerlesim', 2), // 1 shared + same section
+    mk('c', [], 'goc-ve-yerlesim', 9), // same section only
+    mk('d', [], 'yasam', 8), // nothing
+    current, // must be excluded
+  ];
+  it('excludes the current article', () => {
+    const out = rankRelated(current, candidates).map((a) => a.id);
+    expect(out).not.toContain('cur');
+  });
+  it('ranks by shared tags, then section, then recency', () => {
+    const out = rankRelated(current, candidates).map((a) => a.id);
+    expect(out).toEqual(['a', 'b', 'c']);
+  });
+  it('respects the limit', () => {
+    expect(rankRelated(current, candidates, 2)).toHaveLength(2);
   });
 });
 

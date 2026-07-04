@@ -14,7 +14,8 @@ import {
   isoDate,
   slugify,
   tableOfContents,
-  getArticlesBySection,
+  rankRelated,
+  getPublishedArticles,
   getArticlesBySeries,
   type Article,
 } from '../utils/format';
@@ -43,10 +44,8 @@ const photo = d.heroImage
   ? (photoCredits as Record<string, any>)[d.heroImage]
   : undefined;
 
-// İlgili yazılar — aynı bölüm, kendisi hariç, en yeni 3
-const related = (await getArticlesBySection(d.section))
-  .filter((a) => a.id !== article.id)
-  .slice(0, 3);
+// İlgili yazılar — paylaşılan etiket + bölüm + tazelik puanına göre, en iyi 3
+const related = rankRelated(article, await getPublishedArticles(), 3);
 
 // Dizi bilgisi — bu yazı bir dizinin parçasıysa konumunu hesapla
 let seriesInfo: { name: string; slug: string; position: number; total: number } | null =
@@ -332,7 +331,7 @@ const jsonLd = {
     related.length > 0 && (
       <section class="wrap related" aria-labelledby="related-title">
         <h2 id="related-title" class="related__title" style={`--accent:${accent}`}>
-          {meta?.name} bölümünden
+          İlgili yazılar
         </h2>
         <div class="related__grid">
           {related.map((a) => (

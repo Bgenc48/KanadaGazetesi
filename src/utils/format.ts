@@ -14,6 +14,7 @@ export {
   deriveExcerpt,
   slugify,
   tableOfContents,
+  rankRelated,
   type TocHeading,
 } from './text';
 
