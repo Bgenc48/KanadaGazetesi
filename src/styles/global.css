@@ -162,6 +162,25 @@
   --accent-yasam: var(--amber-600); /* yaşam — amber */
   --accent-rehber: var(--brass-600); /* rehber — pirinç */
 
+  /* ── Perigee ağ ortak belirteçleri (@perigee/tokens sözleşmesi) ──
+     Bu site kendi zengin tasarım sistemini korur; aşağıdaki --pg-* adları
+     onun anlamsal katmanına eşlenir (bkz. perigeemediagroup:
+     standards/DESIGN-TOKENS.md). Anlamsal aliaslara bağlandığı için karanlık
+     tema ile birlikte otomatik güncellenir. Vurgu #b41e26 (kızıl) korunur. */
+  --pg-paper: var(--surface-page);
+  --pg-ink: var(--text-strong);
+  --pg-muted: var(--text-muted);
+  --pg-surface: var(--surface-card);
+  --pg-accent: var(--accent);
+  --pg-accent-contrast: var(--text-inverse);
+  --pg-accent-secondary: var(--accent);
+  --pg-rule: var(--rule-strong);
+  --pg-hairline: var(--rule);
+  --pg-font-display: var(--font-display);
+  --pg-font-serif: var(--font-serif);
+  --pg-font-sans: var(--font-sans);
+  --pg-radius: var(--radius);
+
   color-scheme: light;
 }
 
