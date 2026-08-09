@@ -27,9 +27,6 @@ describe('queryLadder', () => {
     expect(queryLadder('')).toEqual([]);
     expect(queryLadder('   ')).toEqual([]);
     expect(queryLadder(undefined)).toEqual([]);
-    expect(queryLadder('  Kampala   market  ')).toEqual([
-      'Kampala market',
-      'Kampala',
-    ]);
+    expect(queryLadder('  Kampala   market  ')).toEqual(['Kampala market', 'Kampala']);
   });
 });
