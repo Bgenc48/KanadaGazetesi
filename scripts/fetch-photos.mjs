@@ -82,21 +82,50 @@ function rankCandidates(list, minWidth) {
     .filter((c) => acceptable(c, minWidth));
 }
 
+/**
+ * Sorgu merdiveni: tam sorgudan gittikçe genelleşen sorgulara.
+ * Dar sorguların ("Toronto Turkish community festival") serbest lisanslı
+ * arşivlerde karşılığı olmayabiliyor. Sorguyu kademeli kısaltmak, konudan
+ * tümüyle kopmadan aday havuzunu genişletir. Kardeş gazete
+ * afrikaturkpostasi'nde bu ekleme, hiç aday bulunamayan 37 yazının tamamına
+ * kapak bulunmasını sağladı.
+ */
+export function queryLadder(query) {
+  const words = String(query || '')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+  const out = [];
+  const push = (q) => {
+    const t = q.trim();
+    if (t && !out.includes(t)) out.push(t);
+  };
+  push(words.join(' '));
+  if (words.length > 3) push(words.slice(0, 3).join(' '));
+  if (words.length > 2) push(words.slice(0, 2).join(' '));
+  if (words.length > 1) push(words[0]);
+  return out;
+}
+
 async function findPhoto(query, { order, env, limit, minWidth, log }) {
-  for (const name of order) {
-    const search = getProvider(name);
-    if (!search) continue;
-    try {
-      const results = await search(query, { limit, env });
-      await sleep(1200); // API'lere karşı kibar ol (özellikle anahtarsız)
-      const ranked = rankCandidates(results, minWidth);
-      if (ranked.length) {
-        log(`    ✓ ${name}: ${ranked.length} uygun aday (lisans/boyut)`);
-        return ranked[0];
+  // Merdivenin ilk basamağı en dar, yani konuya en yakın sorgu. Uygun aday
+  // bulunduğu anda duruyoruz; daha genel sorgulara yalnızca gerekirse iniyoruz.
+  for (const q of queryLadder(query)) {
+    for (const name of order) {
+      const search = getProvider(name);
+      if (!search) continue;
+      try {
+        const results = await search(q, { limit, env });
+        await sleep(1200); // API'lere karşı kibar ol (özellikle anahtarsız)
+        const ranked = rankCandidates(results, minWidth);
+        if (ranked.length) {
+          log(`    ✓ ${name} ("${q}"): ${ranked.length} uygun aday (lisans/boyut)`);
+          return ranked[0];
+        }
+        log(`    · ${name} ("${q}"): uygun aday yok (${results.length} sonuç)`);
+      } catch (err) {
+        log(`    ! ${name} hata: ${err.message}`);
       }
-      log(`    · ${name}: uygun aday yok (${results.length} sonuç)`);
-    } catch (err) {
-      log(`    ! ${name} hata: ${err.message}`);
     }
   }
   return null;
@@ -213,7 +242,10 @@ async function main() {
   if (fail > 0 && ok === 0) process.exitCode = 1;
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Doğrudan çalıştırıldığında ana akış; testler yardımcıları içe aktarır.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
