@@ -20,9 +20,9 @@ Kanada’nın en çok övünülen kamusal hizmeti sağlıktır: doktor muayenesi
 
 Her eyaletin kendi planı ve kartı vardır:
 
-- **Ontario** — OHIP
-- **Québec** — RAMQ
-- **British Columbia** — MSP
+- **Ontario:** OHIP
+- **Québec:** RAMQ
+- **British Columbia:** MSP
 - Diğer eyaletlerin de kendi planları bulunur.
 
 Hangi eyalete yerleştiyseniz, oranın sağlık kartına başvurmanız gerekir. Taşındığınızda planınız otomatik olarak taşınmaz.
@@ -37,9 +37,9 @@ Bazı eyaletlerde (örneğin Ontario, Québec ve B.C. gibi), sağlık kapsamı b
 
 Kanada’da pek çok bölgede **aile hekimi (family doctor) bulmak zaman alır;** bekleme listeleri uzun olabilir. Bu arada hastalanırsanız seçenekleriniz:
 
-- **Walk-in klinikler** — randevusuz muayene.
-- **Telefon/çevrim içi sağlık hatları** — birçok eyalette ücretsiz danışma hattı vardır.
-- **Acil servis** — yalnızca gerçek aciller için; bekleme süreleri uzundur.
+- **Walk-in klinikler:** randevusuz muayene.
+- **Telefon/çevrim içi sağlık hatları:** birçok eyalette ücretsiz danışma hattı vardır.
+- **Acil servis:** yalnızca gerçek aciller için; bekleme süreleri uzundur.
 
 Aile hekimi arayışını ilk haftadan başlatın; bölgenizin resmî sağlık portalına kaydolun.
 

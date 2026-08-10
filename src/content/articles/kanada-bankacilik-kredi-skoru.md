@@ -34,7 +34,7 @@ Skor, **zamanında ödeme** ve **sorumlu kullanım** geçmişinden doğar. Yeni 
 - Kartı düzenli kullanın ama **limitin küçük bir kısmını** harcayın (genel kural: limitin %30’unun altında kalın).
 - **Her ay, son ödeme gününden önce, tamamını ödeyin.** Faiz ödememek hem cebinizi korur hem de disiplini gösterir.
 
-> Kredi kartı borcu, Kanada’da en pahalı borç türlerinden biridir; yıllık faizleri çok yüksektir. Skor kurmak için kart kullanmak ile faize batmak farklı şeylerdir — fark, “her ay tamamını ödemekte” gizlidir.
+> Kredi kartı borcu, Kanada’da en pahalı borç türlerinden biridir; yıllık faizleri çok yüksektir. Skor kurmak için kart kullanmak ile faize batmak farklı şeylerdir; fark, “her ay tamamını ödemekte” gizlidir.
 
 ## Skoru hızlandıran ve yavaşlatan şeyler
 

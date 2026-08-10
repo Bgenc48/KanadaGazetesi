@@ -15,13 +15,13 @@ series: "Yeni Gelenler Rehberi"
 seriesOrder: 3
 ---
 
-İstanbul’un, İzmir’in, hatta Ankara’nın kışını yaşamış biri için Kanada kışı yeni bir kategoridir. Birçok bölgede sıcaklık haftalarca eksi rakamlarda kalır, rüzgârla birlikte hissedilen soğuk daha da düşer. Ama Kanadalılar bu mevsimde hayatı durdurmaz — kayağa gider, göl üzerinde paten kayar, kar yürüyüşü yapar. Sırrı tek kelimede: **hazırlık.**
+İstanbul’un, İzmir’in, hatta Ankara’nın kışını yaşamış biri için Kanada kışı yeni bir kategoridir. Birçok bölgede sıcaklık haftalarca eksi rakamlarda kalır, rüzgârla birlikte hissedilen soğuk daha da düşer. Ama Kanadalılar bu mevsimde hayatı durdurmaz: kayağa gider, göl üzerinde paten kayar, kar yürüyüşü yapar. Sırrı tek kelimede: **hazırlık.**
 
 ## Sır katmanda: “layering”
 
 Tek kalın bir mont, doğru giyinmenin yolu değildir. Yerel bilgelik **katmanlı giyinmeyi** söyler:
 
-1. **İç katman (base layer):** Teri uzaklaştıran, merinos yünü ya da teknik kumaş. Pamuk değil — pamuk teri tutar ve üşütür.
+1. **İç katman (base layer):** Teri uzaklaştıran, merinos yünü ya da teknik kumaş. Pamuk değil; pamuk teri tutar ve üşütür.
 2. **Orta katman (mid layer):** Yalıtım için polar ya da kaz tüyü.
 3. **Dış katman (shell):** Rüzgâr ve suya dayanıklı, kapüşonlu mont.
 
@@ -31,7 +31,7 @@ Uçlar kritiktir: **bere, eldiven/iki katlı eldiven, boyunluk** ve en önemlisi
 
 Kar ve buzda yazlık lastik tehlikelidir. Québec gibi bazı eyaletlerde **kış lastiği yasal zorunluluktur;** zorunlu olmayan yerlerde bile kuvvetle önerilir.
 
-- Sıcaklık sürekli düşmeden, **sonbaharın sonunda** lastik değişimi için randevu alın — sezonda servisler dolar.
+- Sıcaklık sürekli düşmeden, **sonbaharın sonunda** lastik değişimi için randevu alın, çünkü sezonda servisler dolar.
 - Camsuyu için **kışlık (donmayan) sıvı** kullanın.
 - Bagajda **buz kazıyıcı, battaniye, kürek ve yedek eldiven** bulundurun.
 

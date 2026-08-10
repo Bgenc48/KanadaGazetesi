@@ -1,6 +1,6 @@
 ---
 title: "Yeni Gelenin İlk 30 Günü: Adım Adım Kontrol Listesi"
-deck: "Kanada’ya indiğiniz andan itibaren ilk ay, hayatınızın temellerini atar. SIN’den sağlık kartına, banka hesabından telefon hattına — sırasıyla yapılacaklar."
+deck: "Kanada’ya indiğiniz andan itibaren ilk ay, hayatınızın temellerini atar. SIN’den sağlık kartına, banka hesabından telefon hattına, sırasıyla yapılacaklar."
 section: "rehber"
 author: "Kanada Gazetesi"
 authorTitle: "Rehber"
@@ -51,4 +51,4 @@ Kanada’ya inişin heyecanı kısa sürede yerini bir soruya bırakır: “Şim
 
 ## Son söz
 
-İlk 30 gün yorucu ama sonludur. Listeyi sırayla işaretledikçe kaygı yerini güvene bırakır. Bu yazıyı yer imlerinize ekleyin, her maddeyi tamamladıkça üzerini çizin — ve unutmayın: bu yolu sizden önce binlerce Türk ailesi yürüdü, siz de yürürsünüz.
+İlk 30 gün yorucu ama sonludur. Listeyi sırayla işaretledikçe kaygı yerini güvene bırakır. Bu yazıyı yer imlerinize ekleyin, her maddeyi tamamladıkça üzerini çizin. Unutmayın, bu yolu sizden önce binlerce Türk ailesi yürüdü, siz de yürürsünüz.

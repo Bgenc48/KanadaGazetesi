@@ -37,7 +37,7 @@ GTA genelinde camiler ve İslam kültür merkezleri bulunur; bunların birçoğu
 
 ## Etkinlikler ve festivaller
 
-Toronto, çok kültürlü festival geleneğiyle bilinir. Türk ve Anadolu kültürünü tanıtan festivaller, yaz aylarında topluluğu bir araya getiren en güzel buluşmalardır — hem yeni gelenler için tanışma fırsatı, hem de Kanadalı komşulara kültürü tanıtma vesilesi. Yerel topluluk takvimini ve dernek duyurularını takip ederek bu etkinlikleri kaçırmayın.
+Toronto, çok kültürlü festival geleneğiyle bilinir. Türk ve Anadolu kültürünü tanıtan festivaller, yaz aylarında topluluğu bir araya getiren en güzel buluşmalardır: hem yeni gelenler için tanışma fırsatı, hem de Kanadalı komşulara kültürü tanıtma vesilesi. Yerel topluluk takvimini ve dernek duyurularını takip ederek bu etkinlikleri kaçırmayın.
 
 ## Çocuklar ve gelecek kuşak
 

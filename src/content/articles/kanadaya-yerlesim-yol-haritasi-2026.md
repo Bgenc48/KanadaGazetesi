@@ -24,9 +24,9 @@ Kanada, her yıl yarım milyondan fazla yeni kalıcı sakini ülkeye kabul eden,
 
 Kanada’ya kalıcı yerleşmenin tek bir kapısı yok. En çok kullanılan üç yol şöyle:
 
-- **Express Entry** — Federal düzeyde yönetilen, çevrim içi bir havuz sistemi. Üç programı kapsar: Federal Nitelikli İşçi (FSW), Kanada Deneyim Sınıfı (CEC) ve Federal Nitelikli Zanaatkâr (FST). Adaylar **CRS** denen bir puanla sıralanır; düzenli aralıklarla yapılan davetlerde (draw) eşik puanı geçenler kalıcı oturuma başvurmaya davet edilir.
-- **Eyalet Adaylık Programları (PNP)** — Ontario, British Columbia, Alberta gibi eyaletlerin kendi iş gücü ihtiyacına göre aday seçtiği programlar. Bir eyalet adaylığı, Express Entry puanınıza büyük bir ek getirir ve çoğu zaman daveti neredeyse garantiler.
-- **Québec** — Kendine ait, ayrı bir göç sistemi yürütür. Bu yola çıkacaklar için ayrı bir [rehber yazımız](/bolum/goc-ve-yerlesim) var.
+- **Express Entry:** Federal düzeyde yönetilen, çevrim içi bir havuz sistemi. Üç programı kapsar: Federal Nitelikli İşçi (FSW), Kanada Deneyim Sınıfı (CEC) ve Federal Nitelikli Zanaatkâr (FST). Adaylar **CRS** denen bir puanla sıralanır; düzenli aralıklarla yapılan davetlerde (draw) eşik puanı geçenler kalıcı oturuma başvurmaya davet edilir.
+- **Eyalet Adaylık Programları (PNP):** Ontario, British Columbia, Alberta gibi eyaletlerin kendi iş gücü ihtiyacına göre aday seçtiği programlar. Bir eyalet adaylığı, Express Entry puanınıza büyük bir ek getirir ve çoğu zaman daveti neredeyse garantiler.
+- **Québec:** Kendine ait, ayrı bir göç sistemi yürütür. Bu yola çıkacaklar için ayrı bir [rehber yazımız](/bolum/goc-ve-yerlesim) var.
 
 > Hangi kapının size uygun olduğu; yaşınıza, diplomanıza, dil puanınıza ve iş deneyiminize bağlıdır. Aynı profil bir programda eşiği geçerken diğerinde geçemeyebilir.
 
@@ -56,7 +56,7 @@ Pratikte çoğu aday için puanı en hızlı yükselten kalem **dil sınavıdır
 
 Kalıcı oturum (PR) onaylandığında işiniz bitmez, asıl yerleşme başlar. İlk haftalarda mutlaka:
 
-- **SIN (Sosyal Sigorta Numarası)** alın — çalışmak ve bankacılık için şart.
+- **SIN (Sosyal Sigorta Numarası)** alın; çalışmak ve bankacılık için şart.
 - **Eyalet sağlık kartına** başvurun; bazı eyaletlerde ilk aylarda bekleme süresi olduğunu unutmayın. [Sağlık rehberimizi](/bolum/yasam) okuyun.
 - **Banka hesabı** açıp sıfırdan **kredi geçmişi** kurmaya başlayın.
 
@@ -70,7 +70,7 @@ Kalıcı oturum, vatandaşlığın ön koşuludur. Genel kural olarak vatandaşl
 - Bu dönemde **vergi beyanı** vermiş olmak,
 - 18–54 yaş aralığındaysanız **dil yeterliliği** ve **vatandaşlık sınavı** şartlarını karşılamak gerekir.
 
-Süreç sonunda gelen vatandaşlık töreni, çoğu Türk aile için Kanada serüveninin sembolik kapanışıdır — ve Türkiye vatandaşlığından da vazgeçmeniz gerekmez, çünkü Kanada **çifte vatandaşlığa** izin verir. İki ülke arasındaki vatandaşlık, pasaport ve askerlik meselelerini ayrı bir [Türkiye–Kanada yazısında](/bolum/turkiye-kanada) ele aldık.
+Süreç sonunda gelen vatandaşlık töreni, çoğu Türk aile için Kanada serüveninin sembolik kapanışıdır. Türkiye vatandaşlığından da vazgeçmeniz gerekmez, çünkü Kanada **çifte vatandaşlığa** izin verir. İki ülke arasındaki vatandaşlık, pasaport ve askerlik meselelerini ayrı bir [Türkiye–Kanada yazısında](/bolum/turkiye-kanada) ele aldık.
 
 ## Sabır, ama plan dahilinde
 
