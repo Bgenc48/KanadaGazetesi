@@ -9,6 +9,9 @@ photoQuery: "tax forms calculator paperwork desk"
 excerpt: "Beyanname vermek Kanada'da yalnızca vergi ödemek değil; çocuk yardımından kredilere kadar pek çok hakkın kapısı."
 tags: ["vergi", "CRA", "beyanname", "yardımlar"]
 advisory: true
+heroImage: "/images/kanada-vergi-sistemi-cra.jpg"
+heroCredit: "401(K) 2013 / Openverse (CC BY-SA 2.0)"
+heroAlt: "Tax Form"
 ---
 
 Kanada'da vergi, yeni gelenlerin en geç öğrendiği ama en erken öğrenmesi gereken konulardan biri. Çünkü beyanname burada yalnızca devlete para ödemek anlamına gelmiyor.

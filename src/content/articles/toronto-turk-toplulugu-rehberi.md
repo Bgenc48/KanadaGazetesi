@@ -8,6 +8,9 @@ pubDate: 2026-05-12
 photoQuery: "Toronto city street shops community"
 excerpt: "Toronto ve çevresi Kanada'daki Türk topluluğunun merkezi. Nereye yerleşmeli, hangi kapıyı çalmalı, nereden alışveriş yapmalı?"
 tags: ["Toronto", "topluluk", "dernek", "Ontario"]
+heroImage: "/images/toronto-turk-toplulugu-rehberi.jpg"
+heroCredit: "Ken Lund from Reno, Nevada, USA / Openverse (CC BY-SA 2.0)"
+heroAlt: "Bloor Street, Toronto, Ontario (30003258145)"
 ---
 
 Kanada'ya gelen Türklerin önemli bölümü Toronto ve çevresine yerleşiyor. Şehrin büyüklüğü ilk bakışta ürkütücü olsa da, topluluğun coğrafyasını bilmek yeni gelen için işleri belirgin biçimde kolaylaştırıyor.

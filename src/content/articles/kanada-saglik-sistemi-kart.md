@@ -9,6 +9,9 @@ photoQuery: "hospital clinic reception healthcare canada"
 excerpt: "Kanada'da sağlık federal değil eyalet işi. Kartınızı nasıl alacağınızı ve neyin kapsam dışı olduğunu anlatıyoruz."
 tags: ["sağlık", "sigorta", "aile hekimi", "eyalet"]
 advisory: true
+heroImage: "/images/kanada-saglik-sistemi-kart.jpg"
+heroCredit: "Openverse (CC0)"
+heroAlt: "Reception clinical physiology - NÄL"
 ---
 
 Kanada'nın kamu sağlık sistemi ülkenin en bilinen özelliklerinden biri. Yeni gelenlerin çoğu her şeyin ücretsiz olduğunu düşünerek geliyor, sonra sistemin sınırlarıyla tanışıyor. Gerçek ikisinin arasında.

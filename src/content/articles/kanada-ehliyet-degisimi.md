@@ -9,6 +9,9 @@ photoQuery: "driving licence car keys winter road"
 excerpt: "Ehliyet Kanada'da eyalet işi. Türk ehliyetiyle ne kadar sürebileceğinizi ve geçmişinizi belgelemenin neden para kazandırdığını anlatıyoruz."
 tags: ["ehliyet", "araba", "sigorta", "eyalet"]
 advisory: true
+heroImage: "/images/kanada-ehliyet-degisimi.jpg"
+heroCredit: "ronsaunders47 / Openverse (CC BY-SA 2.0)"
+heroAlt: "The Vauxhall Victor FB Series UK 1964."
 ---
 
 Kanada'nın çoğu yerinde araba lüks değil altyapı. Toplu taşıma büyük şehirlerin merkezinde iyi işliyor, ama banliyölerde ve küçük yerleşimlerde ehliyet neredeyse zorunlu.

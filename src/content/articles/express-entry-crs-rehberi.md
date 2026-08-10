@@ -9,6 +9,9 @@ photoQuery: "canada immigration office documents passport"
 excerpt: "Express Entry bir kuyruk değil, bir havuz. Puanınızın nasıl hesaplandığını ve davetin nereden geldiğini açıklıyoruz."
 tags: ["Express Entry", "CRS", "kalıcı oturum", "göç"]
 advisory: true
+heroImage: "/images/express-entry-crs-rehberi.jpg"
+heroCredit: "Ken Heaton / Openverse (CC BY-SA 4.0)"
+heroAlt: "Reeve & Clarke Fine & Rare Books (former Frazier Shop) in which Timothy Eaton first worked in retail. Glen Williams, Ontario, Canada"
 ---
 
 Kanada'ya beceri göçü, başvuru sırasına göre işleyen bir kuyruk değil. Adaylar önce bir havuza giriyor, sonra havuzdaki en yüksek puanlılar başvuru yapmaya davet ediliyor. Bu farkı anlamak, süreci doğru planlamanın ilk adımı.

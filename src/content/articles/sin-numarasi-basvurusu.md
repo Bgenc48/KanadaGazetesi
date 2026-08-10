@@ -9,6 +9,9 @@ photoQuery: "government service office documents desk"
 excerpt: "SIN olmadan çalışamazsınız. Başvurunun nasıl yapıldığını, geçici statüdekiler için farkı ve numarayı korumanın kurallarını anlatıyoruz."
 tags: ["SIN", "çalışma hayatı", "Service Canada", "belge"]
 advisory: true
+heroImage: "/images/sin-numarasi-basvurusu.jpg"
+heroCredit: "ITU Pictures / Openverse (CC BY 2.0)"
+heroAlt: "WSIS Forum 2013 - AL C7 E-business (UNCTAD, ITC and UPU) E-commerce and Development"
 ---
 
 Kanada'da çalışmaya başlayacak herkesin ilk işi **Social Insurance Number**, kısaca SIN almak. Bu numara olmadan işveren sizi bordroya yazamıyor, devlet hizmetlerinin çoğuna erişemiyorsunuz.
