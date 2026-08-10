@@ -1,6 +1,6 @@
 ---
 title: "Konsolosluk Rehberi: Kanada’daki Türk Vatandaşları İçin İşlemler"
-deck: "Pasaport yenileme, nüfus, vekâletname, askerlik ve acil durumlar — Kanada’daki Türk büyükelçiliği ve konsolosluklarının kapısını ne zaman çalmalısınız?"
+deck: "Pasaport yenileme, nüfus, vekâletname, askerlik ve acil durumlar. Kanada’daki Türk büyükelçiliği ve konsolosluklarının kapısını ne zaman çalmalısınız?"
 section: "turkiye-kanada"
 author: "Türkiye–Kanada Masası"
 authorTitle: "Kanada Gazetesi"
@@ -14,7 +14,7 @@ heroCredit: "Tim Evanson from Washington, D.C., United States of America / Openv
 heroAlt: "2125 Kalorama Road NW - Portuguese ambassadorial residence - Washington DC - 2013-09-15"
 ---
 
-Yurt dışında yaşayan her Türk vatandaşı için konsolosluk, Türkiye’nin uzanan elidir: pasaportunuzu yeniler, çocuğunuzu nüfusa kaydeder, vekâletnamenizi onaylar ve en zor anlarda — kaybolan belge, hastalık, vefat — yanınızda olur. Kanada’da bu hizmetleri **Ottawa’daki T.C. Büyükelçiliği** ve ülkenin çeşitli şehirlerindeki **başkonsolosluklar** yürütür. İşte bu kapıyı verimli çalmanın yolu.
+Yurt dışında yaşayan her Türk vatandaşı için konsolosluk, Türkiye’nin uzanan elidir: pasaportunuzu yeniler, çocuğunuzu nüfusa kaydeder, vekâletnamenizi onaylar ve en zor anlarda, yani kaybolan belge, hastalık ve vefat gibi durumlarda yanınızda olur. Kanada’da bu hizmetleri **Ottawa’daki T.C. Büyükelçiliği** ve ülkenin çeşitli şehirlerindeki **başkonsolosluklar** yürütür. İşte bu kapıyı verimli çalmanın yolu.
 
 ## Konsolosluk hangi işlemleri yapar?
 
@@ -50,4 +50,4 @@ Türkiye’deki tapu, miras ya da banka işlerinizi Kanada’dan yürütmeniz ge
 
 ## Özetle
 
-Konsolosluk işlerini “başa gelince” değil, **önceden** planlayan vatandaş kazanır. Yetki bölgenizi öğrenin, randevunuzu erken alın, belgelerinizi eksiksiz hazırlayın ve acil durum numarasını kaydedin. Türkiye, Kanada’da düşündüğünüzden daha yakındır — yeter ki doğru kapıyı bilelim.
+Konsolosluk işlerini “başa gelince” değil, **önceden** planlayan vatandaş kazanır. Yetki bölgenizi öğrenin, randevunuzu erken alın, belgelerinizi eksiksiz hazırlayın ve acil durum numarasını kaydedin. Türkiye, Kanada’da düşündüğünüzden daha yakındır; yeter ki doğru kapıyı bilelim.

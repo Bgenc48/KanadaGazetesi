@@ -46,4 +46,4 @@ Kanada’da doğan ya da küçük yaşta gelen çocuklar çoğu zaman doğuştan
 
 ## Özetle
 
-Çifte vatandaşlık, iki dünyanın da kapısını açık tutmanın hukuki yoludur — bir ayrıcalık, bir yük değil. Yeter ki doğru pasaportu doğru yerde kullanın, askerlik durumunuzu netleştirin ve resmî işlemleri güncel kurallara göre yürütün. Bu yazı genel bir çerçevedir; kişisel durumunuz için mutlaka [T.C. konsolosluğundan](https://www.mfa.gov.tr) güncel bilgi alın.
+Çifte vatandaşlık, iki dünyanın da kapısını açık tutmanın hukuki yoludur; bir ayrıcalık, bir yük değil. Yeter ki doğru pasaportu doğru yerde kullanın, askerlik durumunuzu netleştirin ve resmî işlemleri güncel kurallara göre yürütün. Bu yazı genel bir çerçevedir; kişisel durumunuz için mutlaka [T.C. konsolosluğundan](https://www.mfa.gov.tr) güncel bilgi alın.
