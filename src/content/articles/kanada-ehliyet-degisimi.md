@@ -74,3 +74,10 @@ Prim; yaşınıza, ehliyet kademenize, sürüş geçmişinize, aracın modeline,
 Kanada'nın tuz kullanılan bölgelerinde paslanma ciddi bir sorun. Alt şasi kontrolü, motorun durumundan daha belirleyici olabiliyor.
 
 Süreler, sınav muafiyetleri, tescil ücretleri ve sigorta koşulları eyaletlere göre değişiyor ve güncelleniyor; direksiyona geçmeden önce kendi eyaletinizin ulaştırma kurumunun sayfasını esas alın. Sürüş geçmişini belgeleyip erken başvuran okurlarımız, hem kademe hem prim tarafında ciddi kazanç sağladıklarını söylüyor.
+
+## Kaynaklar ve doğrulama
+
+- [Ontario hükümeti: yabancı ehliyet değişimi ve deneyim belgesi](https://www.ontario.ca/page/exchange-out-province-drivers-licence)
+- [Transport Canada: eyalet ve bölge ulaştırma kurumları](https://tc.canada.ca/en/road-transportation/motor-vehicle-safety/canadian-motor-vehicle-traffic-collision-statistics-2022/provincial-territorial-government-links)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

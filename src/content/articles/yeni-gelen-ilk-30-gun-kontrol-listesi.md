@@ -52,3 +52,14 @@ Kanada’ya inişin heyecanı kısa sürede yerini bir soruya bırakır: “Şim
 ## Son söz
 
 İlk 30 gün yorucu ama sonludur. Listeyi sırayla işaretledikçe kaygı yerini güvene bırakır. Bu yazıyı yer imlerinize ekleyin, her maddeyi tamamladıkça üzerini çizin. Unutmayın, bu yolu sizden önce binlerce Türk ailesi yürüdü, siz de yürürsünüz.
+
+## Her işlem için küçük bir kanıt dosyası
+
+Kontrol listesini tamamlarken yalnız kutuyu işaretlemeyin. Her işlem için başvuru tarihi, referans numarası, beklenen yanıt süresi ve takip kanalını tek bir tabloda tutun. Pasaport veya SIN gibi hassas belgelerin açık kopyalarını e-postada dolaştırmayın; şifreli depolama ve çok adımlı doğrulama kullanın. Adres değişikliğini banka, işveren ve ilgili kamu kurumlarına ayrı ayrı bildirin; bir kuruma yapılan güncelleme diğerlerine otomatik gitmez. Ücretsiz yerleşim hizmetlerine uygunluğunuz statünüze ve tarihe göre değişebildiği için randevu almadan önce IRCC’nin güncel uygunluk sayfasını kontrol edin.
+
+## Kaynaklar ve doğrulama
+
+- [IRCC: ücretsiz yerleşim hizmetleri ve güncel uygunluk](https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/newcomer-services/eligibility.html)
+- [IRCC: Kanada’ya gelmeden önce ücretsiz hazırlık hizmetleri](https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/pre-arrival-services.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

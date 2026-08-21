@@ -89,3 +89,9 @@ Sahadan derlediğimiz pratik sıra şöyle işliyor:
 Hekiminize eşdeğer bir alternatif olup olmadığını sormak ve eczaneler arası fiyat farkını kontrol etmek, düzenli ilaç kullananlar için anlamlı fark yaratıyor.
 
 Kapsam kuralları, bekleme süreleri ve başvuru koşulları eyaletlere göre değişiyor ve güncelleniyor; kendi durumunuz için bulunduğunuz eyaletin sağlık bakanlığı sayfasını esas alın. Kartını ilk haftalarda çıkaran ve kendine bir aile hekimi arayan aileler, sağlık tarafında belirgin biçimde daha az sorun yaşıyor.
+
+## Kaynaklar ve doğrulama
+
+- [IRCC: Kanada’nın kamu sağlık sistemine erişim](https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/universal-system.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

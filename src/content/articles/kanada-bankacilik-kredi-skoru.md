@@ -57,3 +57,14 @@ Türkiye ile Kanada arasında para hareketi yapacaksanız, bankaların standart 
 ## Özetle
 
 Kanada’da finansal itibar, biriktirdiğiniz paradan çok **alışkanlıklarınızla** ölçülür. İlk yıl bilinçli kurulan bir kredi skoru, ikinci yıl çok daha iyi bir kira sözleşmesi, üçüncü yıl makul bir araba kredisi demektir. Erken ve disiplinli başlayan kazanır.
+
+## Kredi raporunu kontrol edin
+
+Skorunuzu kurarken yalnız bankanın uygulamasındaki sayıya güvenmeyin. Kanada’nın iki büyük kredi bürosundaki raporlarınızı düzenli aralıklarla alın; size ait olmayan hesap, yanlış adres veya geç ödeme kaydı görürseniz hem kredi bürosuna hem ilgili kuruma itiraz edin. Kendi raporunuzu istemek skoru düşürmez. Yeni kredi başvurularını kısa aralıklarla çoğaltmak ise raporda “hard inquiry” oluşturabilir. Kredi kartını yalnız skor üretmek için borçlanma aracı gibi kullanmayın: otomatik ödeme kurun, ekstreyi aylık inceleyin ve taşıyamayacağınız bir bakiye oluşturmayın.
+
+## Kaynaklar ve doğrulama
+
+- [Financial Consumer Agency of Canada: kredi raporu ve skor temelleri](https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html)
+- [Financial Consumer Agency of Canada: kredi skorunu geliştirme](https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

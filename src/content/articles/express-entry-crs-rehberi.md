@@ -42,7 +42,7 @@ Comprehensive Ranking System birkaç ana başlıktan oluşuyor:
 - **Eş faktörleri.** Eşin dil yeterliği, eğitimi ve Kanada deneyimi de tabloya giriyor.
 - **Aktarım puanları.** Eğitim ile dil, ya da eğitim ile deneyim birlikte olduğunda ek puan doğuruyor.
 
-Puan ağırlıkları zaman içinde değişebiliyor. Bir yıl önce hazırlanmış bir tabloya güvenmek yerine, başvuru anındaki resmî hesaplayıcıyı kullanmak gerekiyor.
+Puan ağırlıkları zaman içinde değişebiliyor. Örneğin IRCC, iş teklifi için verilen CRS ek puanlarını 25 Mart 2025’te kaldırdı. Bir yıl önce hazırlanmış bir tabloya güvenmek yerine, başvuru anındaki resmî hesaplayıcıyı kullanmak gerekiyor.
 
 ## Davet nasıl geliyor?
 
@@ -77,3 +77,10 @@ Sahadan en çok duyduğumuz sorunlar şunlar:
 Temiz ve basit bir dosyayı kendiniz yürütebilirsiniz. Geçmişte vize reddi, sağlık ya da karakter koşullarında soru işareti, karmaşık iş geçmişi veya aile birleşimiyle iç içe geçen bir durum varsa, yetkili bir göçmenlik danışmanına başvurmak zaman kaybını önlüyor. Danışmanın kayıt numarasını resmî sicilden doğrulamak sizin sorumluluğunuz; kayıtsız aracılar hem risk hem de yasa dışı.
 
 Puan tabloları, eşikler ve program koşulları değişiyor; kendi durumunuz için başvuru anındaki resmî IRCC sayfalarını esas alın. Havuzda beklemek yıpratıcı olabiliyor, ama puanını doğru kurgulayan ve eyalet yollarını da masaya yatıran adaylar bu süreçten çoğunlukla sonuç alıyor.
+
+## Kaynaklar ve doğrulama
+
+- [IRCC: güncel CRS ölçütleri](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html)
+- [IRCC: Express Entry davet turları](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

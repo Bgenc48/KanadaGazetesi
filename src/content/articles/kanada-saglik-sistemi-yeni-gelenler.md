@@ -63,3 +63,14 @@ Bu masraflar için birçok kişi, işvereninin sunduğu **tamamlayıcı özel si
 5. Reçeteli ilaç ve diş için **özel sigorta** seçeneklerini araştırın.
 
 Kanada’nın sağlık sistemi cömerttir; ama cömertliğinden tam yararlanmak, ilk haftalarda atılan birkaç doğru adıma bağlıdır.
+
+## Eyalet sayfasında neyi doğrulamalısınız?
+
+Başvuru ekranına geçmeden önce dört bilgiyi not edin: statünüze göre uygunluk, kapsamın başlama tarihi, kabul edilen kimlik ve ikamet belgeleri, kart gelene kadar kullanacağınız geçici kanıt. Aynı ailede yetişkin ve çocuklar için farklı belge istenebildiğinden her kişi için ayrı kontrol listesi hazırlayın. Taşındığınızda adres değişikliğini sağlık kurumuna bildirin; başka eyalete geçişte eski ve yeni plan arasındaki geçiş kurallarını ayrıca sorun. Acil olmayan bir ihtiyaç için 911’i kullanmayın; eyaletin sağlık danışma hattı ve yakınınızdaki klinik bilgilerini önceden kaydetmek doğru hizmete daha hızlı ulaşmanızı sağlar.
+
+## Kaynaklar ve doğrulama
+
+- [IRCC: yeni gelenler için Kanada sağlık sistemi](https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care.html)
+- [IRCC: kamu sağlık sigortası ve eyalet bağlantıları](https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/universal-system.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

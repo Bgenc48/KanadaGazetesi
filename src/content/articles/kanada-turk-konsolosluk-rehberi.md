@@ -51,3 +51,14 @@ Türkiye’deki tapu, miras ya da banka işlerinizi Kanada’dan yürütmeniz ge
 ## Özetle
 
 Konsolosluk işlerini “başa gelince” değil, **önceden** planlayan vatandaş kazanır. Yetki bölgenizi öğrenin, randevunuzu erken alın, belgelerinizi eksiksiz hazırlayın ve acil durum numarasını kaydedin. Türkiye, Kanada’da düşündüğünüzden daha yakındır; yeter ki doğru kapıyı bilelim.
+
+## İşlem kaydı tutun
+
+Randevu onayı, ödeme makbuzu, kargo takip numarası ve teslim ettiğiniz belgelerin kopyalarını aynı klasörde saklayın. Başvurunun hangi temsilcilikte ve hangi tarihte yapıldığını not etmek, sonradan bilgi isterken süreci hızlandırır. Kişisel verilerinizi sosyal medya gruplarında paylaşmayın; randevu veya belge işlemleri için yalnız resmî konsolosluk kanallarını kullanın. Vekâletname gibi hukuki sonuç doğuran belgelerde yetkinin kapsamını dar ve açık yazdırın, Türkiye’de kullanacak kurumun istediği ifadeyi önceden teyit edin. Konsolosluk bilgi verir; özel bir uyuşmazlıkta avukatın yerini tutmaz.
+
+## Kaynaklar ve doğrulama
+
+- [T.C. Dışişleri Bakanlığı: Kanada’daki Türk temsilcilikleri](https://www.mfa.gov.tr/sub.tr.mfa?0f9e7076-87f1-4f02-9a4d-1e0af66591d6)
+- [T.C. Konsolosluk İşlemleri: resmî randevu ve işlem portalı](https://www.konsolosluk.gov.tr)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

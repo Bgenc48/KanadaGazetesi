@@ -73,3 +73,10 @@ Belediye ve sivil toplum kuruluşlarının yeni gelenlere yönelik ücretsiz ist
 Pratik sıra şöyle: geçici bir konaklama bul, bölgeleri gez, bir derneğe ve camiye uğra, okul kayıt bölgelerini kontrol et, sonra uzun süreli kira sözleşmesi imzala. Bu sırayı tersine çevirenler çoğu zaman ilk yıl içinde yeniden taşınıyor.
 
 Adresler, dernek yönetimleri ve program saatleri zamanla değişiyor; güncel bilgi için ilgili kurumların kendi duyuru kanallarını takip edin. Toronto büyük bir şehir, ama haritasını çıkaran bir aile için kısa sürede küçülüyor.
+
+## Kaynaklar ve doğrulama
+
+- [City of Toronto: yeni gelenler için hizmet noktaları](https://www.toronto.ca/community-people/moving-to-toronto/after-you-arrive-checklist/newcomer-services-kiosks/)
+- [City of Toronto: Toronto’ya taşınma rehberi](https://www.toronto.ca/community-people/moving-to-toronto/)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

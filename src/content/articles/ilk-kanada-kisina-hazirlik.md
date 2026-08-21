@@ -50,3 +50,14 @@ Kanada kışında günler kısalır; güneşi az gören birçok kişi yorgunluk 
 ## Kışı sevmek mümkün
 
 İlk kış zor geçebilir; bu normaldir. Ama doğru ekipmanla donanan bir aile, ikinci kışını dört gözle bekler hâle gelir: kar yürüyüşleri, sıcak çorbalar, paten ve uzun ev akşamları. Kanada kışı, hazırlanana bir düşman değil, yeni bir mevsim sunar.
+
+## Uyarıları takip etme rutini
+
+Kış hazırlığının son parçası, hava durumunu yalnız sıcaklık üzerinden okumamaktır. Rüzgâr soğukluğu, donan yağmur, kar fırtınası ve görüş mesafesi uyarıları günlük planı doğrudan değiştirir. Telefonunuza resmi WeatherCAN uygulamasını kurun, yaşadığınız bölge için bildirimleri açın ve okul ya da iş yolculuğundan önce uyarı rengini kontrol edin. Evde pilli fener, taşınabilir radyo, ilk yardım malzemesi, birkaç günlük su ve kolay hazırlanan yiyecek bulundurun. Araçtaki acil durum çantasını her sonbaharda gözden geçirip biten pil, eski yiyecek ve eksik battaniyeyi yenileyin.
+
+## Kaynaklar ve doğrulama
+
+- [Environment and Climate Change Canada: kış koşullarına hazırlık](https://www.canada.ca/en/environment-climate-change/services/seasonal-weather-hazards/be-prepared-for-winter.html)
+- [Public Safety Canada: aşırı soğuğa hazırlık](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/extreme-cold/how-prepare.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
