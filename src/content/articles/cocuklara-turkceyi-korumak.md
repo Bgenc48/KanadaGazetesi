@@ -39,3 +39,13 @@ Türkçeyi korumak yalnızca bir iletişim aracını korumak değildir; çocuğu
 ## Sabırlı ve neşeli olun
 
 İki dilli büyütmek bir maraton; bazı haftalar geri adım gibi görünebilir. Önemli olan dili **ceza ve baskıyla değil, sevgiyle ve oyunla** sürdürmek. Türkçesi güçlü büyüyen bir çocuk, ileride iki dünyanın da kapısını rahatça açabilen bir yetişkin olur.
+
+## Evde uygulanabilir haftalık plan
+
+Soyut bir “Türkçe konuşalım” hedefi yerine ölçülebilir bir düzen kurun: hafta içi her akşam on beş dakika sesli okuma, hafta sonunda bir Türkçe oyun veya aile görüşmesi, ayda bir yeni kitap. Çocuğun yaşına göre kitap seçimini birlikte yapmak, dili ödev olmaktan çıkarır. Öğretmenle konuşurken evde kullanılan dilleri açıkça belirtin; dil gelişimiyle ilgili gerçek bir kaygı varsa değerlendirmeyi çocuğun iki dilini de hesaba katabilen bir uzmandan isteyin. İlerlemeyi tek tek kelimelerle değil, çocuğun zaman içinde daha uzun hikâye anlatabilmesi ve farklı kişilerle iletişim kurabilmesiyle izleyin.
+
+## Kaynaklar ve doğrulama
+
+- [Statistics Canada: Kanada’da dil çeşitliliği ve evde konuşulan diller](https://www12.statcan.gc.ca/census-recensement/2021/as-sa/98-200-X/2021012/98-200-X2021012-eng.cfm)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

@@ -18,7 +18,7 @@ lead: true
 advisory: true
 ---
 
-Kanada, her yıl yarım milyondan fazla yeni kalıcı sakini ülkeye kabul eden, dünyanın en sistematik göç programlarından birine sahip. Bu sistematiklik iyi haber: Türkiye’den gelecek nitelikli bir kişi için yol, sezgiyle değil **puanlarla, listelerle ve belirli eşiklerle** çiziliyor. Kötü haber ise her basamağın kendi belge, ücret ve bekleme süresiyle gelmesi. Bu yazı, o yolu baştan sona bir harita gibi serer.
+Kanada, 2026 için 380.000 yeni kalıcı sakin hedefleyen ve başvuruları farklı ekonomik, aile ve insani programlarla yöneten bir göç sistemine sahip. Bu sistematiklik iyi haber: Türkiye’den gelecek nitelikli bir kişi için yol, sezgiyle değil **puanlarla, listelerle ve belirli eşiklerle** çiziliyor. Kötü haber ise her basamağın kendi belge, ücret ve bekleme süresiyle gelmesi. Bu yazı, o yolu baştan sona bir harita gibi serer.
 
 ## Önce doğru kapıyı seçmek
 
@@ -49,7 +49,7 @@ Pratikte çoğu aday için puanı en hızlı yükselten kalem **dil sınavıdır
 1. **Diploma denkliği (ECA) alın.** Türk diplomanızın Kanada karşılığını belgelemek için WES gibi yetkili bir kurumdan değerlendirme alın. Ayrıntılar için [diploma denkliği rehberimize](/bolum/goc-ve-yerlesim) bakın.
 2. **Dil sınavına girin.** İngilizce için IELTS General Training veya CELPIP; Fransızca için TEF/TCF. Sonuçların geçerlilik süresi vardır, erken planlayın.
 3. **Express Entry profili oluşturun.** Profil ücretsizdir; sizi havuza koyar ve CRS puanınızı gösterir.
-4. **Puanınızı yükseltin.** Dil puanını artırmak, PNP’ye başvurmak veya iş teklifi almak en etkili üç yoldur.
+4. **Puanınızı yükseltin.** Dil puanını artırmak, Fransızca ek puanlarını değerlendirmek ve uygun bir PNP akışına başvurmak başlıca yollardır. İş teklifi, bazı programların uygunluğu açısından önemli olabilse de 25 Mart 2025’ten beri doğrudan CRS ek puanı getirmez.
 5. **Davet (ITA) gelince başvurun.** Davetten sonra kalıcı oturum başvurunuzu, eksiksiz belgelerle ve tıbbi muayene/sabıka kaydı dahil, süresinde tamamlayın.
 
 ## Oturumdan sonra: ilk haftalar
@@ -75,3 +75,11 @@ Süreç sonunda gelen vatandaşlık töreni, çoğu Türk aile için Kanada ser�
 ## Sabır, ama plan dahilinde
 
 Bu yolun her basamağı tek tek aşılabilir; asıl zorluk, sıralamayı ve zamanlamayı doğru kurmaktır. Dil sınavını erken planlayan, belgelerini eksiksiz hazırlayan ve resmî güncellemeleri takip eden bir aile, süreci aylarca kısaltabilir. Kanada Gazetesi olarak bu yolun her durağını ayrı yazılarda derinleştireceğiz.
+
+## Kaynaklar ve doğrulama
+
+- [IRCC: Express Entry sistemi ve güncel başvuru adımları](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html)
+- [IRCC: 2026 kalıcı oturum hedefleri](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/statistics-open-data/immigration-stats/permanent-residents.html)
+- [IRCC: vatandaşlık uygunluk koşulları](https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/adult-minor/who.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

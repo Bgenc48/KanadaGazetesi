@@ -47,3 +47,14 @@ Doğru kurumu seçmeden önce mutlaka resmî [IRCC ECA sayfasını](https://www.
 ## Özetle
 
 ECA, Kanada’daki kariyerinizin ilk resmî tuğlasıdır. Diplomanızın değerini ortaya koyar, göç puanınıza katkı verir ve iş piyasasında size meşruiyet kazandırır. En önemli tavsiye tek cümle: **erken başlayın.** Bu belgenin gecikmesi, koca bir göç sürecini bekletebilir.
+
+## Sonucu doğru okumak
+
+Rapor geldiğinde yalnızca “tamamlandı” durumuna bakmayın; Kanada karşılığının hangi diploma düzeyi olarak yazıldığını kontrol edin. Express Entry profilindeki eğitim beyanı raporla bire bir uyuşmalıdır. Birden fazla diplomanız varsa hangi belgelerin değerlendirilmesinin ek puan sağlayacağını baştan hesaplayın; gereksiz her belge süreyi ve maliyeti artırabilir. Rapor numarasını, düzenlenme tarihini ve geçerlilik süresini başvuru takviminize kaydedin. Düzenlemeye tabi bir meslekte çalışacaksanız ECA sonucunu nihai lisans gibi sunmayın; eyaletinizdeki düzenleyici kurumun eğitim, sınav, deneyim ve dil koşullarını ayrıca tamamlamanız gerekir.
+
+## Kaynaklar ve doğrulama
+
+- [IRCC: göç başvuruları için eğitim denklik değerlendirmesi](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/education-assessed.html)
+- [Kanada hükümeti: yabancı mesleki yeterliliklerin tanınması](https://www.canada.ca/en/employment-social-development/programs/foreign-credential-recognition.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

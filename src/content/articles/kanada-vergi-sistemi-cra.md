@@ -80,3 +80,10 @@ Basit bir dosyayı ücretsiz ya da düşük ücretli yazılımlarla kendiniz ver
 Düşük gelirliler için gönüllülerin beyanname hazırladığı ücretsiz klinikler var; bunlar vergi döneminde topluluk merkezlerinde ve kütüphanelerde açılıyor. Serbest çalışanlar, yurt dışı varlığı olanlar ve şirketi bulunanlar için profesyonel destek daha güvenli.
 
 Oranlar, eşikler, son tarihler ve form içerikleri her yıl değişiyor; kendi durumunuz için Canada Revenue Agency'nin güncel sayfalarını esas alın. İlk beyannamesini zamanında veren aileler, sonraki yılların desteklerine sorunsuz erişiyor.
+
+## Kaynaklar ve doğrulama
+
+- [Canada Revenue Agency: Kanada’ya yeni gelenler](https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/newcomers-canada-immigrants.html)
+- [CRA: onaylı vergi yazılımları](https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/netfile-overview/certified-software-netfile-program.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

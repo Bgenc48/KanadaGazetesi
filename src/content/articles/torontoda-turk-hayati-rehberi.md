@@ -46,3 +46,13 @@ Topluluğa bağlanmanın en kalıcı yolu, çocukları da dahil etmektir: hafta 
 ## İlk adımı atmak
 
 Yeni bir ülkede topluluk, beklemekle değil **bir mesaj atmakla, bir etkinliğe gitmekle** kurulur. İlk hafta sonu bir Türk marketine uğrayın, bir gruba katılın, bir derneğe yazın. Toronto’daki Türk hayatı oradadır; sadece kapıyı çalmanızı bekliyor.
+
+## Bilgiyi güvenli biçimde doğrulayın
+
+Topluluk içinde duyduğunuz bir adresi veya hizmeti kullanmadan önce kurumun kendi sitesindeki tarih ve iletişim bilgisini kontrol edin. Özellikle kira, çalışma izni, göç statüsü, vergi ve sağlık konularında kişisel deneyim hukuki kural değildir. Toronto’nun ücretsiz ve gizli Newcomer Services Kiosk noktaları eğitim, istihdam, sağlık ve konut hizmetlerine yönlendirme yapıyor; saatler değişebildiği için gitmeden arayın. Bir etkinlik ya da dernek bilgisini paylaşırken son düzenleme tarihini eklemek, eski ilanların dolaşımını azaltır. Topluluk bağı güçlü bir başlangıç sağlar; resmî kararlar için yetkili kurum kaynağı son sözü söylemelidir.
+
+## Kaynaklar ve doğrulama
+
+- [City of Toronto: Newcomer Services Kiosks](https://www.toronto.ca/community-people/moving-to-toronto/after-you-arrive-checklist/newcomer-services-kiosks/)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

@@ -47,3 +47,14 @@ Kanada’da doğan ya da küçük yaşta gelen çocuklar çoğu zaman doğuştan
 ## Özetle
 
 Çifte vatandaşlık, iki dünyanın da kapısını açık tutmanın hukuki yoludur; bir ayrıcalık, bir yük değil. Yeter ki doğru pasaportu doğru yerde kullanın, askerlik durumunuzu netleştirin ve resmî işlemleri güncel kurallara göre yürütün. Bu yazı genel bir çerçevedir; kişisel durumunuz için mutlaka [T.C. konsolosluğundan](https://www.mfa.gov.tr) güncel bilgi alın.
+
+## Seyahat öncesi belge kontrolü
+
+Uçuş satın almadan önce iki pasaportun da son geçerlilik tarihini, biletteki ad-soyad yazımını ve çocukların belgelerini birlikte kontrol edin. Kanada hükümeti, çoğu çifte Kanada vatandaşının Kanada’ya hava yoluyla dönerken geçerli Kanada pasaportu taşımasını istiyor. Diğer vatandaşlığınızın ülkesi kendi pasaportuyla giriş veya çıkış talep edebilir; bu nedenle iki belgeyi de yanınıza almak en güvenli uygulamadır. Acil seyahat ihtimalini düşünerek pasaport ve vatandaşlık belgelerinin şifreli dijital kopyalarını saklayın; ancak kopyanın sınır geçişinde asıl belgenin yerini tutmadığını unutmayın.
+
+## Kaynaklar ve doğrulama
+
+- [Kanada hükümeti: çifte vatandaşların seyahat belgeleri](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/dual-canadian-citizens-visit-canada.html)
+- [T.C. Dışişleri Bakanlığı: konsolosluk ve temsilcilik bilgileri](https://www.mfa.gov.tr)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.

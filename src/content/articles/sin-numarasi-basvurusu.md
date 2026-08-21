@@ -87,3 +87,10 @@ Ofise giderek başvuracaksanız randevu gerekip gerekmediğini önceden kontrol 
 Eş ve çocuklar için ayrı başvuru gerekiyor. Çalışma izni olan eşler kendi SIN'lerini alıyor. Çocuklar için ise genelde yardım başvuruları sırasında numara talep ediliyor.
 
 Başvuru adımları, belge listeleri ve işlem süreleri değişebiliyor; işleme başlamadan önce Service Canada'nın kendi SIN sayfasını esas alın. Numarasını ilk hafta içinde alan yeni gelenler, iş ve banka tarafındaki bütün adımların belirgin biçimde hızlandığını söylüyor.
+
+## Kaynaklar ve doğrulama
+
+- [Service Canada: SIN başvurusu ve gerekli belgeler](https://www.canada.ca/en/employment-social-development/services/sin/apply.html)
+- [Service Canada: SIN numarasını koruma](https://www.canada.ca/en/employment-social-development/services/sin/protection.html)
+
+Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
