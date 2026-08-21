@@ -1,86 +1,65 @@
 ---
-title: "Express Entry ve CRS: Kanada beceri göçü nasıl işliyor?"
-deck: "Kanada'ya kalıcı oturum için başvuracaklara havuz mantığını, CRS puanlamasını ve davet sürecini adım adım anlatıyoruz."
+title: "Express Entry ve CRS: Kanada beceri göçü nasıl işler?"
+deck: "Havuza girmek davet almak değildir. Program uygunluğu, CRS puanı, kategori seçimi ve 60 günlük başvuru süresini doğru sıraya koyan rehber."
 section: "goc-ve-yerlesim"
 author: "Göç Masası"
 authorTitle: "Kanada Gazetesi"
-pubDate: 2026-04-21
-photoQuery: "canada immigration office documents passport"
-excerpt: "Express Entry bir kuyruk değil, bir havuz. Puanınızın nasıl hesaplandığını ve davetin nereden geldiğini açıklıyoruz."
-tags: ["Express Entry", "CRS", "kalıcı oturum", "göç"]
+pubDate: 2026-08-21
+updatedDate: 2026-08-21
+photoQuery: "Canada immigration passport documents office"
+excerpt: "Express Entry program uygunluğu, CRS puanı, kategori bazlı çekilişler ve davet sonrası 60 günlük başvuruyu resmî IRCC kaynaklarıyla açıklıyoruz."
+tags: ["Express Entry", "CRS", "IRCC", "kalıcı oturum", "Kanada göçü"]
 advisory: true
 heroImage: "/images/express-entry-crs-rehberi.jpg"
 heroCredit: "Ken Heaton / Openverse (CC BY-SA 4.0)"
-heroAlt: "Reeve & Clarke Fine & Rare Books (former Frazier Shop) in which Timothy Eaton first worked in retail. Glen Williams, Ontario, Canada"
+heroAlt: "Glen Williams, Ontario'da tarihî bir kitapçı binası"
 ---
 
-Kanada'ya beceri göçü, başvuru sırasına göre işleyen bir kuyruk değil. Adaylar önce bir havuza giriyor, sonra havuzdaki en yüksek puanlılar başvuru yapmaya davet ediliyor. Bu farkı anlamak, süreci doğru planlamanın ilk adımı.
+Express Entry tek başına bir göç programı değil, Kanada'nın nitelikli çalışan başvurularını yönettiği çevrimiçi seçim sistemidir. Aday önce sistem kapsamındaki programlardan en az birine uygun olduğunu gösterir, sonra havuza girer ve Comprehensive Ranking System puanıyla sıralanır. Havuza kabul edilmek kalıcı oturum başvurusu yapma hakkının verildiği anlamına gelmez; bunun için invitation to apply gerekir.
 
-## Üç program, tek havuz
+IRCC'nin [Express Entry ana sayfası](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html), sistemin Canadian Experience Class, Federal Skilled Worker Program ve Federal Skilled Trades Program başvurularını yönettiğini belirtiyor. Her programın dil, deneyim ve diğer uygunluk koşulları ayrıdır.
 
-Express Entry tek bir vize değil, üç programı yöneten bir sistem. **Federal Skilled Worker**, **Federal Skilled Trades** ve **Canadian Experience Class**. Her birinin ayrı uygunluk eşiği var; havuza girebilmek için en az birinin koşullarını karşılamanız gerekiyor.
+## Önce program uygunluğu, sonra puan
 
-Canadian Experience Class, Kanada'da çalışma izniyle deneyim kazanmış olanlara açık. Bu yüzden pek çok aday için yol, önce geçici bir statüyle gelip sonra kalıcı oturuma geçmek şeklinde ilerliyor.
+CRS hesaplamasına başlamadan önce hangi federal programa uygun olduğunuzu belirleyin. Federal Skilled Worker için yabancı nitelikli iş deneyimi öne çıkarken, Canadian Experience Class uygun Kanada deneyimine dayanır. Federal Skilled Trades ise belirli teknik meslekler için farklı koşullar kullanır.
 
-## Havuza girmeden önce iki belge
+Dil sınavı ve yabancı eğitim için Educational Credential Assessment çoğu adayın profil öncesi hazırlığıdır. Sınavın IRCC tarafından kabul edilen türde, sonucun geçerli ve profil bilgisiyle aynı olması gerekir. Eğitim raporundaki Kanada karşılığını tahmin ederek yazmayın; raporu aynen izleyin. Belge akışı için [ECA rehberimize](/makale/diploma-denkligi-eca-rehberi) bakabilirsiniz.
 
-Profil oluşturmadan tamamlanması gereken iki iş var:
+## CRS puanı neyi ölçer?
 
-- **Dil sınavı.** İngilizce için IELTS General Training ya da CELPIP, Fransızca için TEF veya TCF kabul ediliyor. Sonuçların geçerlilik süresi var ve davet anında geçerli olması gerekiyor.
-- **Diploma denkliği.** Yurt dışında alınan eğitimin Kanada karşılığını belgeleyen **Educational Credential Assessment** raporu isteniyor. Yetkilendirilmiş birden fazla kurum var; düzenlemeye tabi mesleklerde kurum ayrıca belirlenmiş olabiliyor.
+IRCC'nin [CRS score tool](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score.html) sayfasına göre adaylar 1.200 üzerinden puanlanır. Sistem yaş, eğitim, resmî dil, iş deneyimi ve başka faktörleri birlikte değerlendirir. Eşle başvuruda puan dağılımı değişebilir.
 
-Bu ikisi tamamlanmadan yapılan puan hesaplarının pratik bir karşılığı yok.
+Çevrimiçi hesaplayıcı planlama aracıdır; profilinizin resmî puanı IRCC hesabında oluşur. Doğum günü, yeni dil sonucu, tamamlanan eğitim, ek iş deneyimi veya medeni durum değişikliği puanı etkileyebilir. Profil açıkken değişiklikleri gecikmeden ve belgeleyebileceğiniz biçimde güncelleyin.
 
-## CRS neyi puanlıyor?
+Önceki çekilişin taban puanını kalıcı eşik gibi okumayın. IRCC'nin [rounds of invitations](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html) kaydı, genel, program bazlı ve kategori bazlı turların ayrı olduğunu gösterir. Taban puan her turun kapsamı ve havuz yapısıyla değişir.
 
-Comprehensive Ranking System birkaç ana başlıktan oluşuyor:
+## Kategori bazlı seçim nasıl çalışır?
 
-- **Yaş.** En yüksek puan yirmili yaşların ortasında; ilerleyen yaşla birlikte puan düşüyor.
-- **Eğitim.** Denkliği belgelenmiş derece esas alınıyor; ileri dereceler daha yüksek puan getiriyor.
-- **Dil yeterliği.** Puanın en oynak kalemi burası. Bir seviye yukarı çıkmak toplam puanda ciddi sıçrama yaratabiliyor. İkinci resmî dil ek puan getiriyor.
-- **İş deneyimi.** Kanada içinde ve dışında kazanılan deneyim ayrı ayrı puanlanıyor.
-- **Eş faktörleri.** Eşin dil yeterliği, eğitimi ve Kanada deneyimi de tabloya giriyor.
-- **Aktarım puanları.** Eğitim ile dil, ya da eğitim ile deneyim birlikte olduğunda ek puan doğuruyor.
+Kategori seçimi, düşük CRS puanlı herkes için ayrı bir kestirme değildir. IRCC önce adayın Express Entry programlarından birine uygun olmasını, ardından turun kategori koşulunu karşılamasını ister. Uygun adaylar yine CRS puanına göre sıralanır.
 
-Puan ağırlıkları zaman içinde değişebiliyor. Örneğin IRCC, iş teklifi için verilen CRS ek puanlarını 25 Mart 2025’te kaldırdı. Bir yıl önce hazırlanmış bir tabloya güvenmek yerine, başvuru anındaki resmî hesaplayıcıyı kullanmak gerekiyor.
+2026 için resmî [category-based selection](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html) sayfası Fransızca yeterliği; sağlık ve sosyal hizmetler; STEM; trades; eğitim; ulaştırma; Kanada deneyimli doktor, üst düzey yönetici ve araştırmacı; ayrıca nitelikli askerî aday kategorilerini listeliyor. Bu liste ve her kategorinin meslek kodları değişebilir. Profilinizi yalnızca eski bir danışman sunumundaki listeye göre kurmayın.
 
-## Davet nasıl geliyor?
+Fransızca kategorisinde IRCC, dört becerinin her birinde en az NCLC 7 sonucu arıyor. Meslek kategorilerinde gereken deneyim süresi, NOC kodu ve referans dönemi turun talimatında okunmalı. Görev tanımınızın gerçek NOC ile örtüşmesi, iş unvanından daha önemlidir.
 
-Belirli aralıklarla düzenlenen turlarda, havuzdaki adaylara **Invitation to Apply** gönderiliyor. Davetler yüksek puandan aşağıya doğru veriliyor. Yani asıl soru "eşiği geçtim mi" değil, "havuzdaki diğer adaylara göre neredeyim".
+## Davet gelirse 60 günlük dosya başlar
 
-Son yıllarda **kategori bazlı davetler** de uygulanıyor. Belirli meslek gruplarına ya da Fransızca yeterliğine sahip adaylara ayrı turlar açılabiliyor. Bu turlarda genel puan eşiği belirgin biçimde düşük olabildiği için, kategoriye giren adaylar için önemli bir fırsat oluşturuyor.
+Kategori sayfası, invitation to apply alan adayın kalıcı oturum başvurusunu 60 gün içinde sunması gerektiğini belirtiyor. Bu süre içinde polis belgeleri, iş deneyimi kanıtı, para yeterliliği, medeni durum kayıtları, pasaport ve çeviriler tamamlanır. Profilde puan getiren her beyanın başvuru dosyasında kanıtı olmalıdır.
 
-## Eyalet adaylığı puanı değiştiriyor
+Davet tarihinde puanınızın tur eşiğinin altına düşmesine yol açan bir değişiklik varsa başvuruyu körlemesine göndermeyin. Yanlış veya eksik beyan yalnızca ret değil, yanlış beyan sonucu kabul edilemezlik riski yaratabilir. Profil ve davet koşulunu lisanslı bir Kanada göç danışmanı veya avukatla değerlendirmek gerekebilir.
 
-Genel puanı sınırda kalan adaylar için en etkili yol eyalet adaylığı. Bir eyalet sizi aday gösterdiğinde CRS'ye çok büyük bir ek puan ekleniyor ve davet pratik olarak garantiye yaklaşıyor.
+## Uygulama kontrol listesi
 
-Karşılığında o eyalette yaşama niyeti beyan ediyorsunuz. Her eyaletin kendi öncelikli meslek listesi, başvuru penceresi ve bağ koşulu var: iş teklifi, önceki eğitim ya da akraba bağı istenebiliyor. Quebec ise kendi göç sistemini işletiyor ve Express Entry kapsamı dışında kalıyor.
+- Üç federal programdan hangisine uygun olduğumu resmî sayfadan doğruladım.
+- Dil sınavım ve gerekiyorsa ECA raporum geçerli.
+- Profildeki eğitim ve deneyim tarihleri belgelerle aynı.
+- CRS hesaplayıcısını tahmin, IRCC hesabını resmî sonuç olarak ayırıyorum.
+- Kategori koşulunu güncel 2026 listesi ve NOC görevleriyle kontrol ettim.
+- Profil değişikliklerini gecikmeden güncelliyorum.
+- Davet turunun türü, tarihi ve taban puanı kayıtlı.
+- 60 günlük başvuru için polis, iş ve aile belgelerini önceden planladım.
 
-## Profil bakımı
+Express Entry stratejisinin özü “puanı yükseltmek” kadar doğrulanabilir bir profil kurmaktır. Eyalet adaylığı düşünüyorsanız federal uygunluk yanında ilgili eyaletin güncel akışını da ayrıca inceleyin.
 
-Profil havuzda bir yıl kalıyor. Bu süre boyunca puanınızı etkileyen her değişikliği profile işlemek gerekiyor: yeni bir dil sonucu, yeni iş deneyimi, doğum günü. Güncellenmeyen profil, hak ettiğinizden düşük puanla havuzda beklemenize yol açıyor.
+## Kaynaklar ve güncellik
 
-Beyanlarınızın doğruluğundan siz sorumlusunuz. Davet sonrası yapılan belge incelemesinde uyuşmazlık çıkarsa başvuru reddedilebiliyor ve yanlış beyan ciddi sonuçlar doğurabiliyor.
-
-## Sık yapılan hatalar
-
-Sahadan en çok duyduğumuz sorunlar şunlar:
-
-- Denklik raporu alınmadan puan hesabı yapmak ve eğitim seviyesini fazla saymak.
-- Dil sınavını erken verip davet geldiğinde sonucun süresinin dolduğunu fark etmek.
-- Deneyim yıllarını haftalık çalışma saati koşulunu gözetmeden saymak.
-- Yalnızca federal yola kilitlenip eyalet adaylık pencerelerini hiç takip etmemek.
-- Referans mektuplarını kurumun beklediği içerikte hazırlatmamak.
-
-## Ne zaman danışman gerekir?
-
-Temiz ve basit bir dosyayı kendiniz yürütebilirsiniz. Geçmişte vize reddi, sağlık ya da karakter koşullarında soru işareti, karmaşık iş geçmişi veya aile birleşimiyle iç içe geçen bir durum varsa, yetkili bir göçmenlik danışmanına başvurmak zaman kaybını önlüyor. Danışmanın kayıt numarasını resmî sicilden doğrulamak sizin sorumluluğunuz; kayıtsız aracılar hem risk hem de yasa dışı.
-
-Puan tabloları, eşikler ve program koşulları değişiyor; kendi durumunuz için başvuru anındaki resmî IRCC sayfalarını esas alın. Havuzda beklemek yıpratıcı olabiliyor, ama puanını doğru kurgulayan ve eyalet yollarını da masaya yatıran adaylar bu süreçten çoğunlukla sonuç alıyor.
-
-## Kaynaklar ve doğrulama
-
-- [IRCC: güncel CRS ölçütleri](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html)
-- [IRCC: Express Entry davet turları](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations.html)
-
-Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+Bu yazı IRCC'nin 2026'da güncellediği Express Entry, CRS, kategori seçimi ve davet turu sayfalarına dayanır. Programlar, kategoriler ve belge koşulları değişebilir. Profil veya başvuru göndereceğiniz gün bağlantılı resmî sayfaları yeniden kontrol edin.
