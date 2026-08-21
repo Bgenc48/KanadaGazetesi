@@ -1,0 +1,44 @@
+# Kanada Gazetesi
+
+> Kanada'da yaşayan, eğitim gören, çalışan ve yerleşmeyi planlayan Türkçe okurlar için göç, toplum, günlük yaşam ve Türkiye-Kanada ilişkileri üzerine kaynaklı bağımsız dijital yayın. Independent Turkish-language publication covering immigration, settlement and Turkish community life in Canada.
+
+Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kaynak bağlantılarıyla sunulur. Göçmenlik, vergi, sağlık ve hukuk içerikleri genel bilgilendirmedir; işlem öncesinde bağlantılı resmî kaynak doğrulanmalıdır.
+
+## Ana bölümler
+
+- [Göç ve Yerleşim](https://www.kanadagazetesi.com/bolum/goc-ve-yerlesim): Göç programları, izinler ve yerleşim yolları
+- [Toplum](https://www.kanadagazetesi.com/bolum/toplum): Kanada'daki Türk toplulukları ve kültürel yaşam
+- [Türkiye-Kanada](https://www.kanadagazetesi.com/bolum/turkiye-kanada): İki ülke arasındaki ilişkiler ve işlemler
+- [Yaşam](https://www.kanadagazetesi.com/bolum/yasam): Sağlık, vergi, bankacılık ve günlük hayat
+- [Rehber](https://www.kanadagazetesi.com/bolum/rehber): Uygulanabilir kontrol listeleri ve hizmet rehberleri
+
+## Göç ve eğitim rehberleri
+
+- [Kanada'ya yerleşim yol haritası](https://www.kanadagazetesi.com/makale/kanadaya-yerlesim-yol-haritasi-2026): Statü, belge ve ilk adımlar
+- [Express Entry ve CRS](https://www.kanadagazetesi.com/makale/express-entry-crs-rehberi): Federal beceri göçü ve puan sistemi
+- [Eyalet Aday Programı](https://www.kanadagazetesi.com/makale/eyalet-aday-programi-pnp-rehberi): PNP ve iki federal başvuru yolu
+- [Diploma denkliği ve ECA](https://www.kanadagazetesi.com/makale/diploma-denkligi-eca-rehberi): Yabancı eğitimin değerlendirilmesi
+- [İş teklifi, LMIA ve çalışma izni](https://www.kanadagazetesi.com/makale/is-teklifi-lmia-calisma-izni-rehberi): Çalışma yetkisi rotaları
+- [Eğitim izni ve PGWP](https://www.kanadagazetesi.com/makale/kanada-egitim-izni-pgwp-rehberi): DLI, PAL/TAL, mali kanıt ve mezuniyet sonrası izin
+
+## Yeni gelenler için temel rehberler
+
+- [İlk 30 gün kontrol listesi](https://www.kanadagazetesi.com/makale/yeni-gelen-ilk-30-gun-kontrol-listesi): Kimlik, bağlantı ve hizmet sırası
+- [SIN numarası başvurusu](https://www.kanadagazetesi.com/makale/sin-numarasi-basvurusu): Çalışma ve kamu hizmeti numarası
+- [Kanada sağlık sistemi](https://www.kanadagazetesi.com/makale/kanada-saglik-sistemi-yeni-gelenler): Eyalet kapsamı ve ilk sağlık planı
+- [Vergi ve CRA](https://www.kanadagazetesi.com/makale/kanada-vergi-sistemi-cra): İlk beyanname ve kayıtlar
+- [Bankacılık ve kredi skoru](https://www.kanadagazetesi.com/makale/kanada-bankacilik-kredi-skoru): Hesap, kart ve kredi geçmişi
+- [İlk Kanada kışı](https://www.kanadagazetesi.com/makale/ilk-kanada-kisina-hazirlik): Bölgesel soğuk ve güvenlik hazırlığı
+
+## Toplum ve konsolosluk
+
+- [Toronto Türk topluluğu](https://www.kanadagazetesi.com/makale/toronto-turk-toplulugu-rehberi): Kurumlar ve topluluk ağı
+- [Kanada'da konsolosluk işlemleri](https://www.kanadagazetesi.com/makale/kanada-turk-konsolosluk-rehberi): Türkiye Cumhuriyeti işlemleri
+- [Çifte vatandaşlık, pasaport ve askerlik](https://www.kanadagazetesi.com/makale/cifte-vatandaslik-pasaport-askerlik): Statülerin işlem etkileri
+
+## Makine tarafından okunabilir kaynaklar
+
+- [RSS](https://www.kanadagazetesi.com/rss.xml): Son yayınların RSS akışı
+- [XML site haritası](https://www.kanadagazetesi.com/sitemap-index.xml): Tüm taranabilir sayfalar
+- [Haber site haritası](https://www.kanadagazetesi.com/news-sitemap.xml): Güncel haber girişleri
+- [Arama dizini](https://www.kanadagazetesi.com/search-index.json): Başlık ve özetlerden oluşan JSON dizini
