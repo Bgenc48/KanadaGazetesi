@@ -33,6 +33,8 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Bankacılık ve kredi skoru](https://www.kanadagazetesi.com/makale/kanada-bankacilik-kredi-skoru): Hesap, kart ve kredi geçmişi
 - [İlk Kanada kışı](https://www.kanadagazetesi.com/makale/ilk-kanada-kisina-hazirlik): Bölgesel soğuk ve güvenlik hazırlığı
 - [Canada Child Benefit](https://www.kanadagazetesi.com/makale/kanada-cocuk-yardimi-ccb-rehberi): Yeni gelen aileler için CCB başvurusu
+- [Kiralık ev bulma](https://www.kanadagazetesi.com/makale/kanadada-kiralik-ev-bulma-rehberi): Lease, depozito ve sahte ilan kontrolü
+- [Kanada'da iş arama](https://www.kanadagazetesi.com/makale/kanadada-is-arama-ozgecmis-networking-rehberi): Özgeçmiş, networking ve mesleki denklik
 
 ## Toplum ve konsolosluk
 
