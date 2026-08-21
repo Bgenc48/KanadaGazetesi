@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 /**
  * Lisanslı fotoğraf hattı.
  *
