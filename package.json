@@ -33,14 +33,14 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.6.0",
-    "eslint-plugin-astro": "^2.1.1",
+    "eslint": "^10.8.1",
+    "eslint-plugin-astro": "^3.1.0",
     "globals": "^17.10.0",
     "pagefind": "^1.5.2",
-    "prettier": "^3.9.4",
+    "prettier": "^3.9.6",
     "prettier-plugin-astro": "^0.14.1",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.62.1",
-    "vitest": "^4.1.9"
+    "typescript": "^7.0.2",
+    "typescript-eslint": "^8.67.0",
+    "vitest": "^4.1.11"
   }
 }
