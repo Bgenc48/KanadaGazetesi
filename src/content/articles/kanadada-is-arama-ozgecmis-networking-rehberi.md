@@ -10,6 +10,9 @@ photoQuery: "Canada newcomer job interview resume networking office"
 excerpt: "Kanada'da yeni gelenlerin iş ararken çalışma yetkisini, SIN'i, meslek denkliğini, özgeçmişi, networking ve sahte iş ilanlarını nasıl yöneteceğini açıklıyoruz."
 tags: ["iş arama", "özgeçmiş", "networking", "Job Bank", "mesleki denklik"]
 advisory: true
+heroImage: "/images/kanadada-is-arama-ozgecmis-networking-rehberi.jpg"
+heroCredit: "Ken Lund / Openverse (CC BY-SA 2.0)"
+heroAlt: "Corktown, Detroit, Michigan"
 ---
 
 Kanada'da iş aramak, Türkiye'deki unvanı İngilizceye çevirip aynı özgeçmişi her ilana göndermekten ibaret değildir. İşverenin aradığı görev, sektör dili, eyalet lisansı ve adayın çalışma yetkisi aynı dosyada doğru anlatılmalıdır. “Canadian experience” beklentisine karşı en güçlü cevap, kanıtlanabilir beceriyi yerel bağlamda göstermektir.

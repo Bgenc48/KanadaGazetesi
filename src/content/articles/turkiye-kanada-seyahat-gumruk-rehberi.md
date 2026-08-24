@@ -10,6 +10,9 @@ photoQuery: "Canada airport international arrivals passport luggage"
 excerpt: "Türkiye ile Kanada arasında seyahatte göçmenlik belgesi, aktarma vizesi, çocuk izin yazısı, gıda ve para beyanını resmî sınır kaynaklarıyla anlatıyoruz."
 tags: ["Türkiye-Kanada uçuş", "Kanada gümrük", "CBSA", "seyahat belgesi", "beyan"]
 advisory: true
+heroImage: "/images/turkiye-kanada-seyahat-gumruk-rehberi.jpg"
+heroCredit: "Brian from Toronto, Canada / Openverse (CC BY-SA 2.0)"
+heroAlt: "Embraer 175 (Air Canada) 091"
 ---
 
 Türkiye'den Kanada'ya seyahat planı, uçuş aramasından önce pasaport, Kanada giriş belgesi ve aktarma ülkesinin transit kuralıyla başlamalıdır. Havayolunun bilet satması veya online check-in açması Kanada'ya kabul garantisi vermez; son karar sınırda yetkili görevliye aittir.

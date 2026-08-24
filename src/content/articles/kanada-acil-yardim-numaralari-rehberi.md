@@ -10,6 +10,9 @@ photoQuery: "Canada emergency phone help newcomer"
 excerpt: "Kanada'da 911, 988 ve 211'in görevini; bölgeye göre değişen 311 ve 811 hizmetlerini, dil ve konum hazırlığıyla birlikte açıklıyoruz."
 tags: ["911", "988", "211", "acil yardım", "yeni gelenler"]
 advisory: true
+heroImage: "/images/kanada-acil-yardim-numaralari-rehberi.jpg"
+heroCredit: "archer10 (Dennis) / Openverse (CC BY-SA 2.0)"
+heroAlt: "DSCN0147 - My new camera, LOL"
 ---
 
 Kanada'ya yeni gelen biri için üç haneli numaralar birbirine benzese de aynı işi yapmaz. Hayat veya mal güvenliğine yönelik acil durumda 911; intihar düşüncesi veya duygusal kriz için 988; konut, gıda, yerleşim ve başka acil olmayan toplum hizmetlerini bulmak için 211 kullanılır. 311 belediye, 811 sağlık danışma hizmeti olarak birçok yerde bulunur fakat erişim ve kapsam şehir ya da eyalete göre değişebilir.

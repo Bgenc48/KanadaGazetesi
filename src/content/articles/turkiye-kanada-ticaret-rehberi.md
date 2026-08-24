@@ -10,6 +10,9 @@ photoQuery: "Canada Turkey cargo containers port international trade"
 excerpt: "Türkiye-Kanada mal ticaretinin ölçeğini, öne çıkan ürünleri, 2026 JETCO gündemini ve ihracatçıların tarife ile mevzuat kontrolünü resmî verilerle açıklıyoruz."
 tags: ["Türkiye-Kanada ticareti", "ihracat", "ithalat", "JETCO", "gümrük"]
 advisory: true
+heroImage: "/images/turkiye-kanada-ticaret-rehberi.jpg"
+heroCredit: "imo.un / Openverse (CC BY 2.0)"
+heroAlt: "HNS workshop"
 ---
 
 Türkiye ile Kanada arasındaki ticaret tek bir sektöre dayanmıyor: tarım ürünleri, demir-çelik, gemi, ilaç ve sanayi girdileri iki yönlü mal akışında öne çıkıyor. Ancak pazara giriş kararı toplam ticaret rakamından değil, ürünün Harmonized System kodu, menşei, vergi yükü ve federal ya da eyalet düzenlemesinden başlamalıdır.

@@ -10,6 +10,9 @@ photoQuery: "Canada citizenship ceremony flag oath"
 excerpt: "Kanada vatandaşlığında 1.095 günlük fiziksel bulunma hesabını, vergi, dil, sınav, yemin ve çifte vatandaşlık adımlarını resmî kaynaklarla anlatıyoruz."
 tags: ["Kanada vatandaşlığı", "fiziksel bulunma", "vatandaşlık sınavı", "yemin", "çifte vatandaşlık"]
 advisory: true
+heroImage: "/images/kanada-vatandaslik-basvurusu-rehberi.jpg"
+heroCredit: "matryosha / Openverse (CC BY 2.0)"
+heroAlt: "getting canadian"
 ---
 
 Kanada vatandaşlığına başvurmak için permanent resident kartının süresinin dolmasını beklemek gerekmez; fakat geçerli PR statüsü, doğru fiziksel bulunma hesabı ve kişiye uygulanan diğer koşullar birlikte sağlanmalıdır. “Kanada'ya geleli üç yıl oldu” hesabı tek başına yeterli değildir.

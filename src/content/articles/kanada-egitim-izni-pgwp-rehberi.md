@@ -10,6 +10,9 @@ photoQuery: "Canada university students campus study permit"
 excerpt: "Kanada study permit başvurusunu, DLI ve PAL/TAL kontrolünü, mali kanıtı ve 2026 PGWP koşullarını resmî IRCC kaynaklarıyla açıklıyoruz."
 tags: ["study permit", "PGWP", "DLI", "PAL", "Kanada'da eğitim"]
 advisory: true
+heroImage: "/images/kanada-egitim-izni-pgwp-rehberi.jpg"
+heroCredit: "hackNY / Openverse (CC BY-SA 2.0)"
+heroAlt: "hackNY Spring 2011 Student Hackathon"
 ---
 
 Kanada'da bir okuldan kabul almak ile eğitim izni almak iki ayrı karardır. Okul akademik kabul verir; Immigration, Refugees and Citizenship Canada ise başvuru sahibinin programını, mali gücünü, geçici kalış koşullarını ve kabul edilebilirliğini değerlendirir. Program seçimini yalnızca okulun pazarlama metnine göre yapmak, özellikle mezuniyet sonrası çalışma planında pahalı bir hataya dönüşebilir.

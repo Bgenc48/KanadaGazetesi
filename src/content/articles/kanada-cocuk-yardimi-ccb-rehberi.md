@@ -10,6 +10,9 @@ photoQuery: "Canada family children home paperwork benefit"
 excerpt: "Canada Child Benefit uygunluğunu, yeni gelenlerin RC66 başvurusunu, aile gelirini ve ödemelerin devamı için vergi beyanını resmî CRA kaynaklarıyla anlatıyoruz."
 tags: ["Canada Child Benefit", "CCB", "CRA", "çocuk yardımı", "yeni gelenler"]
 advisory: true
+heroImage: "/images/kanada-cocuk-yardimi-ccb-rehberi.jpg"
+heroCredit: "Toronto History / Openverse (CC BY 2.0)"
+heroAlt: "Children at Canadian Council of Christians and Jews Brotherhood Week"
 ---
 
 Canada Child Benefit, 18 yaş altındaki çocukların giderlerine yardımcı olmak için uygun ailelere CRA tarafından aylık ödenen vergiden muaf bir destektir. Ödeme yalnızca çocuğun Kanada'da bulunmasına veya ebeveynin work permit taşımasına göre başlamaz; bakım sorumluluğu, vergi ikameti, statü ve gelir bilgileri birlikte değerlendirilir.

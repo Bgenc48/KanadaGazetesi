@@ -10,6 +10,9 @@ photoQuery: "Canada apartment rental keys lease newcomer"
 excerpt: "Kanada'da yeni gelenlerin kiralık ev ararken bütçe, lease, depozito, ev kontrolü ve dolandırıcılık riskini nasıl yöneteceğini resmî kaynaklarla anlatıyoruz."
 tags: ["kiralık ev", "lease", "tenant rights", "depozito", "konut"]
 advisory: true
+heroImage: "/images/kanadada-kiralik-ev-bulma-rehberi.jpg"
+heroCredit: "The City of Toronto / Openverse (CC BY 2.0)"
+heroAlt: "Toronto: Regent Park"
 ---
 
 Kanada'da ilk evi kiralamak yalnızca aylık ilan fiyatını karşılaştırmak değildir. Isınma, elektrik, su, internet, sigorta, otopark ve ulaşım giderleri toplam bütçeyi değiştirir. Kiracılık kuralları federal değil, büyük ölçüde eyalet veya bölge düzeyindedir; başka şehirde duyduğunuz depozito ya da rent increase kuralı sizin adresinizde geçerli olmayabilir.
