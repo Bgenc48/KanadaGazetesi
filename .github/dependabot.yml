@@ -17,6 +17,15 @@ updates:
           - 'typescript*'
           - 'prettier*'
           - 'vitest*'
+    # Major runtime/toolchain upgrades must be coordinated with the CI matrix
+    # and Astro's peer ranges instead of being merged as unattended bundles.
+    ignore:
+      - dependency-name: 'astro'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'typescript'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'eslint-plugin-astro'
+        update-types: ['version-update:semver-major']
   - package-ecosystem: github-actions
     directory: '/'
     schedule:
