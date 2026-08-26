@@ -22,6 +22,7 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Eğitim izni ve PGWP](https://www.kanadagazetesi.com/makale/kanada-egitim-izni-pgwp-rehberi): DLI, PAL/TAL, mali kanıt ve mezuniyet sonrası izin
 - [Eş ve aile sponsorluğu](https://www.kanadagazetesi.com/makale/es-aile-sponsorlugu-rehberi): Sponsor uygunluğu, undertaking ve çalışma izni
 - [Kanada vatandaşlığı](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-basvurusu-rehberi): Fiziksel bulunma, dil, sınav ve yemin
+- [Statüyü korumak](https://www.kanadagazetesi.com/makale/kanada-maintained-status-bowp-rehberi): Maintained status, restoration ve BOWP zamanlaması
 
 ## Yeni gelenler için temel rehberler
 
@@ -39,6 +40,7 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 ## Toplum ve konsolosluk
 
 - [Toronto Türk topluluğu](https://www.kanadagazetesi.com/makale/toronto-turk-toplulugu-rehberi): Kurumlar ve topluluk ağı
+- [Montréal ve Québec'te uyum](https://www.kanadagazetesi.com/makale/montreal-quebec-fransizca-uyum-rehberi): Fransızca kursları, mali yardım ve yerleşim desteği
 - [Kanada'da konsolosluk işlemleri](https://www.kanadagazetesi.com/makale/kanada-turk-konsolosluk-rehberi): Türkiye Cumhuriyeti işlemleri
 - [Çifte vatandaşlık, pasaport ve askerlik](https://www.kanadagazetesi.com/makale/cifte-vatandaslik-pasaport-askerlik): Statülerin işlem etkileri
 - [Türkiye-Kanada ticareti](https://www.kanadagazetesi.com/makale/turkiye-kanada-ticaret-rehberi): Sektörler, veriler ve ihracat kontrolleri
