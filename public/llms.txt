@@ -137,6 +137,19 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Kanada'dan e-Devlet erişimi](https://www.kanadagazetesi.com/makale/kanadadan-e-devlet-sifresi-erisim-guvenlik-rehberi): Resmî giriş, konsolosluk işlemi, iki aşamalı güvenlik ve belge doğrulama
 - [SGK yurtdışı borçlanma](https://www.kanadagazetesi.com/makale/kanada-sgk-yurtdisi-borclanma-rehberi): Uygun süre, Kanada belgesi, dilekçe, tebligat ve ödeme takibi
 
+## Yeni uzman rehberleri
+
+- [IRCC başvuru bilgisi güncelleme](https://www.kanadagazetesi.com/makale/kanada-ircc-basvuru-bilgi-degisikligi-guncelleme-rehberi): Adres, aile, pasaport, iş ve sağlık değişikliklerini doğru kanaldan bildirme
+- [IRCC ATIP ve GCMS dosya kaydı](https://www.kanadagazetesi.com/makale/kanada-ircc-atip-gcms-dosya-kaydi-rehberi): Privacy Act, Access to Information ve temsilci onayı ayrımı
+- [Federal seçim kaydı ve oy kullanma](https://www.kanadagazetesi.com/makale/kanada-federal-secim-kayit-oy-kullanma-rehberi): Seçmen kaydı, kimlik, adres ve voucher seçenekleri
+- [Yeni gelen çocuğun okul kaydı](https://www.kanadagazetesi.com/makale/kanada-yeni-gelen-cocuk-okul-kayit-rehberi): School board, catchment, belgeler ve dil desteği
+- [Kanada'da Türk sürücü belgesi yenileme](https://www.kanadagazetesi.com/makale/kanadada-turk-surucu-belgesi-yenileme-rehberi): Konsolosluk işlem türü, randevu, belge ve teslim kontrolü
+- [Kanada için Türkiye adli sicil belgesi](https://www.kanadagazetesi.com/makale/kanada-turkiye-adli-sicil-belgesi-rehberi): e-Devlet, arşiv kaydı, tercüme ve doğrulama
+- [Canada Workers Benefit ve ACWB](https://www.kanadagazetesi.com/makale/kanada-workers-benefit-acwb-rehberi): Uygunluk, advance ödemeler ve yıl sonu uzlaştırması
+- [Medical Expense Tax Credit](https://www.kanadagazetesi.com/makale/kanada-medical-expense-tax-credit-rehberi): Uygun gider, 12 aylık dönem, aile satırı ve makbuz cetveli
+- [Sel hazırlığı ve güvenli temizlik](https://www.kanadagazetesi.com/makale/kanada-sel-hazirlik-temizlik-sigorta-rehberi): Tahliye, elektrik, küf, gıda ve sigorta kaydı
+- [Karbonmonoksit alarm güvenliği](https://www.kanadagazetesi.com/makale/kanada-karbonmonoksit-alarm-guvenlik-rehberi): Alarm yerleşimi, tahliye, yakıtlı cihaz ve jeneratör güvenliği
+
 ## Makine tarafından okunabilir kaynaklar
 
 - [RSS](https://www.kanadagazetesi.com/rss.xml): Son yayınların RSS akışı
