@@ -199,6 +199,16 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [CRA taxpayer relief](https://www.kanadagazetesi.com/makale/kanada-cra-taxpayer-relief-faiz-ceza-rehberi): Faiz-ceza, olağanüstü durum, ödeme planı ve karar
 - [Yıldırım ve gök gürültülü fırtına](https://www.kanadagazetesi.com/makale/kanada-yildirim-gok-gurultulu-firtina-guvenlik-rehberi): Güvenli shelter, araç, iç mekân ve ilk yardım
 - [Wind chill, donma ve hipotermi](https://www.kanadagazetesi.com/makale/kanada-wind-chill-donma-hipotermi-rehberi): Uyarı, katman, belirtiler, araç ve yedek ısınma
+- [Kanada eTA başvurusu](https://www.kanadagazetesi.com/makale/kanada-eta-basvuru-pasaport-eslestirme-rehberi): Uygunluk, resmî form, passport eşleşmesi ve boarding
+- [Refugee travel document](https://www.kanadagazetesi.com/makale/kanada-refugee-travel-document-basvuru-rehberi): Statü, kimlik, guarantor, destination visa ve dönüş
+- [Federal erişilebilirlik şikâyeti](https://www.kanadagazetesi.com/makale/kanada-federal-erisilebilirlik-sikayeti-rehberi): Kapsam, barrier, çözüm talebi ve Commissioner yolu
+- [İzinsiz mahrem görüntü paylaşımı](https://www.kanadagazetesi.com/makale/kanada-izinsiz-mahrem-goruntu-paylasimi-rehberi): Kanıt, kaldırma, polis, court ve güvenli izleme
+- [Kanada'dan Web Tapu işlemleri](https://www.kanadagazetesi.com/makale/kanadadan-turkiye-web-tapu-islemleri-rehberi): Taşınmaz, vekâlet, ödeme, resmî senet ve tescil
+- [Kanada-Türkiye miras ve intikal](https://www.kanadagazetesi.com/makale/kanada-turkiye-miras-veraset-intikal-rehberi): Ölüm kaydı, mirasçılık, vergi, tapu ve paylaşım
+- [Öğrenci kredisi RAP](https://www.kanadagazetesi.com/makale/kanada-student-loan-rap-geri-odeme-rehberi): Loan hesabı, gelir, affordable payment ve yeniden başvuru
+- [Consumer proposal ve bankruptcy](https://www.kanadagazetesi.com/makale/kanada-consumer-proposal-bankruptcy-l-it-rehberi): Borç tablosu, LIT, seçenekler ve filing sonrası
+- [Kasırga hazırlığı](https://www.kanadagazetesi.com/makale/kanada-kasirga-hurricane-hazirlik-rehberi): Forecast, storm surge, tahliye, ev ve sigorta
+- [Tsunami kıyı tahliyesi](https://www.kanadagazetesi.com/makale/kanada-tsunami-kiyi-tahliye-rehberi): Doğal işaret, yüksek bölge, rota ve all-clear
 
 ## Makine tarafından okunabilir kaynaklar
 
