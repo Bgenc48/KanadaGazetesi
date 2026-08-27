@@ -189,6 +189,16 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [EI caregiving benefits](https://www.kanadagazetesi.com/makale/kanada-ei-caregiving-benefits-rehberi): Program seçimi, medical certificate, ROE ve paylaşılan haftalar
 - [Ev yangını kaçış planı](https://www.kanadagazetesi.com/makale/kanada-ev-yangini-kacis-duman-alarmi-rehberi): Duman alarmı, iki çıkış, tatbikat ve güvenli dönüş
 - [Zehirlenme ve poison centre](https://www.kanadagazetesi.com/makale/kanada-zehirlenme-poison-centre-rehberi): Ürün bilgisi, 9-1-1 ayrımı, ilk adım ve ev güvenliği
+- [Vatandaşlık töreni ve yemin](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-toreni-yemin-rehberi): Davet, kimlik, PR card, oath ve citizenship certificate
+- [Çifte vatandaş seyahat ve pasaport](https://www.kanadagazetesi.com/makale/kanada-cifte-vatandas-seyahat-pasaport-rehberi): Canadian passport, diğer ülke belgesi ve rezervasyon adı
+- [Aile içi şiddet güvenlik planı](https://www.kanadagazetesi.com/makale/kanada-aile-ici-siddet-guvenlik-destek-rehberi): 9-1-1, güvenli cihaz, shelter, çocuk ve belge planı
+- [Suç mağduru hizmetleri](https://www.kanadagazetesi.com/makale/kanada-suc-magduru-hizmetleri-dizin-rehberi): Hizmet dizini, polis kaydı, mahkeme ve masraf kanıtı
+- [Türkiye IMEI telefon kaydı](https://www.kanadagazetesi.com/makale/kanadadan-turkiye-imei-telefon-kayit-rehberi): Cihaz, giriş kaydı, hak, harç ve SIM eşleştirme
+- [Türkiye'ye geçici araç getirme](https://www.kanadagazetesi.com/makale/kanadadan-turkiyeye-gecici-arac-getirme-rehberi): Yerleşiklik, sahiplik, sigorta, giriş süresi ve çıkış
+- [CRA Notice of Objection](https://www.kanadagazetesi.com/makale/kanada-cra-notice-of-objection-rehberi): Assessment, deadline, tartışmalı tutar ve Appeals kaydı
+- [CRA taxpayer relief](https://www.kanadagazetesi.com/makale/kanada-cra-taxpayer-relief-faiz-ceza-rehberi): Faiz-ceza, olağanüstü durum, ödeme planı ve karar
+- [Yıldırım ve gök gürültülü fırtına](https://www.kanadagazetesi.com/makale/kanada-yildirim-gok-gurultulu-firtina-guvenlik-rehberi): Güvenli shelter, araç, iç mekân ve ilk yardım
+- [Wind chill, donma ve hipotermi](https://www.kanadagazetesi.com/makale/kanada-wind-chill-donma-hipotermi-rehberi): Uyarı, katman, belirtiler, araç ve yedek ısınma
 
 ## Makine tarafından okunabilir kaynaklar
 
