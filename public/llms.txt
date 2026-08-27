@@ -139,6 +139,16 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 
 ## Yeni uzman rehberleri
 
+- [Visitor record ile kalış uzatma](https://www.kanadagazetesi.com/makale/kanada-visitor-record-uzatma-rehberi): TRV farkı, maintained status, mali plan ve seyahat
+- [Study permit uzatma ve DLI değişikliği](https://www.kanadagazetesi.com/makale/kanada-study-permit-uzatma-dli-degisikligi-rehberi): Permit takvimi, PAL/TAL, okul değişikliği ve restoration
+- [Criminal record check ve parmak izi](https://www.kanadagazetesi.com/makale/kanada-criminal-record-check-parmak-izi-rehberi): Name-based, certified check ve vulnerable sector ayrımı
+- [Kişisel veri ve gizlilik şikâyeti](https://www.kanadagazetesi.com/makale/kanada-kisisel-veri-gizlilik-sikayeti-rehberi): Privacy Act, PIPEDA, provincial yetki ve OPC dosyası
+- [Kanada'da askerlik erteleme ve yoklama](https://www.kanadagazetesi.com/makale/kanadada-askerlik-erteleme-yoklama-rehberi): Öğrenci-çalışan statüsü, erteleme bitişi ve Türkiye günleri
+- [Kanada çalışma ve hizmet belgesi](https://www.kanadagazetesi.com/makale/kanada-calisma-hizmet-belgesi-sgk-rehberi): SGK işlem türü, Kanada kayıtları ve konsolosluk belgesi
+- [Home office expenses ve T2200](https://www.kanadagazetesi.com/makale/kanada-home-office-expenses-t2200-rehberi): Uygunluk, dört haftalık test, T777 ve gider oranı
+- [T2202 tuition tax credit](https://www.kanadagazetesi.com/makale/kanada-t2202-tuition-tax-credit-rehberi): Schedule 11, öğrencinin kullanımı, transfer ve carry-forward
+- [Kış fırtınası ve blizzard güvenliği](https://www.kanadagazetesi.com/makale/kanada-kis-firtinasi-blizzard-guvenlik-rehberi): Uyarılar, ev, araç, ısıtma ve karbonmonoksit planı
+- [Depremde Drop, Cover, Hold On](https://www.kanadagazetesi.com/makale/kanada-deprem-drop-cover-hold-on-rehberi): Eşya sabitleme, erken uyarı, korunma ve artçı riskler
 - [IRCC temsilci ekleme, değiştirme ve iptal](https://www.kanadagazetesi.com/makale/kanada-ircc-temsilci-ekleme-degistirme-iptal-rehberi): IMM 5476, yetki, web form ve yazışma devri
 - [IRCC başvurusunu geri çekme ve ücret iadesi](https://www.kanadagazetesi.com/makale/kanada-ircc-basvuru-geri-cekme-ucret-iade-rehberi): Program talimatı, processing aşaması ve refundable fees
 - [Dolandırıcılığı CAFC ve polise bildirme](https://www.kanadagazetesi.com/makale/kanada-dolandiricilik-cafc-polis-bildirim-rehberi): Para akışını durdurma, kanıt koruma ve olay numaraları
