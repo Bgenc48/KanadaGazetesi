@@ -82,6 +82,12 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Kayıp cüzdan ve kimlik acil listesi](https://www.kanadagazetesi.com/makale/kanadada-cuzdan-kimlik-kaybi-acil-kontrol-listesi): Kartları durdurma, belge bildirimi, fraud alert ve izleme
 - [72 saatlik acil durum kiti](https://www.kanadagazetesi.com/makale/kanada-72-saat-acil-durum-kiti-rehberi): Hane planı, taşınabilir kit, iletişim ve düzenli bakım
 - [İkinci el araç lien ve recall kontrolü](https://www.kanadagazetesi.com/makale/kanada-ikinci-el-arac-alma-lien-recall-kontrolu): VIN, borç kaydı, recall, bağımsız ekspertiz ve satış belgesi
+- [Yeni gelenler için RRSP](https://www.kanadagazetesi.com/makale/kanada-yeni-gelenler-rrsp-katki-vergi-rehberi): Deduction limit, contribution, employer plan, fazla katkı ve withdrawal
+- [Disability Tax Credit ve T2201](https://www.kanadagazetesi.com/makale/kanada-disability-tax-credit-t2201-basvuru-rehberi): İşlev temelli uygunluk, iki bölümlü başvuru, CRA kararı ve claim
+- [Elektrik kesintisi güvenlik ve gıda planı](https://www.kanadagazetesi.com/makale/kanada-elektrik-kesintisi-guvenlik-gida-rehberi): Tıbbi cihaz, ısı, generator, carbon monoxide ve soğuk zincir
+- [Gıda recall ve alerjen etiketi](https://www.kanadagazetesi.com/makale/kanada-gida-recall-alerjen-etiketi-rehberi): UPC ve lot eşleştirme, Contains, May contain ve CFIA bildirimi
+- [Online alışveriş iade ve şikâyeti](https://www.kanadagazetesi.com/makale/kanada-online-alisveris-iade-sikayet-rehberi): Satıcı kanıtı, refund, marketplace dispute, consumer affairs ve kart itirazı
+- [Kiracı move-out ve depozito](https://www.kanadagazetesi.com/makale/kanada-kiraci-tasinma-depozito-cikis-rehberi): Province notice, condition inspection, forwarding address ve deposit kanıtı
 
 ## Toplum ve konsolosluk
 
@@ -108,6 +114,8 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Kanada boşanma kararının Türkiye'de tescili](https://www.kanadagazetesi.com/makale/kanada-bosanma-karari-turkiyede-tescil-rehberi): Nüfus kaydı, ortak veya ayrı başvuru, 90 günlük süre ve kapsam ayrımı
 - [Kanada vatandaşlığı sonrası çok vatandaşlık tescili](https://www.kanadagazetesi.com/makale/kanada-vatandasligi-cok-vatandaslik-tescili-turkiye-rehberi): Randevu, belge eşleştirme, vekâlet ve nüfus kaydı kontrolü
 - [Kanada'da Türk pasaportu başvurusu](https://www.kanadagazetesi.com/makale/kanadada-turk-pasaportu-basvuru-yenileme-rehberi): İşlem türü, biyometri, çocuk muvafakati ve teslim planı
+- [Kanada'da T.C. kimlik kartı başvurusu](https://www.kanadagazetesi.com/makale/kanadada-tc-kimlik-karti-basvuru-yenileme-rehberi): İşlem türü, nüfus kaydı, biyometri, çocuk dosyası ve teslim
+- [Kanada'da yurtdışı seçmen kaydı](https://www.kanadagazetesi.com/makale/kanadada-yurtdisi-secmen-kaydi-oy-kullanma-rehberi): YSK sorgusu, adres beyanı, askı, itiraz ve seçim günü planı
 
 ## Makine tarafından okunabilir kaynaklar
 
