@@ -169,6 +169,16 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Medical Expense Tax Credit](https://www.kanadagazetesi.com/makale/kanada-medical-expense-tax-credit-rehberi): Uygun gider, 12 aylık dönem, aile satırı ve makbuz cetveli
 - [Sel hazırlığı ve güvenli temizlik](https://www.kanadagazetesi.com/makale/kanada-sel-hazirlik-temizlik-sigorta-rehberi): Tahliye, elektrik, küf, gıda ve sigorta kaydı
 - [Karbonmonoksit alarm güvenliği](https://www.kanadagazetesi.com/makale/kanada-karbonmonoksit-alarm-guvenlik-rehberi): Alarm yerleşimi, tahliye, yakıtlı cihaz ve jeneratör güvenliği
+- [Statü kaybı ve 90 günlük restoration](https://www.kanadagazetesi.com/makale/kanada-statu-restoration-90-gun-rehberi): Kayıp tarihi, uygunluk, faaliyet kısıtı, ücret ve başvuru izi
+- [Vatandaşlık fiziksel bulunma hesabı](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-fiziksel-bulunma-hesabi-rehberi): 1.095 gün, PR öncesi kredi, seyahat ve calculator kaydı
+- [9-8-8 kriz hattı ve acil destek](https://www.kanadagazetesi.com/makale/kanada-988-kriz-hatti-acil-destek-rehberi): Arama ve mesaj, yakın tehlike ayrımı ve güvenlik planı
+- [SIN kimlik hırsızlığı ve veri ihlali](https://www.kanadagazetesi.com/makale/kanada-sin-kimlik-hirsizligi-veri-ihlali-rehberi): Hesap güvenliği, Service Canada, CRA, polis ve kredi kaydı
+- [Mavi Kart başvurusu ve haklar](https://www.kanadagazetesi.com/makale/kanada-mavi-kart-basvuru-haklar-rehberi): Uygunluk, soy bağı, konsolosluk dosyası ve sınırlı haklar
+- [Dövizle askerlik başvurusu](https://www.kanadagazetesi.com/makale/kanada-dovizle-askerlik-basvuru-rehberi): Yurtdışı süreleri, uzaktan eğitim, ödeme ve statü kontrolü
+- [EI sickness hastalık yardımı](https://www.kanadagazetesi.com/makale/kanada-ei-sickness-hastalik-yardimi-rehberi): Insured hours, medical certificate, ROE ve haftalık rapor
+- [CPP disability yardımı](https://www.kanadagazetesi.com/makale/kanada-cpp-disability-yardimi-basvuru-rehberi): Katkı, severe-prolonged testleri ve işlev kaybı kanıtı
+- [Orman yangını tahliye planı](https://www.kanadagazetesi.com/makale/kanada-orman-yangini-tahliye-rehberi): Resmî uyarı, rota, duman, sigorta ve güvenli dönüş
+- [Evcil hayvan acil durum planı](https://www.kanadagazetesi.com/makale/kanada-evcil-hayvan-acil-durum-plani-rehberi): Tahliye yeri, taşıma, kimlik, ilaç ve bakım kaydı
 
 ## Makine tarafından okunabilir kaynaklar
 
