@@ -209,6 +209,16 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Consumer proposal ve bankruptcy](https://www.kanadagazetesi.com/makale/kanada-consumer-proposal-bankruptcy-l-it-rehberi): Borç tablosu, LIT, seçenekler ve filing sonrası
 - [Kasırga hazırlığı](https://www.kanadagazetesi.com/makale/kanada-kasirga-hurricane-hazirlik-rehberi): Forecast, storm surge, tahliye, ev ve sigorta
 - [Tsunami kıyı tahliyesi](https://www.kanadagazetesi.com/makale/kanada-tsunami-kiyi-tahliye-rehberi): Doğal işaret, yüksek bölge, rota ve all-clear
+- [Vatandaşlık sertifikası ve proof](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-sertifikasi-kanit-basvuru-rehberi): İlk proof, replacement, ebeveyn zinciri ve kayıt düzeltme
+- [LINC ve CLIC dil kursları](https://www.kanadagazetesi.com/makale/kanada-linc-clic-ucretsiz-dil-kursu-rehberi): Statü, assessment, sınıf, destek ve ilerleme kaydı
+- [211 toplum hizmetleri](https://www.kanadagazetesi.com/makale/kanada-211-toplum-hizmetleri-rehberi): İhtiyaç, güvenli iletişim, referral ve provider doğrulama
+- [Legal aid ve adli yardım](https://www.kanadagazetesi.com/makale/kanada-legal-aid-adli-yardim-rehberi): Hukuk alanı, mali uygunluk, service scope ve deadline
+- [Vekâletname azilname](https://www.kanadagazetesi.com/makale/kanadadan-vekaletname-azilname-bildirim-rehberi): İptal kapsamı, konsolosluk belgesi, bildirim ve kayıt
+- [İmza ve belge suret tasdiki](https://www.kanadagazetesi.com/makale/kanada-konsolosluk-imza-belge-suret-tasdiki-rehberi): Tasdik türü, original, copy, tercüme ve apostil
+- [Home Buyers' Plan](https://www.kanadagazetesi.com/makale/kanada-home-buyers-plan-rrsp-rehberi): RRSP uygunluğu, withdrawal, closing ve repayment
+- [CRA payment arrangement](https://www.kanadagazetesi.com/makale/kanada-cra-payment-arrangement-vergi-borcu-rehberi): Borç dökümü, bütçe, ödeme planı ve collections takibi
+- [Çığ güvenliği](https://www.kanadagazetesi.com/makale/kanada-cig-avalanche-guvenlik-rehberi): Forecast, terrain, rescue gear, group plan ve incident
+- [Heyelan güvenliği](https://www.kanadagazetesi.com/makale/kanada-heyelan-landslide-guvenlik-rehberi): İşaretler, route, tahliye, dönüş ve uzman incelemesi
 
 ## Makine tarafından okunabilir kaynaklar
 
