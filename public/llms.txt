@@ -139,6 +139,16 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 
 ## Yeni uzman rehberleri
 
+- [IRCC temsilci ekleme, değiştirme ve iptal](https://www.kanadagazetesi.com/makale/kanada-ircc-temsilci-ekleme-degistirme-iptal-rehberi): IMM 5476, yetki, web form ve yazışma devri
+- [IRCC başvurusunu geri çekme ve ücret iadesi](https://www.kanadagazetesi.com/makale/kanada-ircc-basvuru-geri-cekme-ucret-iade-rehberi): Program talimatı, processing aşaması ve refundable fees
+- [Dolandırıcılığı CAFC ve polise bildirme](https://www.kanadagazetesi.com/makale/kanada-dolandiricilik-cafc-polis-bildirim-rehberi): Para akışını durdurma, kanıt koruma ve olay numaraları
+- [Federal resmî dil şikâyeti](https://www.kanadagazetesi.com/makale/kanada-resmi-diller-sikayet-rehberi): İngilizce-Fransızca hizmet, federal kapsam, süre ve OCOL dosyası
+- [Türkiye nüfus kayıt örneği](https://www.kanadagazetesi.com/makale/kanada-turkiye-nufus-kayit-ornegi-rehberi): Kapsam, e-Devlet, konsolosluk, tercüme ve e-Apostil
+- [Türkiye giriş-çıkış kaydı](https://www.kanadagazetesi.com/makale/kanadadan-turkiye-giris-cikis-kaydi-rehberi): e-Devlet belgesi, pasaport uzlaştırması ve seyahat geçmişi
+- [Moving expenses vergi indirimi](https://www.kanadagazetesi.com/makale/kanada-moving-expenses-vergi-indirimi-rehberi): 40 kilometre testi, line 21900, T1-M ve eligible giderler
+- [Canada Caregiver Credit](https://www.kanadagazetesi.com/makale/kanada-caregiver-credit-rehberi): Destek, impairment, dependant geliri ve Schedule 5
+- [Evde radon testi ve azaltma](https://www.kanadagazetesi.com/makale/kanada-radon-test-azaltma-rehberi): Üç aylık ölçüm, 200 Bq/m³ guideline ve certified mitigation
+- [Tornado ve şiddetli fırtına güvenliği](https://www.kanadagazetesi.com/makale/kanada-tornado-firtina-guvenlik-rehberi): Uyarılar, shelter, araç ve hasar sonrası riskler
 - [IRCC başvuru bilgisi güncelleme](https://www.kanadagazetesi.com/makale/kanada-ircc-basvuru-bilgi-degisikligi-guncelleme-rehberi): Adres, aile, pasaport, iş ve sağlık değişikliklerini doğru kanaldan bildirme
 - [IRCC ATIP ve GCMS dosya kaydı](https://www.kanadagazetesi.com/makale/kanada-ircc-atip-gcms-dosya-kaydi-rehberi): Privacy Act, Access to Information ve temsilci onayı ayrımı
 - [Federal seçim kaydı ve oy kullanma](https://www.kanadagazetesi.com/makale/kanada-federal-secim-kayit-oy-kullanma-rehberi): Seçmen kaydı, kimlik, adres ve voucher seçenekleri
