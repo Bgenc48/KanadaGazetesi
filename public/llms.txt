@@ -31,6 +31,9 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Express Entry dil sınavı](https://www.kanadagazetesi.com/makale/express-entry-dil-sinavi-gecerlilik-rehberi): Onaylı sınav, CLB ve iki yıllık geçerlilik
 - [Göçmenlik polis belgesi](https://www.kanadagazetesi.com/makale/kanada-gocmenlik-polis-belgesi-rehberi): Ülke talimatı, çeviri ve belge tarihi
 - [COPR ve ilk landing](https://www.kanadagazetesi.com/makale/kanada-copr-ilk-landing-rehberi): Belge kontrolü, e-COPR ve ilk PR card
+- [Francophone Mobility çalışma izni](https://www.kanadagazetesi.com/makale/kanada-francophone-mobility-calisma-izni-rehberi): Quebec dışında Fransızca, C16 ve işveren portalı
+- [RCIP kırsal topluluk göçü](https://www.kanadagazetesi.com/makale/kanada-rcip-kirsal-topluluk-goc-rehberi): Designated employer, topluluk tavsiyesi ve federal dosya
+- [Atlantik göç programı](https://www.kanadagazetesi.com/makale/kanada-atlantik-goc-programi-is-teklifi-rehberi): İş teklifi, settlement plan ve endorsement
 
 ## Yeni gelenler için temel rehberler
 
@@ -45,6 +48,11 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Kiralık ev bulma](https://www.kanadagazetesi.com/makale/kanadada-kiralik-ev-bulma-rehberi): Lease, depozito ve sahte ilan kontrolü
 - [Kanada'da iş arama](https://www.kanadagazetesi.com/makale/kanadada-is-arama-ozgecmis-networking-rehberi): Özgeçmiş, networking ve mesleki denklik
 - [Kanada'da çalışan hakları](https://www.kanadagazetesi.com/makale/kanadada-calisan-haklari-federal-eyalet-rehberi): Federal ve eyalet yetkisi, kayıt ve başvuru yolları
+- [Vancouver yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/vancouver-yeni-gelen-hizmetleri-rehberi): Belediye, BC programları, ulaşım ve konut
+- [Calgary yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/calgary-yeni-gelen-hizmetleri-rehberi): 311 dil desteği, yerleşim kuruluşları ve Alberta kayıtları
+- [Ottawa yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/ottawa-yeni-gelen-hizmetleri-rehberi): İlk günler, OHIP, SIN, dil ve ulaşım
+- [Edmonton yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/edmonton-yeni-gelen-hizmetleri-rehberi): Belediye rehberi, Alberta destekleri ve kış hazırlığı
+- [Winnipeg yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/winnipeg-yeni-gelen-hizmetleri-rehberi): Settlement dizini, 311, transit ve Manitoba kayıtları
 
 ## Toplum ve konsolosluk
 
