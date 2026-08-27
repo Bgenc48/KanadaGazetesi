@@ -76,6 +76,12 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Yurtdışı seyahat sağlık sigortası](https://www.kanadagazetesi.com/makale/kanada-yurtdisi-seyahat-saglik-sigortasi-rehberi): Mevcut hastalık, tahliye, repatriation ve claim belgeleri
 - [Banka şikâyeti ve OBSI](https://www.kanadagazetesi.com/makale/kanada-banka-sikayeti-obsi-rehberi): Kanıt dosyası, 56 günlük süre ve bağımsız inceleme
 - [Taşınma ve adres değişikliği](https://www.kanadagazetesi.com/makale/kanada-tasinma-adres-degisikligi-kontrol-listesi): Kamu, finans, sigorta, okul ve posta güncellemeleri
+- [EI annelik ve ebeveyn yardımı](https://www.kanadagazetesi.com/makale/kanada-ei-annelik-ebeveyn-yardimi-rehberi): Maternity, parental option, insured hours, ROE ve aile bütçesi
+- [Yeni gelenler için Canada Groceries and Essentials Benefit](https://www.kanadagazetesi.com/makale/kanada-yeni-gelenler-groceries-essentials-benefit-rc151-rehberi): RC151, aile durumu, dünya geliri ve CRA kaydı
+- [Yeni gelenler için TFSA katkı hakkı](https://www.kanadagazetesi.com/makale/kanada-yeni-gelenler-tfsa-katki-hakki-rehberi): Vergi ikameti, contribution room, withdrawal ve fazla katkı
+- [Kayıp cüzdan ve kimlik acil listesi](https://www.kanadagazetesi.com/makale/kanadada-cuzdan-kimlik-kaybi-acil-kontrol-listesi): Kartları durdurma, belge bildirimi, fraud alert ve izleme
+- [72 saatlik acil durum kiti](https://www.kanadagazetesi.com/makale/kanada-72-saat-acil-durum-kiti-rehberi): Hane planı, taşınabilir kit, iletişim ve düzenli bakım
+- [İkinci el araç lien ve recall kontrolü](https://www.kanadagazetesi.com/makale/kanada-ikinci-el-arac-alma-lien-recall-kontrolu): VIN, borç kaydı, recall, bağımsız ekspertiz ve satış belgesi
 
 ## Toplum ve konsolosluk
 
@@ -99,6 +105,9 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Kanada'da Türkiye yurtdışı adres beyanı](https://www.kanadagazetesi.com/makale/kanadada-yurtdisi-adres-beyani-turkiye-rehberi): Yerleşim yeri, diğer adres, aile ve kayıt doğrulaması
 - [Kanada'dan Türkiye için vekâletname](https://www.kanadagazetesi.com/makale/kanadadan-turkiye-vekaletname-konsolosluk-rehberi): Yetki kapsamı, noterlik randevusu, belge ve azil zinciri
 - [Kanada'da ölüm tescili ve cenaze](https://www.kanadagazetesi.com/makale/kanadada-olum-tescili-cenaze-turkiye-rehberi): Death certificate, cenaze nakli, Formül C ve tereke ayrımı
+- [Kanada boşanma kararının Türkiye'de tescili](https://www.kanadagazetesi.com/makale/kanada-bosanma-karari-turkiyede-tescil-rehberi): Nüfus kaydı, ortak veya ayrı başvuru, 90 günlük süre ve kapsam ayrımı
+- [Kanada vatandaşlığı sonrası çok vatandaşlık tescili](https://www.kanadagazetesi.com/makale/kanada-vatandasligi-cok-vatandaslik-tescili-turkiye-rehberi): Randevu, belge eşleştirme, vekâlet ve nüfus kaydı kontrolü
+- [Kanada'da Türk pasaportu başvurusu](https://www.kanadagazetesi.com/makale/kanadada-turk-pasaportu-basvuru-yenileme-rehberi): İşlem türü, biyometri, çocuk muvafakati ve teslim planı
 
 ## Makine tarafından okunabilir kaynaklar
 
