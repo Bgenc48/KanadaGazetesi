@@ -53,6 +53,12 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Ottawa yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/ottawa-yeni-gelen-hizmetleri-rehberi): İlk günler, OHIP, SIN, dil ve ulaşım
 - [Edmonton yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/edmonton-yeni-gelen-hizmetleri-rehberi): Belediye rehberi, Alberta destekleri ve kış hazırlığı
 - [Winnipeg yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/winnipeg-yeni-gelen-hizmetleri-rehberi): Settlement dizini, 311, transit ve Manitoba kayıtları
+- [CPP, OAS ve GIS emeklilik](https://www.kanadagazetesi.com/makale/kanada-cpp-oas-gis-emeklilik-rehberi): Katkı, ikamet, gelir testi ve başvuru zamanı
+- [Çocuk bakımı ve kreş desteği](https://www.kanadagazetesi.com/makale/kanadada-cocuk-bakimi-kres-destegi-rehberi): Lisanslı bakım, eyalet programı ve bekleme listesi
+- [İlk ev ve mortgage](https://www.kanadagazetesi.com/makale/kanadada-ilk-ev-mortgage-kapanis-maliyeti-rehberi): Peşinat, ön onay ve kapanış maliyetleri
+- [Telefon ve internet sözleşmesi](https://www.kanadagazetesi.com/makale/kanada-telefon-internet-sozlesme-sikayet-rehberi): CRTC kodları, promosyon, iptal ve CCTS şikâyeti
+- [Kanada'dan Türkiye'ye para transferi](https://www.kanadagazetesi.com/makale/kanadadan-turkiyeye-para-transferi-rehberi): Ücret, kur marjı, FINTRAC kaydı ve izleme
+- [Türkiye'den Kanada'ya gıda ve hediye](https://www.kanadagazetesi.com/makale/turkiyeden-kanadaya-gida-hediye-gonderme-rehberi): CFIA, AIRS, miktar ve gümrük beyanı
 
 ## Toplum ve konsolosluk
 
@@ -67,6 +73,8 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Kanada'ya eşya getirme](https://www.kanadagazetesi.com/makale/kanadaya-esya-getirme-goods-to-follow-rehberi): BSF186, goods to follow ve taşıma kontrol listesi
 - [Kanada-Türkiye apostil rehberi](https://www.kanadagazetesi.com/makale/kanada-turkiye-apostil-belge-rehberi): Belge, noter, tercüme ve yetkili makam sırası
 - [Kanada acil yardım numaraları](https://www.kanadagazetesi.com/makale/kanada-acil-yardim-numaralari-rehberi): 911, 988, 211 ve yerel kısa numaraların görevleri
+- [Kanada-Türkiye sosyal güvenlik anlaşması](https://www.kanadagazetesi.com/makale/kanada-turkiye-sosyal-guvenlik-anlasmasi-emeklilik-rehberi): CPP, OAS ve Türk sigorta sürelerinin koordinasyonu
+- [Kanada'dan Türkiye'ye evcil hayvan](https://www.kanadagazetesi.com/makale/kanadadan-turkiyeye-evcil-hayvan-seyahati-rehberi): Veteriner sertifikası, CFIA onayı ve havayolu planı
 
 ## Makine tarafından okunabilir kaynaklar
 
