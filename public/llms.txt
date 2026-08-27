@@ -94,6 +94,12 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [RESP ve CESG eğitim tasarrufu](https://www.kanadagazetesi.com/makale/kanada-resp-cesg-egitim-tasarrufu-rehberi): Beneficiary SIN, government benefits, provider ve katkı ledger'ı
 - [Uçuş gecikmesi ve iptalinde yolcu hakları](https://www.kanadagazetesi.com/makale/kanada-ucus-gecikme-iptal-yolcu-haklari-rehberi): APPR, rebooking, refund, compensation claim ve CTA dosyası
 - [Tüketici ürünü recall ve güvenlik bildirimi](https://www.kanadagazetesi.com/makale/kanada-tuketici-urun-recall-guvenlik-bildirimi-rehberi): Model eşleştirme, remedy, near miss ve Health Canada bildirimi
+- [IRCC başvuru durumu takibi](https://www.kanadagazetesi.com/makale/kanada-ircc-basvuru-durumu-takip-rehberi): AOR, UCI, tracker, secure account ve teknik sorun kanıtı
+- [IRCC belge tercümesi ve onaylı kopya](https://www.kanadagazetesi.com/makale/kanada-ircc-belge-tercume-onayli-kopya-rehberi): Certified translator, affidavit, original ve yükleme manifesti
+- [RDSP engellilik tasarrufu](https://www.kanadagazetesi.com/makale/kanada-rdsp-engellilik-tasarruf-grant-bond-rehberi): DTC, holder, contribution, grant, bond ve withdrawal
+- [Öğrenci grant ve loan başvurusu](https://www.kanadagazetesi.com/makale/kanada-ogrenci-grant-loan-basvuru-rehberi): Province portalı, designated program, assessment ve NSLSC
+- [Orman yangını dumanı ve AQHI](https://www.kanadagazetesi.com/makale/kanada-yangin-dumani-aqhi-temiz-hava-rehberi): Risk eşiği, clean-air room, CADR, filtre ve tahliye planı
+- [Aşırı sıcak ve heat warning](https://www.kanadagazetesi.com/makale/kanada-asiri-sicak-heat-warning-guvenlik-rehberi): Cooling centre, wellness check, fan sınırı ve heat stroke
 
 ## Toplum ve konsolosluk
 
@@ -126,6 +132,10 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Not-for-profit toplum kuruluşu kurma](https://www.kanadagazetesi.com/makale/kanada-not-for-profit-toplum-kurulusu-rehberi): Yetki alanı, directors, bylaws, üyelik ve yıllık uyum
 - [Kanada diplomasının Türkiye'de YÖK denkliği](https://www.kanadagazetesi.com/makale/kanada-diploma-turkiye-yok-denklik-rehberi): Tanıma, ön başvuru, belge zinciri ve mesleki yetki ayrımı
 - [Çocuk seyahati ve muvafakat](https://www.kanadagazetesi.com/makale/kanada-turkiye-cocuk-seyahat-muvafakat-rehberi): Consent letter, ebeveynlik belgeleri, pasaport ve dönüş planı
+- [Ayrımcılık için insan hakları şikâyeti](https://www.kanadagazetesi.com/makale/kanada-ayrimcilik-insan-haklari-sikayet-rehberi): Federal-province yetkisi, protected ground, etki ve kanıt dosyası
+- [Charity ve bağış makbuzu doğrulama](https://www.kanadagazetesi.com/makale/kanada-charity-bagis-makbuzu-dogrulama-rehberi): CRA sicili, T3010, payment channel ve receipt alanları
+- [Kanada'dan e-Devlet erişimi](https://www.kanadagazetesi.com/makale/kanadadan-e-devlet-sifresi-erisim-guvenlik-rehberi): Resmî giriş, konsolosluk işlemi, iki aşamalı güvenlik ve belge doğrulama
+- [SGK yurtdışı borçlanma](https://www.kanadagazetesi.com/makale/kanada-sgk-yurtdisi-borclanma-rehberi): Uygun süre, Kanada belgesi, dilekçe, tebligat ve ödeme takibi
 
 ## Makine tarafından okunabilir kaynaklar
 
