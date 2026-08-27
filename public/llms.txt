@@ -179,6 +179,16 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [CPP disability yardımı](https://www.kanadagazetesi.com/makale/kanada-cpp-disability-yardimi-basvuru-rehberi): Katkı, severe-prolonged testleri ve işlev kaybı kanıtı
 - [Orman yangını tahliye planı](https://www.kanadagazetesi.com/makale/kanada-orman-yangini-tahliye-rehberi): Resmî uyarı, rota, duman, sigorta ve güvenli dönüş
 - [Evcil hayvan acil durum planı](https://www.kanadagazetesi.com/makale/kanada-evcil-hayvan-acil-durum-plani-rehberi): Tahliye yeri, taşıma, kimlik, ilaç ve bakım kaydı
+- [Vatandaşlık dil kanıtı ve testi](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-dil-kaniti-test-rehberi): Yaş, kabul edilen belge, Discover Canada ve test daveti
+- [PR 730 günlük ikamet yükümlülüğü](https://www.kanadagazetesi.com/makale/kanada-pr-730-gun-ikamet-yukumlulugu-rehberi): Beş yıllık dönem, yurtdışı kredisi, PR card ve PRTD
+- [İnsan ticareti yardım hattı](https://www.kanadagazetesi.com/makale/kanada-insan-ticareti-yardim-hatti-guvenlik-rehberi): Sömürü işaretleri, güvenli cihaz, 9-1-1 ve kanıt koruma
+- [Telemarketing ve DNCL şikâyeti](https://www.kanadagazetesi.com/makale/kanada-istenmeyen-telemarketing-dncl-sikayet-rehberi): Liste kaydı, istisnalar, arama kanıtı ve scam ayrımı
+- [Türk vatandaşlığını yeniden kazanma](https://www.kanadagazetesi.com/makale/kanada-turk-vatandasligini-yeniden-kazanma-rehberi): Kayıp kararı, konsolosluk dosyası ve kayıt güncelleme
+- [Hayatta olma belgesi](https://www.kanadagazetesi.com/makale/kanada-hayatta-olma-belgesi-emeklilik-rehberi): Emekli aylığı, kimlik doğrulama, teslim ve SGK kaydı
+- [CPP survivor ve death benefit](https://www.kanadagazetesi.com/makale/kanada-cpp-survivor-death-benefit-rehberi): Eşlik, ölüm, katkı, estate ve çocuk yardımı
+- [EI caregiving benefits](https://www.kanadagazetesi.com/makale/kanada-ei-caregiving-benefits-rehberi): Program seçimi, medical certificate, ROE ve paylaşılan haftalar
+- [Ev yangını kaçış planı](https://www.kanadagazetesi.com/makale/kanada-ev-yangini-kacis-duman-alarmi-rehberi): Duman alarmı, iki çıkış, tatbikat ve güvenli dönüş
+- [Zehirlenme ve poison centre](https://www.kanadagazetesi.com/makale/kanada-zehirlenme-poison-centre-rehberi): Ürün bilgisi, 9-1-1 ayrımı, ilk adım ve ev güvenliği
 
 ## Makine tarafından okunabilir kaynaklar
 
