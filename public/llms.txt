@@ -65,6 +65,12 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Québec City yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/quebec-city-yeni-gelen-hizmetleri-rehberi): Fransızca, belediye kuruluşları, sağlık ve iş
 - [Kanada konut sigortası](https://www.kanadagazetesi.com/makale/kanada-kiraci-ev-konut-sigortasi-rehberi): Kiracı, condo ve ev poliçelerinde kapsam ve hasar kontrolü
 - [Kredi raporu hata ve dolandırıcılık](https://www.kanadagazetesi.com/makale/kanada-kredi-raporu-hata-dolandiricilik-rehberi): İki bureau, dispute, fraud alert ve izleme
+- [Victoria yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/victoria-yeni-gelen-hizmetleri-rehberi): B.C. settlement ağı, MSP, ada ulaşımı ve acil durum planı
+- [Kelowna yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/kelowna-yeni-gelen-hizmetleri-rehberi): Okanagan hizmetleri, MSP, konut ve yangın hazırlığı
+- [Hamilton yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/hamilton-yeni-gelen-hizmetleri-rehberi): Belediye dizini, CLARS, OHIP, iş ve ulaşım
+- [London Ontario yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/london-ontario-yeni-gelen-hizmetleri-rehberi): Settlement, SWIS, dil, sağlık ve konut
+- [Kanada araç sigortası ve kaza hasarı](https://www.kanadagazetesi.com/makale/kanada-arac-sigortasi-kaza-hasar-rehberi): Kapsam, deductible, kaza kaydı ve claim süreci
+- [İş ilanı ve istihdam dolandırıcılığı](https://www.kanadagazetesi.com/makale/kanada-is-ilani-istihdam-dolandiriciligi-rehberi): İşveren doğrulama, sahte çek, ücret ve kimlik koruması
 
 ## Toplum ve konsolosluk
 
@@ -83,6 +89,8 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 - [Kanada'dan Türkiye'ye evcil hayvan](https://www.kanadagazetesi.com/makale/kanadadan-turkiyeye-evcil-hayvan-seyahati-rehberi): Veteriner sertifikası, CFIA onayı ve havayolu planı
 - [Kanada-Türkiye vergi mukimliği](https://www.kanadagazetesi.com/makale/kanada-turkiye-vergi-mukimligi-anlasma-rehberi): Vergi bağları, anlaşma maddeleri, mahsup ve kayıt planı
 - [Türkiye'den Kanada'ya burs arama](https://www.kanadagazetesi.com/makale/turkiyeden-kanadaya-burs-arama-basvuru-rehberi): EduCanada, kurum başvurusu, bütçe ve sahte teklif kontrolü
+- [Kanada'da doğan çocuğun Türkiye doğum tescili](https://www.kanadagazetesi.com/makale/kanadada-dogan-cocuk-turkiye-dogum-tescili-rehberi): Belge, aile kaydı, temsilcilik ve kimlik sırası
+- [Kanada evliliğinin Türkiye'ye tescili](https://www.kanadagazetesi.com/makale/kanadada-evlilik-turkiye-tescili-rehberi): Marriage certificate, posta dosyası ve nüfus kaydı kontrolü
 
 ## Makine tarafından okunabilir kaynaklar
 
