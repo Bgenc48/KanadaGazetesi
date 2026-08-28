@@ -4,13 +4,14 @@ import { deriveExcerpt } from '../utils/format';
 import { getSection } from '../data/sections';
 import Kicker from './Kicker.astro';
 import Byline from './Byline.astro';
+import { withBase } from '../data/site';
 
 export interface Props {
   article: Article;
 }
 const { article } = Astro.props;
 const { title, deck, heroImage, heroAlt, heroCredit, section } = article.data;
-const href = `/makale/${article.id}`;
+const href = withBase(`/makale/${article.id}`);
 const meta = getSection(section);
 const accent = meta ? `var(${meta.accent})` : 'var(--crimson)';
 const excerpt = deck ?? deriveExcerpt(article, 240);
@@ -20,7 +21,7 @@ const excerpt = deck ?? deriveExcerpt(article, 240);
   <a class="lead__media" href={href} tabindex="-1" aria-hidden="true">
     {
       heroImage ? (
-        <img src={heroImage} alt={heroAlt ?? ''} fetchpriority="high" decoding="async" />
+        <img src={withBase(heroImage)} alt={heroAlt ?? ''} fetchpriority="high" decoding="async" />
       ) : (
         <span class="lead__media-empty">
           <svg viewBox="0 0 100 100" width="22%" aria-hidden="true">

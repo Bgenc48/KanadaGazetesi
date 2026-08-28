@@ -1,5 +1,6 @@
 ---
 import { getSection } from '../data/sections';
+import { withBase } from '../data/site';
 
 export interface Props {
   section?: string;
@@ -14,11 +15,12 @@ const meta = section ? getSection(section) : undefined;
 const text = label ?? meta?.name ?? '';
 const accent = color ?? (meta ? `var(${meta.accent})` : 'var(--crimson)');
 const link = href ?? (meta ? `/bolum/${meta.id}` : undefined);
+const resolvedLink = link ? withBase(link) : undefined;
 ---
 
 {
-  link ? (
-    <a class:list={['kicker', className]} style={`color:${accent}`} href={link}>
+  resolvedLink ? (
+    <a class:list={['kicker', className]} style={`color:${accent}`} href={resolvedLink}>
       {text}
     </a>
   ) : (

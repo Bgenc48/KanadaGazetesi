@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.kanadagazetesi.com/sitemap-index.xml
+Sitemap: https://bgenc48.github.io/KanadaGazetesi/sitemap-index.xml

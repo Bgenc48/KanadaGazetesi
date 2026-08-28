@@ -3,6 +3,7 @@ import type { Article } from '../utils/format';
 import { getSection } from '../data/sections';
 import ArticleCard from './ArticleCard.astro';
 import SectionHeading from './SectionHeading.astro';
+import { withBase } from '../data/site';
 
 export interface Props {
   section: string;
@@ -24,12 +25,12 @@ const accent = meta ? `var(${meta.accent})` : 'var(--crimson)';
     >
       <SectionHeading
         accent={accent}
-        href={`/bolum/${meta.id}`}
+        href={withBase(`/bolum/${meta.id}`)}
         action="Tümü"
         eyebrow={meta.english}
         id={`stream-${section}`}
       >
-        <a href={`/bolum/${meta.id}`}>{meta.name}</a>
+        <a href={withBase(`/bolum/${meta.id}`)}>{meta.name}</a>
       </SectionHeading>
       <div class="stream__grid">
         {items.map((a, i) => (

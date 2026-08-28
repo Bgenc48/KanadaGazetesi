@@ -1,6 +1,6 @@
 ---
 import Logo from './Logo.astro';
-import { site } from '../data/site';
+import { site, withBase } from '../data/site';
 import { formatDateTR } from '../utils/format';
 
 const today = formatDateTR(new Date(), { weekday: true });
@@ -18,7 +18,7 @@ const editionYear = new Date().getFullYear();
 
   <hr class="rule masthead__hairline" />
 
-  <a href="/" class="masthead__brand wrap" aria-label={`${site.name} ana sayfa`}>
+  <a href={withBase('/')} class="masthead__brand wrap" aria-label={`${site.name} ana sayfa`}>
     <Logo size={56} />
     <span class="masthead__wordmark">
       <span class="masthead__name">Kanada Gazetesi</span>

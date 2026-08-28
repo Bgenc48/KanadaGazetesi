@@ -1,8 +1,9 @@
 ---
 import Logo from './Logo.astro';
 import { sections } from '../data/sections';
+import { site, withBase } from '../data/site';
 
-const path = Astro.url.pathname;
+const path = Astro.url.pathname.replace(new RegExp(`^${site.base}`), '') || '/';
 const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
 
 const links = [
@@ -13,7 +14,7 @@ const links = [
 
 <nav class="sitenav" aria-label="Bölümler">
   <div class="wrap sitenav__inner">
-    <a href="/" class="sitenav__brand" aria-label="Ana sayfa">
+    <a href={withBase('/')} class="sitenav__brand" aria-label="Ana sayfa">
       <Logo size={26} />
       <span>Kanada&nbsp;Gazetesi</span>
     </a>
@@ -23,7 +24,7 @@ const links = [
         links.map((l) => (
           <li>
             <a
-              href={l.href}
+              href={withBase(l.href)}
               class:list={['sitenav__link', { 'is-active': isActive(l.href) }]}
               aria-current={isActive(l.href) ? 'page' : undefined}
             >
@@ -34,9 +35,9 @@ const links = [
       }
     </ul>
 
-    <a href="/hakkimizda" class="sitenav__about">Hakkımızda</a>
+    <a href={withBase('/hakkimizda')} class="sitenav__about">Hakkımızda</a>
 
-    <a href="/ara" class="sitenav__icon" aria-label="Ara" title="Ara">
+    <a href={withBase('/ara')} class="sitenav__icon" aria-label="Ara" title="Ara">
       <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
         <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"
         ></circle>

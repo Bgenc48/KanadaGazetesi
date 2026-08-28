@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../data/site';
+
 export interface Crumb {
   label: string;
   href?: string;
@@ -15,7 +17,7 @@ const { items } = Astro.props;
       items.map((item, i) => (
         <li class="crumbs__item">
           {item.href && i < items.length - 1 ? (
-            <a href={item.href}>{item.label}</a>
+            <a href={withBase(item.href)}>{item.label}</a>
           ) : (
             <span aria-current="page">{item.label}</span>
           )}

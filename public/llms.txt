@@ -6,223 +6,223 @@ Site dili Türkçedir. Makaleler yazar, yayın tarihi, güncelleme tarihi ve kay
 
 ## Ana bölümler
 
-- [Göç ve Yerleşim](https://www.kanadagazetesi.com/bolum/goc-ve-yerlesim): Göç programları, izinler ve yerleşim yolları
-- [Toplum](https://www.kanadagazetesi.com/bolum/toplum): Kanada'daki Türk toplulukları ve kültürel yaşam
-- [Türkiye-Kanada](https://www.kanadagazetesi.com/bolum/turkiye-kanada): İki ülke arasındaki ilişkiler ve işlemler
-- [Yaşam](https://www.kanadagazetesi.com/bolum/yasam): Sağlık, vergi, bankacılık ve günlük hayat
-- [Rehber](https://www.kanadagazetesi.com/bolum/rehber): Uygulanabilir kontrol listeleri ve hizmet rehberleri
+- [Göç ve Yerleşim](https://bgenc48.github.io/KanadaGazetesi/bolum/goc-ve-yerlesim): Göç programları, izinler ve yerleşim yolları
+- [Toplum](https://bgenc48.github.io/KanadaGazetesi/bolum/toplum): Kanada'daki Türk toplulukları ve kültürel yaşam
+- [Türkiye-Kanada](https://bgenc48.github.io/KanadaGazetesi/bolum/turkiye-kanada): İki ülke arasındaki ilişkiler ve işlemler
+- [Yaşam](https://bgenc48.github.io/KanadaGazetesi/bolum/yasam): Sağlık, vergi, bankacılık ve günlük hayat
+- [Rehber](https://bgenc48.github.io/KanadaGazetesi/bolum/rehber): Uygulanabilir kontrol listeleri ve hizmet rehberleri
 
 ## Göç ve eğitim rehberleri
 
-- [Kanada'ya yerleşim yol haritası](https://www.kanadagazetesi.com/makale/kanadaya-yerlesim-yol-haritasi-2026): Statü, belge ve ilk adımlar
-- [Express Entry ve CRS](https://www.kanadagazetesi.com/makale/express-entry-crs-rehberi): Federal beceri göçü ve puan sistemi
-- [Eyalet Aday Programı](https://www.kanadagazetesi.com/makale/eyalet-aday-programi-pnp-rehberi): PNP ve iki federal başvuru yolu
-- [Diploma denkliği ve ECA](https://www.kanadagazetesi.com/makale/diploma-denkligi-eca-rehberi): Yabancı eğitimin değerlendirilmesi
-- [İş teklifi, LMIA ve çalışma izni](https://www.kanadagazetesi.com/makale/is-teklifi-lmia-calisma-izni-rehberi): Çalışma yetkisi rotaları
-- [Eğitim izni ve PGWP](https://www.kanadagazetesi.com/makale/kanada-egitim-izni-pgwp-rehberi): DLI, PAL/TAL, mali kanıt ve mezuniyet sonrası izin
-- [Eş ve aile sponsorluğu](https://www.kanadagazetesi.com/makale/es-aile-sponsorlugu-rehberi): Sponsor uygunluğu, undertaking ve çalışma izni
-- [Kanada vatandaşlığı](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-basvurusu-rehberi): Fiziksel bulunma, dil, sınav ve yemin
-- [Statüyü korumak](https://www.kanadagazetesi.com/makale/kanada-maintained-status-bowp-rehberi): Maintained status, restoration ve BOWP zamanlaması
-- [Ziyaretçi vizesi dosyası](https://www.kanadagazetesi.com/makale/kanada-ziyaretci-vizesi-trv-dosya-rehberi): Seyahat amacı, mali kanıt ve dönüş bağları
-- [Anne ve baba super visa](https://www.kanadagazetesi.com/makale/kanada-super-visa-anne-baba-rehberi): Ev sahibi geliri, sigorta ve sağlık muayenesi
-- [PR card ve PRTD](https://www.kanadagazetesi.com/makale/kanada-pr-card-prtd-seyahat-rehberi): Kart yenileme, ikamet yükümlülüğü ve yurtdışından dönüş
-- [Biyometri ve sağlık muayenesi](https://www.kanadagazetesi.com/makale/kanada-biyometri-saglik-muayenesi-rehberi): BIL, resmî toplama merkezi ve panel physician
-- [Express Entry settlement funds](https://www.kanadagazetesi.com/makale/express-entry-settlement-funds-rehberi): Aile büyüklüğü, banka mektubu ve fon erişimi
-- [Express Entry dil sınavı](https://www.kanadagazetesi.com/makale/express-entry-dil-sinavi-gecerlilik-rehberi): Onaylı sınav, CLB ve iki yıllık geçerlilik
-- [Göçmenlik polis belgesi](https://www.kanadagazetesi.com/makale/kanada-gocmenlik-polis-belgesi-rehberi): Ülke talimatı, çeviri ve belge tarihi
-- [COPR ve ilk landing](https://www.kanadagazetesi.com/makale/kanada-copr-ilk-landing-rehberi): Belge kontrolü, e-COPR ve ilk PR card
-- [Francophone Mobility çalışma izni](https://www.kanadagazetesi.com/makale/kanada-francophone-mobility-calisma-izni-rehberi): Quebec dışında Fransızca, C16 ve işveren portalı
-- [RCIP kırsal topluluk göçü](https://www.kanadagazetesi.com/makale/kanada-rcip-kirsal-topluluk-goc-rehberi): Designated employer, topluluk tavsiyesi ve federal dosya
-- [Atlantik göç programı](https://www.kanadagazetesi.com/makale/kanada-atlantik-goc-programi-is-teklifi-rehberi): İş teklifi, settlement plan ve endorsement
+- [Kanada'ya yerleşim yol haritası](https://bgenc48.github.io/KanadaGazetesi/makale/kanadaya-yerlesim-yol-haritasi-2026): Statü, belge ve ilk adımlar
+- [Express Entry ve CRS](https://bgenc48.github.io/KanadaGazetesi/makale/express-entry-crs-rehberi): Federal beceri göçü ve puan sistemi
+- [Eyalet Aday Programı](https://bgenc48.github.io/KanadaGazetesi/makale/eyalet-aday-programi-pnp-rehberi): PNP ve iki federal başvuru yolu
+- [Diploma denkliği ve ECA](https://bgenc48.github.io/KanadaGazetesi/makale/diploma-denkligi-eca-rehberi): Yabancı eğitimin değerlendirilmesi
+- [İş teklifi, LMIA ve çalışma izni](https://bgenc48.github.io/KanadaGazetesi/makale/is-teklifi-lmia-calisma-izni-rehberi): Çalışma yetkisi rotaları
+- [Eğitim izni ve PGWP](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-egitim-izni-pgwp-rehberi): DLI, PAL/TAL, mali kanıt ve mezuniyet sonrası izin
+- [Eş ve aile sponsorluğu](https://bgenc48.github.io/KanadaGazetesi/makale/es-aile-sponsorlugu-rehberi): Sponsor uygunluğu, undertaking ve çalışma izni
+- [Kanada vatandaşlığı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-vatandaslik-basvurusu-rehberi): Fiziksel bulunma, dil, sınav ve yemin
+- [Statüyü korumak](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-maintained-status-bowp-rehberi): Maintained status, restoration ve BOWP zamanlaması
+- [Ziyaretçi vizesi dosyası](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ziyaretci-vizesi-trv-dosya-rehberi): Seyahat amacı, mali kanıt ve dönüş bağları
+- [Anne ve baba super visa](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-super-visa-anne-baba-rehberi): Ev sahibi geliri, sigorta ve sağlık muayenesi
+- [PR card ve PRTD](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-pr-card-prtd-seyahat-rehberi): Kart yenileme, ikamet yükümlülüğü ve yurtdışından dönüş
+- [Biyometri ve sağlık muayenesi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-biyometri-saglik-muayenesi-rehberi): BIL, resmî toplama merkezi ve panel physician
+- [Express Entry settlement funds](https://bgenc48.github.io/KanadaGazetesi/makale/express-entry-settlement-funds-rehberi): Aile büyüklüğü, banka mektubu ve fon erişimi
+- [Express Entry dil sınavı](https://bgenc48.github.io/KanadaGazetesi/makale/express-entry-dil-sinavi-gecerlilik-rehberi): Onaylı sınav, CLB ve iki yıllık geçerlilik
+- [Göçmenlik polis belgesi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-gocmenlik-polis-belgesi-rehberi): Ülke talimatı, çeviri ve belge tarihi
+- [COPR ve ilk landing](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-copr-ilk-landing-rehberi): Belge kontrolü, e-COPR ve ilk PR card
+- [Francophone Mobility çalışma izni](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-francophone-mobility-calisma-izni-rehberi): Quebec dışında Fransızca, C16 ve işveren portalı
+- [RCIP kırsal topluluk göçü](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-rcip-kirsal-topluluk-goc-rehberi): Designated employer, topluluk tavsiyesi ve federal dosya
+- [Atlantik göç programı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-atlantik-goc-programi-is-teklifi-rehberi): İş teklifi, settlement plan ve endorsement
 
 ## Yeni gelenler için temel rehberler
 
-- [İlk 30 gün kontrol listesi](https://www.kanadagazetesi.com/makale/yeni-gelen-ilk-30-gun-kontrol-listesi): Kimlik, bağlantı ve hizmet sırası
-- [Ücretsiz yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/ucretsiz-yeni-gelen-hizmetleri-rehberi): Settlement planı, dil ve iş desteği
-- [SIN numarası başvurusu](https://www.kanadagazetesi.com/makale/sin-numarasi-basvurusu): Çalışma ve kamu hizmeti numarası
-- [Kanada sağlık sistemi](https://www.kanadagazetesi.com/makale/kanada-saglik-sistemi-yeni-gelenler): Eyalet kapsamı ve ilk sağlık planı
-- [Vergi ve CRA](https://www.kanadagazetesi.com/makale/kanada-vergi-sistemi-cra): İlk beyanname ve kayıtlar
-- [Bankacılık ve kredi skoru](https://www.kanadagazetesi.com/makale/kanada-bankacilik-kredi-skoru): Hesap, kart ve kredi geçmişi
-- [İlk Kanada kışı](https://www.kanadagazetesi.com/makale/ilk-kanada-kisina-hazirlik): Bölgesel soğuk ve güvenlik hazırlığı
-- [Canada Child Benefit](https://www.kanadagazetesi.com/makale/kanada-cocuk-yardimi-ccb-rehberi): Yeni gelen aileler için CCB başvurusu
-- [Kiralık ev bulma](https://www.kanadagazetesi.com/makale/kanadada-kiralik-ev-bulma-rehberi): Lease, depozito ve sahte ilan kontrolü
-- [Kanada'da iş arama](https://www.kanadagazetesi.com/makale/kanadada-is-arama-ozgecmis-networking-rehberi): Özgeçmiş, networking ve mesleki denklik
-- [Kanada'da çalışan hakları](https://www.kanadagazetesi.com/makale/kanadada-calisan-haklari-federal-eyalet-rehberi): Federal ve eyalet yetkisi, kayıt ve başvuru yolları
-- [Vancouver yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/vancouver-yeni-gelen-hizmetleri-rehberi): Belediye, BC programları, ulaşım ve konut
-- [Calgary yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/calgary-yeni-gelen-hizmetleri-rehberi): 311 dil desteği, yerleşim kuruluşları ve Alberta kayıtları
-- [Ottawa yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/ottawa-yeni-gelen-hizmetleri-rehberi): İlk günler, OHIP, SIN, dil ve ulaşım
-- [Edmonton yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/edmonton-yeni-gelen-hizmetleri-rehberi): Belediye rehberi, Alberta destekleri ve kış hazırlığı
-- [Winnipeg yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/winnipeg-yeni-gelen-hizmetleri-rehberi): Settlement dizini, 311, transit ve Manitoba kayıtları
-- [CPP, OAS ve GIS emeklilik](https://www.kanadagazetesi.com/makale/kanada-cpp-oas-gis-emeklilik-rehberi): Katkı, ikamet, gelir testi ve başvuru zamanı
-- [Çocuk bakımı ve kreş desteği](https://www.kanadagazetesi.com/makale/kanadada-cocuk-bakimi-kres-destegi-rehberi): Lisanslı bakım, eyalet programı ve bekleme listesi
-- [İlk ev ve mortgage](https://www.kanadagazetesi.com/makale/kanadada-ilk-ev-mortgage-kapanis-maliyeti-rehberi): Peşinat, ön onay ve kapanış maliyetleri
-- [Telefon ve internet sözleşmesi](https://www.kanadagazetesi.com/makale/kanada-telefon-internet-sozlesme-sikayet-rehberi): CRTC kodları, promosyon, iptal ve CCTS şikâyeti
-- [Kanada'dan Türkiye'ye para transferi](https://www.kanadagazetesi.com/makale/kanadadan-turkiyeye-para-transferi-rehberi): Ücret, kur marjı, FINTRAC kaydı ve izleme
-- [Türkiye'den Kanada'ya gıda ve hediye](https://www.kanadagazetesi.com/makale/turkiyeden-kanadaya-gida-hediye-gonderme-rehberi): CFIA, AIRS, miktar ve gümrük beyanı
-- [Halifax yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/halifax-yeni-gelen-hizmetleri-rehberi): Nova Scotia settlement ağı, MSI, transit ve yerel hizmetler
-- [Regina yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/regina-yeni-gelen-hizmetleri-rehberi): Saskatchewan settlement ağı, dil, sağlık ve kış planı
-- [Saskatoon yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/saskatoon-yeni-gelen-hizmetleri-rehberi): Güncel sağlayıcı dizini, okul, transit ve konut
-- [Québec City yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/quebec-city-yeni-gelen-hizmetleri-rehberi): Fransızca, belediye kuruluşları, sağlık ve iş
-- [Kanada konut sigortası](https://www.kanadagazetesi.com/makale/kanada-kiraci-ev-konut-sigortasi-rehberi): Kiracı, condo ve ev poliçelerinde kapsam ve hasar kontrolü
-- [Kredi raporu hata ve dolandırıcılık](https://www.kanadagazetesi.com/makale/kanada-kredi-raporu-hata-dolandiricilik-rehberi): İki bureau, dispute, fraud alert ve izleme
-- [Victoria yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/victoria-yeni-gelen-hizmetleri-rehberi): B.C. settlement ağı, MSP, ada ulaşımı ve acil durum planı
-- [Kelowna yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/kelowna-yeni-gelen-hizmetleri-rehberi): Okanagan hizmetleri, MSP, konut ve yangın hazırlığı
-- [Hamilton yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/hamilton-yeni-gelen-hizmetleri-rehberi): Belediye dizini, CLARS, OHIP, iş ve ulaşım
-- [London Ontario yeni gelen hizmetleri](https://www.kanadagazetesi.com/makale/london-ontario-yeni-gelen-hizmetleri-rehberi): Settlement, SWIS, dil, sağlık ve konut
-- [Kanada araç sigortası ve kaza hasarı](https://www.kanadagazetesi.com/makale/kanada-arac-sigortasi-kaza-hasar-rehberi): Kapsam, deductible, kaza kaydı ve claim süreci
-- [İş ilanı ve istihdam dolandırıcılığı](https://www.kanadagazetesi.com/makale/kanada-is-ilani-istihdam-dolandiriciligi-rehberi): İşveren doğrulama, sahte çek, ücret ve kimlik koruması
-- [EI işsizlik yardımı](https://www.kanadagazetesi.com/makale/kanada-ei-issizlik-yardimi-basvuru-rehberi): Uygunluk, ROE, erken başvuru, rapor ve iş arama kaydı
-- [CDCP diş bakım planı](https://www.kanadagazetesi.com/makale/kanada-cdcp-dis-bakim-plani-rehberi): Coverage erişimi, vergi kaydı, başvuru ve cepten ödeme
-- [Yurtdışı seyahat sağlık sigortası](https://www.kanadagazetesi.com/makale/kanada-yurtdisi-seyahat-saglik-sigortasi-rehberi): Mevcut hastalık, tahliye, repatriation ve claim belgeleri
-- [Banka şikâyeti ve OBSI](https://www.kanadagazetesi.com/makale/kanada-banka-sikayeti-obsi-rehberi): Kanıt dosyası, 56 günlük süre ve bağımsız inceleme
-- [Taşınma ve adres değişikliği](https://www.kanadagazetesi.com/makale/kanada-tasinma-adres-degisikligi-kontrol-listesi): Kamu, finans, sigorta, okul ve posta güncellemeleri
-- [EI annelik ve ebeveyn yardımı](https://www.kanadagazetesi.com/makale/kanada-ei-annelik-ebeveyn-yardimi-rehberi): Maternity, parental option, insured hours, ROE ve aile bütçesi
-- [Yeni gelenler için Canada Groceries and Essentials Benefit](https://www.kanadagazetesi.com/makale/kanada-yeni-gelenler-groceries-essentials-benefit-rc151-rehberi): RC151, aile durumu, dünya geliri ve CRA kaydı
-- [Yeni gelenler için TFSA katkı hakkı](https://www.kanadagazetesi.com/makale/kanada-yeni-gelenler-tfsa-katki-hakki-rehberi): Vergi ikameti, contribution room, withdrawal ve fazla katkı
-- [Kayıp cüzdan ve kimlik acil listesi](https://www.kanadagazetesi.com/makale/kanadada-cuzdan-kimlik-kaybi-acil-kontrol-listesi): Kartları durdurma, belge bildirimi, fraud alert ve izleme
-- [72 saatlik acil durum kiti](https://www.kanadagazetesi.com/makale/kanada-72-saat-acil-durum-kiti-rehberi): Hane planı, taşınabilir kit, iletişim ve düzenli bakım
-- [İkinci el araç lien ve recall kontrolü](https://www.kanadagazetesi.com/makale/kanada-ikinci-el-arac-alma-lien-recall-kontrolu): VIN, borç kaydı, recall, bağımsız ekspertiz ve satış belgesi
-- [Yeni gelenler için RRSP](https://www.kanadagazetesi.com/makale/kanada-yeni-gelenler-rrsp-katki-vergi-rehberi): Deduction limit, contribution, employer plan, fazla katkı ve withdrawal
-- [Disability Tax Credit ve T2201](https://www.kanadagazetesi.com/makale/kanada-disability-tax-credit-t2201-basvuru-rehberi): İşlev temelli uygunluk, iki bölümlü başvuru, CRA kararı ve claim
-- [Elektrik kesintisi güvenlik ve gıda planı](https://www.kanadagazetesi.com/makale/kanada-elektrik-kesintisi-guvenlik-gida-rehberi): Tıbbi cihaz, ısı, generator, carbon monoxide ve soğuk zincir
-- [Gıda recall ve alerjen etiketi](https://www.kanadagazetesi.com/makale/kanada-gida-recall-alerjen-etiketi-rehberi): UPC ve lot eşleştirme, Contains, May contain ve CFIA bildirimi
-- [Online alışveriş iade ve şikâyeti](https://www.kanadagazetesi.com/makale/kanada-online-alisveris-iade-sikayet-rehberi): Satıcı kanıtı, refund, marketplace dispute, consumer affairs ve kart itirazı
-- [Kiracı move-out ve depozito](https://www.kanadagazetesi.com/makale/kanada-kiraci-tasinma-depozito-cikis-rehberi): Province notice, condition inspection, forwarding address ve deposit kanıtı
-- [İşveren değiştirirken çalışma izni](https://www.kanadagazetesi.com/makale/kanada-isveren-degistirme-calisma-izni-rehberi): Yeni izin başvurusu, IRCC web formu ve yazılı çalışma yetkisi
-- [Göçmenlik temsilcisi doğrulama ve şikâyet](https://www.kanadagazetesi.com/makale/kanada-gocmenlik-temsilcisi-dogrulama-sikayet-rehberi): Lisans sicili, retainer, dosya erişimi ve doğru şikâyet kanalı
-- [FHSA ile ilk ev tasarrufu](https://www.kanadagazetesi.com/makale/kanada-fhsa-ilk-ev-tasarruf-rehberi): İlk ev testi, participation room, katkı ve qualifying withdrawal
-- [RESP ve CESG eğitim tasarrufu](https://www.kanadagazetesi.com/makale/kanada-resp-cesg-egitim-tasarrufu-rehberi): Beneficiary SIN, government benefits, provider ve katkı ledger'ı
-- [Uçuş gecikmesi ve iptalinde yolcu hakları](https://www.kanadagazetesi.com/makale/kanada-ucus-gecikme-iptal-yolcu-haklari-rehberi): APPR, rebooking, refund, compensation claim ve CTA dosyası
-- [Tüketici ürünü recall ve güvenlik bildirimi](https://www.kanadagazetesi.com/makale/kanada-tuketici-urun-recall-guvenlik-bildirimi-rehberi): Model eşleştirme, remedy, near miss ve Health Canada bildirimi
-- [IRCC başvuru durumu takibi](https://www.kanadagazetesi.com/makale/kanada-ircc-basvuru-durumu-takip-rehberi): AOR, UCI, tracker, secure account ve teknik sorun kanıtı
-- [IRCC belge tercümesi ve onaylı kopya](https://www.kanadagazetesi.com/makale/kanada-ircc-belge-tercume-onayli-kopya-rehberi): Certified translator, affidavit, original ve yükleme manifesti
-- [RDSP engellilik tasarrufu](https://www.kanadagazetesi.com/makale/kanada-rdsp-engellilik-tasarruf-grant-bond-rehberi): DTC, holder, contribution, grant, bond ve withdrawal
-- [Öğrenci grant ve loan başvurusu](https://www.kanadagazetesi.com/makale/kanada-ogrenci-grant-loan-basvuru-rehberi): Province portalı, designated program, assessment ve NSLSC
-- [Orman yangını dumanı ve AQHI](https://www.kanadagazetesi.com/makale/kanada-yangin-dumani-aqhi-temiz-hava-rehberi): Risk eşiği, clean-air room, CADR, filtre ve tahliye planı
-- [Aşırı sıcak ve heat warning](https://www.kanadagazetesi.com/makale/kanada-asiri-sicak-heat-warning-guvenlik-rehberi): Cooling centre, wellness check, fan sınırı ve heat stroke
+- [İlk 30 gün kontrol listesi](https://bgenc48.github.io/KanadaGazetesi/makale/yeni-gelen-ilk-30-gun-kontrol-listesi): Kimlik, bağlantı ve hizmet sırası
+- [Ücretsiz yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/ucretsiz-yeni-gelen-hizmetleri-rehberi): Settlement planı, dil ve iş desteği
+- [SIN numarası başvurusu](https://bgenc48.github.io/KanadaGazetesi/makale/sin-numarasi-basvurusu): Çalışma ve kamu hizmeti numarası
+- [Kanada sağlık sistemi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-saglik-sistemi-yeni-gelenler): Eyalet kapsamı ve ilk sağlık planı
+- [Vergi ve CRA](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-vergi-sistemi-cra): İlk beyanname ve kayıtlar
+- [Bankacılık ve kredi skoru](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-bankacilik-kredi-skoru): Hesap, kart ve kredi geçmişi
+- [İlk Kanada kışı](https://bgenc48.github.io/KanadaGazetesi/makale/ilk-kanada-kisina-hazirlik): Bölgesel soğuk ve güvenlik hazırlığı
+- [Canada Child Benefit](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cocuk-yardimi-ccb-rehberi): Yeni gelen aileler için CCB başvurusu
+- [Kiralık ev bulma](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-kiralik-ev-bulma-rehberi): Lease, depozito ve sahte ilan kontrolü
+- [Kanada'da iş arama](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-is-arama-ozgecmis-networking-rehberi): Özgeçmiş, networking ve mesleki denklik
+- [Kanada'da çalışan hakları](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-calisan-haklari-federal-eyalet-rehberi): Federal ve eyalet yetkisi, kayıt ve başvuru yolları
+- [Vancouver yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/vancouver-yeni-gelen-hizmetleri-rehberi): Belediye, BC programları, ulaşım ve konut
+- [Calgary yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/calgary-yeni-gelen-hizmetleri-rehberi): 311 dil desteği, yerleşim kuruluşları ve Alberta kayıtları
+- [Ottawa yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/ottawa-yeni-gelen-hizmetleri-rehberi): İlk günler, OHIP, SIN, dil ve ulaşım
+- [Edmonton yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/edmonton-yeni-gelen-hizmetleri-rehberi): Belediye rehberi, Alberta destekleri ve kış hazırlığı
+- [Winnipeg yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/winnipeg-yeni-gelen-hizmetleri-rehberi): Settlement dizini, 311, transit ve Manitoba kayıtları
+- [CPP, OAS ve GIS emeklilik](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cpp-oas-gis-emeklilik-rehberi): Katkı, ikamet, gelir testi ve başvuru zamanı
+- [Çocuk bakımı ve kreş desteği](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-cocuk-bakimi-kres-destegi-rehberi): Lisanslı bakım, eyalet programı ve bekleme listesi
+- [İlk ev ve mortgage](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-ilk-ev-mortgage-kapanis-maliyeti-rehberi): Peşinat, ön onay ve kapanış maliyetleri
+- [Telefon ve internet sözleşmesi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-telefon-internet-sozlesme-sikayet-rehberi): CRTC kodları, promosyon, iptal ve CCTS şikâyeti
+- [Kanada'dan Türkiye'ye para transferi](https://bgenc48.github.io/KanadaGazetesi/makale/kanadadan-turkiyeye-para-transferi-rehberi): Ücret, kur marjı, FINTRAC kaydı ve izleme
+- [Türkiye'den Kanada'ya gıda ve hediye](https://bgenc48.github.io/KanadaGazetesi/makale/turkiyeden-kanadaya-gida-hediye-gonderme-rehberi): CFIA, AIRS, miktar ve gümrük beyanı
+- [Halifax yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/halifax-yeni-gelen-hizmetleri-rehberi): Nova Scotia settlement ağı, MSI, transit ve yerel hizmetler
+- [Regina yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/regina-yeni-gelen-hizmetleri-rehberi): Saskatchewan settlement ağı, dil, sağlık ve kış planı
+- [Saskatoon yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/saskatoon-yeni-gelen-hizmetleri-rehberi): Güncel sağlayıcı dizini, okul, transit ve konut
+- [Québec City yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/quebec-city-yeni-gelen-hizmetleri-rehberi): Fransızca, belediye kuruluşları, sağlık ve iş
+- [Kanada konut sigortası](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-kiraci-ev-konut-sigortasi-rehberi): Kiracı, condo ve ev poliçelerinde kapsam ve hasar kontrolü
+- [Kredi raporu hata ve dolandırıcılık](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-kredi-raporu-hata-dolandiricilik-rehberi): İki bureau, dispute, fraud alert ve izleme
+- [Victoria yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/victoria-yeni-gelen-hizmetleri-rehberi): B.C. settlement ağı, MSP, ada ulaşımı ve acil durum planı
+- [Kelowna yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/kelowna-yeni-gelen-hizmetleri-rehberi): Okanagan hizmetleri, MSP, konut ve yangın hazırlığı
+- [Hamilton yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/hamilton-yeni-gelen-hizmetleri-rehberi): Belediye dizini, CLARS, OHIP, iş ve ulaşım
+- [London Ontario yeni gelen hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/london-ontario-yeni-gelen-hizmetleri-rehberi): Settlement, SWIS, dil, sağlık ve konut
+- [Kanada araç sigortası ve kaza hasarı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-arac-sigortasi-kaza-hasar-rehberi): Kapsam, deductible, kaza kaydı ve claim süreci
+- [İş ilanı ve istihdam dolandırıcılığı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-is-ilani-istihdam-dolandiriciligi-rehberi): İşveren doğrulama, sahte çek, ücret ve kimlik koruması
+- [EI işsizlik yardımı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ei-issizlik-yardimi-basvuru-rehberi): Uygunluk, ROE, erken başvuru, rapor ve iş arama kaydı
+- [CDCP diş bakım planı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cdcp-dis-bakim-plani-rehberi): Coverage erişimi, vergi kaydı, başvuru ve cepten ödeme
+- [Yurtdışı seyahat sağlık sigortası](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-yurtdisi-seyahat-saglik-sigortasi-rehberi): Mevcut hastalık, tahliye, repatriation ve claim belgeleri
+- [Banka şikâyeti ve OBSI](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-banka-sikayeti-obsi-rehberi): Kanıt dosyası, 56 günlük süre ve bağımsız inceleme
+- [Taşınma ve adres değişikliği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-tasinma-adres-degisikligi-kontrol-listesi): Kamu, finans, sigorta, okul ve posta güncellemeleri
+- [EI annelik ve ebeveyn yardımı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ei-annelik-ebeveyn-yardimi-rehberi): Maternity, parental option, insured hours, ROE ve aile bütçesi
+- [Yeni gelenler için Canada Groceries and Essentials Benefit](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-yeni-gelenler-groceries-essentials-benefit-rc151-rehberi): RC151, aile durumu, dünya geliri ve CRA kaydı
+- [Yeni gelenler için TFSA katkı hakkı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-yeni-gelenler-tfsa-katki-hakki-rehberi): Vergi ikameti, contribution room, withdrawal ve fazla katkı
+- [Kayıp cüzdan ve kimlik acil listesi](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-cuzdan-kimlik-kaybi-acil-kontrol-listesi): Kartları durdurma, belge bildirimi, fraud alert ve izleme
+- [72 saatlik acil durum kiti](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-72-saat-acil-durum-kiti-rehberi): Hane planı, taşınabilir kit, iletişim ve düzenli bakım
+- [İkinci el araç lien ve recall kontrolü](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ikinci-el-arac-alma-lien-recall-kontrolu): VIN, borç kaydı, recall, bağımsız ekspertiz ve satış belgesi
+- [Yeni gelenler için RRSP](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-yeni-gelenler-rrsp-katki-vergi-rehberi): Deduction limit, contribution, employer plan, fazla katkı ve withdrawal
+- [Disability Tax Credit ve T2201](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-disability-tax-credit-t2201-basvuru-rehberi): İşlev temelli uygunluk, iki bölümlü başvuru, CRA kararı ve claim
+- [Elektrik kesintisi güvenlik ve gıda planı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-elektrik-kesintisi-guvenlik-gida-rehberi): Tıbbi cihaz, ısı, generator, carbon monoxide ve soğuk zincir
+- [Gıda recall ve alerjen etiketi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-gida-recall-alerjen-etiketi-rehberi): UPC ve lot eşleştirme, Contains, May contain ve CFIA bildirimi
+- [Online alışveriş iade ve şikâyeti](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-online-alisveris-iade-sikayet-rehberi): Satıcı kanıtı, refund, marketplace dispute, consumer affairs ve kart itirazı
+- [Kiracı move-out ve depozito](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-kiraci-tasinma-depozito-cikis-rehberi): Province notice, condition inspection, forwarding address ve deposit kanıtı
+- [İşveren değiştirirken çalışma izni](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-isveren-degistirme-calisma-izni-rehberi): Yeni izin başvurusu, IRCC web formu ve yazılı çalışma yetkisi
+- [Göçmenlik temsilcisi doğrulama ve şikâyet](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-gocmenlik-temsilcisi-dogrulama-sikayet-rehberi): Lisans sicili, retainer, dosya erişimi ve doğru şikâyet kanalı
+- [FHSA ile ilk ev tasarrufu](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-fhsa-ilk-ev-tasarruf-rehberi): İlk ev testi, participation room, katkı ve qualifying withdrawal
+- [RESP ve CESG eğitim tasarrufu](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-resp-cesg-egitim-tasarrufu-rehberi): Beneficiary SIN, government benefits, provider ve katkı ledger'ı
+- [Uçuş gecikmesi ve iptalinde yolcu hakları](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ucus-gecikme-iptal-yolcu-haklari-rehberi): APPR, rebooking, refund, compensation claim ve CTA dosyası
+- [Tüketici ürünü recall ve güvenlik bildirimi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-tuketici-urun-recall-guvenlik-bildirimi-rehberi): Model eşleştirme, remedy, near miss ve Health Canada bildirimi
+- [IRCC başvuru durumu takibi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ircc-basvuru-durumu-takip-rehberi): AOR, UCI, tracker, secure account ve teknik sorun kanıtı
+- [IRCC belge tercümesi ve onaylı kopya](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ircc-belge-tercume-onayli-kopya-rehberi): Certified translator, affidavit, original ve yükleme manifesti
+- [RDSP engellilik tasarrufu](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-rdsp-engellilik-tasarruf-grant-bond-rehberi): DTC, holder, contribution, grant, bond ve withdrawal
+- [Öğrenci grant ve loan başvurusu](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ogrenci-grant-loan-basvuru-rehberi): Province portalı, designated program, assessment ve NSLSC
+- [Orman yangını dumanı ve AQHI](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-yangin-dumani-aqhi-temiz-hava-rehberi): Risk eşiği, clean-air room, CADR, filtre ve tahliye planı
+- [Aşırı sıcak ve heat warning](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-asiri-sicak-heat-warning-guvenlik-rehberi): Cooling centre, wellness check, fan sınırı ve heat stroke
 
 ## Toplum ve konsolosluk
 
-- [Toronto Türk topluluğu](https://www.kanadagazetesi.com/makale/toronto-turk-toplulugu-rehberi): Kurumlar ve topluluk ağı
-- [Topluluk etkinliği düzenleme](https://www.kanadagazetesi.com/makale/kanadada-topluluk-etkinligi-duzenleme-rehberi): İzin, sigorta, gıda ve acil durum planı
-- [Montréal ve Québec'te uyum](https://www.kanadagazetesi.com/makale/montreal-quebec-fransizca-uyum-rehberi): Fransızca kursları, mali yardım ve yerleşim desteği
-- [Kanada'da konsolosluk işlemleri](https://www.kanadagazetesi.com/makale/kanada-turk-konsolosluk-rehberi): Türkiye Cumhuriyeti işlemleri
-- [Çifte vatandaşlık, pasaport ve askerlik](https://www.kanadagazetesi.com/makale/cifte-vatandaslik-pasaport-askerlik): Statülerin işlem etkileri
-- [Türkiye-Kanada ticareti](https://www.kanadagazetesi.com/makale/turkiye-kanada-ticaret-rehberi): Sektörler, veriler ve ihracat kontrolleri
-- [Kanada-Türkiye serbest ticaret müzakereleri](https://www.kanadagazetesi.com/makale/kanada-turkiye-serbest-ticaret-anlasmasi-muzakereleri-2026): 2026 müzakere durumu, istişare ve şirket hazırlığı
-- [Türkiye-Kanada seyahati](https://www.kanadagazetesi.com/makale/turkiye-kanada-seyahat-gumruk-rehberi): Belge, aktarma ve gümrük planı
-- [Kanada'ya eşya getirme](https://www.kanadagazetesi.com/makale/kanadaya-esya-getirme-goods-to-follow-rehberi): BSF186, goods to follow ve taşıma kontrol listesi
-- [Kanada-Türkiye apostil rehberi](https://www.kanadagazetesi.com/makale/kanada-turkiye-apostil-belge-rehberi): Belge, noter, tercüme ve yetkili makam sırası
-- [Kanada acil yardım numaraları](https://www.kanadagazetesi.com/makale/kanada-acil-yardim-numaralari-rehberi): 911, 988, 211 ve yerel kısa numaraların görevleri
-- [Kanada-Türkiye sosyal güvenlik anlaşması](https://www.kanadagazetesi.com/makale/kanada-turkiye-sosyal-guvenlik-anlasmasi-emeklilik-rehberi): CPP, OAS ve Türk sigorta sürelerinin koordinasyonu
-- [Kanada'dan Türkiye'ye evcil hayvan](https://www.kanadagazetesi.com/makale/kanadadan-turkiyeye-evcil-hayvan-seyahati-rehberi): Veteriner sertifikası, CFIA onayı ve havayolu planı
-- [Kanada-Türkiye vergi mukimliği](https://www.kanadagazetesi.com/makale/kanada-turkiye-vergi-mukimligi-anlasma-rehberi): Vergi bağları, anlaşma maddeleri, mahsup ve kayıt planı
-- [Türkiye'den Kanada'ya burs arama](https://www.kanadagazetesi.com/makale/turkiyeden-kanadaya-burs-arama-basvuru-rehberi): EduCanada, kurum başvurusu, bütçe ve sahte teklif kontrolü
-- [Kanada'da doğan çocuğun Türkiye doğum tescili](https://www.kanadagazetesi.com/makale/kanadada-dogan-cocuk-turkiye-dogum-tescili-rehberi): Belge, aile kaydı, temsilcilik ve kimlik sırası
-- [Kanada evliliğinin Türkiye'ye tescili](https://www.kanadagazetesi.com/makale/kanadada-evlilik-turkiye-tescili-rehberi): Marriage certificate, posta dosyası ve nüfus kaydı kontrolü
-- [Kanada'da Türkiye yurtdışı adres beyanı](https://www.kanadagazetesi.com/makale/kanadada-yurtdisi-adres-beyani-turkiye-rehberi): Yerleşim yeri, diğer adres, aile ve kayıt doğrulaması
-- [Kanada'dan Türkiye için vekâletname](https://www.kanadagazetesi.com/makale/kanadadan-turkiye-vekaletname-konsolosluk-rehberi): Yetki kapsamı, noterlik randevusu, belge ve azil zinciri
-- [Kanada'da ölüm tescili ve cenaze](https://www.kanadagazetesi.com/makale/kanadada-olum-tescili-cenaze-turkiye-rehberi): Death certificate, cenaze nakli, Formül C ve tereke ayrımı
-- [Kanada boşanma kararının Türkiye'de tescili](https://www.kanadagazetesi.com/makale/kanada-bosanma-karari-turkiyede-tescil-rehberi): Nüfus kaydı, ortak veya ayrı başvuru, 90 günlük süre ve kapsam ayrımı
-- [Kanada vatandaşlığı sonrası çok vatandaşlık tescili](https://www.kanadagazetesi.com/makale/kanada-vatandasligi-cok-vatandaslik-tescili-turkiye-rehberi): Randevu, belge eşleştirme, vekâlet ve nüfus kaydı kontrolü
-- [Kanada'da Türk pasaportu başvurusu](https://www.kanadagazetesi.com/makale/kanadada-turk-pasaportu-basvuru-yenileme-rehberi): İşlem türü, biyometri, çocuk muvafakati ve teslim planı
-- [Kanada'da T.C. kimlik kartı başvurusu](https://www.kanadagazetesi.com/makale/kanadada-tc-kimlik-karti-basvuru-yenileme-rehberi): İşlem türü, nüfus kaydı, biyometri, çocuk dosyası ve teslim
-- [Kanada'da yurtdışı seçmen kaydı](https://www.kanadagazetesi.com/makale/kanadada-yurtdisi-secmen-kaydi-oy-kullanma-rehberi): YSK sorgusu, adres beyanı, askı, itiraz ve seçim günü planı
-- [Gönüllüler için vulnerable sector check](https://www.kanadagazetesi.com/makale/kanada-gonullu-vulnerable-sector-check-rehberi): Uygun rol, kuruluş mektubu, yerel polis ve parmak izi süreci
-- [Not-for-profit toplum kuruluşu kurma](https://www.kanadagazetesi.com/makale/kanada-not-for-profit-toplum-kurulusu-rehberi): Yetki alanı, directors, bylaws, üyelik ve yıllık uyum
-- [Kanada diplomasının Türkiye'de YÖK denkliği](https://www.kanadagazetesi.com/makale/kanada-diploma-turkiye-yok-denklik-rehberi): Tanıma, ön başvuru, belge zinciri ve mesleki yetki ayrımı
-- [Çocuk seyahati ve muvafakat](https://www.kanadagazetesi.com/makale/kanada-turkiye-cocuk-seyahat-muvafakat-rehberi): Consent letter, ebeveynlik belgeleri, pasaport ve dönüş planı
-- [Ayrımcılık için insan hakları şikâyeti](https://www.kanadagazetesi.com/makale/kanada-ayrimcilik-insan-haklari-sikayet-rehberi): Federal-province yetkisi, protected ground, etki ve kanıt dosyası
-- [Charity ve bağış makbuzu doğrulama](https://www.kanadagazetesi.com/makale/kanada-charity-bagis-makbuzu-dogrulama-rehberi): CRA sicili, T3010, payment channel ve receipt alanları
-- [Kanada'dan e-Devlet erişimi](https://www.kanadagazetesi.com/makale/kanadadan-e-devlet-sifresi-erisim-guvenlik-rehberi): Resmî giriş, konsolosluk işlemi, iki aşamalı güvenlik ve belge doğrulama
-- [SGK yurtdışı borçlanma](https://www.kanadagazetesi.com/makale/kanada-sgk-yurtdisi-borclanma-rehberi): Uygun süre, Kanada belgesi, dilekçe, tebligat ve ödeme takibi
+- [Toronto Türk topluluğu](https://bgenc48.github.io/KanadaGazetesi/makale/toronto-turk-toplulugu-rehberi): Kurumlar ve topluluk ağı
+- [Topluluk etkinliği düzenleme](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-topluluk-etkinligi-duzenleme-rehberi): İzin, sigorta, gıda ve acil durum planı
+- [Montréal ve Québec'te uyum](https://bgenc48.github.io/KanadaGazetesi/makale/montreal-quebec-fransizca-uyum-rehberi): Fransızca kursları, mali yardım ve yerleşim desteği
+- [Kanada'da konsolosluk işlemleri](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turk-konsolosluk-rehberi): Türkiye Cumhuriyeti işlemleri
+- [Çifte vatandaşlık, pasaport ve askerlik](https://bgenc48.github.io/KanadaGazetesi/makale/cifte-vatandaslik-pasaport-askerlik): Statülerin işlem etkileri
+- [Türkiye-Kanada ticareti](https://bgenc48.github.io/KanadaGazetesi/makale/turkiye-kanada-ticaret-rehberi): Sektörler, veriler ve ihracat kontrolleri
+- [Kanada-Türkiye serbest ticaret müzakereleri](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turkiye-serbest-ticaret-anlasmasi-muzakereleri-2026): 2026 müzakere durumu, istişare ve şirket hazırlığı
+- [Türkiye-Kanada seyahati](https://bgenc48.github.io/KanadaGazetesi/makale/turkiye-kanada-seyahat-gumruk-rehberi): Belge, aktarma ve gümrük planı
+- [Kanada'ya eşya getirme](https://bgenc48.github.io/KanadaGazetesi/makale/kanadaya-esya-getirme-goods-to-follow-rehberi): BSF186, goods to follow ve taşıma kontrol listesi
+- [Kanada-Türkiye apostil rehberi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turkiye-apostil-belge-rehberi): Belge, noter, tercüme ve yetkili makam sırası
+- [Kanada acil yardım numaraları](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-acil-yardim-numaralari-rehberi): 911, 988, 211 ve yerel kısa numaraların görevleri
+- [Kanada-Türkiye sosyal güvenlik anlaşması](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turkiye-sosyal-guvenlik-anlasmasi-emeklilik-rehberi): CPP, OAS ve Türk sigorta sürelerinin koordinasyonu
+- [Kanada'dan Türkiye'ye evcil hayvan](https://bgenc48.github.io/KanadaGazetesi/makale/kanadadan-turkiyeye-evcil-hayvan-seyahati-rehberi): Veteriner sertifikası, CFIA onayı ve havayolu planı
+- [Kanada-Türkiye vergi mukimliği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turkiye-vergi-mukimligi-anlasma-rehberi): Vergi bağları, anlaşma maddeleri, mahsup ve kayıt planı
+- [Türkiye'den Kanada'ya burs arama](https://bgenc48.github.io/KanadaGazetesi/makale/turkiyeden-kanadaya-burs-arama-basvuru-rehberi): EduCanada, kurum başvurusu, bütçe ve sahte teklif kontrolü
+- [Kanada'da doğan çocuğun Türkiye doğum tescili](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-dogan-cocuk-turkiye-dogum-tescili-rehberi): Belge, aile kaydı, temsilcilik ve kimlik sırası
+- [Kanada evliliğinin Türkiye'ye tescili](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-evlilik-turkiye-tescili-rehberi): Marriage certificate, posta dosyası ve nüfus kaydı kontrolü
+- [Kanada'da Türkiye yurtdışı adres beyanı](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-yurtdisi-adres-beyani-turkiye-rehberi): Yerleşim yeri, diğer adres, aile ve kayıt doğrulaması
+- [Kanada'dan Türkiye için vekâletname](https://bgenc48.github.io/KanadaGazetesi/makale/kanadadan-turkiye-vekaletname-konsolosluk-rehberi): Yetki kapsamı, noterlik randevusu, belge ve azil zinciri
+- [Kanada'da ölüm tescili ve cenaze](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-olum-tescili-cenaze-turkiye-rehberi): Death certificate, cenaze nakli, Formül C ve tereke ayrımı
+- [Kanada boşanma kararının Türkiye'de tescili](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-bosanma-karari-turkiyede-tescil-rehberi): Nüfus kaydı, ortak veya ayrı başvuru, 90 günlük süre ve kapsam ayrımı
+- [Kanada vatandaşlığı sonrası çok vatandaşlık tescili](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-vatandasligi-cok-vatandaslik-tescili-turkiye-rehberi): Randevu, belge eşleştirme, vekâlet ve nüfus kaydı kontrolü
+- [Kanada'da Türk pasaportu başvurusu](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-turk-pasaportu-basvuru-yenileme-rehberi): İşlem türü, biyometri, çocuk muvafakati ve teslim planı
+- [Kanada'da T.C. kimlik kartı başvurusu](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-tc-kimlik-karti-basvuru-yenileme-rehberi): İşlem türü, nüfus kaydı, biyometri, çocuk dosyası ve teslim
+- [Kanada'da yurtdışı seçmen kaydı](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-yurtdisi-secmen-kaydi-oy-kullanma-rehberi): YSK sorgusu, adres beyanı, askı, itiraz ve seçim günü planı
+- [Gönüllüler için vulnerable sector check](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-gonullu-vulnerable-sector-check-rehberi): Uygun rol, kuruluş mektubu, yerel polis ve parmak izi süreci
+- [Not-for-profit toplum kuruluşu kurma](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-not-for-profit-toplum-kurulusu-rehberi): Yetki alanı, directors, bylaws, üyelik ve yıllık uyum
+- [Kanada diplomasının Türkiye'de YÖK denkliği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-diploma-turkiye-yok-denklik-rehberi): Tanıma, ön başvuru, belge zinciri ve mesleki yetki ayrımı
+- [Çocuk seyahati ve muvafakat](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turkiye-cocuk-seyahat-muvafakat-rehberi): Consent letter, ebeveynlik belgeleri, pasaport ve dönüş planı
+- [Ayrımcılık için insan hakları şikâyeti](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ayrimcilik-insan-haklari-sikayet-rehberi): Federal-province yetkisi, protected ground, etki ve kanıt dosyası
+- [Charity ve bağış makbuzu doğrulama](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-charity-bagis-makbuzu-dogrulama-rehberi): CRA sicili, T3010, payment channel ve receipt alanları
+- [Kanada'dan e-Devlet erişimi](https://bgenc48.github.io/KanadaGazetesi/makale/kanadadan-e-devlet-sifresi-erisim-guvenlik-rehberi): Resmî giriş, konsolosluk işlemi, iki aşamalı güvenlik ve belge doğrulama
+- [SGK yurtdışı borçlanma](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-sgk-yurtdisi-borclanma-rehberi): Uygun süre, Kanada belgesi, dilekçe, tebligat ve ödeme takibi
 
 ## Yeni uzman rehberleri
 
-- [Visitor record ile kalış uzatma](https://www.kanadagazetesi.com/makale/kanada-visitor-record-uzatma-rehberi): TRV farkı, maintained status, mali plan ve seyahat
-- [Study permit uzatma ve DLI değişikliği](https://www.kanadagazetesi.com/makale/kanada-study-permit-uzatma-dli-degisikligi-rehberi): Permit takvimi, PAL/TAL, okul değişikliği ve restoration
-- [Criminal record check ve parmak izi](https://www.kanadagazetesi.com/makale/kanada-criminal-record-check-parmak-izi-rehberi): Name-based, certified check ve vulnerable sector ayrımı
-- [Kişisel veri ve gizlilik şikâyeti](https://www.kanadagazetesi.com/makale/kanada-kisisel-veri-gizlilik-sikayeti-rehberi): Privacy Act, PIPEDA, provincial yetki ve OPC dosyası
-- [Kanada'da askerlik erteleme ve yoklama](https://www.kanadagazetesi.com/makale/kanadada-askerlik-erteleme-yoklama-rehberi): Öğrenci-çalışan statüsü, erteleme bitişi ve Türkiye günleri
-- [Kanada çalışma ve hizmet belgesi](https://www.kanadagazetesi.com/makale/kanada-calisma-hizmet-belgesi-sgk-rehberi): SGK işlem türü, Kanada kayıtları ve konsolosluk belgesi
-- [Home office expenses ve T2200](https://www.kanadagazetesi.com/makale/kanada-home-office-expenses-t2200-rehberi): Uygunluk, dört haftalık test, T777 ve gider oranı
-- [T2202 tuition tax credit](https://www.kanadagazetesi.com/makale/kanada-t2202-tuition-tax-credit-rehberi): Schedule 11, öğrencinin kullanımı, transfer ve carry-forward
-- [Kış fırtınası ve blizzard güvenliği](https://www.kanadagazetesi.com/makale/kanada-kis-firtinasi-blizzard-guvenlik-rehberi): Uyarılar, ev, araç, ısıtma ve karbonmonoksit planı
-- [Depremde Drop, Cover, Hold On](https://www.kanadagazetesi.com/makale/kanada-deprem-drop-cover-hold-on-rehberi): Eşya sabitleme, erken uyarı, korunma ve artçı riskler
-- [IRCC temsilci ekleme, değiştirme ve iptal](https://www.kanadagazetesi.com/makale/kanada-ircc-temsilci-ekleme-degistirme-iptal-rehberi): IMM 5476, yetki, web form ve yazışma devri
-- [IRCC başvurusunu geri çekme ve ücret iadesi](https://www.kanadagazetesi.com/makale/kanada-ircc-basvuru-geri-cekme-ucret-iade-rehberi): Program talimatı, processing aşaması ve refundable fees
-- [Dolandırıcılığı CAFC ve polise bildirme](https://www.kanadagazetesi.com/makale/kanada-dolandiricilik-cafc-polis-bildirim-rehberi): Para akışını durdurma, kanıt koruma ve olay numaraları
-- [Federal resmî dil şikâyeti](https://www.kanadagazetesi.com/makale/kanada-resmi-diller-sikayet-rehberi): İngilizce-Fransızca hizmet, federal kapsam, süre ve OCOL dosyası
-- [Türkiye nüfus kayıt örneği](https://www.kanadagazetesi.com/makale/kanada-turkiye-nufus-kayit-ornegi-rehberi): Kapsam, e-Devlet, konsolosluk, tercüme ve e-Apostil
-- [Türkiye giriş-çıkış kaydı](https://www.kanadagazetesi.com/makale/kanadadan-turkiye-giris-cikis-kaydi-rehberi): e-Devlet belgesi, pasaport uzlaştırması ve seyahat geçmişi
-- [Moving expenses vergi indirimi](https://www.kanadagazetesi.com/makale/kanada-moving-expenses-vergi-indirimi-rehberi): 40 kilometre testi, line 21900, T1-M ve eligible giderler
-- [Canada Caregiver Credit](https://www.kanadagazetesi.com/makale/kanada-caregiver-credit-rehberi): Destek, impairment, dependant geliri ve Schedule 5
-- [Evde radon testi ve azaltma](https://www.kanadagazetesi.com/makale/kanada-radon-test-azaltma-rehberi): Üç aylık ölçüm, 200 Bq/m³ guideline ve certified mitigation
-- [Tornado ve şiddetli fırtına güvenliği](https://www.kanadagazetesi.com/makale/kanada-tornado-firtina-guvenlik-rehberi): Uyarılar, shelter, araç ve hasar sonrası riskler
-- [IRCC başvuru bilgisi güncelleme](https://www.kanadagazetesi.com/makale/kanada-ircc-basvuru-bilgi-degisikligi-guncelleme-rehberi): Adres, aile, pasaport, iş ve sağlık değişikliklerini doğru kanaldan bildirme
-- [IRCC ATIP ve GCMS dosya kaydı](https://www.kanadagazetesi.com/makale/kanada-ircc-atip-gcms-dosya-kaydi-rehberi): Privacy Act, Access to Information ve temsilci onayı ayrımı
-- [Federal seçim kaydı ve oy kullanma](https://www.kanadagazetesi.com/makale/kanada-federal-secim-kayit-oy-kullanma-rehberi): Seçmen kaydı, kimlik, adres ve voucher seçenekleri
-- [Yeni gelen çocuğun okul kaydı](https://www.kanadagazetesi.com/makale/kanada-yeni-gelen-cocuk-okul-kayit-rehberi): School board, catchment, belgeler ve dil desteği
-- [Kanada'da Türk sürücü belgesi yenileme](https://www.kanadagazetesi.com/makale/kanadada-turk-surucu-belgesi-yenileme-rehberi): Konsolosluk işlem türü, randevu, belge ve teslim kontrolü
-- [Kanada için Türkiye adli sicil belgesi](https://www.kanadagazetesi.com/makale/kanada-turkiye-adli-sicil-belgesi-rehberi): e-Devlet, arşiv kaydı, tercüme ve doğrulama
-- [Canada Workers Benefit ve ACWB](https://www.kanadagazetesi.com/makale/kanada-workers-benefit-acwb-rehberi): Uygunluk, advance ödemeler ve yıl sonu uzlaştırması
-- [Medical Expense Tax Credit](https://www.kanadagazetesi.com/makale/kanada-medical-expense-tax-credit-rehberi): Uygun gider, 12 aylık dönem, aile satırı ve makbuz cetveli
-- [Sel hazırlığı ve güvenli temizlik](https://www.kanadagazetesi.com/makale/kanada-sel-hazirlik-temizlik-sigorta-rehberi): Tahliye, elektrik, küf, gıda ve sigorta kaydı
-- [Karbonmonoksit alarm güvenliği](https://www.kanadagazetesi.com/makale/kanada-karbonmonoksit-alarm-guvenlik-rehberi): Alarm yerleşimi, tahliye, yakıtlı cihaz ve jeneratör güvenliği
-- [Statü kaybı ve 90 günlük restoration](https://www.kanadagazetesi.com/makale/kanada-statu-restoration-90-gun-rehberi): Kayıp tarihi, uygunluk, faaliyet kısıtı, ücret ve başvuru izi
-- [Vatandaşlık fiziksel bulunma hesabı](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-fiziksel-bulunma-hesabi-rehberi): 1.095 gün, PR öncesi kredi, seyahat ve calculator kaydı
-- [9-8-8 kriz hattı ve acil destek](https://www.kanadagazetesi.com/makale/kanada-988-kriz-hatti-acil-destek-rehberi): Arama ve mesaj, yakın tehlike ayrımı ve güvenlik planı
-- [SIN kimlik hırsızlığı ve veri ihlali](https://www.kanadagazetesi.com/makale/kanada-sin-kimlik-hirsizligi-veri-ihlali-rehberi): Hesap güvenliği, Service Canada, CRA, polis ve kredi kaydı
-- [Mavi Kart başvurusu ve haklar](https://www.kanadagazetesi.com/makale/kanada-mavi-kart-basvuru-haklar-rehberi): Uygunluk, soy bağı, konsolosluk dosyası ve sınırlı haklar
-- [Dövizle askerlik başvurusu](https://www.kanadagazetesi.com/makale/kanada-dovizle-askerlik-basvuru-rehberi): Yurtdışı süreleri, uzaktan eğitim, ödeme ve statü kontrolü
-- [EI sickness hastalık yardımı](https://www.kanadagazetesi.com/makale/kanada-ei-sickness-hastalik-yardimi-rehberi): Insured hours, medical certificate, ROE ve haftalık rapor
-- [CPP disability yardımı](https://www.kanadagazetesi.com/makale/kanada-cpp-disability-yardimi-basvuru-rehberi): Katkı, severe-prolonged testleri ve işlev kaybı kanıtı
-- [Orman yangını tahliye planı](https://www.kanadagazetesi.com/makale/kanada-orman-yangini-tahliye-rehberi): Resmî uyarı, rota, duman, sigorta ve güvenli dönüş
-- [Evcil hayvan acil durum planı](https://www.kanadagazetesi.com/makale/kanada-evcil-hayvan-acil-durum-plani-rehberi): Tahliye yeri, taşıma, kimlik, ilaç ve bakım kaydı
-- [Vatandaşlık dil kanıtı ve testi](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-dil-kaniti-test-rehberi): Yaş, kabul edilen belge, Discover Canada ve test daveti
-- [PR 730 günlük ikamet yükümlülüğü](https://www.kanadagazetesi.com/makale/kanada-pr-730-gun-ikamet-yukumlulugu-rehberi): Beş yıllık dönem, yurtdışı kredisi, PR card ve PRTD
-- [İnsan ticareti yardım hattı](https://www.kanadagazetesi.com/makale/kanada-insan-ticareti-yardim-hatti-guvenlik-rehberi): Sömürü işaretleri, güvenli cihaz, 9-1-1 ve kanıt koruma
-- [Telemarketing ve DNCL şikâyeti](https://www.kanadagazetesi.com/makale/kanada-istenmeyen-telemarketing-dncl-sikayet-rehberi): Liste kaydı, istisnalar, arama kanıtı ve scam ayrımı
-- [Türk vatandaşlığını yeniden kazanma](https://www.kanadagazetesi.com/makale/kanada-turk-vatandasligini-yeniden-kazanma-rehberi): Kayıp kararı, konsolosluk dosyası ve kayıt güncelleme
-- [Hayatta olma belgesi](https://www.kanadagazetesi.com/makale/kanada-hayatta-olma-belgesi-emeklilik-rehberi): Emekli aylığı, kimlik doğrulama, teslim ve SGK kaydı
-- [CPP survivor ve death benefit](https://www.kanadagazetesi.com/makale/kanada-cpp-survivor-death-benefit-rehberi): Eşlik, ölüm, katkı, estate ve çocuk yardımı
-- [EI caregiving benefits](https://www.kanadagazetesi.com/makale/kanada-ei-caregiving-benefits-rehberi): Program seçimi, medical certificate, ROE ve paylaşılan haftalar
-- [Ev yangını kaçış planı](https://www.kanadagazetesi.com/makale/kanada-ev-yangini-kacis-duman-alarmi-rehberi): Duman alarmı, iki çıkış, tatbikat ve güvenli dönüş
-- [Zehirlenme ve poison centre](https://www.kanadagazetesi.com/makale/kanada-zehirlenme-poison-centre-rehberi): Ürün bilgisi, 9-1-1 ayrımı, ilk adım ve ev güvenliği
-- [Vatandaşlık töreni ve yemin](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-toreni-yemin-rehberi): Davet, kimlik, PR card, oath ve citizenship certificate
-- [Çifte vatandaş seyahat ve pasaport](https://www.kanadagazetesi.com/makale/kanada-cifte-vatandas-seyahat-pasaport-rehberi): Canadian passport, diğer ülke belgesi ve rezervasyon adı
-- [Aile içi şiddet güvenlik planı](https://www.kanadagazetesi.com/makale/kanada-aile-ici-siddet-guvenlik-destek-rehberi): 9-1-1, güvenli cihaz, shelter, çocuk ve belge planı
-- [Suç mağduru hizmetleri](https://www.kanadagazetesi.com/makale/kanada-suc-magduru-hizmetleri-dizin-rehberi): Hizmet dizini, polis kaydı, mahkeme ve masraf kanıtı
-- [Türkiye IMEI telefon kaydı](https://www.kanadagazetesi.com/makale/kanadadan-turkiye-imei-telefon-kayit-rehberi): Cihaz, giriş kaydı, hak, harç ve SIM eşleştirme
-- [Türkiye'ye geçici araç getirme](https://www.kanadagazetesi.com/makale/kanadadan-turkiyeye-gecici-arac-getirme-rehberi): Yerleşiklik, sahiplik, sigorta, giriş süresi ve çıkış
-- [CRA Notice of Objection](https://www.kanadagazetesi.com/makale/kanada-cra-notice-of-objection-rehberi): Assessment, deadline, tartışmalı tutar ve Appeals kaydı
-- [CRA taxpayer relief](https://www.kanadagazetesi.com/makale/kanada-cra-taxpayer-relief-faiz-ceza-rehberi): Faiz-ceza, olağanüstü durum, ödeme planı ve karar
-- [Yıldırım ve gök gürültülü fırtına](https://www.kanadagazetesi.com/makale/kanada-yildirim-gok-gurultulu-firtina-guvenlik-rehberi): Güvenli shelter, araç, iç mekân ve ilk yardım
-- [Wind chill, donma ve hipotermi](https://www.kanadagazetesi.com/makale/kanada-wind-chill-donma-hipotermi-rehberi): Uyarı, katman, belirtiler, araç ve yedek ısınma
-- [Kanada eTA başvurusu](https://www.kanadagazetesi.com/makale/kanada-eta-basvuru-pasaport-eslestirme-rehberi): Uygunluk, resmî form, passport eşleşmesi ve boarding
-- [Refugee travel document](https://www.kanadagazetesi.com/makale/kanada-refugee-travel-document-basvuru-rehberi): Statü, kimlik, guarantor, destination visa ve dönüş
-- [Federal erişilebilirlik şikâyeti](https://www.kanadagazetesi.com/makale/kanada-federal-erisilebilirlik-sikayeti-rehberi): Kapsam, barrier, çözüm talebi ve Commissioner yolu
-- [İzinsiz mahrem görüntü paylaşımı](https://www.kanadagazetesi.com/makale/kanada-izinsiz-mahrem-goruntu-paylasimi-rehberi): Kanıt, kaldırma, polis, court ve güvenli izleme
-- [Kanada'dan Web Tapu işlemleri](https://www.kanadagazetesi.com/makale/kanadadan-turkiye-web-tapu-islemleri-rehberi): Taşınmaz, vekâlet, ödeme, resmî senet ve tescil
-- [Kanada-Türkiye miras ve intikal](https://www.kanadagazetesi.com/makale/kanada-turkiye-miras-veraset-intikal-rehberi): Ölüm kaydı, mirasçılık, vergi, tapu ve paylaşım
-- [Öğrenci kredisi RAP](https://www.kanadagazetesi.com/makale/kanada-student-loan-rap-geri-odeme-rehberi): Loan hesabı, gelir, affordable payment ve yeniden başvuru
-- [Consumer proposal ve bankruptcy](https://www.kanadagazetesi.com/makale/kanada-consumer-proposal-bankruptcy-l-it-rehberi): Borç tablosu, LIT, seçenekler ve filing sonrası
-- [Kasırga hazırlığı](https://www.kanadagazetesi.com/makale/kanada-kasirga-hurricane-hazirlik-rehberi): Forecast, storm surge, tahliye, ev ve sigorta
-- [Tsunami kıyı tahliyesi](https://www.kanadagazetesi.com/makale/kanada-tsunami-kiyi-tahliye-rehberi): Doğal işaret, yüksek bölge, rota ve all-clear
-- [Vatandaşlık sertifikası ve proof](https://www.kanadagazetesi.com/makale/kanada-vatandaslik-sertifikasi-kanit-basvuru-rehberi): İlk proof, replacement, ebeveyn zinciri ve kayıt düzeltme
-- [LINC ve CLIC dil kursları](https://www.kanadagazetesi.com/makale/kanada-linc-clic-ucretsiz-dil-kursu-rehberi): Statü, assessment, sınıf, destek ve ilerleme kaydı
-- [211 toplum hizmetleri](https://www.kanadagazetesi.com/makale/kanada-211-toplum-hizmetleri-rehberi): İhtiyaç, güvenli iletişim, referral ve provider doğrulama
-- [Legal aid ve adli yardım](https://www.kanadagazetesi.com/makale/kanada-legal-aid-adli-yardim-rehberi): Hukuk alanı, mali uygunluk, service scope ve deadline
-- [Vekâletname azilname](https://www.kanadagazetesi.com/makale/kanadadan-vekaletname-azilname-bildirim-rehberi): İptal kapsamı, konsolosluk belgesi, bildirim ve kayıt
-- [İmza ve belge suret tasdiki](https://www.kanadagazetesi.com/makale/kanada-konsolosluk-imza-belge-suret-tasdiki-rehberi): Tasdik türü, original, copy, tercüme ve apostil
-- [Home Buyers' Plan](https://www.kanadagazetesi.com/makale/kanada-home-buyers-plan-rrsp-rehberi): RRSP uygunluğu, withdrawal, closing ve repayment
-- [CRA payment arrangement](https://www.kanadagazetesi.com/makale/kanada-cra-payment-arrangement-vergi-borcu-rehberi): Borç dökümü, bütçe, ödeme planı ve collections takibi
-- [Çığ güvenliği](https://www.kanadagazetesi.com/makale/kanada-cig-avalanche-guvenlik-rehberi): Forecast, terrain, rescue gear, group plan ve incident
-- [Heyelan güvenliği](https://www.kanadagazetesi.com/makale/kanada-heyelan-landslide-guvenlik-rehberi): İşaretler, route, tahliye, dönüş ve uzman incelemesi
+- [Visitor record ile kalış uzatma](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-visitor-record-uzatma-rehberi): TRV farkı, maintained status, mali plan ve seyahat
+- [Study permit uzatma ve DLI değişikliği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-study-permit-uzatma-dli-degisikligi-rehberi): Permit takvimi, PAL/TAL, okul değişikliği ve restoration
+- [Criminal record check ve parmak izi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-criminal-record-check-parmak-izi-rehberi): Name-based, certified check ve vulnerable sector ayrımı
+- [Kişisel veri ve gizlilik şikâyeti](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-kisisel-veri-gizlilik-sikayeti-rehberi): Privacy Act, PIPEDA, provincial yetki ve OPC dosyası
+- [Kanada'da askerlik erteleme ve yoklama](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-askerlik-erteleme-yoklama-rehberi): Öğrenci-çalışan statüsü, erteleme bitişi ve Türkiye günleri
+- [Kanada çalışma ve hizmet belgesi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-calisma-hizmet-belgesi-sgk-rehberi): SGK işlem türü, Kanada kayıtları ve konsolosluk belgesi
+- [Home office expenses ve T2200](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-home-office-expenses-t2200-rehberi): Uygunluk, dört haftalık test, T777 ve gider oranı
+- [T2202 tuition tax credit](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-t2202-tuition-tax-credit-rehberi): Schedule 11, öğrencinin kullanımı, transfer ve carry-forward
+- [Kış fırtınası ve blizzard güvenliği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-kis-firtinasi-blizzard-guvenlik-rehberi): Uyarılar, ev, araç, ısıtma ve karbonmonoksit planı
+- [Depremde Drop, Cover, Hold On](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-deprem-drop-cover-hold-on-rehberi): Eşya sabitleme, erken uyarı, korunma ve artçı riskler
+- [IRCC temsilci ekleme, değiştirme ve iptal](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ircc-temsilci-ekleme-degistirme-iptal-rehberi): IMM 5476, yetki, web form ve yazışma devri
+- [IRCC başvurusunu geri çekme ve ücret iadesi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ircc-basvuru-geri-cekme-ucret-iade-rehberi): Program talimatı, processing aşaması ve refundable fees
+- [Dolandırıcılığı CAFC ve polise bildirme](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-dolandiricilik-cafc-polis-bildirim-rehberi): Para akışını durdurma, kanıt koruma ve olay numaraları
+- [Federal resmî dil şikâyeti](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-resmi-diller-sikayet-rehberi): İngilizce-Fransızca hizmet, federal kapsam, süre ve OCOL dosyası
+- [Türkiye nüfus kayıt örneği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turkiye-nufus-kayit-ornegi-rehberi): Kapsam, e-Devlet, konsolosluk, tercüme ve e-Apostil
+- [Türkiye giriş-çıkış kaydı](https://bgenc48.github.io/KanadaGazetesi/makale/kanadadan-turkiye-giris-cikis-kaydi-rehberi): e-Devlet belgesi, pasaport uzlaştırması ve seyahat geçmişi
+- [Moving expenses vergi indirimi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-moving-expenses-vergi-indirimi-rehberi): 40 kilometre testi, line 21900, T1-M ve eligible giderler
+- [Canada Caregiver Credit](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-caregiver-credit-rehberi): Destek, impairment, dependant geliri ve Schedule 5
+- [Evde radon testi ve azaltma](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-radon-test-azaltma-rehberi): Üç aylık ölçüm, 200 Bq/m³ guideline ve certified mitigation
+- [Tornado ve şiddetli fırtına güvenliği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-tornado-firtina-guvenlik-rehberi): Uyarılar, shelter, araç ve hasar sonrası riskler
+- [IRCC başvuru bilgisi güncelleme](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ircc-basvuru-bilgi-degisikligi-guncelleme-rehberi): Adres, aile, pasaport, iş ve sağlık değişikliklerini doğru kanaldan bildirme
+- [IRCC ATIP ve GCMS dosya kaydı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ircc-atip-gcms-dosya-kaydi-rehberi): Privacy Act, Access to Information ve temsilci onayı ayrımı
+- [Federal seçim kaydı ve oy kullanma](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-federal-secim-kayit-oy-kullanma-rehberi): Seçmen kaydı, kimlik, adres ve voucher seçenekleri
+- [Yeni gelen çocuğun okul kaydı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-yeni-gelen-cocuk-okul-kayit-rehberi): School board, catchment, belgeler ve dil desteği
+- [Kanada'da Türk sürücü belgesi yenileme](https://bgenc48.github.io/KanadaGazetesi/makale/kanadada-turk-surucu-belgesi-yenileme-rehberi): Konsolosluk işlem türü, randevu, belge ve teslim kontrolü
+- [Kanada için Türkiye adli sicil belgesi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turkiye-adli-sicil-belgesi-rehberi): e-Devlet, arşiv kaydı, tercüme ve doğrulama
+- [Canada Workers Benefit ve ACWB](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-workers-benefit-acwb-rehberi): Uygunluk, advance ödemeler ve yıl sonu uzlaştırması
+- [Medical Expense Tax Credit](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-medical-expense-tax-credit-rehberi): Uygun gider, 12 aylık dönem, aile satırı ve makbuz cetveli
+- [Sel hazırlığı ve güvenli temizlik](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-sel-hazirlik-temizlik-sigorta-rehberi): Tahliye, elektrik, küf, gıda ve sigorta kaydı
+- [Karbonmonoksit alarm güvenliği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-karbonmonoksit-alarm-guvenlik-rehberi): Alarm yerleşimi, tahliye, yakıtlı cihaz ve jeneratör güvenliği
+- [Statü kaybı ve 90 günlük restoration](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-statu-restoration-90-gun-rehberi): Kayıp tarihi, uygunluk, faaliyet kısıtı, ücret ve başvuru izi
+- [Vatandaşlık fiziksel bulunma hesabı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-vatandaslik-fiziksel-bulunma-hesabi-rehberi): 1.095 gün, PR öncesi kredi, seyahat ve calculator kaydı
+- [9-8-8 kriz hattı ve acil destek](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-988-kriz-hatti-acil-destek-rehberi): Arama ve mesaj, yakın tehlike ayrımı ve güvenlik planı
+- [SIN kimlik hırsızlığı ve veri ihlali](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-sin-kimlik-hirsizligi-veri-ihlali-rehberi): Hesap güvenliği, Service Canada, CRA, polis ve kredi kaydı
+- [Mavi Kart başvurusu ve haklar](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-mavi-kart-basvuru-haklar-rehberi): Uygunluk, soy bağı, konsolosluk dosyası ve sınırlı haklar
+- [Dövizle askerlik başvurusu](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-dovizle-askerlik-basvuru-rehberi): Yurtdışı süreleri, uzaktan eğitim, ödeme ve statü kontrolü
+- [EI sickness hastalık yardımı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ei-sickness-hastalik-yardimi-rehberi): Insured hours, medical certificate, ROE ve haftalık rapor
+- [CPP disability yardımı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cpp-disability-yardimi-basvuru-rehberi): Katkı, severe-prolonged testleri ve işlev kaybı kanıtı
+- [Orman yangını tahliye planı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-orman-yangini-tahliye-rehberi): Resmî uyarı, rota, duman, sigorta ve güvenli dönüş
+- [Evcil hayvan acil durum planı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-evcil-hayvan-acil-durum-plani-rehberi): Tahliye yeri, taşıma, kimlik, ilaç ve bakım kaydı
+- [Vatandaşlık dil kanıtı ve testi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-vatandaslik-dil-kaniti-test-rehberi): Yaş, kabul edilen belge, Discover Canada ve test daveti
+- [PR 730 günlük ikamet yükümlülüğü](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-pr-730-gun-ikamet-yukumlulugu-rehberi): Beş yıllık dönem, yurtdışı kredisi, PR card ve PRTD
+- [İnsan ticareti yardım hattı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-insan-ticareti-yardim-hatti-guvenlik-rehberi): Sömürü işaretleri, güvenli cihaz, 9-1-1 ve kanıt koruma
+- [Telemarketing ve DNCL şikâyeti](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-istenmeyen-telemarketing-dncl-sikayet-rehberi): Liste kaydı, istisnalar, arama kanıtı ve scam ayrımı
+- [Türk vatandaşlığını yeniden kazanma](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turk-vatandasligini-yeniden-kazanma-rehberi): Kayıp kararı, konsolosluk dosyası ve kayıt güncelleme
+- [Hayatta olma belgesi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-hayatta-olma-belgesi-emeklilik-rehberi): Emekli aylığı, kimlik doğrulama, teslim ve SGK kaydı
+- [CPP survivor ve death benefit](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cpp-survivor-death-benefit-rehberi): Eşlik, ölüm, katkı, estate ve çocuk yardımı
+- [EI caregiving benefits](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ei-caregiving-benefits-rehberi): Program seçimi, medical certificate, ROE ve paylaşılan haftalar
+- [Ev yangını kaçış planı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-ev-yangini-kacis-duman-alarmi-rehberi): Duman alarmı, iki çıkış, tatbikat ve güvenli dönüş
+- [Zehirlenme ve poison centre](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-zehirlenme-poison-centre-rehberi): Ürün bilgisi, 9-1-1 ayrımı, ilk adım ve ev güvenliği
+- [Vatandaşlık töreni ve yemin](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-vatandaslik-toreni-yemin-rehberi): Davet, kimlik, PR card, oath ve citizenship certificate
+- [Çifte vatandaş seyahat ve pasaport](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cifte-vatandas-seyahat-pasaport-rehberi): Canadian passport, diğer ülke belgesi ve rezervasyon adı
+- [Aile içi şiddet güvenlik planı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-aile-ici-siddet-guvenlik-destek-rehberi): 9-1-1, güvenli cihaz, shelter, çocuk ve belge planı
+- [Suç mağduru hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-suc-magduru-hizmetleri-dizin-rehberi): Hizmet dizini, polis kaydı, mahkeme ve masraf kanıtı
+- [Türkiye IMEI telefon kaydı](https://bgenc48.github.io/KanadaGazetesi/makale/kanadadan-turkiye-imei-telefon-kayit-rehberi): Cihaz, giriş kaydı, hak, harç ve SIM eşleştirme
+- [Türkiye'ye geçici araç getirme](https://bgenc48.github.io/KanadaGazetesi/makale/kanadadan-turkiyeye-gecici-arac-getirme-rehberi): Yerleşiklik, sahiplik, sigorta, giriş süresi ve çıkış
+- [CRA Notice of Objection](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cra-notice-of-objection-rehberi): Assessment, deadline, tartışmalı tutar ve Appeals kaydı
+- [CRA taxpayer relief](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cra-taxpayer-relief-faiz-ceza-rehberi): Faiz-ceza, olağanüstü durum, ödeme planı ve karar
+- [Yıldırım ve gök gürültülü fırtına](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-yildirim-gok-gurultulu-firtina-guvenlik-rehberi): Güvenli shelter, araç, iç mekân ve ilk yardım
+- [Wind chill, donma ve hipotermi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-wind-chill-donma-hipotermi-rehberi): Uyarı, katman, belirtiler, araç ve yedek ısınma
+- [Kanada eTA başvurusu](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-eta-basvuru-pasaport-eslestirme-rehberi): Uygunluk, resmî form, passport eşleşmesi ve boarding
+- [Refugee travel document](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-refugee-travel-document-basvuru-rehberi): Statü, kimlik, guarantor, destination visa ve dönüş
+- [Federal erişilebilirlik şikâyeti](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-federal-erisilebilirlik-sikayeti-rehberi): Kapsam, barrier, çözüm talebi ve Commissioner yolu
+- [İzinsiz mahrem görüntü paylaşımı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-izinsiz-mahrem-goruntu-paylasimi-rehberi): Kanıt, kaldırma, polis, court ve güvenli izleme
+- [Kanada'dan Web Tapu işlemleri](https://bgenc48.github.io/KanadaGazetesi/makale/kanadadan-turkiye-web-tapu-islemleri-rehberi): Taşınmaz, vekâlet, ödeme, resmî senet ve tescil
+- [Kanada-Türkiye miras ve intikal](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-turkiye-miras-veraset-intikal-rehberi): Ölüm kaydı, mirasçılık, vergi, tapu ve paylaşım
+- [Öğrenci kredisi RAP](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-student-loan-rap-geri-odeme-rehberi): Loan hesabı, gelir, affordable payment ve yeniden başvuru
+- [Consumer proposal ve bankruptcy](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-consumer-proposal-bankruptcy-l-it-rehberi): Borç tablosu, LIT, seçenekler ve filing sonrası
+- [Kasırga hazırlığı](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-kasirga-hurricane-hazirlik-rehberi): Forecast, storm surge, tahliye, ev ve sigorta
+- [Tsunami kıyı tahliyesi](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-tsunami-kiyi-tahliye-rehberi): Doğal işaret, yüksek bölge, rota ve all-clear
+- [Vatandaşlık sertifikası ve proof](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-vatandaslik-sertifikasi-kanit-basvuru-rehberi): İlk proof, replacement, ebeveyn zinciri ve kayıt düzeltme
+- [LINC ve CLIC dil kursları](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-linc-clic-ucretsiz-dil-kursu-rehberi): Statü, assessment, sınıf, destek ve ilerleme kaydı
+- [211 toplum hizmetleri](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-211-toplum-hizmetleri-rehberi): İhtiyaç, güvenli iletişim, referral ve provider doğrulama
+- [Legal aid ve adli yardım](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-legal-aid-adli-yardim-rehberi): Hukuk alanı, mali uygunluk, service scope ve deadline
+- [Vekâletname azilname](https://bgenc48.github.io/KanadaGazetesi/makale/kanadadan-vekaletname-azilname-bildirim-rehberi): İptal kapsamı, konsolosluk belgesi, bildirim ve kayıt
+- [İmza ve belge suret tasdiki](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-konsolosluk-imza-belge-suret-tasdiki-rehberi): Tasdik türü, original, copy, tercüme ve apostil
+- [Home Buyers' Plan](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-home-buyers-plan-rrsp-rehberi): RRSP uygunluğu, withdrawal, closing ve repayment
+- [CRA payment arrangement](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cra-payment-arrangement-vergi-borcu-rehberi): Borç dökümü, bütçe, ödeme planı ve collections takibi
+- [Çığ güvenliği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-cig-avalanche-guvenlik-rehberi): Forecast, terrain, rescue gear, group plan ve incident
+- [Heyelan güvenliği](https://bgenc48.github.io/KanadaGazetesi/makale/kanada-heyelan-landslide-guvenlik-rehberi): İşaretler, route, tahliye, dönüş ve uzman incelemesi
 
 ## Makine tarafından okunabilir kaynaklar
 
-- [RSS](https://www.kanadagazetesi.com/rss.xml): Son yayınların RSS akışı
-- [XML site haritası](https://www.kanadagazetesi.com/sitemap-index.xml): Tüm taranabilir sayfalar
-- [Haber site haritası](https://www.kanadagazetesi.com/news-sitemap.xml): Güncel haber girişleri
-- [Arama dizini](https://www.kanadagazetesi.com/search-index.json): Başlık ve özetlerden oluşan JSON dizini
+- [RSS](https://bgenc48.github.io/KanadaGazetesi/rss.xml): Son yayınların RSS akışı
+- [XML site haritası](https://bgenc48.github.io/KanadaGazetesi/sitemap-index.xml): Tüm taranabilir sayfalar
+- [Haber site haritası](https://bgenc48.github.io/KanadaGazetesi/news-sitemap.xml): Güncel haber girişleri
+- [Arama dizini](https://bgenc48.github.io/KanadaGazetesi/search-index.json): Başlık ve özetlerden oluşan JSON dizini

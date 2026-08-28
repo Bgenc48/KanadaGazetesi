@@ -1,6 +1,6 @@
 ---
 import Logo from './Logo.astro';
-import { site } from '../data/site';
+import { site, withBase } from '../data/site';
 import { sections } from '../data/sections';
 
 export interface Props {
@@ -14,7 +14,7 @@ const { year = new Date().getFullYear() } = Astro.props;
     <hr class="rule--double" />
     <div class="footer__grid">
       <div class="footer__brand">
-        <a href="/" class="footer__mark" aria-label="Ana sayfa">
+        <a href={withBase('/')} class="footer__mark" aria-label="Ana sayfa">
           <Logo size={40} />
           <span>Kanada Gazetesi</span>
         </a>
@@ -32,7 +32,7 @@ const { year = new Date().getFullYear() } = Astro.props;
           {
             sections.map((s) => (
               <li>
-                <a href={`/bolum/${s.id}`}>{s.name}</a>
+                <a href={withBase(`/bolum/${s.id}`)}>{s.name}</a>
               </li>
             ))
           }
@@ -42,23 +42,23 @@ const { year = new Date().getFullYear() } = Astro.props;
       <nav class="footer__col" aria-label="Gazete">
         <h3 class="footer__head">Gazete</h3>
         <ul>
-          <li><a href="/hakkimizda">Hakkımızda</a></li>
-          <li><a href="/yazarlar">Yazarlar</a></li>
-          <li><a href="/diziler">Diziler</a></li>
-          <li><a href="/etiketler">Etiketler</a></li>
-          <li><a href="/ara">Ara</a></li>
-          <li><a href="/rss.xml">RSS</a></li>
+          <li><a href={withBase('/hakkimizda')}>Hakkımızda</a></li>
+          <li><a href={withBase('/yazarlar')}>Yazarlar</a></li>
+          <li><a href={withBase('/diziler')}>Diziler</a></li>
+          <li><a href={withBase('/etiketler')}>Etiketler</a></li>
+          <li><a href={withBase('/ara')}>Ara</a></li>
+          <li><a href={withBase('/rss.xml')}>RSS</a></li>
         </ul>
       </nav>
 
       <nav class="footer__col" aria-label="Kurumsal ve yasal">
         <h3 class="footer__head">Kurumsal</h3>
         <ul>
-          <li><a href="/yayin-ilkeleri">Yayın İlkeleri</a></li>
-          <li><a href="/duzeltmeler">Düzeltmeler</a></li>
-          <li><a href="/gizlilik">Gizlilik</a></li>
-          <li><a href="/krediler">Foto Kaynakları</a></li>
-          <li><a href="/iletisim">İletişim</a></li>
+          <li><a href={withBase('/yayin-ilkeleri')}>Yayın İlkeleri</a></li>
+          <li><a href={withBase('/duzeltmeler')}>Düzeltmeler</a></li>
+          <li><a href={withBase('/gizlilik')}>Gizlilik</a></li>
+          <li><a href={withBase('/krediler')}>Foto Kaynakları</a></li>
+          <li><a href={withBase('/iletisim')}>İletişim</a></li>
         </ul>
       </nav>
     </div>

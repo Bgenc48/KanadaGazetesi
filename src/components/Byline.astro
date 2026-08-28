@@ -1,6 +1,7 @@
 ---
 import type { Article } from '../utils/format';
 import { formatDateShortTR, isoDate, readingTime, slugify } from '../utils/format';
+import { withBase } from '../data/site';
 
 export interface Props {
   article: Article;
@@ -22,7 +23,7 @@ const mins = readingTime(article.body ?? '');
 <p class="byline meta">
   {
     linkAuthor ? (
-      <a class="byline__author" href={`/yazar/${slugify(author)}`}>
+      <a class="byline__author" href={withBase(`/yazar/${slugify(author)}`)}>
         {author}
       </a>
     ) : (

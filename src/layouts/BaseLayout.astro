@@ -3,7 +3,7 @@ import '../styles/global.css';
 import Masthead from '../components/Masthead.astro';
 import SiteNav from '../components/SiteNav.astro';
 import Footer from '../components/Footer.astro';
-import { site } from '../data/site';
+import { absoluteUrl, site, withBase } from '../data/site';
 
 export interface Props {
   title?: string;
@@ -28,8 +28,8 @@ const {
 } = Astro.props;
 
 const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${site.tagline}`;
-const canonical = new URL(path, site.url).href;
-const ogImage = new URL(image, site.url).href;
+const canonical = absoluteUrl(path);
+const ogImage = absoluteUrl(image);
 const year = new Date().getFullYear();
 
 // Site geneli yapısal veri: kuruluş + arama eylemi (Google sitelinks search box)
@@ -41,7 +41,7 @@ const orgJsonLd = {
       '@id': `${site.url}/#organization`,
       name: site.name,
       url: site.url,
-      logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', site.url).href },
+      logo: { '@type': 'ImageObject', url: absoluteUrl('/favicon.svg') },
       sameAs: Object.values(site.social),
     },
     {
@@ -92,8 +92,8 @@ const orgJsonLd = {
     <meta name="theme-color" content="#b41e26" />
 
     <!-- İkon & PWA -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
+    <link rel="manifest" href={withBase('/site.webmanifest')} />
 
     <!-- Open Graph -->
     <meta property="og:site_name" content={site.name} />
@@ -123,7 +123,7 @@ const orgJsonLd = {
       rel="alternate"
       type="application/rss+xml"
       title={`${site.name} — RSS`}
-      href="/rss.xml"
+      href={withBase('/rss.xml')}
     />
 
     <!-- Site geneli yapısal veri -->

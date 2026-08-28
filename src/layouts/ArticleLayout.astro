@@ -6,7 +6,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import Newsletter from '../components/Newsletter.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getSection } from '../data/sections';
-import { site } from '../data/site';
+import { absoluteUrl, site, withBase } from '../data/site';
 import photoCredits from '../data/photo-credits.json';
 import {
   deriveExcerpt,
@@ -63,7 +63,7 @@ if (d.series) {
   }
 }
 
-const shareUrl = new URL(path, site.url).href;
+const shareUrl = absoluteUrl(path);
 const shareText = encodeURIComponent(d.title);
 
 const jsonLd = {
@@ -80,14 +80,14 @@ const jsonLd = {
       author: {
         '@type': 'Person',
         name: d.author,
-        url: new URL(`/yazar/${slugify(d.author)}`, site.url).href,
+        url: absoluteUrl(`/yazar/${slugify(d.author)}`),
       },
       publisher: {
         '@type': 'Organization',
         name: site.name,
-        logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', site.url).href },
+        logo: { '@type': 'ImageObject', url: absoluteUrl('/favicon.svg') },
       },
-      ...(d.heroImage ? { image: [new URL(d.heroImage, site.url).href] } : {}),
+      ...(d.heroImage ? { image: [absoluteUrl(d.heroImage)] } : {}),
       mainEntityOfPage: shareUrl,
     },
     {
@@ -103,7 +103,7 @@ const jsonLd = {
           '@type': 'ListItem',
           position: 2,
           name: meta?.name,
-          item: new URL(`/bolum/${d.section}`, site.url).href,
+          item: absoluteUrl(`/bolum/${d.section}`),
         },
         {
           '@type': 'ListItem',
@@ -168,7 +168,7 @@ const jsonLd = {
     {
       d.heroImage && (
         <figure class="article__hero wrap">
-          <img src={d.heroImage} alt={d.heroAlt ?? d.title} fetchpriority="high" />
+          <img src={withBase(d.heroImage)} alt={d.heroAlt ?? d.title} fetchpriority="high" />
           {(d.heroAlt || photo || d.heroCredit) && (
             <figcaption class="meta">
               {d.heroAlt}
@@ -250,7 +250,7 @@ const jsonLd = {
           <aside class="seriesbox" data-pagefind-ignore>
             <p class="seriesbox__label">Dizi</p>
             <p class="seriesbox__text">
-              Bu yazı <a href={`/dizi/${seriesInfo.slug}`}>{seriesInfo.name}</a> dizisinin{' '}
+              Bu yazı <a href={withBase(`/dizi/${seriesInfo.slug}`)}>{seriesInfo.name}</a> dizisinin{' '}
               <strong>{seriesInfo.position}. bölümü</strong> ({seriesInfo.total}{' '}
               bölümden).
             </p>
@@ -290,7 +290,7 @@ const jsonLd = {
           <ul class="article__tags">
             {d.tags.map((t) => (
               <li>
-                <a class="ktagchip" href={`/etiket/${slugify(t)}`}>
+                <a class="ktagchip" href={withBase(`/etiket/${slugify(t)}`)}>
                   <span class="ktagchip__hash">#</span>
                   {t}
                 </a>
