@@ -21,7 +21,12 @@ const excerpt = deck ?? deriveExcerpt(article, 240);
   <a class="lead__media" href={href} tabindex="-1" aria-hidden="true">
     {
       heroImage ? (
-        <img src={withBase(heroImage)} alt={heroAlt ?? ''} fetchpriority="high" decoding="async" />
+        <img
+          src={withBase(heroImage)}
+          alt={heroAlt ?? ''}
+          fetchpriority="high"
+          decoding="async"
+        />
       ) : (
         <span class="lead__media-empty">
           <svg viewBox="0 0 100 100" width="22%" aria-hidden="true">

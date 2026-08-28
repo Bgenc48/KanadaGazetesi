@@ -32,7 +32,10 @@ export const site = {
 /** Prefix a root-relative path for the active Pages/custom-domain deployment. */
 export function withBase(path = '/') {
   const cleanPath = path === '/' ? '/' : `/${path.replace(/^\/+/, '')}`;
-  if (deploymentBase && (cleanPath === deploymentBase || cleanPath.startsWith(`${deploymentBase}/`))) {
+  if (
+    deploymentBase &&
+    (cleanPath === deploymentBase || cleanPath.startsWith(`${deploymentBase}/`))
+  ) {
     return cleanPath;
   }
   return `${deploymentBase}${cleanPath}` || '/';

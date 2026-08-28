@@ -168,7 +168,11 @@ const jsonLd = {
     {
       d.heroImage && (
         <figure class="article__hero wrap">
-          <img src={withBase(d.heroImage)} alt={d.heroAlt ?? d.title} fetchpriority="high" />
+          <img
+            src={withBase(d.heroImage)}
+            alt={d.heroAlt ?? d.title}
+            fetchpriority="high"
+          />
           {(d.heroAlt || photo || d.heroCredit) && (
             <figcaption class="meta">
               {d.heroAlt}
@@ -250,8 +254,8 @@ const jsonLd = {
           <aside class="seriesbox" data-pagefind-ignore>
             <p class="seriesbox__label">Dizi</p>
             <p class="seriesbox__text">
-              Bu yazı <a href={withBase(`/dizi/${seriesInfo.slug}`)}>{seriesInfo.name}</a> dizisinin{' '}
-              <strong>{seriesInfo.position}. bölümü</strong> ({seriesInfo.total}{' '}
+              Bu yazı <a href={withBase(`/dizi/${seriesInfo.slug}`)}>{seriesInfo.name}</a>{' '}
+              dizisinin <strong>{seriesInfo.position}. bölümü</strong> ({seriesInfo.total}{' '}
               bölümden).
             </p>
           </aside>

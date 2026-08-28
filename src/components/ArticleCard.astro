@@ -25,7 +25,12 @@ const showImage = variant === 'feature' || variant === 'standard' || variant ===
     showImage && (
       <a class="card__media" href={href} tabindex="-1" aria-hidden="true">
         {heroImage ? (
-          <img src={withBase(heroImage)} alt={heroAlt ?? ''} loading="lazy" decoding="async" />
+          <img
+            src={withBase(heroImage)}
+            alt={heroAlt ?? ''}
+            loading="lazy"
+            decoding="async"
+          />
         ) : (
           <span class="card__media-empty">
             <svg viewBox="0 0 100 100" width="32%" aria-hidden="true">
