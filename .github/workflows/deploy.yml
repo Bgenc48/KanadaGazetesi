@@ -25,6 +25,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # DNS and the Pages custom-domain setting are active; emit root-relative
+      # assets plus canonical URLs for the public domain, not the Pages fallback.
+      KANADA_CUSTOM_DOMAIN: 'true'
     # workflow_run ile tetiklendiyse yalnızca üst akış BAŞARILIYSA dağıt.
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     steps:
