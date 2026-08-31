@@ -10,6 +10,9 @@ photoQuery: "Hamilton Ontario skyline diverse newcomers community"
 excerpt: "Hamilton'a yeni gelenler için belediye settlement dizini, dil değerlendirmesi, sağlık, ulaşım, iş ve konut rehberi."
 tags: ["Hamilton", "Ontario", "yeni gelenler", "CLARS", "yerleşim hizmetleri"]
 advisory: false
+heroImage: "/images/hamilton-yeni-gelen-hizmetleri-rehberi.jpg"
+heroCredit: "Dougtone / Openverse (CC BY-SA 2.0)"
+heroAlt: "Hamilton, Ontario"
 ---
 
 Hamilton'a yeni gelen bir kişinin işlemleri federal, Ontario ve belediye düzeylerine dağılır. SIN, göçmenlik statüsü, sağlık kartı, settlement hizmeti, dil değerlendirmesi, okul ve ulaşım aynı başvurunun parçaları değildir. Her işlem için sorumlu kurumu, gerekli belgeyi, başvuru tarihini ve sonraki adımı ayrı kaydedin.

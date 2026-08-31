@@ -10,6 +10,9 @@ photoQuery: "person preparing human rights complaint Canada"
 excerpt: "İş, konut veya hizmette ayrımcılık iddiası için federal ve eyalet insan hakları kurumu ayrımı, son tarih ve delil dosyası."
 tags: ["ayrımcılık", "insan hakları", "CHRC", "şikâyet", "harassment"]
 advisory: true
+heroImage: "/images/kanada-ayrimcilik-insan-haklari-sikayet-rehberi.jpg"
+heroCredit: "jurvetson / Openverse (CC BY 2.0)"
+heroAlt: "Age Wave"
 ---
 
 Kanada'da haksız veya kaba davranışın her türü insan hakları şikâyeti değildir; buna karşılık ayrımcılık yalnızca açık hakaretle sınırlı değildir. Doğru dosya, olumsuz davranış veya etkinin korunan bir kişisel özellik ile bağlantısını ve şikâyet edilen kurumun hangi yargı alanında olduğunu somut olaylarla açıklar.

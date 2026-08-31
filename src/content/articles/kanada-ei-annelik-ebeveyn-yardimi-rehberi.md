@@ -10,6 +10,9 @@ photoQuery: "parents newborn family leave Canada"
 excerpt: "Kanada EI maternity ve parental benefits için uygunluk, insured hours, benefit seçimi, ROE ve başvuru zamanlaması rehberi."
 tags: ["EI maternity", "parental benefits", "ebeveyn izni", "Service Canada"]
 advisory: true
+heroImage: "/images/kanada-ei-annelik-ebeveyn-yardimi-rehberi.jpg"
+heroCredit: "Devilz By Definition / Wikimedia Commons (CC BY-SA 4.0)"
+heroAlt: "Devilz By Definitin.jpg"
 ---
 
 Kanada'da işten alınan izin ile federal Employment Insurance ödemesi aynı şey değildir. İş güvencesi ve izin süresi province ya da territory istihdam standardına, nakit yardım ise EI kurallarına bağlı olabilir. Birinin uygun olması diğerinin otomatik onaylandığı anlamına gelmez. Quebec'te çalışan ebeveynler için Quebec Parental Insurance Plan gibi ayrı bir sistem de devreye girebilir.

@@ -10,6 +10,9 @@ photoQuery: "Canada address declaration Turkish consulate documents"
 excerpt: "Kanada'da yaşayan Türk vatandaşları için yurtdışı adres beyanı, aile kaydı, posta başvurusu ve e-Devlet doğrulama rehberi."
 tags: ["adres beyanı", "nüfus", "konsolosluk", "Kanada", "yurtdışı seçmen"]
 advisory: true
+heroImage: "/images/kanadada-yurtdisi-adres-beyani-turkiye-rehberi.jpg"
+heroCredit: "United States Mission Geneva / Openverse (CC BY 2.0)"
+heroAlt: "File:High Commissioner for Human Rights Pillay Speaks at Opening of Dignity Tribes in Transition.jpg"
 ---
 
 Kanada'daki posta adresinizi bankaya veya CRA'ya bildirmek, Türkiye Adres Kayıt Sistemi'ndeki yerleşim yeri kaydını otomatik değiştirmez. Türkiye'de bir konutunuzun bulunması da fiilen Kanada'da yaşayan kişinin birinci yerleşim adresinin Türkiye olması gerektiği anlamına gelmez. Yerleşim yeri ile “diğer adres” alanını amacına uygun ayırın.

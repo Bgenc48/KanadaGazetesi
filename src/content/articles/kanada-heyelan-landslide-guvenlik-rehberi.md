@@ -10,6 +10,9 @@ photoQuery: "Canada landslide warning signs evacuation slope road safety"
 excerpt: "Kanada'da landslide işaretleri, slope ve yol riski, tahliye, utility güvenliği ve dönüş sonrası inceleme rehberi."
 tags: ["heyelan", "landslide", "tahliye", "eğim", "afet"]
 advisory: true
+heroImage: "/images/kanada-heyelan-landslide-guvenlik-rehberi.jpg"
+heroCredit: "NASA Earth Observatory images by Michala Garrison, using Landsat data from the U.S. Geological Survey . Story by Adam Voiland . / Wikimedia Commons (Public domain)"
+heroAlt: "A Slumping Slide Into the Yukon River (154468 - landslide oli 20250622).jpg"
 ---
 
 Heyelan; yoğun yağış, hızlı kar erimesi, wildfire sonrası çıplak zemin, deprem, erosion veya insan faaliyetiyle tetiklenebilir. Yavaş ground movement günler içinde çatlak yaratabilir; debris flow ise çok hızlı ilerleyebilir. Evin daha önce etkilenmemiş olması slope veya drainage riskini ortadan kaldırmaz.

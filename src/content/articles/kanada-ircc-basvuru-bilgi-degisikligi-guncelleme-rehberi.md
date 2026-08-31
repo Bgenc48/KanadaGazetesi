@@ -10,6 +10,9 @@ photoQuery: "applicant updating immigration documents Canada online"
 excerpt: "Devam eden IRCC dosyasında iletişim, aile yapısı, yeni pasaport, iş, eğitim, sağlık veya ceza bilgisi değişikliklerini yönetme rehberi."
 tags: ["IRCC", "başvuru güncelleme", "web form", "adres değişikliği", "pasaport"]
 advisory: true
+heroImage: "/images/kanada-ircc-basvuru-bilgi-degisikligi-guncelleme-rehberi.jpg"
+heroCredit: "Archives New Zealand from New Zealand / Openverse (CC BY-SA 2.0)"
+heroAlt: "File:Application for Cricket Pitch at Hagley Park, Christchurch, 1855 (16311464589).jpg"
 ---
 
 IRCC başvurusu gönderildikten sonra hayatınızdaki önemli bir değişikliği yalnızca profilinizde düzeltmek, her durumda dosyayı güncellemez. Yeni pasaport, evlilik, ayrılık, boşanma, çocuk doğumu, ad değişikliği veya iletişim bilgisi gibi olaylar uygun kanaldan ve doğru application number ile bildirilmelidir. “Karar çıkınca söylerim” yaklaşımı eligibility, aile üyesi incelemesi veya size ulaşılması bakımından risk yaratabilir.

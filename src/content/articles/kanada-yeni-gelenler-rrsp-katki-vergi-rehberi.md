@@ -10,6 +10,9 @@ photoQuery: "newcomer retirement savings planning Canada RRSP"
 excerpt: "Yeni gelenler için RRSP contribution room, deduction limit, ilk vergi beyannamesi, spouse plan, fazla katkı ve withdrawal kontrolü."
 tags: ["RRSP", "deduction limit", "yeni gelen", "CRA", "emeklilik tasarrufu"]
 advisory: true
+heroImage: "/images/kanada-yeni-gelenler-rrsp-katki-vergi-rehberi.jpg"
+heroCredit: "Fort Rucker / Openverse (CC BY 2.0)"
+heroAlt: "Operation Golf 4 Life helps beginners (7338053482)"
 ---
 
 Kanada'da bankanın RRSP hesabı açması, hesaba yatırdığınız her doların vergi indirimine uygun olduğu anlamına gelmez. Yeni gelenlerin en sık yaptığı hata, TFSA yıllık limitini veya maaşın belirli yüzdesini doğrudan RRSP room sanmaktır. RRSP deduction limit geçmiş earned income, kullanılmamış room ve pension adjustment gibi unsurlardan hesaplanır; güvenilecek rakam CRA kaydınızdadır.

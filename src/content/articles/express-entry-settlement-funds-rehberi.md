@@ -10,6 +10,9 @@ photoQuery: "Canada immigration proof of funds bank letter"
 excerpt: "Express Entry settlement funds için aile hesabı, banka mektubu, borç, büyük para girişi ve kur değişimini yönetme rehberi."
 tags: ["Express Entry", "settlement funds", "banka mektubu", "proof of funds", "IRCC"]
 advisory: true
+heroImage: "/images/express-entry-settlement-funds-rehberi.jpg"
+heroCredit: "In Memoriam: saschapohflepp / Openverse (CC BY 2.0)"
+heroAlt: "Tati-esque action at Canada immigration"
 ---
 
 Express Entry dosyasında settlement funds, yalnız banka hesabındaki başvuru günü bakiyesi değildir. Para başvuru sahibinin yasal ve serbest erişiminde olmalı, aile büyüklüğüne göre güncel eşiği karşılamalı ve permanent resident visa düzenlendiği anda da kullanılabilir kalmalıdır. Borçla geçici olarak yükseltilen bakiye güvenilir kanıt değildir.

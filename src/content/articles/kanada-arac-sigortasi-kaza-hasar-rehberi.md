@@ -10,6 +10,9 @@ photoQuery: "car insurance accident report Canada documents"
 excerpt: "Kanada'da araç sigortası seçimi, ek sürücü, kapsam karşılaştırması, kaza kaydı ve hasar başvurusu için pratik rehber."
 tags: ["araç sigortası", "liability", "collision", "deductible", "hasar"]
 advisory: true
+heroImage: "/images/kanada-arac-sigortasi-kaza-hasar-rehberi.jpg"
+heroCredit: "free pictures of money / Openverse (CC BY 2.0)"
+heroAlt: "When Will Cars ____________"
 ---
 
 Kanada'da araç sigortası eyalet ve territory kurallarına göre değişir. “Full coverage” gibi genel bir ifade, hangi zararın, kişinin veya aracın hangi limite kadar korunduğunu göstermez. Poliçeyi zorunlu teminat, liability, accident benefits, collision, comprehensive, deductible ve endorsement başlıklarıyla okuyun.

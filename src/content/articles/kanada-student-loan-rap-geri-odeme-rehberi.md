@@ -10,6 +10,9 @@ photoQuery: "Canada student loan repayment assistance plan online account"
 excerpt: "Canada Student Loan geri ödemesi, NSLSC hesabı, RAP uygunluğu, gelir kanıtı ve yeniden başvuru rehberi."
 tags: ["student loan", "RAP", "NSLSC", "öğrenci kredisi", "geri ödeme"]
 advisory: true
+heroImage: "/images/kanada-student-loan-rap-geri-odeme-rehberi.jpg"
+heroCredit: "Ken Lund from Reno, Nevada, USA / Openverse (CC BY-SA 2.0)"
+heroAlt: "Election Season in Canada, Liberal Party Sign, Leamington, Ontario (21783902211)"
 ---
 
 Canada Student Loan eğitimin sona ermesi veya full-time student statüsünün bitmesiyle repayment aşamasına geçer. Normal monthly payment'ı karşılamakta zorlanan uygun borrower için Repayment Assistance Plan, gelir ve aile büyüklüğüne göre azaltılmış veya sıfır payment sağlayabilir. RAP otomatik başlamaz ve kalıcı tek başvuru değildir.

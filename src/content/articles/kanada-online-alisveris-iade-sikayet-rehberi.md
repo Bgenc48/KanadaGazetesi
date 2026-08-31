@@ -10,6 +10,9 @@ photoQuery: "online shopping package receipt complaint Canada"
 excerpt: "Kanada online alışverişte satıcı doğrulama, teslimat kanıtı, refund policy, marketplace dispute, consumer complaint ve unauthorized card transaction adımları."
 tags: ["online alışveriş", "iade", "consumer complaint", "marketplace", "refund"]
 advisory: true
+heroImage: "/images/kanada-online-alisveris-iade-sikayet-rehberi.jpg"
+heroCredit: "User 'it-software' at http://www.slideshine.de / Wikimedia Commons (CC BY-SA 2.0)"
+heroAlt: "Zen Cart Web-Shop Configuration Shipping Packaging settings.png"
 ---
 
 Online siparişte sorun çıktığında “chargeback yaparım” tek başına plan değildir. Ürünün hiç gelmemesi, açıklamaya uymaması, defective olması, satıcının kendi refund policy'sini uygulamaması ve kartın izinsiz kullanılması farklı uyuşmazlıklardır. Önce sözleşme ve kanıtı koruyup satıcı, marketplace, payment issuer ve consumer authority kanallarını doğru sırayla kullanın.

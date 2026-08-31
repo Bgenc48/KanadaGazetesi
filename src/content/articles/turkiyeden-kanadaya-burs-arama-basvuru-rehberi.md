@@ -10,6 +10,9 @@ photoQuery: "Turkish international student Canada university scholarship"
 excerpt: "Türkiye'deki öğrenci ve araştırmacılar için EduCanada burs araması, kurum başvurusu, bütçe ve dolandırıcılık kontrolleri rehberi."
 tags: ["burs", "EduCanada", "uluslararası öğrenci", "araştırma", "Türkiye-Kanada"]
 advisory: false
+heroImage: "/images/turkiyeden-kanadaya-burs-arama-basvuru-rehberi.jpg"
+heroCredit: "Student Senate of Turkey Z.G. / Wikimedia Commons (CC BY-SA 4.0)"
+heroAlt: "Student-senate-of-turkey-logo.jpg"
 ---
 
 Türkiye'den Kanada'da eğitim veya araştırma için burs ararken “Kanada bursu” tek bir programa işaret etmez. Global Affairs Canada programları, Kanada üniversitelerinin kendi fonları, Türkiye kurumlarının bursları ve araştırma danışmanı kaynakları farklı başvuru yollarına sahiptir. Bazı programlarda öğrenci doğrudan başvuramaz; aday gösterme işlemini üniversite yürütür.

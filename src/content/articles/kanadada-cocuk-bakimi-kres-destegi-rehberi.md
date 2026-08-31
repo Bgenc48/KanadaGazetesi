@@ -10,6 +10,9 @@ photoQuery: "children daycare classroom Canada families"
 excerpt: "Kanada'da kreş arayan aileler için eyalet programları, lisans, ücret, bekleme listesi ve çocuk yardımı ayrımlarını açıklayan rehber."
 tags: ["çocuk bakımı", "kreş", "aile", "eyalet desteği", "CCB"]
 advisory: false
+heroImage: "/images/kanadada-cocuk-bakimi-kres-destegi-rehberi.jpg"
+heroCredit: "PatrickRich / Openverse (Public Domain)"
+heroAlt: "The christmas special Arthur's Perfect Christmas MUST BE BANNED and never ever get revived in the future"
 ---
 
 Kanada'da çocuk bakımı tek bir federal kayıt sistemiyle yürütülmez. Lisanslama, ücret desteği ve sağlayıcı denetimi eyalet ya da bölgeye bağlıdır; belediyeler de bekleme listesi veya ek destek yönetebilir. Federal Canada-wide Early Learning and Child Care anlaşmaları ücretleri düşürmeyi amaçlar, fakat her kontenjanın aynı fiyatta veya hemen açık olduğu anlamına gelmez.

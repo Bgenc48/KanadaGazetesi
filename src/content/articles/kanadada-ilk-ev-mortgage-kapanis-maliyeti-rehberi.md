@@ -10,6 +10,9 @@ photoQuery: "first time home buyers Canada house keys"
 excerpt: "Kanada'da ilk ev alırken peşinat, mortgage ön onayı, teklif koşulları ve kapanış maliyetlerini planlama rehberi."
 tags: ["ilk ev", "mortgage", "peşinat", "kapanış maliyeti", "konut"]
 advisory: true
+heroImage: "/images/kanadada-ilk-ev-mortgage-kapanis-maliyeti-rehberi.jpg"
+heroCredit: "Alachua County / Openverse (CC BY 2.0)"
+heroAlt: "First Time Home Buyer"
 ---
 
 Kanada'da ev alım bütçesi, satış fiyatı ile aylık mortgage ödemesinden daha geniştir. Peşinat, inceleme, hukuk, tapu veya title işlemleri, vergi ayarlamaları, sigorta ve taşınma giderleri aynı tarihe yakın ödenebilir. Yeni gelenlerin Kanada kredi geçmişi kısa olduğunda gelir ve belge incelemesi de daha ayrıntılı olabilir.

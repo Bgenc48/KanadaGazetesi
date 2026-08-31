@@ -10,6 +10,9 @@ photoQuery: "person reviewing personal data privacy complaint Canada"
 excerpt: "Federal kurum, banka, havayolu veya özel işletmedeki kişisel veri sorununu doğru privacy authority'ye taşıma rehberi."
 tags: ["privacy", "kişisel veri", "PIPEDA", "Privacy Act", "şikâyet"]
 advisory: true
+heroImage: "/images/kanada-kisisel-veri-gizlilik-sikayeti-rehberi.jpg"
+heroCredit: "AntMan3001 / Openverse (CC BY-SA 2.0)"
+heroAlt: "Pixels Review!"
 ---
 
 Kanada'da privacy şikâyetinin doğru adresi, yalnızca yaşadığınız province'e değil, veriyi işleyen kurumun türüne ve faaliyetin federal mi provincial mı olduğuna bağlıdır. Federal department ile local school, national bank ile küçük retailer veya health custodian aynı yasaya tabi olmayabilir. Yanlış denetçiye yapılan geniş başvuru çözümü geciktirir.

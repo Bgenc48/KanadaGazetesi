@@ -10,6 +10,9 @@ photoQuery: "power of attorney Turkish consulate Canada legal documents"
 excerpt: "Kanada'dan Türkiye'deki işlem için konsoloslukta vekâletname düzenlerken yetki, belge, randevu ve iptal adımları rehberi."
 tags: ["vekâletname", "noterlik", "konsolosluk", "tapu", "Türkiye"]
 advisory: true
+heroImage: "/images/kanadadan-turkiye-vekaletname-konsolosluk-rehberi.jpg"
+heroCredit: "michaelseangallagher / Openverse (CC BY-SA 2.0)"
+heroAlt: "General power of attorney to Lee Wan-Yong signed and sealed by the last Korean King, Sunjong"
 ---
 
 Vekâletname yalnız “birine iş yaptırma kâğıdı” değildir. Metindeki her yetki, Türkiye'deki banka, tapu, dava, miras, şirket veya araç işleminin kapsamını belirleyebilir. Gereğinden geniş yetki kötüye kullanım riski yaratırken eksik yetki işlemin reddedilmesine ve yeni randevuya yol açabilir.

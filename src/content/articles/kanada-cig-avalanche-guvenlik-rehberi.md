@@ -10,6 +10,9 @@ photoQuery: "Canada avalanche safety backcountry transceiver probe shovel"
 excerpt: "Kanada backcountry alanlarında avalanche forecast, terrain, rescue equipment, group travel ve acil bildirim rehberi."
 tags: ["çığ", "avalanche", "backcountry", "transceiver", "mountain safety"]
 advisory: true
+heroImage: "/images/kanada-cig-avalanche-guvenlik-rehberi.jpg"
+heroCredit: "Nicolas Cool shotz / Wikimedia Commons (CC0)"
+heroAlt: "Avalanche danger sign (Unsplash).jpg"
 ---
 
 Çığ riski yalnız expert ski terrain'inde değildir; snowshoe, snowmobile, hiking ve roadside slope yakınında da bulunabilir. Gear taşımak riski ortadan kaldırmaz. Avalanche terrain tanıma, current forecast, route choice, group discipline ve rescue practice birlikte gerekir. Eğitim ve deneyim yoksa rated terrain'e girmeyin.

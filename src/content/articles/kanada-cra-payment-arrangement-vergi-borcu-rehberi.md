@@ -10,6 +10,9 @@ photoQuery: "CRA tax debt payment arrangement budget Canada online account"
 excerpt: "CRA vergi borcu için payment arrangement hazırlama, bütçe, interest, automatic payment ve collections takibi rehberi."
 tags: ["CRA", "payment arrangement", "vergi borcu", "collections", "ödeme planı"]
 advisory: true
+heroImage: "/images/kanada-cra-payment-arrangement-vergi-borcu-rehberi.jpg"
+heroCredit: "Ken Lund from Reno, Nevada, USA / Openverse (CC BY-SA 2.0)"
+heroAlt: "Bureau des Services Fiscaux (Tax Services Office), Boulevard Rene-Levesque, Montreal, Quebec (30033447986)"
 ---
 
 CRA'ya income tax, GST/HST, payroll veya başka account borcu olan kişi, tamamını hemen ödeyemiyorsa payment arrangement görüşebilir. Plan ana borcu veya accruing interest'i otomatik silmez ve filing yükümlülüğünün yerine geçmez. Ödeyemeyeceğiniz bir takvimi kabul etmek default ve enforcement riskini artırabilir.

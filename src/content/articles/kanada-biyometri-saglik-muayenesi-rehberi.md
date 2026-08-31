@@ -10,6 +10,9 @@ photoQuery: "Canada immigration biometrics medical examination clinic"
 excerpt: "Kanada göçmenlik başvurularında biyometri, BIL, resmi toplama merkezi, panel physician ve muayene sonuçlarını takip etme rehberi."
 tags: ["biyometri", "sağlık muayenesi", "BIL", "panel physician", "IRCC"]
 advisory: true
+heroImage: "/images/kanada-biyometri-saglik-muayenesi-rehberi.jpg"
+heroCredit: "₡ґǘșϯγ Ɗᶏ Ⱪᶅṏⱳդ / Openverse (CC0)"
+heroAlt: "They Live"
 ---
 
 Kanada göçmenlik dosyasında biyometri ve immigration medical exam iki farklı kimlik ve kabul edilebilirlik kontrolüdür. Birinin tamamlanması diğerini karşılamaz. Yanlış talimat mektubuyla randevuya gitmek, yetkisiz doktorda muayene olmak veya sonuç numarasını yanlış başvuruya bağlamak gecikme ve ret riski yaratabilir.

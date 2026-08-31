@@ -10,6 +10,9 @@ photoQuery: "Turkish identity card consulate Canada documents"
 excerpt: "Kanada'da T.C. kimlik kartı için işlem türü, konsolosluk randevusu, biyometri, çocuk başvurusu, kayıp bildirimi ve teslim kontrolü."
 tags: ["T.C. kimlik kartı", "nüfus", "konsolosluk", "kimlik yenileme"]
 advisory: true
+heroImage: "/images/kanadada-tc-kimlik-karti-basvuru-yenileme-rehberi.jpg"
+heroCredit: "T.C. Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü / Wikimedia Commons (Public domain)"
+heroAlt: "Republic of Turkey Identity Card (post-2016, back).png"
 ---
 
 Türkiye Cumhuriyeti kimlik kartı için ilk başvuru, doğum veya bilgi değişikliği nedeniyle değiştirme ve kayıp nedeniyle başvuru aynı işlem değildir. Kanada'da yaşayan vatandaşın doğru temsilciliği, randevu türünü ve güncel belge listesini baştan eşleştirmesi gerekir. Pasaportunuzun geçerli olması da nüfus kaydındaki bir hata veya kimlik kartı ihtiyacını kendiliğinden çözmez.

@@ -10,6 +10,9 @@ photoQuery: "Canada accessibility barrier complaint federal service disability"
 excerpt: "Accessible Canada Act kapsamındaki federal kuruluşlarda erişilebilirlik engeli, şikâyet, kanıt ve çözüm talebi hazırlama rehberi."
 tags: ["erişilebilirlik", "Accessible Canada Act", "şikâyet", "disability", "CHRC"]
 advisory: true
+heroImage: "/images/kanada-federal-erisilebilirlik-sikayeti-rehberi.jpg"
+heroCredit: "automaticsystems / Openverse (CC BY 2.0)"
+heroAlt: "Heavy Duty Fenced Barriers - BLG 76 - Canada"
 ---
 
 Federal olarak düzenlenen bazı kuruluşların hizmet, iletişim, istihdam veya dijital süreçlerinde disability nedeniyle karşılaşılan barrier, Accessible Canada Act kapsamındaki complaint veya feedback yollarını gündeme getirebilir. Her erişilebilirlik sorunu federal değildir; province, territory, Canadian Human Rights Act, labour grievance veya başka regulator yetkili olabilir.

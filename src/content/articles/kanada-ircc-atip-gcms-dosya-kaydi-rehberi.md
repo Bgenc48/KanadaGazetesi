@@ -10,6 +10,9 @@ photoQuery: "immigration file access request records Canada"
 excerpt: "IRCC dosya notları ve kişisel kayıtları için Privacy Act, Access to Information Act, IMM 5744 consent, kapsam ve yanıt inceleme rehberi."
 tags: ["ATIP", "IRCC", "GCMS", "Privacy Act", "dosya kaydı"]
 advisory: true
+heroImage: "/images/kanada-ircc-atip-gcms-dosya-kaydi-rehberi.jpg"
+heroCredit: "Ken Lund / Openverse (CC BY-SA 2.0)"
+heroAlt: "Tombstone, Arizona (7)"
 ---
 
 IRCC dosyasına ilişkin kayıt istemek, başvuruyu hızlandırma veya officer kararını değiştirme yöntemi değildir. Access to Information and Privacy talebi, federal kurumun elindeki mevcut kayıtlara erişim yoludur. Yanlış Act, yanlış department veya belirsiz kapsam seçmek ücret, consent ve işleme sürecini gereksiz yere karmaşıklaştırabilir.

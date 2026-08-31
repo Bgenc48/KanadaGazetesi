@@ -10,6 +10,9 @@ photoQuery: "senior couple retirement planning Canada"
 excerpt: "Kanada emekliliğinde CPP, OAS, GIS, işyeri planları ve kişisel tasarrufların rollerini ayıran planlama rehberi."
 tags: ["CPP", "OAS", "GIS", "emeklilik", "Service Canada"]
 advisory: true
+heroImage: "/images/kanada-cpp-oas-gis-emeklilik-rehberi.jpg"
+heroCredit: "kenteegardin / Openverse (CC BY-SA 2.0)"
+heroAlt: "White Lounge Chair On Tropical Beach"
 ---
 
 Kanada'da emeklilik geliri tek bir devlet aylığından oluşmaz. Canada Pension Plan çalışırken yapılan katkılara, Old Age Security yaş ve ikamet şartlarına, Guaranteed Income Supplement ise OAS alan düşük gelirli kişilerin yıllık gelirine bağlıdır. İşyeri emeklilik planı, RRSP, TFSA ve kişisel tasarruflar bunlardan ayrıdır.

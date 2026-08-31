@@ -10,6 +10,9 @@ photoQuery: "funeral documents Canada Turkey consular support"
 excerpt: "Kanada'da vefat eden Türk vatandaşı için nüfus tescili, cenaze nakli, resmi belgeler ve ayrı tereke işlemlerini planlama rehberi."
 tags: ["ölüm tescili", "cenaze nakli", "Formül C", "konsolosluk", "tereke"]
 advisory: true
+heroImage: "/images/kanadada-olum-tescili-cenaze-turkiye-rehberi.jpg"
+heroCredit: "MatthewsCremationDivision / Wikimedia Commons (CC BY-SA 3.0)"
+heroAlt: "Crematorium, Assumption Catholic Cemetery and Funeral Home, Mississauga.jpg"
 ---
 
 Kanada'da bir yakınını kaybeden aile aynı anda sağlık kurumu, funeral home, province, sigorta, havayolu ve Türk dış temsilciliğiyle çalışabilir. Ölümün Türkiye nüfusuna tescili, cenazenin Türkiye'ye nakli, Uluslararası Ölüm Kayıt Örneği ve miras veya tereke başvurusu aynı işlem değildir.

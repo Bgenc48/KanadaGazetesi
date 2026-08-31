@@ -10,6 +10,9 @@ photoQuery: "Canadian federal election voter polling station"
 excerpt: "Yeni Canadian citizens için federal seçmen kaydı, voter information card, üç kimlik seçeneği, advance poll ve special ballot kontrolü."
 tags: ["federal seçim", "Elections Canada", "seçmen kaydı", "oy kullanma", "vatandaşlık"]
 advisory: true
+heroImage: "/images/kanada-federal-secim-kayit-oy-kullanma-rehberi.jpg"
+heroCredit: "Mark Gargul / Openverse (CC BY-SA 4.0)"
+heroAlt: "Canadian Federal Election Cartogram 2019"
 ---
 
 Kanada'da permanent resident olmak federal seçimde oy hakkı vermez. Federal election veya referendum için Canadian citizen olmak, election day'de en az 18 yaşında bulunmak, registered olmak ve identity ile address'i kanıtlamak gerekir. Province ve municipal seçim kuralları federal kurallarla aynı olmayabilir.

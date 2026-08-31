@@ -10,6 +10,9 @@ photoQuery: "community volunteer background check Canada"
 excerpt: "Vulnerable sector check'in hangi roller için kullanılabildiği, kuruluş mektubu, kimlik, parmak izi ve sonuç paylaşımı için pratik dosya planı."
 tags: ["gönüllülük", "vulnerable sector check", "polis kontrolü", "çocuk güvenliği", "toplum"]
 advisory: true
+heroImage: "/images/kanada-gonullu-vulnerable-sector-check-rehberi.jpg"
+heroCredit: "DFID - UK Department for International Development / Openverse (CC BY 2.0)"
+heroAlt: "Working within the community"
 ---
 
 Bir okul, spor kulübü veya toplum kuruluşunda gönüllü olmak her zaman vulnerable sector check gerektirmez. Buna karşılık çocuklar ya da yaş, engellilik veya başka koşullar nedeniyle savunmasız kişiler üzerinde güven veya otorite konumu bulunan roller ayrıntılı taramaya uygun olabilir. Kontrol türünü gönüllünün kendisi tahmin etmemeli; rolü sunan kuruluş belirlemelidir.

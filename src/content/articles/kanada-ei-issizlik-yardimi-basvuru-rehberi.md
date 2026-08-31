@@ -10,6 +10,9 @@ photoQuery: "Employment Insurance application job search Canada documents"
 excerpt: "Kanada EI regular benefits için uygunluk, ROE, zamanında başvuru, rapor, iş arama kaydı ve karar takibi rehberi."
 tags: ["Employment Insurance", "EI", "işsizlik", "ROE", "Service Canada"]
 advisory: true
+heroImage: "/images/kanada-ei-issizlik-yardimi-basvuru-rehberi.jpg"
+heroCredit: "Editor B / Openverse (CC BY 2.0)"
+heroAlt: "Citywide Mug"
 ---
 
 Employment Insurance regular benefits, işini kaybeden herkese otomatik ödenen sabit bir yardım değildir. Insurable employment, işten ayrılma nedeni, çalışılan saatler, bölgesel işsizlik oranı, çalışmaya hazır olma ve aktif iş arama birlikte değerlendirilir. İşverenin “uygun değilsin” demesi nihai Service Canada kararı değildir.

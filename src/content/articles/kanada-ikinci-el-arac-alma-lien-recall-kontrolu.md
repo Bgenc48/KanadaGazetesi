@@ -10,6 +10,9 @@ photoQuery: "used car inspection VIN Canada buyer"
 excerpt: "Kanada'da ikinci el araç için VIN, lien, vehicle history, recall, bağımsız mekanik kontrol, satış sözleşmesi ve kayıt kontrol listesi."
 tags: ["ikinci el araç", "lien", "recall", "VIN", "Kanada"]
 advisory: true
+heroImage: "/images/kanada-ikinci-el-arac-alma-lien-recall-kontrolu.jpg"
+heroCredit: "Maccer / Wikimedia Commons (CC BY-SA 3.0)"
+heroAlt: "6 car Asset Inspection Train LUL.png"
 ---
 
 Temiz görünen bir ikinci el araç, görünmeyen borç kaydı, açık safety recall, önceki ağır hasar veya satıcının sahip olmadığı bir unvanla gelebilir. Test drive ve düşük kilometre tek başına güvence değildir. Ödemeden önce aracı, satıcıyı, VIN'i, hukuki kaydı ve mekanik durumu birbirinden bağımsız kanallarla doğrulamak gerekir.

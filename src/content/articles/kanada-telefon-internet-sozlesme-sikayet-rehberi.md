@@ -10,6 +10,9 @@ photoQuery: "smartphone internet router contract Canada"
 excerpt: "Kanada'da mobil telefon ve internet paketi seçerken sözleşme, promosyon, iptal ve CCTS şikâyet adımlarını açıklayan rehber."
 tags: ["telefon", "internet", "CRTC", "CCTS", "tüketici hakları"]
 advisory: false
+heroImage: "/images/kanada-telefon-internet-sozlesme-sikayet-rehberi.jpg"
+heroCredit: "Zamanological / Openverse (CC BY-SA 3.0)"
+heroAlt: "Banglalion wimax indoor modem and wifi router hotspot"
 ---
 
 Kanada'da telefon veya internet paketinin ilan fiyatı, gerçek aylık maliyeti tek başına göstermez. Promosyonun bitiş tarihi, cihaz finansmanı, aktivasyon, modem, veri aşımı, vergi ve iptal koşulu faturayı değiştirir. Satış görüşmesindeki vaatleri yazılı sözleşme ve critical information summary ile karşılaştırın.

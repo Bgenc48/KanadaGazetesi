@@ -10,6 +10,9 @@ photoQuery: "Canada poison centre household chemical medicine safety child"
 excerpt: "Kanada'da ilaç veya kimyasal maruziyetinde poison centre, 9-1-1 ayrımı, ürün bilgisi ve evde önleme rehberi."
 tags: ["zehirlenme", "poison centre", "ilaç güvenliği", "ev kimyasalı", "9-1-1"]
 advisory: true
+heroImage: "/images/kanada-zehirlenme-poison-centre-rehberi.jpg"
+heroCredit: "nicolee.camacho / Openverse (CC BY 2.0)"
+heroAlt: "Kanada zehirlenme ve poison centre acil rehberi"
 ---
 
 İlaç, temizlik ürünü, cannabis, carbon monoxide, bitki, mushroom veya başka madde yutma, soluma, cilt ya da göz temasıyla zehirlenmeye yol açabilir. Belirti çıkmasını beklemek güvenli olmayabilir. Ürünü tahmin ederek süt, yiyecek veya ev yapımı antidote vermeyin ve poison specialist söylemeden kusturmaya çalışmayın.

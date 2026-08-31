@@ -10,6 +10,9 @@ photoQuery: "international money transfer Canada Turkey phone"
 excerpt: "Kanada'dan Türkiye'ye para gönderirken toplam maliyet, kur, sağlayıcı kaydı, alıcı bilgisi ve şikâyet sürecini kontrol etme rehberi."
 tags: ["para transferi", "Türkiye", "FINTRAC", "döviz kuru", "havale"]
 advisory: true
+heroImage: "/images/kanadadan-turkiyeye-para-transferi-rehberi.jpg"
+heroCredit: "epSos.de / Openverse (CC BY 2.0)"
+heroAlt: "Exchange Money Conversion to Foreign Currency"
 ---
 
 Kanada'dan Türkiye'ye para gönderirken en düşük görünen ücret her zaman en iyi sonucu vermez. Sağlayıcının döviz kuru marjı, aracı ve alıcı banka kesintileri, ödeme yöntemi ile teslim süresi alıcının eline geçen Türk lirasını değiştirir. Karşılaştırmayı “gönderilen Kanada doları” değil, aynı anda alıcıya ulaşacağı bildirilen net tutar üzerinden yapın.

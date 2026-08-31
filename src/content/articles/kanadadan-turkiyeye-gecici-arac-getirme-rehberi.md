@@ -10,6 +10,9 @@ photoQuery: "temporary foreign vehicle entry Turkey from Canada customs"
 excerpt: "Kanada plakalı aracı Türkiye'ye geçici götürmek için yerleşiklik, sahiplik, sigorta, gümrük süresi ve çıkış kontrolü rehberi."
 tags: ["geçici araç", "gümrük", "yurtdışında yerleşiklik", "Türkiye", "e-Devlet"]
 advisory: true
+heroImage: "/images/kanadadan-turkiyeye-gecici-arac-getirme-rehberi.jpg"
+heroCredit: "DMahendra / Openverse (CC BY 2.0)"
+heroAlt: "Arifin, Kiosk Owner"
 ---
 
 Kanada plakalı bir aracı Türkiye'ye geçici olarak götürmek, yalnız aracın kişiye ait olmasıyla tamamlanmaz. Yolcunun yurtdışında yerleşik sayılması, belirli dönemde yurtdışında bulunduğu günler, aracın kayıt ve sahipliği, sigorta, giriş kapısı ve aracın Türkiye'de kim tarafından kullanılabileceği birlikte değerlendirilir.

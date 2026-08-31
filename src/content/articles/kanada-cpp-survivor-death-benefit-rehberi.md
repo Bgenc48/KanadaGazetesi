@@ -10,6 +10,9 @@ photoQuery: "Canada Pension Plan survivor death benefit application family"
 excerpt: "CPP survivor pension, death benefit ve çocuk yardımı için ölüm belgesi, ilişki ve katkı kayıtlarını hazırlama rehberi."
 tags: ["CPP survivor", "death benefit", "dul aylığı", "çocuk yardımı", "Service Canada"]
 advisory: true
+heroImage: "/images/kanada-cpp-survivor-death-benefit-rehberi.jpg"
+heroCredit: "Governo do Estado de São Paulo / Openverse (CC BY 2.0)"
+heroAlt: "João Doria meets with the Canada Pension Plan Investment Board"
 ---
 
 Bir Canada Pension Plan contributor vefat ettiğinde surviving spouse veya common-law partner için survivor's pension, estate veya masrafı karşılayan uygun kişi için death benefit ve uygun çocuklar için children's benefit gündeme gelebilir. Bu ödemeler otomatik başlamayabilir ve her biri ayrı başvuru veya kanıt isteyebilir.

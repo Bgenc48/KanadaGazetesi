@@ -10,6 +10,9 @@ photoQuery: "cat dog pet carrier airport Canada Turkey"
 excerpt: "Kanada'dan Türkiye'ye kedi, köpek veya gelincikle seyahatte veteriner belgesi, CFIA endorsement ve havayolu hazırlığı rehberi."
 tags: ["evcil hayvan", "CFIA", "Türkiye seyahati", "veteriner belgesi", "havayolu"]
 advisory: true
+heroImage: "/images/kanadadan-turkiyeye-evcil-hayvan-seyahati-rehberi.jpg"
+heroCredit: "Qole Pejorian / Openverse (CC BY 2.0)"
+heroAlt: "Like Cats and Dogs"
 ---
 
 Kanada'dan Türkiye'ye kedi, köpek veya gelincikle seyahat, yalnız aşı karnesi ve taşıma çantası hazırlamak değildir. Varış ülkesinin sağlık sertifikası, Kanada'daki lisanslı veterinerin işlemleri, Canadian Food Inspection Agency onayı ve havayolunun taşıma şartları farklı kontrol noktalarıdır. Bunlardan birinin tamamlanması diğerlerini otomatik karşılamaz.

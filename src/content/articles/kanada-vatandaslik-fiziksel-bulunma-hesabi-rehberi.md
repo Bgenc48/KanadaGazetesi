@@ -10,6 +10,9 @@ photoQuery: "Canadian citizenship physical presence travel calendar calculation"
 excerpt: "Kanada vatandaşlığı için 1.095 günlük fiziksel bulunma hesabını, PR öncesi kredi ve seyahat kanıtlarıyla hazırlama rehberi."
 tags: ["vatandaşlık", "fiziksel bulunma", "1095 gün", "seyahat geçmişi", "IRCC"]
 advisory: true
+heroImage: "/images/kanada-vatandaslik-fiziksel-bulunma-hesabi-rehberi.jpg"
+heroCredit: "Allice Hunter / Openverse (CC BY-SA 4.0)"
+heroAlt: "Map of the Canadian Diaspora in the World"
 ---
 
 Kanada vatandaşlığı başvurusunda fiziksel bulunma hesabı, yalnızca pasaport damgalarını saymaktan ibaret değildir. Başvurunun imzalandığı tarihten önceki beş yıllık eligibility period, permanent resident olarak geçirilen günler, bazı PR öncesi günlerin yarım gün kredisi ve Kanada dışındaki her hareket birlikte değerlendirilir.

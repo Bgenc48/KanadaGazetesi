@@ -10,6 +10,9 @@ photoQuery: "Canada unwanted telemarketing call do not call list complaint"
 excerpt: "Kanada National Do Not Call List kaydı, telemarketing istisnaları, şikâyet kanıtı ve scam araması ayrımı rehberi."
 tags: ["DNCL", "telemarketing", "istenmeyen arama", "CRTC", "telefon dolandırıcılığı"]
 advisory: true
+heroImage: "/images/kanada-istenmeyen-telemarketing-dncl-sikayet-rehberi.jpg"
+heroCredit: "William Murphy from Dublin, Ireland / Openverse (CC BY-SA 2.0)"
+heroAlt: "Protest Art - Magdalene Justice (8010431147)"
 ---
 
 Kanada National Do Not Call List, kişisel telefon numarasına gelen belirli telemarketing aramalarını azaltmak için kayıt ve şikâyet sistemi sunar. Listeye kayıt bütün aramaları durdurmaz; bazı kuruluşlar için yasal istisnalar bulunur ve dolandırıcılar caller ID bilgisini taklit edebilir.

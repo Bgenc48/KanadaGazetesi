@@ -10,6 +10,9 @@ photoQuery: "multicultural community festival Canada outdoor event"
 excerpt: "Kanada'da Türk topluluğu etkinliği için görev dağılımı, belediye izni, sigorta, gıda güvenliği ve etkinlik günü kayıt planı."
 tags: ["topluluk etkinliği", "festival", "izin", "sigorta", "Toronto"]
 advisory: true
+heroImage: "/images/kanadada-topluluk-etkinligi-duzenleme-rehberi.jpg"
+heroCredit: "Eva Rinaldi / Wikimedia Commons (CC BY-SA 2.0)"
+heroAlt: "National Multicultural Festival (6856303265).jpg"
 ---
 
 Bir Türk kültür gecesi, mahalle pikniği veya dayanışma festivali yalnızca sahne ve ikram programından oluşmaz. Kamusal alan kullanımı, sorumluluk sigortası, gıda güvenliği, ses, geçici yapı, alkol ve bağış toplama gibi unsurlar farklı onaylar gerektirebilir. Etkinliği duyurmadan önce mekân sahibinden yazılı izin ve yetkili kurumların takvimini doğrulamak, son hafta iptalini önler.

@@ -10,6 +10,9 @@ photoQuery: "certified translation immigration documents Canada"
 excerpt: "Türkçe belgeler için IRCC certified translator, affidavit, aile üyesi yasağı, certified true copy ve yükleme manifesti."
 tags: ["belge tercümesi", "IRCC", "certified translator", "affidavit", "onaylı kopya"]
 advisory: true
+heroImage: "/images/kanada-ircc-belge-tercume-onayli-kopya-rehberi.jpg"
+heroCredit: "Ebdaa11 / Wikimedia Commons (CC BY-SA 4.0)"
+heroAlt: "Certified-translation-services 0.jpg"
 ---
 
 Türkçe bir belgeyi İngilizceye çevirip tek PDF olarak yüklemek, IRCC'nin belge şartını her zaman karşılamaz. İstenen paket; başvuru programına göre original veya certified copy, tam translation ve certified olmayan çevirmen kullanıldıysa affidavit içerebilir. Apostille, noter onayı ve tercüman beyanı da birbirinin yerine geçen işlemler değildir.

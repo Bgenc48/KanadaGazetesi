@@ -10,6 +10,9 @@ photoQuery: "job offer scam warning laptop Canada newcomer"
 excerpt: "Kanada iş aramasında sahte ilan, ücret, çek, para transferi, kimlik hırsızlığı ve göçmenlik vaadini doğrulama rehberi."
 tags: ["iş dolandırıcılığı", "sahte ilan", "job offer", "kimlik güvenliği", "newcomer"]
 advisory: true
+heroImage: "/images/kanada-is-ilani-istihdam-dolandiriciligi-rehberi.jpg"
+heroCredit: "The original uploader was Snow storm in Eastern Asia at English Wikipedia. / Wikimedia Commons (CC BY 3.0)"
+heroAlt: "PIIGS Mk 4 map.png"
 ---
 
 Sahte iş ilanı yalnız para istemez. Dolandırıcılar kimlik, banka bilgisi, SIN, pasaport, göçmenlik dosya numarası veya hesabınızı para aktarmak için kullanmayı hedefleyebilir. Profesyonel görünen bir sözleşme, şirket logosu, görüntülü görüşme veya gerçek çalışanın adı teklifin gerçek olduğunu kanıtlamaz.

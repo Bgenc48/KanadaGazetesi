@@ -10,6 +10,9 @@ photoQuery: "Canadian Dental Care Plan family dentist appointment"
 excerpt: "Canadian Dental Care Plan uygunluğu, vergi kaydı, özel sigorta erişimi, coverage başlangıcı ve cepten ödeme kontrolü rehberi."
 tags: ["CDCP", "diş bakımı", "dental coverage", "Service Canada", "aile geliri"]
 advisory: true
+heroImage: "/images/kanada-cdcp-dis-bakim-plani-rehberi.jpg"
+heroCredit: "The National Guard / Openverse (CC BY 2.0)"
+heroAlt: "Continuing Promise 2022 in Puerto Barrios, Guatemala, on October 28, 2022 with the Arkansas Air National Guard - 13"
 ---
 
 Canadian Dental Care Plan, her dental faturayı tamamen karşılayan otomatik ve ücretsiz sigorta değildir. Uygunluk, özel dental coverage erişimi, Kanada vergi beyannamesi, adjusted family net income ve Kanada'da vergi mukimliği ölçütlerine bağlıdır. Plan üyesi olmak, her hizmetin önceden onaylandığı veya cepten ödeme olmayacağı anlamına gelmez.

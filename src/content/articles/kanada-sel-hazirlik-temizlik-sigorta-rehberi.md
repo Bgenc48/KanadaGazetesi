@@ -10,6 +10,9 @@ photoQuery: "Canada household flood preparedness sandbags emergency kit"
 excerpt: "Evde sel öncesi hazırlık, güvenli tahliye, dönüş, temizlik, küf ve sigorta belgelemesi için adım adım rehber."
 tags: ["sel", "acil durum", "tahliye", "küf", "konut sigortası"]
 advisory: true
+heroImage: "/images/kanada-sel-hazirlik-temizlik-sigorta-rehberi.jpg"
+heroCredit: "Walmart Corporate / Openverse (CC BY 2.0)"
+heroAlt: "Balzac Fresh Food Distribution Center - LED lights"
 ---
 
 Sel sırasında en değerli karar eşyayı kurtarmak değil, suya girmemektir. Sığ görünen hareketli su insanı veya aracı sürükleyebilir; suyun altında açık rögar, kopmuş elektrik hattı, kimyasal ve sewage bulunabilir. Yerel authority evacuation order verdiyse gecikmeden belirtilen güzergâhı kullanın. Acil durumda 911'i, yerel uyarı ve barınma bilgisi için belediye ile province kaynaklarını izleyin.

@@ -10,6 +10,9 @@ photoQuery: "divorce documents civil registry Turkey Canada"
 excerpt: "Kanada boşanma kararının Türkiye'de tescili için başvuru yeri, ayrı başvurudaki 90 günlük kural ve dosya kontrol adımları."
 tags: ["boşanma tescili", "nüfus", "konsolosluk", "Kanada", "Türkiye"]
 advisory: true
+heroImage: "/images/kanada-bosanma-karari-turkiyede-tescil-rehberi.jpg"
+heroCredit: "Openverse (CC0)"
+heroAlt: "50c Documentary Mortgage revenue stamp on petition for divorce"
 ---
 
 Kanada'da boşanmış olmak, medeni durumun Türk nüfus kütüğünde kendiliğinden değiştiği anlamına gelmez. Türkiye bakımından güncel kayıt gerekiyorsa yabancı ülke makamınca verilen karar için ayrı bir tescil süreci yürütülür. İşlemi yalnızca seyahat öncesi bir belge toplama işi gibi görmek yerine kararın kesinleşmesi, tarafların başvuru biçimi ve temsilciliğin istediği güncel evrakı tek dosyada yönetmek gerekir.

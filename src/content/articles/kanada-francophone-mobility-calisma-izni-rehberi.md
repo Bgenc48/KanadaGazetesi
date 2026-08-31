@@ -10,6 +10,9 @@ photoQuery: "French speaking professional Canada workplace"
 excerpt: "Francophone Mobility kapsamında Quebec dışında çalışma izni için aday ve işveren adımlarını ayıran güncel dosya rehberi."
 tags: ["Francophone Mobility", "çalışma izni", "Fransızca", "C16", "IRCC"]
 advisory: true
+heroImage: "/images/kanada-francophone-mobility-calisma-izni-rehberi.jpg"
+heroCredit: "Ken Lund from Reno, Nevada, USA / Openverse (CC BY-SA 2.0)"
+heroAlt: "Law Society of Upper Canada, Osgoode Hall, Toronto, Ontario (21814316256)"
 ---
 
 Francophone Mobility, Fransızca konuşan yabancı çalışanların Quebec dışındaki işlerde işveren destekli çalışma iznine başvurabildiği bir federal kolaylıktır. Program kalıcı oturum değildir ve her Fransızca bilen aday otomatik olarak uygun sayılmaz. İşin yeri, meslek sınıfı, dil kanıtı ve işverenin başvurudan önce tamamlaması gereken işlemler birlikte değerlendirilir.

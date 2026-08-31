@@ -10,6 +10,9 @@ photoQuery: "Canada wildfire evacuation route emergency preparedness family"
 excerpt: "Kanada'da wildfire alert, evacuation order, güvenli ayrılış, duman maruziyeti ve eve dönüş adımlarını yönetme rehberi."
 tags: ["orman yangını", "wildfire", "tahliye", "emergency alert", "duman"]
 advisory: true
+heroImage: "/images/kanada-orman-yangini-tahliye-rehberi.jpg"
+heroCredit: "Phil Richards from London, UK / Openverse (CC BY-SA 2.0)"
+heroAlt: "04.10.24 Jasper 6418 (54056119002)"
 ---
 
 Orman yangınında koşullar rüzgârla dakikalar içinde değişebilir. Evacuation alert hazırlıklı olmanız gerektiğini, evacuation order ise yetkililerin belirttiği biçimde ayrılmanız gerektiğini bildirir. Sosyal medya paylaşımını resmî yerel emergency management, belediye, First Nation veya province duyurusunun yerine kullanmayın.

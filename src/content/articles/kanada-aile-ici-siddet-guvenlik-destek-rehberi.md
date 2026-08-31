@@ -10,6 +10,9 @@ photoQuery: "Canada family violence safety planning confidential support shelter
 excerpt: "Kanada'da aile içi şiddet yaşayanlar için acil tehlike, güvenli cihaz, shelter, belge ve çocuk planı rehberi."
 tags: ["aile içi şiddet", "family violence", "güvenlik planı", "shelter", "9-1-1"]
 advisory: true
+heroImage: "/images/kanada-aile-ici-siddet-guvenlik-destek-rehberi.jpg"
+heroCredit: "Tatiana12 / Openverse (CC BY 2.0)"
+heroAlt: "Getting ready, 'I'd like to teach the world to sing...'"
 ---
 
 Aile içi şiddet fiziksel saldırıyla sınırlı değildir; tehdit, stalking, cinsel zorlama, ekonomik kontrol, immigration tehdidi, çocukları kullanma ve dijital izleme de güvenliği bozabilir. Ayrılma planı fail tarafından öğrenildiğinde risk artabileceği için yardım arama ve belge toplama adımlarını güvenli biçimde planlayın.

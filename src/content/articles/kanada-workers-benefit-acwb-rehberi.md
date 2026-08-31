@@ -10,6 +10,9 @@ photoQuery: "worker reviewing Canada tax benefit statement laptop"
 excerpt: "Düşük gelirli çalışanlar için Canada Workers Benefit başvurusu, disability supplement ve ACWB takibi rehberi."
 tags: ["CWB", "ACWB", "CRA", "vergi kredisi", "çalışan desteği"]
 advisory: true
+heroImage: "/images/kanada-workers-benefit-acwb-rehberi.jpg"
+heroCredit: "Mike Gifford from Ottawa, Canada / Wikimedia Commons (CC BY-SA 2.0)"
+heroAlt: "Monument to Canadian Aid Workers (1).jpg"
 ---
 
 Canada Workers Benefit (CWB), uygun düşük gelirli çalışanlar için federal refundable tax credit'tir. “Refundable” olması, hesaplanan kredi vergi borcundan yüksekse kalan kısmın ödeme olarak çıkabilmesi anlamına gelir. Hak ve tutar; çalışma geliri, net gelir, aile durumu, ikamet edilen province veya territory ve bazı kişisel koşullara göre hesaplanır. Sosyal medyadaki tek bir gelir sınırını kendi dosyanıza uygulamayın.

@@ -10,6 +10,9 @@ photoQuery: "immigration applicant reviewing representative authorization Canada
 excerpt: "Devam eden IRCC başvurusunda ücretli veya ücretsiz temsilci atama, değiştirme ya da iptal etme adımları."
 tags: ["IRCC", "IMM 5476", "göçmenlik temsilcisi", "web form", "dosya erişimi"]
 advisory: true
+heroImage: "/images/kanada-ircc-temsilci-ekleme-degistirme-iptal-rehberi.jpg"
+heroCredit: "peterlfrench / Openverse (CC BY 2.0)"
+heroAlt: "A Note of Encouragement to the FWD.us DREAMer Hackathon Teams"
 ---
 
 IRCC başvurusu için temsilci kullanmak zorunlu değildir. Ücret alan temsilcinin yetkili olması gerekir; ücretsiz bir aile üyesi veya arkadaş da temsilci olabilir, ancak IRCC'ye bildirilmelidir. Temsilci atamak başvurudaki bilgilerin sorumluluğunu ortadan kaldırmaz. Form, belge ve beyanları göndermeden önce başvuru sahibi olarak siz doğrulayın.

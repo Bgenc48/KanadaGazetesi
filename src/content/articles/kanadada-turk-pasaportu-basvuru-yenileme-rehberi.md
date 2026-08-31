@@ -10,6 +10,9 @@ photoQuery: "Turkish passport consulate application Canada"
 excerpt: "Kanada'dan Türk pasaportu başvurusu için işlem türü, görevli temsilcilik, biyometri, çocuk muvafakati ve teslim kontrol listesi."
 tags: ["Türk pasaportu", "pasaport yenileme", "konsolosluk", "Kanada"]
 advisory: true
+heroImage: "/images/kanadada-turk-pasaportu-basvuru-yenileme-rehberi.jpg"
+heroCredit: "Ivan Yermachenka, unknown photographer and stamp maker / Wikimedia Commons (Public domain)"
+heroAlt: "Пашпарт БНР (Канстанцінопаль, 1922) с. 6.jpg"
 ---
 
 Kanada'da yaşayan Türk vatandaşları için pasaport işlemi tek bir “yenileme” formundan ibaret değildir. İlk veya yeni umuma mahsus pasaport, kayıp pasaport, hususi ya da hizmet pasaportu, pasaport teslimi ve geçici pasaport farklı işlem türleridir. Yanlış türle alınan randevu, eksik biyometri veya çocuk için muvafakat sorunu seyahat planını aksatabilir.

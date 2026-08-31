@@ -10,6 +10,9 @@ photoQuery: "small Canadian rural community main street"
 excerpt: "RCIP kapsamında designated employer iş teklifi, topluluk tavsiyesi ve federal kalıcı oturum dosyasını hazırlama rehberi."
 tags: ["RCIP", "kırsal göç", "designated employer", "kalıcı oturum", "IRCC"]
 advisory: true
+heroImage: "/images/kanada-rcip-kirsal-topluluk-goc-rehberi.jpg"
+heroCredit: "DFID - UK Department for International Development / Openverse (CC BY 2.0)"
+heroAlt: "Harvesting hope for the future (5951468176)"
 ---
 
 Rural Community Immigration Pilot, belirlenen kırsal toplulukların ihtiyaç duyduğu çalışanları kalıcı oturuma aday gösterebildiği iş teklifi temelli bir programdır. İş ilanının kırsal bir yerde bulunması tek başına yeterli değildir. Topluluğun pilotta yer alması, işverenin designated employer olması ve adayın hem topluluk hem federal şartlarını karşılaması gerekir.

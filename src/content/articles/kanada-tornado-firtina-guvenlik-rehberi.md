@@ -10,6 +10,9 @@ photoQuery: "tornado storm shelter basement Canada weather alert"
 excerpt: "Tornado watch veya warning öncesi plan, bina ve araçta sığınma, elektrik hattı ve hasar sonrası güvenlik rehberi."
 tags: ["tornado", "şiddetli fırtına", "WeatherCAN", "Alert Ready", "acil durum"]
 advisory: true
+heroImage: "/images/kanada-tornado-firtina-guvenlik-rehberi.jpg"
+heroCredit: "Wesley Fryer / Openverse (CC BY-SA 2.0)"
+heroAlt: "Flatsafe Tornado Shelters"
 ---
 
 Tornado hızlı yön değiştirebilir ve uzaktan hareketsiz görünürken size doğru geliyor olabilir. Uyarı verildiğinde görüntü çekmek veya araca binip fırtınadan kaçmak yerine sağlam sığınağa geçin. Kanada'nın her province ve territory'sinde tornado kaydedilmiştir; risk yalnızca prairie bölgesine ait değildir.

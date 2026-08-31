@@ -10,6 +10,9 @@ photoQuery: "Canadian refugee travel document application passport photo"
 excerpt: "Kanada refugee travel document veya certificate of identity için uygunluk, kimlik, guarantor ve seyahat planı rehberi."
 tags: ["refugee travel document", "protected person", "certificate of identity", "passport", "IRCC"]
 advisory: true
+heroImage: "/images/kanada-refugee-travel-document-basvuru-rehberi.jpg"
+heroCredit: "Bert Kaufmann / Openverse (CC BY 2.0)"
+heroAlt: "Westerbork"
 ---
 
 Kanada passport'u Canadian citizens içindir. Kanada'da protected person statüsündeki veya belirli koşullarda stateless olup kendi ülkesinden passport alamayan kişiler için refugee travel document ya da certificate of identity başvuru yolu bulunabilir. Bu belgeler permanent residence kartı veya destination visa yerine geçmez.

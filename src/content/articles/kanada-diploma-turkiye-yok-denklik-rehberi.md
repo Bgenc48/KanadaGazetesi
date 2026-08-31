@@ -10,6 +10,9 @@ photoQuery: "Canadian university diploma documents Turkey recognition"
 excerpt: "Kanada yükseköğretim diploması için YÖK tanıma ve denklik ayrımı, e-Devlet başvurusu, belge doğrulama ve mesleki yetki kontrolü."
 tags: ["YÖK", "denklik", "Kanada diploması", "tanıma", "e-Devlet"]
 advisory: true
+heroImage: "/images/kanada-diploma-turkiye-yok-denklik-rehberi.jpg"
+heroCredit: "Ken Lund from Reno, Nevada, USA / Openverse (CC BY-SA 2.0)"
+heroAlt: "McGill University, Montréal, Québec (29955018042)"
 ---
 
 Kanada'daki bir üniversite veya college programından mezun olmak, diplomanın Türkiye'de otomatik olarak belirli bir dereceye ya da düzenlenmiş mesleğe eşit sayılacağı anlamına gelmez. Kurum tanıma, diploma denklik ve mesleği icra yetkisi farklı kararlardır. İşverenin belgeyi kabul etmesi de YÖK denklik kararı yerine geçmez.

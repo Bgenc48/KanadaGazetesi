@@ -10,6 +10,9 @@ photoQuery: "parent child passport airport Canada Turkey travel"
 excerpt: "Kanada ile Türkiye arasında seyahat eden çocuklar için muvafakat mektubu, pasaport, velayet belgesi, refakatçi ve dönüş kontrol listesi."
 tags: ["çocuk seyahati", "muvafakat", "consent letter", "pasaport", "Kanada Türkiye"]
 advisory: true
+heroImage: "/images/kanada-turkiye-cocuk-seyahat-muvafakat-rehberi.jpg"
+heroCredit: "Lewis Hine / Wikimedia Commons (Public domain)"
+heroAlt: "Resting with load at the head of the slope. Small boy is Jo Puma, a nipper. Jo's mother showed me the passport which... - NARA - 523376.jpg"
 ---
 
 Çocuğun yalnız, akrabayla veya yalnızca bir ebeveynle Kanada–Türkiye seyahati yapması, bilet ve pasaporttan daha geniş bir belge planı gerektirir. Havayolu, Kanada sınır görevlisi, transit ülke veya Türkiye makamı çocuğun seyahatine karar verme yetkisi bulunan diğer kişinin iznini ve aile bağını açıklayan belgeleri görmek isteyebilir.

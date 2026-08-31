@@ -10,6 +10,9 @@ photoQuery: "worker changing employer Canada work permit office"
 excerpt: "İşini kaybeden veya işveren değiştiren employer-specific work permit sahipleri için yeni teklif, izin başvurusu, web formu ve çalışma yetkisi kontrolü."
 tags: ["çalışma izni", "işveren değişikliği", "IRCC", "work permit", "yeni iş"]
 advisory: true
+heroImage: "/images/kanada-isveren-degistirme-calisma-izni-rehberi.jpg"
+heroCredit: "TheNoxid / Openverse (CC BY 2.0)"
+heroAlt: "ClimateStrike-210924-4-59494"
 ---
 
 Kanada'da employer-specific work permit üzerinde yazan işveren, görev veya çalışma yeri koşullarını görmezden gelerek yeni işe başlamak statü riski yaratabilir. İşinizi kaybetmiş olmanız, yeni bir teklif almanız ya da aynı sektörde kalmanız bu koşulları kendiliğinden değiştirmez. Açık çalışma izni sahipleri ise izinleri geçerli olduğu sürece, izin üzerindeki kısıtlamalara tabi olarak işveren değiştirebilir.

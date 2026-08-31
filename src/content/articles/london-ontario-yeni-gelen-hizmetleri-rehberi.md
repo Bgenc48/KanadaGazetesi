@@ -10,6 +10,9 @@ photoQuery: "London Ontario downtown diverse newcomers community"
 excerpt: "London Ontario'ya yeni gelenler için settlement kuruluşları, SWIS, dil, sağlık, okul, ulaşım ve konut rehberi."
 tags: ["London Ontario", "Ontario", "SWIS", "yeni gelenler", "settlement"]
 advisory: false
+heroImage: "/images/london-ontario-yeni-gelen-hizmetleri-rehberi.jpg"
+heroCredit: "Itskdoubt / Openverse (CC BY-SA 4.0)"
+heroAlt: "London Ontario Downtown & Victoria Park"
 ---
 
 London, Ontario'ya yerleşirken sağlık, SIN, dil, iş, okul, çocuk bakımı, konut ve ulaşım işlemleri farklı yetki alanlarındadır. London ile Middlesex County içindeki adresler aynı hizmet bölgesinde görünse de ulaşım ve sağlayıcı erişimi değişebilir. İlk ay için aile üyeleri, kurumlar ve son tarihlerden oluşan ortak bir takip dosyası kurun.

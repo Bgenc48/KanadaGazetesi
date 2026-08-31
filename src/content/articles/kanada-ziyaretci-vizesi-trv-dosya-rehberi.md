@@ -10,6 +10,9 @@ photoQuery: "Canada visitor visa passport travel documents"
 excerpt: "Kanada ziyaretçi vizesi başvurusunda seyahat amacı, mali yeterlilik, dönüş bağları, davet ve biyometri dosyasını düzenleme rehberi."
 tags: ["ziyaretçi vizesi", "TRV", "IRCC", "davet mektubu", "biyometri"]
 advisory: true
+heroImage: "/images/kanada-ziyaretci-vizesi-trv-dosya-rehberi.jpg"
+heroCredit: "Sir Hectimere / Openverse (CC BY 2.0)"
+heroAlt: "Gazing On America"
 ---
 
 Kanada ziyaretçi vizesi, yani temporary resident visa başvurusu, yalnız form ve banka ekstresi yüklemekten ibaret değildir. Görevli; ziyaretin gerçek ve geçici olup olmadığını, masrafların nasıl karşılanacağını ve başvuru sahibinin izin verilen sürenin sonunda Kanada'dan ayrılıp ayrılmayacağını dosyanın bütünü üzerinden değerlendirir. Her belge aynı seyahat planını anlatmalıdır.

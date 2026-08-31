@@ -10,6 +10,9 @@ photoQuery: "home insurance documents apartment Canada"
 excerpt: "Kanada'da kiracı, condo veya ev sigortası seçerken kapsam, istisna, deductible, eşya envanteri ve hasar sürecini kontrol etme rehberi."
 tags: ["kiracı sigortası", "ev sigortası", "condo", "deductible", "sorumluluk"]
 advisory: true
+heroImage: "/images/kanada-kiraci-ev-konut-sigortasi-rehberi.jpg"
+heroCredit: "cogdogblog / Openverse (CC BY 2.0)"
+heroAlt: "She Got a Lot Out of Those Physics and Shop Classes"
 ---
 
 Kanada'da ev sahibinin bina sigortası, kiracının eşyasını ve kişisel sorumluluğunu otomatik korumaz. Condo corporation poliçesi de dairenin içindeki bütün iyileştirme ve eşyayı kapsamayabilir. Doğru poliçe, yalnız en düşük premium değil, ailenin gerçekten karşılayamayacağı kayıpları açıkça kapsayan sözleşmedir.

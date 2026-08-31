@@ -10,6 +10,9 @@ photoQuery: "newcomer family groceries budget Canada"
 excerpt: "Yeni gelenler için Canada Groceries and Essentials Benefit, RC151 formu, çocuklu ailelerin başvuru yolu ve gelir bildirimi kontrolü."
 tags: ["Canada Groceries and Essentials Benefit", "RC151", "yeni gelen", "CRA"]
 advisory: true
+heroImage: "/images/kanada-yeni-gelenler-groceries-essentials-benefit-rc151-rehberi.jpg"
+heroCredit: "Jadeilyn.Songdance / Openverse (CC BY 2.0)"
+heroAlt: "Trailers For Rent"
 ---
 
 Kanada'ya yıl içinde yerleşen bir kişi, ilk Kanada vergi beyannamesini henüz vermediği için düşük ve orta gelirli hanelere yönelik üç aylık ödemeyi mutlaka bir sonraki yıla bırakmak zorunda değildir. Ancak başvuru yolu çocuk olup olmamasına, eş durumuna ve Kanada vergi sakini olduğunuz tarihe göre değişir. Eski kaynaklarda geçen “GST/HST credit” adı da güncel resmî sayfalarda “Canada Groceries and Essentials Benefit” olarak değişmiştir.

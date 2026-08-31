@@ -10,6 +10,9 @@ photoQuery: "pet emergency evacuation kit Canada family preparedness"
 excerpt: "Kanada'da evcil hayvanlar için tahliye yeri, taşıma çantası, mikroçip, ilaç ve emergency kit hazırlama rehberi."
 tags: ["evcil hayvan", "acil durum", "tahliye", "pet kit", "mikroçip"]
 advisory: true
+heroImage: "/images/kanada-evcil-hayvan-acil-durum-plani-rehberi.jpg"
+heroCredit: "The National Guard / Openverse (CC BY 2.0)"
+heroAlt: "Texas National Guard"
 ---
 
 Sel, yangın, elektrik kesintisi veya başka bir tahliyede evcil hayvanın nerede kalacağı önceden belirlenmezse aile güvenli ayrılışı gecikebilir. Her hayvanı aile emergency plan'ına adı, türü, taşıma yöntemi, ilaçları ve geçici bakım kişisiyle ayrı kaydedin. Shelter'ın hayvan kabul edeceğini kriz anında varsaymayın.

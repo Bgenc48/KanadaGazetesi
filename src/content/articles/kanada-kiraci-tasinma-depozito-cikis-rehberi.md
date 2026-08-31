@@ -10,6 +10,9 @@ photoQuery: "tenant move out inspection apartment Canada keys"
 excerpt: "Kanada kiracıları için notice, condition inspection, normal wear, temizlik, anahtar, sayaç, forwarding address, security veya rent deposit kontrolü."
 tags: ["kiracı", "move-out inspection", "security deposit", "taşınma", "tenant rights"]
 advisory: true
+heroImage: "/images/kanada-kiraci-tasinma-depozito-cikis-rehberi.jpg"
+heroCredit: "Lee, Russell / Wikimedia Commons (Public domain)"
+heroAlt: "Furniture being moved out of the farmhouse of Everett Shoemaker, tenant farmer - DPLA - e72a4f1da897214ae9986af7e5091cea.jpg"
 ---
 
 Kanada'da kiradan çıkış için tek bir federal notice veya deposit kuralı yoktur. Ontario'daki last-month rent deposit ile British Columbia ya da Alberta'daki security deposit aynı hukuki araç değildir. Lease türü, province/territory yasası, notice service yöntemi, condition inspection ve forwarding address tarihleri birlikte yönetilmelidir.

@@ -10,6 +10,9 @@ photoQuery: "Turkey Web Tapu property transaction from Canada online title deed"
 excerpt: "Kanada'dan Web Tapu üzerinden taşınmaz görüntüleme, başvuru, vekâlet, ödeme ve tapu sonucu kontrolü rehberi."
 tags: ["Web Tapu", "taşınmaz", "tapu", "vekaletname", "e-Devlet"]
 advisory: true
+heroImage: "/images/kanadadan-turkiye-web-tapu-islemleri-rehberi.jpg"
+heroCredit: "Aziz Akbiyik / Wikimedia Commons (CC BY-SA 3.0)"
+heroAlt: "Esenyurt Tapu Müdürlüğü - panoramio.jpg"
 ---
 
 Türkiye'deki taşınmaz için satış, bağış, ipotek, miras intikali veya bilgi görüntüleme işlemleri Web Tapu ve tapu müdürlüğü kanallarını kullanabilir. Online başvuru, resmî senet ve tescil işleminin tamamlandığı anlamına gelmez. İşlem türü, malik, temsil yetkisi ve gerekli vergi veya harçlar ayrıca doğrulanmalıdır.

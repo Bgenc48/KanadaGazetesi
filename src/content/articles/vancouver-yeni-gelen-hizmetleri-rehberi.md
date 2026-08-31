@@ -10,6 +10,9 @@ photoQuery: "Vancouver skyline newcomers community"
 excerpt: "Vancouver'a yeni gelenler için belediye, British Columbia, kütüphane, ulaşım ve yerleşim hizmetlerini sıralayan kaynak rehberi."
 tags: ["Vancouver", "British Columbia", "yeni gelenler", "yerleşim hizmetleri", "toplum"]
 advisory: false
+heroImage: "/images/vancouver-yeni-gelen-hizmetleri-rehberi.jpg"
+heroCredit: "Jaykhuang / Openverse (CC BY 2.0)"
+heroAlt: "Vancouver Skyline"
 ---
 
 Vancouver'a yeni taşınan biri için ilk güçlük hizmet eksikliği değil, belediye, eyalet ve federal programların farklı yerlerde bulunmasıdır. Kalıcı oturum sahibi, geçici çalışan, uluslararası öğrenci, mülteci başvuru sahibi ve yeni vatandaş aynı hizmetlere her zaman uygun değildir. İlk haftada statünüzü, posta kodunuzu ve ihtiyaçlarınızı netleştirerek doğru kuruma yönelin.

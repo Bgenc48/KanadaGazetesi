@@ -10,6 +10,9 @@ photoQuery: "parents grandparents family visit Canada airport"
 excerpt: "Kanada super visa başvurusunda ev sahibi, gelir, sigorta, sağlık muayenesi, davet ve geçici ziyaret koşullarını düzenleme rehberi."
 tags: ["super visa", "anne baba", "büyükanne büyükbaba", "sağlık sigortası", "IRCC"]
 advisory: true
+heroImage: "/images/kanada-super-visa-anne-baba-rehberi.jpg"
+heroCredit: "VinothChandar / Openverse (CC BY 2.0)"
+heroAlt: "The Beauty of Old Age"
 ---
 
 Super visa, Kanada vatandaşı, permanent resident veya Indian Act kapsamında kayıtlı kişilerin anne, baba, büyükanne ve büyükbabaları için uzun süreli aile ziyaretine yönelik geçici oturum yoludur. Permanent residence sponsorluğu değildir. Başvuru sahibinin ziyaretçi olarak kabul edilebilir olması ve ev sahibinin program şartlarını karşılaması birlikte değerlendirilir.

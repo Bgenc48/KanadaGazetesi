@@ -10,6 +10,9 @@ photoQuery: "Canada 211 community services phone referral support"
 excerpt: "Kanada'da 211 üzerinden food, housing, newcomer, mental health ve community support hizmetlerini bulma rehberi."
 tags: ["211", "toplum hizmetleri", "settlement", "barınma", "yönlendirme"]
 advisory: true
+heroImage: "/images/kanada-211-toplum-hizmetleri-rehberi.jpg"
+heroCredit: "Commander, U.S. 7th Fleet / Openverse (CC BY-SA 2.0)"
+heroAlt: "130805-N-SP369-211.jpg"
 ---
 
 Kanada'da 211, food, housing, income, newcomer, disability, seniors, mental health ve başka community services için bilgi ve referral sağlayan bir navigation hizmetidir. 211 acil müdahale hattı değildir; yakın hayati tehlikede 9-1-1, intihar krizi için 9-8-8 kullanılmalıdır.

@@ -10,6 +10,9 @@ photoQuery: "Canada Pension Plan disability benefit application medical records"
 excerpt: "CPP disability benefit için katkı, severe ve prolonged testleri, tıbbi rapor ve çalışma kapasitesi kanıtı hazırlama rehberi."
 tags: ["CPP disability", "engellilik yardımı", "medical report", "Service Canada", "çalışma kapasitesi"]
 advisory: true
+heroImage: "/images/kanada-cpp-disability-yardimi-basvuru-rehberi.jpg"
+heroCredit: "Governo do Estado de São Paulo / Openverse (CC BY 2.0)"
+heroAlt: "João Doria meets with the Canada Pension Plan Investment Board"
 ---
 
 Canada Pension Plan disability benefit, 65 yaşın altında olup yeterli CPP katkısı bulunan ve disability nedeniyle düzenli olarak substantially gainful çalışamayan uygun kişilere yönelik aylık yardımdır. Bir teşhis, Disability Tax Credit onayı veya işverenin “çalışamaz” yazısı tek başına CPP disability uygunluğunu otomatik kurmaz.

@@ -10,6 +10,9 @@ photoQuery: "Turkish military service foreign currency application Canada consul
 excerpt: "Kanada'daki Türk vatandaşları için dövizle askerlik uygunluğu, uzaktan eğitim, ödeme ve konsolosluk dosyası hazırlama rehberi."
 tags: ["dövizle askerlik", "askerlik", "konsolosluk", "MSB", "yurtdışı çalışma"]
 advisory: true
+heroImage: "/images/kanada-dovizle-askerlik-basvuru-rehberi.jpg"
+heroCredit: "ThruTheseLines / Openverse (CC BY 2.0)"
+heroAlt: "Turkish prisoners' rations"
 ---
 
 Dövizle askerlik, yurtdışında bulunan uygun Türk vatandaşlarının kanundaki çalışma veya statü koşullarını, Millî Savunma Bakanlığı uzaktan eğitimini, güncel bedeli ve dış temsilcilik başvurusunu birlikte tamamladığı özel bir askerlik yoludur. Kanada'da yaşamak ya da Canadian citizenship sahibi olmak tek başına otomatik uygunluk sağlamaz.

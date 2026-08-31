@@ -10,6 +10,9 @@ photoQuery: "Employment Insurance sickness benefits Canada medical leave applica
 excerpt: "Kanada EI sickness benefits için uygunluk, medical certificate, Record of Employment ve haftalık rapor sürecini yönetme rehberi."
 tags: ["EI sickness", "hastalık yardımı", "medical certificate", "ROE", "Service Canada"]
 advisory: true
+heroImage: "/images/kanada-ei-sickness-hastalik-yardimi-rehberi.jpg"
+heroCredit: "Openverse (CC0)"
+heroAlt: "<I>Plan of Group Insurance for Employes of The Pullman Company</I>"
 ---
 
 Employment Insurance sickness benefits, tıbbi nedenlerle çalışamayan uygun kişiye geçici gelir desteği sağlayabilir. İşverenin paid sick leave planı, private disability insurance, workers' compensation ve EI aynı şey değildir. Hangi programın önce ödediğini ve ödemelerin birbirini nasıl etkilediğini plan belgesiyle doğrulayın.

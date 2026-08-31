@@ -10,6 +10,9 @@ photoQuery: "international student study permit extension Canada campus"
 excerpt: "Kanada içinde study permit uzatma, okul değiştirme, maintained status ve restoration için güncel dosya rehberi."
 tags: ["study permit", "DLI", "öğrenci izni", "PAL TAL", "maintained status"]
 advisory: true
+heroImage: "/images/kanada-study-permit-uzatma-dli-degisikligi-rehberi.jpg"
+heroCredit: "shannonpatrick17 / Openverse (CC BY 2.0)"
+heroAlt: "Story Hour Swanton, Nebraska"
 ---
 
 Study permit uzatması yalnızca mevcut belgenin tarihini ileri almak değildir. Öğrencinin designated learning institution kaydı, program ilerlemesi, mali kaynakları, passport validity ve permit conditions yeniden değerlendirilir. Okul veya eğitim düzeyi değişiyorsa yeni DLI ve PAL/TAL kuralları ayrıca devreye girebilir.

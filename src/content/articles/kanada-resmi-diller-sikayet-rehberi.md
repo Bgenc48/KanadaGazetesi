@@ -10,6 +10,9 @@ photoQuery: "bilingual English French federal service counter Canada"
 excerpt: "Federal kurumda İngilizce veya Fransızca hizmet hakkı sorunu için yetki, kanıt ve resmî dil şikâyeti adımları."
 tags: ["resmî diller", "İngilizce", "Fransızca", "federal kurum", "şikâyet"]
 advisory: true
+heroImage: "/images/kanada-resmi-diller-sikayet-rehberi.jpg"
+heroCredit: "bobbsled / Openverse (CC BY-SA 2.0)"
+heroAlt: "Panneau Bilingue Stop/Arrêt Bilingual Sign"
 ---
 
 Kanada'nın federal resmî dilleri İngilizce ve Fransızcadır. Bu çerçeve, her private business, municipality veya provincial office'in her yerde iki dilde hizmet vermesi demek değildir. Şikâyet yolunu seçmeden önce olayın Official Languages Act kapsamındaki federal institution veya özel yükümlülüğü bulunan kuruluşla ilgili olup olmadığını belirleyin.

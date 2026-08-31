@@ -10,6 +10,9 @@ photoQuery: "CRA notice of objection tax assessment documents Canada"
 excerpt: "CRA income tax assessment veya reassessment kararına Notice of Objection sunma, süre ve kanıt dosyası hazırlama rehberi."
 tags: ["CRA", "Notice of Objection", "vergi itirazı", "assessment", "T400A"]
 advisory: true
+heroImage: "/images/kanada-cra-notice-of-objection-rehberi.jpg"
+heroCredit: "Labitte, Georges. Photographe / Wikimedia Commons (Public domain)"
+heroAlt: "Chantier préparation du sol. (CRA (Centre de recherches agronomiques)), Bambey - Sénégal - Labitte ; CRA de Bambey - btv1b10123764h (1 of 2).jpg"
 ---
 
 Canada Revenue Agency assessment veya reassessment kararındaki gelir, gider, credit, penalty ya da başka bir vergi sonucuna katılmayan kişi, uygun süre içinde formal Notice of Objection sunabilir. CRA'yı telefonla aramak, adjustment request göndermek veya ödeme planı yapmak itiraz süresini otomatik korumayabilir.

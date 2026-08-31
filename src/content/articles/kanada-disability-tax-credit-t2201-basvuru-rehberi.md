@@ -10,6 +10,9 @@ photoQuery: "accessible tax documents medical practitioner Canada"
 excerpt: "Kanada Disability Tax Credit için işlev temelli uygunluk, T2201 Part A ve Part B, 2026 gönderim değişikliği, CRA kararı ve geriye dönük claim."
 tags: ["Disability Tax Credit", "T2201", "engellilik", "CRA", "vergi kredisi"]
 advisory: true
+heroImage: "/images/kanada-disability-tax-credit-t2201-basvuru-rehberi.jpg"
+heroCredit: "Bengaluru Inscriptions Digital Conservation Team / Openverse (CC BY-SA 4.0)"
+heroAlt: "<div class='fn'> Malavalli 200CE Pillar Inscription of Satakarni (Digital Image With Texture)</div>"
 ---
 
 Disability Tax Credit, belirli bir teşhis konduğu veya kişi çalışamadığı için otomatik verilen aylık ödeme değildir. DTC, severe and prolonged impairment etkileri CRA ölçütlerini karşıladığında kişinin ya da uygun supporting family member'ın ödeyeceği income tax'ı azaltabilen non-refundable tax credit'tir. Başvurunun gücü teşhis adından çok günlük işlev kısıtının süresi, derecesi ve tıbbi kanıtındadır.

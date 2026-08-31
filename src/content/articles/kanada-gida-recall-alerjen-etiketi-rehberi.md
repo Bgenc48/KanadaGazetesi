@@ -10,6 +10,9 @@ photoQuery: "food label allergen recall grocery Canada"
 excerpt: "Kanada'da CFIA gıda recall doğrulaması, UPC ve lot eşleştirme, allergen label okuma, recalled product ve hastalık bildirimi adımları."
 tags: ["gıda recall", "alerjen", "CFIA", "food label", "gıda güvenliği"]
 advisory: true
+heroImage: "/images/kanada-gida-recall-alerjen-etiketi-rehberi.jpg"
+heroCredit: "NIAID / Openverse (CC BY 2.0)"
+heroAlt: "Lollipops (24076281188)"
 ---
 
 Bir markanın adını recall haberinde görmek, evinizdeki bütün ürünlerin etkilendiği anlamına gelmez; aynı şekilde ambalajın benzer görünmesi güvenli olduğunu kanıtlamaz. Kanada'da gıda geri çağırmaları ürün adı, boyut, UPC, lot veya container code ve dağıtım bölgesi gibi ayrıntılarla tanımlanır. Alerjisi olan hanede etiket de her yeni paket için baştan okunmalıdır.

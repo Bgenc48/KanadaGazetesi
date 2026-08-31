@@ -10,6 +10,9 @@ photoQuery: "visitor extending temporary status Canada online application"
 excerpt: "Kanada içinde ziyaretçi kalışını visitor record ile uzatma, maintained status ve seyahat risklerini yönetme rehberi."
 tags: ["visitor record", "ziyaretçi statüsü", "IRCC", "maintained status", "TRV"]
 advisory: true
+heroImage: "/images/kanada-visitor-record-uzatma-rehberi.jpg"
+heroCredit: "Grand Canyon NPS / Openverse (CC BY 2.0)"
+heroAlt: "Grand Canyon National Park: Grandeur Point 2118"
 ---
 
 Kanada'da daha uzun süre ziyaretçi olarak kalmak isteyen kişinin ihtiyaç duyduğu belge visitor record'dur. Visitor record pasaporta yapıştırılan visitor visa, yani TRV değildir ve Kanada'ya yeniden giriş garantisi vermez. Belge Kanada içindeki authorized stay tarihini gösterir. TRV üzerindeki son giriş tarihiyle Kanada'da kalış süresinin bitişini birbirine karıştırmayın.

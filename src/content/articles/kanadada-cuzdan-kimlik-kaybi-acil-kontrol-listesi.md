@@ -10,6 +10,9 @@ photoQuery: "lost wallet identity cards Canada checklist"
 excerpt: "Kanada'da kayıp veya çalıntı cüzdan için banka kartı, kimlik, SIN, polis bildirimi, fraud alert ve belge yenileme adımları."
 tags: ["kayıp cüzdan", "kimlik hırsızlığı", "fraud alert", "Kanada"]
 advisory: true
+heroImage: "/images/kanadada-cuzdan-kimlik-kaybi-acil-kontrol-listesi.jpg"
+heroCredit: "₡ґǘșϯγ Ɗᶏ Ⱪᶅṏⱳդ / Openverse (CC0)"
+heroAlt: "Ages"
 ---
 
 Cüzdan kaybında amaç yalnızca kartları yeniden çıkarmak değildir. İlk saatlerde yetkisiz ödemeyi durdurmak, sonraki günlerde kimlik bilgilerinin kredi veya hesap açmak için kullanılmasını izlemek ve her bildirim için kanıt üretmek gerekir. Tek bir genel ihbarın banka, kredi bürosu, province kimliği, SIN ve göçmenlik belgesini birlikte koruduğunu varsaymayın.

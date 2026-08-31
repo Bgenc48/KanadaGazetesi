@@ -10,6 +10,9 @@ photoQuery: "life certificate pension document Turkish consulate Canada senior"
 excerpt: "Kanada'da yaşayan emekliler için hayatta olma belgesi düzenleme, kimlik doğrulama ve Türkiye'ye teslim süreci rehberi."
 tags: ["hayatta olma belgesi", "emeklilik", "SGK", "konsolosluk", "aylık"]
 advisory: true
+heroImage: "/images/kanada-hayatta-olma-belgesi-emeklilik-rehberi.jpg"
+heroCredit: "U.S. Federal Government / Wikimedia Commons (Public domain)"
+heroAlt: "Augustus Rodriquez Pension 009.jpg"
 ---
 
 Hayatta olma belgesi, yurtdışında yaşayan emeklinin belirli bir tarihte sağ olduğunu ilgili pension kurumu veya bankaya doğrulamak için istenebilir. Belgenin adı, kabul edilen issuing authority, yenileme dönemi ve teslim kanalı kuruma göre değişebilir. Eski yılda kabul edilen formun bu yıl da geçerli olduğunu varsaymayın.

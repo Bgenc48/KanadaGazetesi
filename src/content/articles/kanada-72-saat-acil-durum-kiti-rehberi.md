@@ -10,6 +10,9 @@ photoQuery: "72 hour emergency preparedness kit Canada"
 excerpt: "Kanada'da en az 72 saat için taşınabilir acil durum kiti, aile planı, su, gıda, ilaç, iletişim ve altı aylık bakım kontrolü."
 tags: ["acil durum kiti", "72 saat", "hazırlık", "afet", "Kanada"]
 advisory: true
+heroImage: "/images/kanada-72-saat-acil-durum-kiti-rehberi.jpg"
+heroCredit: "Thomas Cizauskas / Openverse (Public Domain)"
+heroAlt: "Basic Emergency Kit (01)"
 ---
 
 Acil durum kiti, bodrumda rastgele biriken konserve ve pillerden ibaret değildir. Fırtına, yangın, sel, deprem, aşırı sıcak-soğuk veya uzun elektrik kesintisinde evde kalmanız ya da hızla tahliye olmanız gerekebilir. Kitin taşınabilir, erişilebilir ve evdeki herkesçe bilinen bir yerde olması; aile planı ve yerel uyarı kanallarıyla birlikte çalışması gerekir.

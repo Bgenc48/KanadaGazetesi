@@ -10,6 +10,9 @@ photoQuery: "mobile phone IMEI registration Turkey travel from Canada"
 excerpt: "Kanada'dan Türkiye'ye getirilen telefon için IMEI sorgusu, e-Devlet kayıt hakkı, giriş belgesi ve hat eşleştirme rehberi."
 tags: ["IMEI", "telefon kaydı", "BTK", "e-Devlet", "Türkiye seyahati"]
 advisory: true
+heroImage: "/images/kanadadan-turkiye-imei-telefon-kayit-rehberi.jpg"
+heroCredit: "Echtner / Openverse (CC BY 3.0)"
+heroAlt: "Mobile phone IMEI"
 ---
 
 Kanada'dan Türkiye'ye kişisel telefon götüren yolcu, cihazın Türkiye mobil şebekelerinde kullanım süresi, yurda giriş kaydı, IMEI kayıt hakkı, harç ve hat eşleştirme koşullarını güncel BTK sistemi üzerinden kontrol etmelidir. Eski yıldaki harç veya süre bilgisini yeni seyahate taşımayın.

@@ -10,6 +10,9 @@ photoQuery: "Edmonton skyline winter diverse community"
 excerpt: "Edmonton'a yeni gelenler için belediye rehberi, Alberta programları, ulaşım, kütüphane ve yerleşim desteği kaynakları."
 tags: ["Edmonton", "Alberta", "yeni gelenler", "yerleşim hizmetleri", "kış"]
 advisory: false
+heroImage: "/images/edmonton-yeni-gelen-hizmetleri-rehberi.jpg"
+heroCredit: "IQRemix / Openverse (CC BY-SA 2.0)"
+heroAlt: "Edmonton High Level Bridge"
 ---
 
 Edmonton'a yeni gelen biri için yerleşim planı yalnız resmi belge başvurularından oluşmaz. Konut ile işe ulaşım, sağlık kaydı, okul, dil desteği ve kış güvenliği birbirini etkiler. Belediyenin yerel rehberini Alberta ve federal hizmetlerle eşleştirerek ilk ayın gereksiz tekrarlarını azaltabilirsiniz.

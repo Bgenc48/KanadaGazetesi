@@ -10,6 +10,9 @@ photoQuery: "Ottawa city newcomers diverse community"
 excerpt: "Ottawa'ya yeni gelenler için belediye ilk günler listesi, Ontario kayıtları, ulaşım, okul ve yerleşim hizmetleri rehberi."
 tags: ["Ottawa", "Ontario", "yeni gelenler", "OHIP", "yerleşim hizmetleri"]
 advisory: false
+heroImage: "/images/ottawa-yeni-gelen-hizmetleri-rehberi.jpg"
+heroCredit: "Cplbeaudoin / Openverse (CC BY-SA 4.0)"
+heroAlt: "Textron TAPV Ottawa City Hall Left View"
 ---
 
 Ottawa'ya yeni gelenlerin işlemleri federal başkentte bulunmalarına rağmen tek merkezden yürütülmez. SIN federal, OHIP eyalet, toplu taşıma ve birçok günlük hizmet belediye düzeyindedir. Ottawa ile Gatineau arasında taşınmak ise eyalet değişikliği anlamına gelir. Adresin Ontario tarafında olduğundan emin olarak başlayın.

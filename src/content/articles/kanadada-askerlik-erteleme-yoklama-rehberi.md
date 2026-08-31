@@ -10,6 +10,9 @@ photoQuery: "Turkish consulate military deferment documents Canada"
 excerpt: "Kanada'daki Türk vatandaşları için askerlik yoklama, öğrenci veya çalışan ertelemesi ve kayıt doğrulama rehberi."
 tags: ["askerlik erteleme", "yoklama", "konsolosluk", "öğrenci", "çalışma izni"]
 advisory: true
+heroImage: "/images/kanadada-askerlik-erteleme-yoklama-rehberi.jpg"
+heroCredit: "Le Figaro / Openverse (CC BY-SA 4.0)"
+heroAlt: "Le Figaro 20 September 1922 - Article"
 ---
 
 Kanada'da yaşamak askerliği kendiliğinden ertelemez. İşlem; yaş, mevcut askerlik durumu, eğitim veya çalışma statüsü, Kanada immigration document'ı ve Türkiye'de geçirilen süreler gibi unsurlara bağlıdır. Başkasının PR card ile yaptığı işlemi study permit sahibi öğrenci kendi dosyasına aynen uygulamamalıdır.

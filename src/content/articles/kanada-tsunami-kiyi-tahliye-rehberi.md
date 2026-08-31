@@ -10,6 +10,9 @@ photoQuery: "British Columbia tsunami evacuation route high ground Canada coast"
 excerpt: "Kanada kıyılarında tsunami doğal işaretleri, evacuation zone, yüksek bölge, araç ve all-clear sonrası dönüş rehberi."
 tags: ["tsunami", "kıyı tahliyesi", "deprem", "British Columbia", "yüksek bölge"]
 advisory: true
+heroImage: "/images/kanada-tsunami-kiyi-tahliye-rehberi.jpg"
+heroCredit: "Mimigu at English Wikipedia / Openverse (CC BY 3.0)"
+heroAlt: "Bamfield Tsunami Hazard Zone sign"
 ---
 
 Kanada'nın özellikle Pacific kıyısında tsunami, uzak deprem uyarısıyla veya yakındaki güçlü depremden dakikalar sonra gelebilir. Güçlü veya uzun sarsıntı, denizin olağandışı çekilmesi veya yükselmesi ve kıyıdan gelen yüksek ses doğal uyarıdır. Böyle bir işarette resmî mesaj beklemeden yüksek veya iç bölgeye geçin.

@@ -10,6 +10,9 @@ photoQuery: "Canadian citizenship certificate Turkish passport registration"
 excerpt: "Kanada vatandaşlığı kazanan Türk vatandaşları için çok vatandaşlık tescili, yetkili temsilcilik, vekâlet ve kayıt kontrolü adımları."
 tags: ["çok vatandaşlık", "Kanada vatandaşlığı", "nüfus tescili", "konsolosluk"]
 advisory: true
+heroImage: "/images/kanada-vatandasligi-cok-vatandaslik-tescili-turkiye-rehberi.jpg"
+heroCredit: "JeanSolPartre / Openverse (CC BY-SA 4.0)"
+heroAlt: "Certificat de citoyenneté canadienne"
 ---
 
 Kanada vatandaşlık törenini tamamlamak iki ülkenin kayıt sistemlerini otomatik olarak birbirine bağlamaz. Kanada vatandaşlık belgesi ve pasaportu Kanada statünüzü gösterirken, Türk nüfus kaydındaki yabancı vatandaşlık bilgisinin güncellenmesi için “çok vatandaşlık tescili” adıyla ayrı başvuru gerekebilir. Bu işlemi seyahat günü fark edilen bir kayıt uyumsuzluğuna bırakmamak önemlidir.

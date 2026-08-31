@@ -10,6 +10,9 @@ photoQuery: "Saskatoon river skyline diverse community"
 excerpt: "Saskatoon'a yeni gelenler için Saskatchewan settlement sağlayıcıları, şehir kaynakları, sağlık, okul ve ulaşım rehberi."
 tags: ["Saskatoon", "Saskatchewan", "yeni gelenler", "settlement", "toplum"]
 advisory: false
+heroImage: "/images/saskatoon-yeni-gelen-hizmetleri-rehberi.jpg"
+heroCredit: "Kyla Duhamel / Openverse (CC BY 2.0)"
+heroAlt: "Saskatoon, SK"
 ---
 
 Saskatoon'a yerleşenler için bilgi belediye, Saskatchewan ve federal sistemler arasında dağılır. Settlement kuruluşu ihtiyaçları sıralamaya yardımcı olabilir, fakat sağlık kartı, SIN, okul ve göçmenlik kararları kendi yetkili kurumlarında yürütülür. Adres ve statüyle başlayan bir kontrol tablosu kurun.

@@ -10,6 +10,9 @@ photoQuery: "carbon monoxide alarm home safety Canada furnace"
 excerpt: "Karbonmonoksit alarmı seçimi, yerleşimi, bakım ve alarm anında tahliye adımları için Kanada rehberi."
 tags: ["karbonmonoksit", "CO alarmı", "jeneratör", "furnace", "ev güvenliği"]
 advisory: true
+heroImage: "/images/kanada-karbonmonoksit-alarm-guvenlik-rehberi.jpg"
+heroCredit: "Santeri Viinamäki / Openverse (CC BY-SA 4.0)"
+heroAlt: "Carbon monoxide alarm"
 ---
 
 Karbonmonoksit (CO) renksiz, kokusuz ve tatsız bir gazdır; insan duyuları güvenilir uyarı vermez. Furnace, fireplace, water heater, gas stove, portable generator, araç ve başka fuel-burning equipment eksik yanma veya kötü venting nedeniyle CO üretebilir. Baş ağrısı, bulantı, baş dönmesi, yorgunluk ve confusion başka hastalıklarla karışabilir; yüksek maruziyet bilinç kaybı ve ölüme yol açabilir.

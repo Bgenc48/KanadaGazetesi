@@ -10,6 +10,9 @@ photoQuery: "Turkish citizenship reacquisition application consulate Canada docu
 excerpt: "Kanada'da yaşayan eski Türk vatandaşları için yeniden vatandaşlık kazanma yolu, belge zinciri ve sonuç kontrolü rehberi."
 tags: ["Türk vatandaşlığı", "yeniden kazanma", "konsolosluk", "Mavi Kart", "nüfus"]
 advisory: true
+heroImage: "/images/kanada-turk-vatandasligini-yeniden-kazanma-rehberi.jpg"
+heroCredit: "Dimitris Avramopoulos / Openverse (CC BY-SA 2.0)"
+heroAlt: "Family photo- Global Forum on Migration and Devolopment in Istanbul, 14 10 2015 (22142843006)"
 ---
 
 Türk vatandaşlığını yeniden kazanma başvurusu, eski vatandaşlığın hangi hukuki işlemle ve hangi tarihte kaybedildiğine göre değişir. Çıkma izniyle ayrılan Mavi Kartlı kişi ile vatandaşlığı kaybettirilen veya seçme hakkını kullanarak ayrılan kişi aynı başvuru yolunda olmayabilir. Kanada vatandaşlığına sahip olmak sonucu tek başına belirlemez.

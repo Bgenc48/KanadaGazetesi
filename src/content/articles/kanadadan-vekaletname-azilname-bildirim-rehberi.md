@@ -10,6 +10,9 @@ photoQuery: "revocation power of attorney Turkish consulate Canada notification"
 excerpt: "Kanada'dan Türkiye'deki vekâletnameyi azletme, konsolosluk belgesi, vekil ve kurumlara bildirim kanıtı rehberi."
 tags: ["azilname", "vekâletname", "noterlik", "konsolosluk", "bildirim"]
 advisory: true
+heroImage: "/images/kanadadan-vekaletname-azilname-bildirim-rehberi.jpg"
+heroCredit: "infomatique / Openverse (CC BY-SA 2.0)"
+heroAlt: "THE OLD HUGUENOT GRAVEYARD ON MERRION ROW [AT THE CORNER OF ST. STEPHENS GREEN]-143972"
 ---
 
 Vekâletnameyi iptal etmek için yeni bir vekâletname düzenlemek veya original kâğıdı geri almak her durumda yeterli değildir. Azil iradesinin doğru belgeyle oluşturulması, vekile ve vekâletin kullanılabileceği banka, tapu, court veya başka kurumlara ulaştırılması gerekir. Bildirimden önce yapılmış işlemlerin sonucu ayrıca incelenir.

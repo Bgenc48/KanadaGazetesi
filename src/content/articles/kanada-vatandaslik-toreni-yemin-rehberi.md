@@ -10,6 +10,9 @@ photoQuery: "Canadian citizenship ceremony oath certificate celebration"
 excerpt: "Kanada vatandaşlık töreni daveti, oath, PR card, citizenship certificate ve tören sonrası belge işlemleri rehberi."
 tags: ["vatandaşlık töreni", "citizenship oath", "vatandaşlık sertifikası", "PR card", "IRCC"]
 advisory: true
+heroImage: "/images/kanada-vatandaslik-toreni-yemin-rehberi.jpg"
+heroCredit: "Grand Canyon NPS / Wikimedia Commons (Public domain)"
+heroAlt: "2025 Naturalization Ceremony at Grand Canyon National Park - 147 (54790434419).jpg"
 ---
 
 Kanada vatandaşlık başvurusu onay aşamasına geldikten sonra vatandaşlık statüsü yalnız karar ekranıyla değil, gerekli kişinin citizenship oath almasıyla tamamlanır. Online veya yüz yüze ceremony davetindeki tarih, saat, time zone, kimlik ve bağlantı koşullarını ayrı kontrol edin. Törene katılmadan yapılacak uluslararası seyahati mevcut PR belgelerinize göre planlayın.
