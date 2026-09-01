@@ -10,6 +10,9 @@ photoQuery: "moving boxes address change checklist Canada"
 excerpt: "Kanada içinde taşınırken kamu kurumları, finans, sigorta, okul, utilities, posta ve kimlik kayıtlarını ayrı güncelleme kontrol listesi."
 tags: ["adres değişikliği", "taşınma", "CRA", "Service Canada", "kontrol listesi"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Canada Post yönlendirmesi satın almak, CRA, Service Canada, sağlık kartı, ehliyet, banka veya sigorta adresini otomatik değiştirmez. Bir kuruma yapılan bildirim de çoğu zaman diğer kuruma aktarılmaz. Taşınmayı “posta geldi” üzerinden değil, her kurum için confirmation kanıtıyla yönetin.

@@ -10,6 +10,9 @@ photoQuery: "newcomer savings planning Canada TFSA"
 excerpt: "Yeni gelenler için TFSA uygunluğu, Kanada vergi ikameti, contribution room, çekimlerin geri eklenmesi ve over-contribution kontrolü."
 tags: ["TFSA", "contribution room", "yeni gelen", "tasarruf", "CRA"]
 advisory: true
+heroImage: "/images/editorial/home-buying.jpg"
+heroAlt: "Real Estate Agent Giving the Keys to the Buyer"
+heroCredit: "Kampus Production / Pexels"
 ---
 
 TFSA adındaki “tax-free” ifadesi, Kanada'ya gelen herkesin geçmiş yıllardan birikmiş katkı hakkıyla hesap açabileceği anlamına gelmez. Yeni gelenlerin room'u, yaş ve geçerli SIN koşullarının yanında Kanada vergi sakini oldukları dönemle başlar. Bankanın hesap açması ile CRA'nın katkıyı cezasız kabul etmesi de aynı kontrol değildir.

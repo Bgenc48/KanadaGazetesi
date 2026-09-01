@@ -10,6 +10,9 @@ photoQuery: "Turkish population registry certificate Canada application"
 excerpt: "Kanada'da kullanılacak Türkiye nüfus kayıt örneğini doğru kapsam, dil, tercüme ve doğrulamayla hazırlama rehberi."
 tags: ["nüfus kayıt örneği", "e-Devlet", "konsolosluk", "e-Apostil", "tercüme"]
 advisory: true
+heroImage: "/images/editorial/airplane-flight.jpg"
+heroAlt: "Mountains and Clouds Outside of an Airplane Window"
+heroCredit: "Dan Gold / Pexels"
 ---
 
 Nüfus kayıt örneği, Türkiye nüfus sicilindeki kişi ve aile olaylarını belirli kapsamda gösteren resmî belgedir. Kanada'daki immigration, citizenship, marriage, estate, pension veya court işlemlerinde istenebilir. Fakat “vukuatlı belge” sözü tek başına hangi kişilerin ve hangi düşünceler alanının gerektiğini açıklamaz. Belgeyi isteyen kurumun yazılı talebini önce çözümleyin.

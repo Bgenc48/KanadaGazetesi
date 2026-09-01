@@ -5,6 +5,7 @@ section: "yasam"
 author: "Yaşam Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-06-08
+updatedDate: 2026-08-31
 photoQuery: "credit card banking finance"
 excerpt: "Newcomer banka hesabı, ilk kredi kartı ve kredi skorunu (credit score) sağlıklı kurmanın yolları. Kanada finans sistemine yeni gelenler için rehber."
 tags: ["bankacılık", "kredi skoru", "credit", "finans"]
@@ -20,9 +21,11 @@ Kanada’da finansal hayatın görünmez ama belirleyici bir parçası vardır: 
 
 Çoğu büyük Kanada bankası, yeni gelenler için tasarlanmış **“newcomer” paketleri** sunar: genellikle belirli bir süre işletim ücreti alınmaz ve ilk kredi kartına erişim kolaylaştırılır. Hesap açmak için tipik olarak:
 
-- Pasaport ve göç belgeniz (PR veya çalışma/öğrenci izni),
-- **SIN** (Sosyal Sigorta Numarası),
-- Kanada adresiniz gerekir.
+- Bankanın kabul ettiği kimlik belgeleri,
+- Statünüzü ve newcomer kampanyasına uygunluğunuzu gösteren belge,
+- Bankanın ürününe göre adres kanıtı gerekebilir.
+
+Temel bir banka hesabı açmak için SIN'i kimlik belgesi gibi sunmanız gerekmez. Ancak faiz veya yatırım geliri üreten bir hesapta banka, vergi bildirimi için SIN isteyebilir. Kurum SIN'i neden istediğini açıklayamıyorsa alternatif kimlik belgesi sorun.
 
 Birden fazla bankanın newcomer paketini karşılaştırın; ücretler ve sunulan kart farklılık gösterir.
 
@@ -56,7 +59,7 @@ Türkiye ile Kanada arasında para hareketi yapacaksanız, bankaların standart 
 
 ## Özetle
 
-Kanada’da finansal itibar, biriktirdiğiniz paradan çok **alışkanlıklarınızla** ölçülür. İlk yıl bilinçli kurulan bir kredi skoru, ikinci yıl çok daha iyi bir kira sözleşmesi, üçüncü yıl makul bir araba kredisi demektir. Erken ve disiplinli başlayan kazanır.
+Kanada’da kredi geçmişi, ödeme kayıtları, kullanılan kredi oranı, hesap yaşı ve yeni başvurular gibi verilerle oluşur. Belirli bir sürede belirli bir skora ulaşma garantisi yoktur. Ekstreyi zamanında ve tam ödemek, rapordaki hataları düzeltmek ve gereksiz kredi başvurularını sınırlamak güvenli başlangıçtır.
 
 ## Kredi raporunu kontrol edin
 
@@ -66,5 +69,12 @@ Skorunuzu kurarken yalnız bankanın uygulamasındaki sayıya güvenmeyin. Kanad
 
 - [Financial Consumer Agency of Canada: kredi raporu ve skor temelleri](https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html)
 - [Financial Consumer Agency of Canada: kredi skorunu geliştirme](https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html)
+- [Financial Consumer Agency of Canada: banka hesabı açma ve kimlik kuralları](https://www.canada.ca/en/financial-consumer-agency/services/banking/opening-bank-account.html)
+- [Service Canada: SIN ne zaman istenir?](https://www.canada.ca/en/employment-social-development/services/sin/reports/code-of-practice.html)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Kredi raporu hatası ve dolandırıcılık](/makale/kanada-kredi-raporu-hata-dolandiricilik-rehberi)
+- [Yeni gelenler için TFSA katkı hakkı](/makale/kanada-yeni-gelenler-tfsa-katki-hakki-rehberi)

@@ -10,6 +10,9 @@ photoQuery: "family education savings planning Canada RESP"
 excerpt: "Yeni gelen aileler için RESP açma, beneficiary SIN, basic ve additional CESG, CLB, promoter seçimi ve çekim belgeleri."
 tags: ["RESP", "CESG", "Canada Learning Bond", "çocuk", "eğitim tasarrufu"]
 advisory: true
+heroImage: "/images/editorial/university-campus.jpg"
+heroAlt: "College Students in a University Campus"
+heroCredit: "Tima Miroshnichenko / Pexels"
 ---
 
 Registered Education Savings Plan, çocuğun eğitimi için tasarruf hesabıdır; kendi başına banka mevduatı, garanti edilmiş burs veya yalnızca yüksek gelirli ailelere ait bir ürün değildir. Yeni gelen aileler hesabı açarken beneficiary kimliği, Kanada ikameti ve government benefits başvurusunu tamamlamazsa uygun hibeleri geciktirebilir.

@@ -10,6 +10,9 @@ photoQuery: "Canadian citizenship certificate proof application documents"
 excerpt: "Kanada citizenship certificate için ilk proof, replacement, kimlik, ebeveyn belgesi ve kayıt düzeltme rehberi."
 tags: ["citizenship certificate", "proof of citizenship", "vatandaşlık", "replacement", "IRCC"]
 advisory: true
+heroImage: "/images/editorial/community-diverse.jpg"
+heroAlt: "Happy diverse people laughing while drinking beverages"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Canadian citizenship certificate, kişinin Kanada vatandaşlığını kanıtlayan belgedir; passport veya seyahat belgesi değildir. Kanada'da doğmak, naturalization ile vatandaş olmak veya Canadian parent üzerinden vatandaşlık iddiası farklı kanıt zincirleri doğurabilir. Eski citizenship card, commemorative certificate veya provincial birth certificate her işlemde aynı işlevi görmez.

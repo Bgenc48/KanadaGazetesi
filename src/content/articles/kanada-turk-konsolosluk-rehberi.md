@@ -5,6 +5,7 @@ section: "turkiye-kanada"
 author: "Türkiye–Kanada Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-06-02
+updatedDate: 2026-08-31
 photoQuery: "embassy government building flag"
 excerpt: "Ottawa Büyükelçiliği ve başkonsolosluklar hangi işlemleri yapar? Randevu, belge ve hazırlık konusunda Kanada’daki Türkler için pratik konsolosluk rehberi."
 tags: ["konsolosluk", "büyükelçilik", "pasaport", "nüfus"]
@@ -42,11 +43,11 @@ Her konsolosluğun bir **yetki bölgesi** vardır; bulunduğunuz eyalete/şehre 
 
 ## Acil durumlar
 
-Pasaportunuzu kaybettiyseniz, bir yakınınız vefat ettiyse ya da hukuki bir sıkıntı yaşıyorsanız konsolosluk **acil durum hattıyla** ulaşılabilir. Bu numarayı, Kanada’ya gelir gelmez telefonunuza kaydetmek iyi bir alışkanlıktır. Konsolosluk avukat tutamaz veya sizin yerinize karar veremez; ama yol gösterir, belge düzenler ve gerektiğinde Türkiye’deki makamlarla köprü kurar.
+Pasaportunuzu kaybettiyseniz, bir yakınınız vefat ettiyse veya tutuklanma gibi gerçek bir konsolosluk acili varsa bağlı temsilciliğin yayımladığı **acil durum hattını** kullanın. Randevu, normal belge takibi ve bilgi soruları için acil hattı kullanmayın. Konsolosluk avukatlık yapamaz, mahkemeye müdahale edemez veya ücretlerinizi üstlenemez; görev sınırları içinde iletişim ve belge süreçleri hakkında yönlendirme sağlayabilir.
 
 ## Türkiye’deki işleriniz için
 
-Türkiye’deki tapu, miras ya da banka işlerinizi Kanada’dan yürütmeniz gerekiyorsa, çoğu zaman bir **vekâletname** yeterli olur. Konsoloslukta düzenlenen vekâlet, Türkiye’de bir yakınınızın ya da avukatınızın sizin adınıza işlem yapmasını sağlar. Bu, uçak bileti almadan birçok işi halletmenin en pratik yoludur.
+Türkiye’deki tapu, miras ya da banka işlemlerini Kanada’dan yürütmek için **vekâletname** kullanılabilir; ancak her kurumun istediği yetki metni, kimlik bilgisi ve belge biçimi farklı olabilir. Metni düzenletmeden önce Türkiye'deki alıcı kurumdan gerekli yetkileri yazılı alın. Geniş ve süresiz yetki yerine işlem için gereken kapsamı açıkça belirleyin; taşınmaz, miras veya uyuşmazlıkta Türkiye'de avukat görüşü alın.
 
 ## Özetle
 
@@ -62,3 +63,8 @@ Randevu onayı, ödeme makbuzu, kargo takip numarası ve teslim ettiğiniz belge
 - [T.C. Konsolosluk İşlemleri: resmî randevu ve işlem portalı](https://www.konsolosluk.gov.tr)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Mavi Kart başvurusu ve hakları](/makale/kanada-mavi-kart-basvuru-haklar-rehberi)
+- [Kanada’dan Türk pasaportu yenileme](/makale/kanadada-turk-pasaportu-basvuru-yenileme-rehberi)

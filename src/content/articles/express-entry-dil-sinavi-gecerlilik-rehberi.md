@@ -10,6 +10,9 @@ photoQuery: "Canada language test immigration study documents"
 excerpt: "Express Entry için onaylı İngilizce ve Fransızca sınav seçimi, sonuç girişi, CLB eşleştirmesi ve süre dolumu kontrol rehberi."
 tags: ["Express Entry", "dil sınavı", "CLB", "CELPIP", "IELTS", "TEF", "TCF"]
 advisory: true
+heroImage: "/images/editorial/passport-visa.jpg"
+heroAlt: "A Person Holding Passports"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Express Entry profilinde dil sonucu, yalnız puanı artıran bir ek değildir. Program uygunluğu ve Comprehensive Ranking System puanı onaylı sınavın dört beceri sonucuna dayanır. Sonucun profil oluştururken geçerli olması yetmez; permanent residence başvurusu gönderildiğinde de iki yıldan eski olmamalıdır.

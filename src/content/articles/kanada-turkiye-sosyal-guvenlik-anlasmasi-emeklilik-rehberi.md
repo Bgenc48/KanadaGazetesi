@@ -10,6 +10,9 @@ photoQuery: "Canada Turkey flags retirement documents"
 excerpt: "Kanada ve Türkiye'de çalışmış kişiler için sosyal güvenlik anlaşması, CPP, OAS ve Türk aylığı başvuru yolları rehberi."
 tags: ["sosyal güvenlik anlaşması", "CPP", "OAS", "emeklilik", "Türkiye-Kanada"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Kanada ile Türkiye arasında çalışmış veya yaşamış kişiler, iki ülkedeki sürelerinin emeklilik hakkını nasıl etkilediğini sıkça karıştırır. İkili anlaşma bütün primleri tek bir ülkede birleştirip tek aylık üretmez. Belirli durumlarda diğer ülkedeki sürelerin hak kazanma testinde dikkate alınmasına yardım eder; her ülke kendi mevzuatına göre ve yalnız kendisine ait kredilendirilebilir süreler üzerinden ödeme hesaplar.

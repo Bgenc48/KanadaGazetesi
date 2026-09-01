@@ -5,6 +5,7 @@ section: "toplum"
 author: "Toplum Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-06-09
+updatedDate: 2026-08-31
 photoQuery: "toronto skyline cn tower"
 heroImage: "/images/torontoda-turk-hayati-rehberi.jpg"
 heroAlt: "Toronto silüeti önünde bir araya gelmiş topluluk"
@@ -56,3 +57,8 @@ Topluluk içinde duyduğunuz bir adresi veya hizmeti kullanmadan önce kurumun k
 - [City of Toronto: Newcomer Services Kiosks](https://www.toronto.ca/community-people/moving-to-toronto/after-you-arrive-checklist/newcomer-services-kiosks/)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Toronto Türk topluluğu rehberi](/makale/toronto-turk-toplulugu-rehberi)
+- [Topluluk etkinliği düzenleme](/makale/kanadada-topluluk-etkinligi-duzenleme-rehberi)

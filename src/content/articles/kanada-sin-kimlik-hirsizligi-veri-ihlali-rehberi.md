@@ -10,6 +10,9 @@ photoQuery: "Social Insurance Number identity theft data breach Canada protectio
 excerpt: "Kanada'da SIN veri ihlali veya kimlik hırsızlığında hesapları güvenceye alma, bildirim ve kanıt dosyası hazırlama rehberi."
 tags: ["SIN", "kimlik hırsızlığı", "veri ihlali", "Service Canada", "kredi raporu"]
 advisory: true
+heroImage: "/images/editorial/family-multicultural.jpg"
+heroAlt: "Cheerful diverse family with toddler daughter having fun at home"
+heroCredit: "William Fortunato / Pexels"
 ---
 
 Social Insurance Number'ın bir veri ihlalinde açığa çıkması ile numaranın gerçekten vergi, kredi veya çalışma dolandırıcılığında kullanılması aynı olay değildir. Doğru müdahale; paniğe kapılıp tüm hesapları kapatmak yerine erişimi güvenceye almak, kurum bildirimlerini doğrulamak ve yetkisiz işlemleri tek kanıt çizelgesinde toplamaktır.

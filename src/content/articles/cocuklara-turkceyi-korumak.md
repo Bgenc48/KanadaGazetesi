@@ -5,6 +5,7 @@ section: "toplum"
 author: "Toplum Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-06-03
+updatedDate: 2026-08-31
 photoQuery: "parent child reading book together"
 excerpt: "Anadili korumanın bilinen yöntemleri: tutarlı dil kuralı, kitap, ekran dengesi ve hafta sonu okulları. Diasporada iki dilli çocuk büyütme rehberi."
 tags: ["çocuk", "dil", "Türkçe", "iki dillilik"]
@@ -13,11 +14,11 @@ heroCredit: "Direct Media / Openverse (CC0)"
 heroAlt: "Father Son"
 ---
 
-Diasporadaki birçok Türk ailenin en büyük sessiz kaygısı şudur: “Çocuğum büyüyünce benimle Türkçe konuşacak mı?” Endişe yersiz değil. Kanada’da okula başlayan bir çocuk, kısa sürede İngilizceyi (Québec’te Fransızcayı) **baskın dil** hâline getirebilir. Ama dilbilimcilerin yıllardır söylediği bir gerçek var: iki dillilik çocuğa zarar vermez; doğru kurulduğunda **bir armağandır.**
+Diasporadaki birçok Türk ailenin kaygısı şudur: “Çocuğum büyüyünce benimle Türkçe konuşacak mı?” Okul ve arkadaş çevresindeki İngilizce veya Fransızca zamanla baskın dil olabilir. Birden fazla dile maruz kalmak tek başına dil bozukluğu anlamına gelmez; çocuğun toplam iletişimi ve her iki dildeki gelişimi birlikte değerlendirilmelidir.
 
 ## Önce bir efsaneyi yıkalım
 
-“İki dil çocuğun kafasını karıştırır, konuşmasını geciktirir” inancı yaygındır ama büyük ölçüde yanlıştır. Çocuklar birden fazla dili aynı anda edinebilir. Geçici karışmalar (iki dili bir cümlede harmanlamak) normaldir ve zamanla yerine oturur. Asıl risk, dili karıştırmak değil, **anadiline yeterince maruz kalmamaktır.**
+Çocuklar birden fazla dili aynı anda edinebilir ve aynı cümlede diller arasında geçiş yapabilir. Kelime dağarcığını yalnız tek dilde ölçmek toplam beceriyi olduğundan düşük gösterebilir. İşitme, anlama, konuşma veya gerileme konusunda kaygı varsa “iki dillidir, geçer” diye beklemek yerine iki dili de dikkate alan bir çocuk doktoru veya konuşma-dil uzmanına başvurun.
 
 ## İşe yarayan yöntemler
 
@@ -26,7 +27,7 @@ Diasporadaki birçok Türk ailenin en büyük sessiz kaygısı şudur: “Çocu�
 - **Okuma kültürü.** Yaşa uygun Türkçe kitaplar edinin. Düzenli okunan birkaç kitap, kelime dağarcığını ekranlardan daha sağlıklı besler.
 - **Ekran dengesi.** Türkçe çizgi film ve içerik faydalı olabilir; ama ekran, **karşılıklı konuşmanın** yerini tutmaz. Dil, etkileşimle kök salar.
 
-> Çocuğunuz size İngilizce cevap verdiğinde Türkçe konuşmayı sürdürün. Bu küçük inat, yıllar içinde en büyük farkı yaratır.
+> Çocuğunuz başka dilde cevap verdiğinde onu utandırmadan Türkçe karşılık verin, söylediğini Türkçe olarak genişletin ve konuşmayı sürdürün.
 
 ## Hafta sonu okulları ve topluluk
 
@@ -47,5 +48,11 @@ Soyut bir “Türkçe konuşalım” hedefi yerine ölçülebilir bir düzen kur
 ## Kaynaklar ve doğrulama
 
 - [Statistics Canada: Kanada’da dil çeşitliliği ve evde konuşulan diller](https://www12.statcan.gc.ca/census-recensement/2021/as-sa/98-200-X/2021012/98-200-X2021012-eng.cfm)
+- [Canadian Paediatric Society: bebeklerle okuma, konuşma ve çok dilli gelişim](https://caringforkids.cps.ca/handouts/behavior-and-development/read_speak_sing_to_your_baby)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Yeni gelen çocuklar için okul kaydı](/makale/kanada-yeni-gelen-cocuk-okul-kayit-rehberi)
+- [Ücretsiz LINC ve CLIC dil kursları](/makale/kanada-linc-clic-ucretsiz-dil-kursu-rehberi)

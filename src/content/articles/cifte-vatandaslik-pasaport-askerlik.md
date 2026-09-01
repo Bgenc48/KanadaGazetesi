@@ -5,6 +5,7 @@ section: "turkiye-kanada"
 author: "Türkiye–Kanada Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-06-07
+updatedDate: 2026-08-31
 photoQuery: "passport travel documents"
 heroImage: "/images/cifte-vatandaslik-pasaport-askerlik.jpg"
 heroAlt: "Yan yana duran Türkiye ve Kanada pasaportları"
@@ -42,7 +43,7 @@ Bu konuda tek bir doğru tavsiye vardır: **güncel kuralları resmî kaynaktan 
 
 ## Çocuklar da iki kimliğin sahibi
 
-Kanada’da doğan ya da küçük yaşta gelen çocuklar çoğu zaman doğuştan iki vatandaşlığa sahip olabilir. Çocuğunuzun Türk nüfusuna kaydı, Türk pasaportu ve ileride askerlik durumu için erkenden konsolosluk işlemlerini tamamlamak ileride işleri kolaylaştırır.
+Kanada’da doğan çocuk, genel kural olarak Kanada vatandaşı olur. Anne veya babadan en az biri doğum tarihinde Türk vatandaşıysa çocuk Türk vatandaşlığını soybağıyla kazanabilir; ancak nüfus tescili ve belge işlemleri ayrıca tamamlanmalıdır. Ebeveynlerin statüsü, evlilik kaydı ve belgelerdeki ad farklılıkları sonucu etkileyebileceği için temsilcilikten dosyaya özgü liste alın.
 
 ## Özetle
 
@@ -55,6 +56,12 @@ Uçuş satın almadan önce iki pasaportun da son geçerlilik tarihini, bilettek
 ## Kaynaklar ve doğrulama
 
 - [Kanada hükümeti: çifte vatandaşların seyahat belgeleri](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/dual-canadian-citizens-visit-canada.html)
-- [T.C. Dışişleri Bakanlığı: konsolosluk ve temsilcilik bilgileri](https://www.mfa.gov.tr)
+- [T.C. Konsolosluk İşlemleri: çok vatandaşlık ve nüfus işlemleri](https://www.konsolosluk.gov.tr/Faq/Index?v=1.0.20)
+- [Nüfus ve Vatandaşlık İşleri: Türk vatandaşlığının doğumla kazanılması](https://www.nvi.gov.tr/turk-vatandasliginin-kazanilmasi)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Çifte vatandaşlıkta seyahat ve pasaport](/makale/kanada-cifte-vatandas-seyahat-pasaport-rehberi)
+- [Kanada’dan Türk pasaportu yenileme](/makale/kanadada-turk-pasaportu-basvuru-yenileme-rehberi)

@@ -10,6 +10,9 @@ photoQuery: "online image abuse safety evidence removal Canada support"
 excerpt: "Kanada'da consent olmadan intimate image paylaşımında kanıt koruma, kaldırma, polis ve gençler için destek rehberi."
 tags: ["mahrem görüntü", "intimate image", "online abuse", "polis", "platform şikâyeti"]
 advisory: true
+heroImage: "/images/editorial/newspaper-press.jpg"
+heroAlt: "Folded Newspapers"
+heroCredit: "Gül Işık / Pexels"
 ---
 
 Bir kişinin intimate image'ının consent olmadan paylaşılması veya paylaşma tehdidi, ciddi güvenlik ve mahremiyet ihlalidir. Görüntünün başlangıçta rızayla çekilmiş ya da gönderilmiş olması daha sonra dağıtım için consent verildiği anlamına gelmez. Çocuk veya genç görüntüsü söz konusuysa ek criminal ve child-protection kuralları uygulanabilir.

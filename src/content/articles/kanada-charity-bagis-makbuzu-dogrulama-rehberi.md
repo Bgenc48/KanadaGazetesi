@@ -10,6 +10,9 @@ photoQuery: "donor verifying charity receipt Canada"
 excerpt: "Kanada'da charity sicili, T3010 bilgisi, bağış kanalı, tax receipt zorunlu alanları ve şüpheli kampanya kontrolü."
 tags: ["charity", "bağış", "donation receipt", "CRA", "dolandırıcılık"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Kanada'da bir kuruluşun “non-profit” olduğunu söylemesi, vergi amaçlı official donation receipt düzenleyebileceği anlamına gelmez. Registered charity veya başka bir qualified donee statüsü, bağış kampanyasının güvenilirliği ve makbuzdaki tax credit uygunluğu ayrı ayrı doğrulanmalıdır. Sosyal medya takipçisi ya da tanıdık aracılığı bu kontrollerin yerine geçmez.

@@ -5,15 +5,16 @@ section: "rehber"
 author: "Kanada Gazetesi"
 authorTitle: "Rehber"
 pubDate: 2026-06-01
+updatedDate: 2026-08-31
 photoQuery: "moving boxes new home family"
 excerpt: "SIN, sağlık kartı, banka hesabı, telefon, konut ve okul kaydı: Kanada’ya yeni gelenler için ilk 30 günün eksiksiz, sıralı kontrol listesi."
 tags: ["yeni gelen", "kontrol listesi", "SIN", "yerleşim"]
 series: "Yeni Gelenler Rehberi"
 seriesOrder: 2
 advisory: true
-heroImage: "/images/yeni-gelen-ilk-30-gun-kontrol-listesi.jpg"
-heroCredit: "Wonderlane / Openverse (CC BY 2.0)"
-heroAlt: "Exorcised little wooden room, pink window curtain, transparent panel, closet, square of light, chairs, Rosie at the door (she won't come in), Red House, Seattle, Washington, USA"
+heroImage: "/images/editorial/community-hands.jpg"
+heroCredit: "Ivan Samkov / Pexels"
+heroAlt: "Group of People Putting Their Hands Together"
 ---
 
 Kanada’ya inişin heyecanı kısa sürede yerini bir soruya bırakır: “Şimdi nereden başlayacağım?” İyi haber, ilk ayın yapılacaklarının büyük ölçüde **belirli ve sıralı** olması. Bu kontrol listesini sırasıyla işlerseniz, ilk 30 günün sonunda Kanada’daki hayatınızın temel direkleri kurulmuş olur.
@@ -63,3 +64,9 @@ Kontrol listesini tamamlarken yalnız kutuyu işaretlemeyin. Her işlem için ba
 - [IRCC: Kanada’ya gelmeden önce ücretsiz hazırlık hizmetleri](https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/pre-arrival-services.html)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [SIN numarası başvurusu](/makale/sin-numarasi-basvurusu)
+- [Eyalet sağlık kartı ve aile hekimi](/makale/kanada-saglik-sistemi-kart)
+- [Kanada’da bankacılık ve kredi skoru](/makale/kanada-bankacilik-kredi-skoru)

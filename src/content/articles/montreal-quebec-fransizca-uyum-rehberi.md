@@ -10,6 +10,9 @@ photoQuery: "Montreal Quebec newcomers French class community"
 excerpt: "Montréal ve Québec'e yerleşen Türkçe okurlar için Fransızca kursları, uyum desteği, kamu hizmeti dili, iş ve toplum bağlantılarını açıklıyoruz."
 tags: ["Montréal", "Québec", "Fransızca", "Francisation Québec", "uyum"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Montréal'e taşınmak, İngilizce konuşulan bir Kanada şehrine taşınmakla aynı dil planı değildir. Québec'te Fransızca tek resmî ve ortak dildir; iş, eğitim, kamu hizmeti, ticaret ve günlük toplum hayatının merkezindedir. İngilizceyle bazı çevrelerde günlük ihtiyaçlar karşılanabilse de uzun vadeli yerleşim, iş ve kurumlarla ilişki için Fransızca somut bir altyapıdır.

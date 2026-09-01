@@ -10,6 +10,9 @@ photoQuery: "Regina Saskatchewan skyline diverse community"
 excerpt: "Regina'ya yeni gelenler için belediye, Saskatchewan yerleşim kuruluşları, dil, sağlık ve ulaşım hizmetleri rehberi."
 tags: ["Regina", "Saskatchewan", "yeni gelenler", "dil değerlendirmesi", "yerleşim"]
 advisory: false
+heroImage: "/images/editorial/home-buying.jpg"
+heroAlt: "Real Estate Agent Giving the Keys to the Buyer"
+heroCredit: "Kampus Production / Pexels"
 ---
 
 Regina'ya yeni taşınırken belediye, Saskatchewan ve federal işlemleri tek kurum yürütmez. Adres, sağlık, SIN, dil, iş, okul ve ulaşım için ayrı başvuru yolları vardır. İlk ayı kurumlara göre değil, aile ihtiyaçlarının son tarihine göre planlamak belge tekrarını azaltır.

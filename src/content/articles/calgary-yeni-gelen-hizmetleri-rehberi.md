@@ -10,6 +10,9 @@ photoQuery: "Calgary skyline diverse community"
 excerpt: "Calgary'ye yeni gelenler için belediye, Alberta, kütüphane, ulaşım ve yerleşim desteklerini bulma rehberi."
 tags: ["Calgary", "Alberta", "yeni gelenler", "311", "yerleşim hizmetleri"]
 advisory: false
+heroImage: "/images/editorial/professional-networking.jpg"
+heroAlt: "People in conference room"
+heroCredit: "Christina Morillo / Pexels"
 ---
 
 Calgary'ye taşınırken sağlık, okul, iş, ulaşım ve konut işlemleri farklı yönetim düzeylerine dağılır. City of Calgary belediye hizmetlerini; Alberta eyaleti sağlık, kimlik ve birçok sosyal programı; federal kurumlar ise SIN ve göçmenlik işlemlerini yönetir. Doğru başlangıç, her soruyu doğru kuruma yöneltmektir.

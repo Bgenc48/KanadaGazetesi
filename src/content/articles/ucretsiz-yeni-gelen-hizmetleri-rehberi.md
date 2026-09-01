@@ -10,9 +10,9 @@ photoQuery: "Canada newcomer community settlement service family"
 excerpt: "Kanada'daki ücretsiz newcomer hizmetlerini; uygunluk, 2026 süre değişikliği, iş, dil ve aile destekleriyle birlikte resmî kaynaklardan anlatıyoruz."
 tags: ["yeni gelenler", "settlement services", "LINC", "iş arama", "toplum hizmetleri"]
 advisory: true
-heroImage: "/images/ucretsiz-yeni-gelen-hizmetleri-rehberi.jpg"
-heroCredit: "archer10 (Dennis) / Openverse (CC BY-SA 2.0)"
-heroAlt: "DSC02679 - Canadian History Hall"
+heroImage: "/images/editorial/community-hands.jpg"
+heroCredit: "Ivan Samkov / Pexels"
+heroAlt: "Group of People Putting Their Hands Together"
 ---
 
 Kanada'ya yerleşirken göçmenlik formu doldurmak, iş aramak, dil sınıfına girmek ve çocuğu okula kaydetmek farklı kurumlarla temas gerektirir. Federal hükümetin finanse ettiği settlement service kuruluşları, uygun kişilere bu adımları ücretsiz ve yerel koşullara göre planlama desteği verir.

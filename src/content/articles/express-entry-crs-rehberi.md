@@ -10,9 +10,9 @@ photoQuery: "Canada immigration passport documents office"
 excerpt: "Express Entry program uygunluğu, CRS puanı, kategori bazlı çekilişler ve davet sonrası 60 günlük başvuruyu resmî IRCC kaynaklarıyla açıklıyoruz."
 tags: ["Express Entry", "CRS", "IRCC", "kalıcı oturum", "Kanada göçü"]
 advisory: true
-heroImage: "/images/express-entry-crs-rehberi.jpg"
-heroCredit: "Ken Heaton / Openverse (CC BY-SA 4.0)"
-heroAlt: "Glen Williams, Ontario'da tarihî bir kitapçı binası"
+heroImage: "/images/editorial/identity-culture.jpg"
+heroCredit: "Lara Jameson / Pexels"
+heroAlt: "Flags Pinned on a World Map"
 ---
 
 Express Entry tek başına bir göç programı değil, Kanada'nın nitelikli çalışan başvurularını yönettiği çevrimiçi seçim sistemidir. Aday önce sistem kapsamındaki programlardan en az birine uygun olduğunu gösterir, sonra havuza girer ve Comprehensive Ranking System puanıyla sıralanır. Havuza kabul edilmek kalıcı oturum başvurusu yapma hakkının verildiği anlamına gelmez; bunun için invitation to apply gerekir.

@@ -10,6 +10,9 @@ photoQuery: "Canada wind chill frostbite hypothermia winter safety layers"
 excerpt: "Kanada'da wind chill uyarısı, frostbite ve hypothermia belirtileri, dış çalışma, araç ve ısınma güvenliği rehberi."
 tags: ["wind chill", "donma", "hipotermi", "aşırı soğuk", "kış güvenliği"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Wind chill, hava sıcaklığı ile rüzgârın açık ciltte oluşturduğu soğuma etkisini ifade eder. Değer düştükçe frostbite ve hypothermia riski artar; çocuklar, yaşlılar, outdoor workers, evsiz kişiler ve bazı sağlık durumları olanlar daha erken etkilenebilir. Yalnız termometreye bakarak dışarıda kalış süresini belirlemeyin.

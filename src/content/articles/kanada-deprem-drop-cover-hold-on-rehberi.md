@@ -10,6 +10,9 @@ photoQuery: "earthquake Drop Cover Hold On drill Canada home"
 excerpt: "Kanada'da deprem öncesi ev hazırlığı, Drop Cover Hold On, araç güvenliği ve sarsıntı sonrası kontrol rehberi."
 tags: ["deprem", "Drop Cover Hold On", "erken uyarı", "Alert Ready", "tsunami"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Deprem tahmin edilemez, fakat saniyeler içinde alınan doğru pozisyon falling objects ve glass yaralanmasını azaltabilir. Kanada'da yüksek risk yalnızca western British Columbia ile sınırlı değildir; eastern Ontario ve Quebec dahil farklı bölgelerde moderate-to-high risk bulunur. Yerel hazard map ve building guidance'ı yaşadığınız municipality ve province üzerinden kontrol edin.

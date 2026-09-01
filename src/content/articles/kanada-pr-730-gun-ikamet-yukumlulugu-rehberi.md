@@ -10,6 +10,9 @@ photoQuery: "Canadian permanent resident residency obligation travel calendar"
 excerpt: "Kanada permanent resident statüsünde 730 günlük residency obligation hesabı, yurtdışı gün kredisi ve seyahat kanıtı rehberi."
 tags: ["permanent residence", "730 gün", "residency obligation", "PR card", "PRTD"]
 advisory: true
+heroImage: "/images/editorial/community-diverse.jpg"
+heroAlt: "Happy diverse people laughing while drinking beverages"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Kanada permanent resident statüsünü korumak için geçerli beş yıllık dönemde en az 730 gün residency obligation karşılanmalıdır. PR card üzerindeki son kullanma tarihi statünün otomatik bittiği tarih değildir; kart seyahat belgesidir. Buna karşılık kart geçerli olsa bile uzun yurtdışı kalışları residency examination doğurabilir.

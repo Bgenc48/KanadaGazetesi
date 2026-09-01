@@ -10,6 +10,9 @@ photoQuery: "immigration applicant checking IRCC status online Canada"
 excerpt: "IRCC başvurusunda AOR, UCI, application number, online tracker, GCKey hesabı, mesaj kontrolü ve teknik sorun kanıtı için pratik rehber."
 tags: ["IRCC", "başvuru takibi", "UCI", "application tracker", "GCKey"]
 advisory: true
+heroImage: "/images/editorial/identity-culture.jpg"
+heroAlt: "Flags Pinned on a World Map"
+heroCredit: "Lara Jameson / Pexels"
 ---
 
 IRCC başvurusunun gönderildiğini gösteren ödeme makbuzu, dosyanın işleme alındığını veya eksiksiz kabul edildiğini tek başına kanıtlamaz. Başvuru türüne göre acknowledgement of receipt, application number, secure account mesajı ve status tracker farklı zamanlarda oluşabilir. Yanlış kişinin bilgileriyle tekrar tekrar hesap açmak erişimi kolaylaştırmak yerine kilitlenme ve karışıklık yaratabilir.

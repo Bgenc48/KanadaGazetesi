@@ -10,6 +10,9 @@ photoQuery: "employee calculating home office expenses Canada receipts"
 excerpt: "Kanada çalışanları için home office deduction, T2200, T777, eligible gider ve çalışma alanı oranı rehberi."
 tags: ["home office expenses", "T2200", "T777", "line 22900", "CRA"]
 advisory: true
+heroImage: "/images/editorial/community-diverse.jpg"
+heroAlt: "Happy diverse people laughing while drinking beverages"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Kanada'da evden çalışan her employee otomatik home-office deduction alamaz. Çalışma düzeninin employment conditions içinde gerekli olması, giderleri sizin ödemeniz ve CRA'nın work-space testlerinden birini karşılamanız gerekir. Self-employed kişilerin business-use-of-home hesabı farklıdır; employee T2200/T777 yolunu aynen kullanmaz.

@@ -10,6 +10,9 @@ photoQuery: "applicant cancelling immigration application Canada refund document
 excerpt: "IRCC dosyasını geri çekmeden önce karar, işlem aşaması, program kanalı ve olası ücret iadesini yönetme rehberi."
 tags: ["IRCC", "başvuru geri çekme", "withdrawal", "ücret iadesi", "web form"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 IRCC başvurusunu geri çekmek, kuruma dosyanın işlenmesini kalıcı olarak durdurma talebi göndermektir. Talebi iletmek dosyanın otomatik olarak aynı anda kapanacağı veya tüm ücretlerin geri döneceği anlamına gelmez. IRCC başvurunun aşamasını ve additional review durumunu değerlendirir; final decision verilmişse withdrawal reddedilebilir.

@@ -10,6 +10,9 @@ photoQuery: "Winnipeg skyline diverse newcomer community"
 excerpt: "Winnipeg'e yeni gelenler için belediye, Manitoba, yerleşim kuruluşları, ulaşım ve toplum hizmetlerini bulma rehberi."
 tags: ["Winnipeg", "Manitoba", "yeni gelenler", "yerleşim hizmetleri", "toplum"]
 advisory: false
+heroImage: "/images/editorial/professional-networking.jpg"
+heroAlt: "People in conference room"
+heroCredit: "Christina Morillo / Pexels"
 ---
 
 Winnipeg'e yerleşirken belediye hizmetleri, Manitoba kayıtları ve federal işlemler farklı kanallardan yürür. Doğru kurumla başlamak, belge tekrarını ve ücretli aracı riskini azaltır. Adresiniz, statünüz ve aile ihtiyaçlarınızla kişisel bir hizmet haritası çıkarın; genel bir internet listesini olduğu gibi izlemeyin.

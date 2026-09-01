@@ -10,6 +10,9 @@ photoQuery: "Canadian winter storm blizzard home vehicle emergency kit"
 excerpt: "Kanada'da snow, freezing rain, blizzard ve uzun elektrik kesintisi öncesi ev ve araç hazırlığı rehberi."
 tags: ["kış fırtınası", "blizzard", "freezing rain", "WeatherCAN", "araç kiti"]
 advisory: true
+heroImage: "/images/editorial/wildfire-relief.jpg"
+heroAlt: "Firefighter Walking Towards a Forest Fire"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Kış fırtınası yalnızca yoğun kar değildir. Freezing rain, flash freeze, snow squall, blowing snow, blizzard ve uzun power outage aynı olay içinde birleşebilir. Görüş açık görünürken black ice oluşabilir; birkaç kilometre içinde snow squall nedeniyle koşullar hızla değişebilir. Resmî warning sırasında zorunlu olmayan yolculuğu ertelemek en etkili güvenlik kararıdır.

@@ -10,6 +10,9 @@ photoQuery: "Atlantic Canada coastal town workplace"
 excerpt: "Atlantic Immigration Program ile kalıcı oturum için işveren designation, iş teklifi, settlement plan ve endorsement adımlarını açıklayan rehber."
 tags: ["Atlantic Immigration Program", "AIP", "iş teklifi", "endorsement", "kalıcı oturum"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Atlantic Immigration Program, New Brunswick, Nova Scotia, Prince Edward Island ile Newfoundland and Labrador'da yaşamak ve çalışmak isteyen nitelikli çalışanlar ve belirli uluslararası mezunlar için kalıcı oturum yoludur. Programın merkezinde sıradan bir iş teklifi değil, eyaletçe designated edilmiş bir işverenden uygun teklif bulunur.

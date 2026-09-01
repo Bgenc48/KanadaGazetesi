@@ -10,6 +10,9 @@ photoQuery: "police clearance certificate immigration Canada documents"
 excerpt: "Kanada göçmenlik başvurularında polis belgesi, ülke talimatı, çeviri, aile üyeleri, alınamayan belge ve geçerlilik kontrol rehberi."
 tags: ["polis belgesi", "police certificate", "adli sicil", "IRCC", "permanent residence"]
 advisory: true
+heroImage: "/images/editorial/courthouse-justice.jpg"
+heroAlt: "Courthouse Justice Building"
+heroCredit: "Sora Shimazaki / Pexels"
 ---
 
 Kanada göçmenlik başvurusunda police certificate, başvuru sahibinin kendi beyanının yerine değil, kabul edilebilirlik incelemesine destek olarak kullanılır. Hangi ülkeden, hangi tarihte ve hangi makamdan belge alınacağı program ile ikamet geçmişine göre değişir. Türkiye'den alınmış tek bir adli sicil belgesinin bütün ülke geçmişini kapsadığı varsayılmamalıdır.

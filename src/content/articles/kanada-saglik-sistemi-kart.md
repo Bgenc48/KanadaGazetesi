@@ -5,6 +5,7 @@ section: "yasam"
 author: "Yaşam Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-04-28
+updatedDate: 2026-08-31
 photoQuery: "hospital clinic reception healthcare canada"
 excerpt: "Kanada'da sağlık federal değil eyalet işi. Kartınızı nasıl alacağınızı ve neyin kapsam dışı olduğunu anlatıyoruz."
 tags: ["sağlık", "sigorta", "aile hekimi", "eyalet"]
@@ -18,7 +19,7 @@ Kanada'nın kamu sağlık sistemi ülkenin en bilinen özelliklerinden biri. Yen
 
 ## Sağlık eyalet işidir
 
-Sağlık sigortası federal değil, eyalet düzeyinde yürütülüyor. Ontario'nun kartı Britanya Kolumbiyası'nda geçerli değil. Her eyaletin kendi kartı, kendi başvuru koşulu ve kendi kapsam listesi var.
+Sağlık sigortası federal değil, eyalet ve bölge düzeyinde yürütülüyor. Her planın kendi kartı, başvuru koşulu ve kapsam listesi var. Başka bir eyalette alınan gerekli hekim veya hastane hizmetleri için karşılıklı faturalama uygulanabilse de tüm hizmetlerin ve ücretlerin otomatik karşılanacağını varsaymayın; seyahatten önce kendi planınızın eyalet dışı kapsamını kontrol edin.
 
 Eyalet değiştirirseniz yeni eyaletin kartına başvurmanız gerekiyor ve genelde bir geçiş dönemi uygulanıyor. Bu dönemde eski eyaletin kartı belirli sınırlar içinde geçerli sayılabiliyor.
 
@@ -26,7 +27,7 @@ Eyalet değiştirirseniz yeni eyaletin kartına başvurmanız gerekiyor ve genel
 
 Bazı eyaletler yeni yerleşenlere kart vermeden önce bir bekleme süresi uyguluyor. Bu dönemde kamu kapsamı başlamıyor. Yeni gelenlerin en sık düştüğü tuzak burası: kart başvurusu yapıldı diye kapsamın hemen başladığını sanmak.
 
-Bekleme dönemi olan eyaletlerde geçici özel sigorta yaptırmak gerekiyor. Bu sigortalar görece ucuz ama olmadığında bir acil servis başvurusu ciddi bir fatura üretebiliyor.
+Bekleme dönemi olan bir yerde veya henüz kamu planına uygun değilseniz geçici özel sigortayı değerlendirin. Poliçenin mevcut hastalık, gebelik, reçete ve acil bakım istisnalarını satın almadan önce okuyun; sigorta etiketi tek başına her masrafın karşılanacağı anlamına gelmez.
 
 ## Başvuru için ne gerekiyor?
 
@@ -40,11 +41,11 @@ Türkiye'den getirilen doğum ve evlilik belgelerinin onaylı çevirisi bazı i�
 
 ## Aile hekimi bulmak
 
-Sistemin kapısı **family doctor**. Bir sorun yaşadığınızda önce ona gidiyorsunuz, uzman görmeniz gerekiyorsa sevk o veriyor. Sevk olmadan uzmana gitmek çoğu durumda mümkün olmuyor.
+Birçok düzenli sağlık ihtiyacında ilk temas **family doctor** veya nurse practitioner olur. Kamu tarafından karşılanan pek çok uzmanlık hizmeti sevk ister; ancak acil servis, walk-in klinik, eczacı ve bazı hizmetler için erişim yolu eyalete ve hizmet türüne göre değişir.
 
 Sorun şu: pek çok bölgede aile hekimi bulmak kolay değil. Hasta kabul eden hekim listeleri var ve bekleme listeleri uzun olabiliyor. Bu süreçte **walk-in klinikler** kullanılıyor; randevusuz gidiliyor, ama dosyanız tek yerde birikmediği için süreklilik sağlanmıyor.
 
-Türkçe konuşan hekim arayanlar için topluluk dernekleri ve çevre tavsiyesi en pratik kaynak. Ayrıca hastanelerde ücretsiz tercüman talep etme hakkınız var; dil kaygısıyla randevuyu ertelemek yerine tercüman istemek çok daha güvenli.
+Türkçe konuşan hekim arayanlar topluluk ve eyalet hekim dizinlerinden yararlanabilir. Dil desteğine ihtiyacınız varsa randevu sırasında kurumun profesyonel tercüman hizmeti sağlayıp sağlamadığını sorun; hizmetin ücretsizliği ve erişim yöntemi kuruma göre değişebilir. Tıbbi kararları mümkünse çocuk veya rastgele bir tanıdık üzerinden çevirmeyin.
 
 ## Neler kapsam dışı?
 
@@ -64,7 +65,7 @@ Hayati tehlike varsa 911 aranıyor. Acil servisler aciliyet sırasına göre ça
 
 ## Çocuklar ve aşılar
 
-Çocuk aşıları eyalet programlarıyla ücretsiz sunuluyor ve kayıtları merkezi olarak tutuluyor. Okul kaydında aşı kaydının güncel olması isteniyor.
+Çocukluk aşı programları ve kayıt sistemleri eyalete göre yürütülür. Kamu programındaki aşılar uygun kişiler için karşılanabilir; okul veya halk sağlığı birimi kayıt isteyebilir ve kurallar eyalete göre değişir.
 
 Türkiye'de yapılmış aşıların kayda işlenmesi mümkün. Aşı karnesinin çevirisiyle hekime başvurduğunuzda eksikler değerlendirilip takvim tamamlanıyor. Bu adımı ertelemek sonradan okul kaydında pürüz çıkarabiliyor.
 
@@ -95,3 +96,8 @@ Kapsam kuralları, bekleme süreleri ve başvuru koşulları eyaletlere göre de
 - [IRCC: Kanada’nın kamu sağlık sistemine erişim](https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/universal-system.html)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Yeni gelenlerin ilk üç aylık sağlık planı](/makale/kanada-saglik-sistemi-yeni-gelenler)
+- [Kanada Diş Bakım Planı](/makale/kanada-cdcp-dis-bakim-plani-rehberi)

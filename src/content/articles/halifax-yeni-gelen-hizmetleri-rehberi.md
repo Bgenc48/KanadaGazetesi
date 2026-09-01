@@ -10,6 +10,9 @@ photoQuery: "Halifax waterfront diverse community newcomers"
 excerpt: "Halifax'a yeni gelenler için Nova Scotia yerleşim kuruluşları, sağlık kartı, ulaşım ve belediye hizmetlerini sıralayan rehber."
 tags: ["Halifax", "Nova Scotia", "yeni gelenler", "MSI", "yerleşim hizmetleri"]
 advisory: false
+heroImage: "/images/editorial/professional-networking.jpg"
+heroAlt: "People in conference room"
+heroCredit: "Christina Morillo / Pexels"
 ---
 
 Halifax'a yerleşen bir ailenin ilk işlemleri üç düzeye dağılır: belediye ulaşım ve yerel hizmetleri, Nova Scotia sağlık ve yerleşim programlarını, federal kurumlar ise SIN ve göçmenlik dosyalarını yönetir. Halifax Regional Municipality sınırları içindeki Halifax, Dartmouth, Bedford ve çevre topluluklarında adresiniz hangi hizmete ulaşacağınızı etkileyebilir.

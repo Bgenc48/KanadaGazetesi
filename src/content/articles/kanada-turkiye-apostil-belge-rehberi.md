@@ -10,9 +10,9 @@ photoQuery: "official document apostille Canada Turkey notary"
 excerpt: "Kanada ile Türkiye arasında kullanılacak belgelerde apostil, noter, tercüme ve yetkili makam sırasını güncel resmî kaynaklarla anlatıyoruz."
 tags: ["apostil", "belge tasdiki", "noter", "tercüme", "Kanada-Türkiye"]
 advisory: true
-heroImage: "/images/kanada-turkiye-apostil-belge-rehberi.jpg"
-heroCredit: "The government of the Republic of the Philippines. / Wikimedia Commons (Public domain)"
-heroAlt: "Order Apostille for PSA Documents icon (Apostille.gov.ph).png"
+heroImage: "/images/editorial/passport-visa.jpg"
+heroCredit: "RDNE Stock project / Pexels"
+heroAlt: "A Person Holding Passports"
 ---
 
 Kanada'da düzenlenmiş doğum veya evlilik belgesi, diploma, vekâletname ya da şirket kaydı Türkiye'deki bir kuruma sunulacaksa ilk soru “apostili nereden alırım?” olmamalıdır. Önce belgeyi isteyen makamdan hangi belgenin, aslının mı onaylı kopyasının mı, hangi tarihten yeni ve hangi dilde istendiğini yazılı öğrenin. Gerekmeyen bir belgeye noter, tercüme ve apostil yaptırmak zaman ve para kaybettirir.

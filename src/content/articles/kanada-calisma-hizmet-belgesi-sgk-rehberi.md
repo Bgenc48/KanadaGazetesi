@@ -10,6 +10,9 @@ photoQuery: "Canada employment service records Turkish pension application"
 excerpt: "Kanada çalışma süreleri için konsolosluk hizmet belgesi hazırlama ve SGK emeklilik veya yurtdışı borçlanma dosyasına sunma rehberi."
 tags: ["çalışma belgesi", "hizmet belgesi", "SGK", "CPP", "yurtdışı borçlanma"]
 advisory: true
+heroImage: "/images/editorial/tech-office-workers.jpg"
+heroAlt: "Woman presenting to colleagues"
+heroCredit: "fauxels / Pexels"
 ---
 
 Kanada'da çalışılan sürelerin Türkiye'deki SGK işleminde kullanılabilmesi için yalnızca résumé veya işveren mektubu yeterli olmayabilir. Konsolosluk tarafından düzenlenen çalışma/hizmet belgesi, Kanada kayıtlarının belirli dönem ve statüyle doğrulanmasına dayanır. Hangi belgenin gerektiği, işlemin yurtdışı borçlanma, aylık talebi, sosyal güvenlik sözleşmesi veya başka bir amaç taşımasına göre değişir.

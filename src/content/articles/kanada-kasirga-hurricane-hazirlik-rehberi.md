@@ -10,6 +10,9 @@ photoQuery: "Atlantic Canada hurricane preparation storm surge evacuation home"
 excerpt: "Kanada'da hurricane forecast, storm surge, ev ve araç hazırlığı, tahliye ve fırtına sonrası güvenlik rehberi."
 tags: ["kasırga", "hurricane", "storm surge", "tahliye", "Atlantic Canada"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Atlantic Canada ve başka kıyı bölgelerinde tropical storm veya hurricane; şiddetli rüzgâr, yoğun yağış, sel, storm surge, dalga ve uzun elektrik kesintisini birlikte getirebilir. Saffir-Simpson category yalnız wind'i anlatır; düşük category ya da post-tropical fırtına da ciddi su ve altyapı riski oluşturabilir.

@@ -10,6 +10,9 @@ photoQuery: "credit report identity fraud protection Canada"
 excerpt: "Kanada kredi raporunda hata veya kimlik dolandırıcılığı fark edildiğinde iki bureau, dispute, fraud alert ve resmi raporlama adımları rehberi."
 tags: ["kredi raporu", "Equifax", "TransUnion", "fraud alert", "kimlik hırsızlığı"]
 advisory: true
+heroImage: "/images/editorial/courthouse-justice.jpg"
+heroAlt: "Courthouse Justice Building"
+heroCredit: "Sora Shimazaki / Pexels"
 ---
 
 Kanada'da kredi raporu ile kredi skoru aynı şey değildir. Rapor hesapları, ödeme geçmişini, inquiry ve kimlik bilgilerini gösterir; skor bu verilerden üretilen sayısal değerlendirmedir. Equifax ile TransUnion farklı bilgiler taşıyabilir, bu nedenle yalnız bir uygulamadaki skora bakmak hata veya kimlik dolandırıcılığını yakalamayabilir.

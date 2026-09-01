@@ -10,6 +10,9 @@ photoQuery: "Canada legal aid clinic lawyer consultation documents"
 excerpt: "Kanada'da criminal, family, immigration veya civil konuda legal aid, duty counsel ve community clinic bulma rehberi."
 tags: ["legal aid", "adli yardım", "duty counsel", "hukuk kliniği", "avukat"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Kanada'da legal aid province ve territory programları üzerinden yürütülür; kapsam, income/asset testi ve desteklenen hukuk alanları bölgeye göre değişir. Legal aid başvurusu yapmak avukat-client ilişkisini veya court deadline extension'ını otomatik oluşturmaz. Duty counsel, certificate lawyer ve community legal clinic farklı hizmetlerdir.

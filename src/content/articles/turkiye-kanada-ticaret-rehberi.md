@@ -78,3 +78,8 @@ Ucuz fabrika fiyatı yüksek hacimli veya denetime tabi üründe landed cost ava
 ## Kaynaklar ve güncellik
 
 Bu rehber Global Affairs Canada'nın 2024 ikili ticaret verisi, Ocak 2026 JETCO bildirisi, Trade Commissioner Service ve Statistics Canada ticaret veri aracına dayanır. Güncel tarife, yaptırım, ithalat izni ve ürün standardını sözleşme ve sevkiyat tarihinde yeniden doğrulayın.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Kanada-Türkiye serbest ticaret müzakereleri](/makale/kanada-turkiye-serbest-ticaret-anlasmasi-muzakereleri-2026)
+- [Kanada’dan Türkiye’ye para transferi](/makale/kanadadan-turkiyeye-para-transferi-rehberi)

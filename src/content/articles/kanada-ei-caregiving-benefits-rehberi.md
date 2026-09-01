@@ -10,6 +10,9 @@ photoQuery: "Canada EI caregiving benefits family caregiver medical support"
 excerpt: "EI family caregiver ve compassionate care benefits için uygun programı, tıbbi kanıtı ve paylaşılan haftaları yönetme rehberi."
 tags: ["EI caregiving", "bakım veren", "compassionate care", "medical certificate", "Service Canada"]
 advisory: true
+heroImage: "/images/editorial/credit-score.jpg"
+heroAlt: "Person Using a Computer and Holding a Credit Card"
+heroCredit: "Mikhail Nilov / Pexels"
 ---
 
 Employment Insurance caregiving benefits, ciddi hasta veya yaralı bir family member'a bakım ya da destek vermek için çalışmasından uzak kalan uygun kişiye geçici gelir desteği sağlayabilir. Child, adult ve end-of-life durumları için farklı benefit türleri ve azami hafta sayıları vardır; yanlış program seçimi dosyayı geciktirebilir.

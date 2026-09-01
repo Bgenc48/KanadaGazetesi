@@ -10,6 +10,9 @@ photoQuery: "Turkey inheritance estate documents from Canada heirs property"
 excerpt: "Kanada'da yaşayan mirasçılar için Türkiye ölüm tescili, mirasçılık belgesi, veraset vergisi ve tapu intikali rehberi."
 tags: ["miras", "veraset", "intikal", "tapu", "veraset vergisi"]
 advisory: true
+heroImage: "/images/editorial/passport-visa.jpg"
+heroAlt: "A Person Holding Passports"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Türkiye'de malvarlığı bulunan kişinin vefatında ölüm tescili, mirasçıların ve payların belirlenmesi, veraset ve intikal vergisi beyannamesi, borç araştırması ve taşınmaz tescili farklı işlemlerdir. Kanada probate veya will belgesi Türkiye'deki bütün aşamaları otomatik tamamlamaz.

@@ -10,6 +10,9 @@ photoQuery: "Canadian citizenship physical presence travel calendar calculation"
 excerpt: "Kanada vatandaşlığı için 1.095 günlük fiziksel bulunma hesabını, PR öncesi kredi ve seyahat kanıtlarıyla hazırlama rehberi."
 tags: ["vatandaşlık", "fiziksel bulunma", "1095 gün", "seyahat geçmişi", "IRCC"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Kanada vatandaşlığı başvurusunda fiziksel bulunma hesabı, yalnızca pasaport damgalarını saymaktan ibaret değildir. Başvurunun imzalandığı tarihten önceki beş yıllık eligibility period, permanent resident olarak geçirilen günler, bazı PR öncesi günlerin yarım gün kredisi ve Kanada dışındaki her hareket birlikte değerlendirilir.
@@ -22,7 +25,7 @@ IRCC'nin [vatandaşlık uygunluk sayfası](https://www.canada.ca/en/immigration-
 
 Permanent resident olmadan önce Kanada'da authorized temporary resident veya protected person olarak geçirilen uygun her gün yarım gün sayılabilir ve bu kredi en fazla 365 güne ulaşabilir. Visitor, student veya worker etiketi tek başına yeterli değildir; statünün gerçekten geçerli olduğu tarihleri permit, visitor record ve IRCC kararlarıyla doğrulayın. Refugee claimant olarak geçen her dönemin otomatik kredi olduğunu varsaymayın.
 
-IRCC'nin resmî [physical presence calculator](https://eservices.cic.gc.ca/rescalc/resCalcStartNew.do) aracını kullanın. Calculation period ve application date alanlarını kaydedin; sonucu PDF veya imzalı çıktı olarak başvuru paketiyle saklayın. Tam 1.095 gün sınırında başvurmak, küçük bir tarih hatasında uygunluğu kaybettirebilir. IRCC'nin önerdiği güvenlik payını ve kişisel seyahat belirsizliğinizi dikkate alın.
+IRCC'nin [fiziksel bulunma hesaplama sayfasından](https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/adult-minor/how/physical-presence.html) başvuru yönteminize uygun araca ilerleyin. Çevrimiçi vatandaşlık başvurusunda hesaplama başvuru hesabının içinde yapılır; kâğıt başvuru için çevrimiçi calculator çıktısı veya CIT 0407 formu kullanılabilir. Calculation period ve application date alanlarını kaydedin; gerekiyorsa basılı çıktıyı başvuru paketiyle saklayın. Tam 1.095 gün sınırında başvurmak, küçük bir tarih hatasında uygunluğu kaybettirebilir. Kişisel seyahat belirsizliğinizi hesaba katan bir güvenlik payı bırakın.
 
 ## Her çıkış ve dönüşü bağımsız kayıtlarla uzlaştırın
 

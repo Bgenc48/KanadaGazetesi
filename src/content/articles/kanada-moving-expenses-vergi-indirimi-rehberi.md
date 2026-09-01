@@ -10,6 +10,9 @@ photoQuery: "family moving boxes Canada tax receipts relocation"
 excerpt: "İş, işletme veya tam zamanlı eğitim için taşınanların line 21900 moving expenses deduction kayıt ve beyan rehberi."
 tags: ["moving expenses", "line 21900", "T1-M", "CRA", "taşınma"]
 advisory: true
+heroImage: "/images/editorial/retirement-planning.jpg"
+heroAlt: "Person Putting Coin in a Piggy Bank"
+heroCredit: "Joslyn Pickens / Pexels"
 ---
 
 Kanada'da taşınma masrafı, yalnızca adres değiştirdiğiniz için vergi indirimine dönüşmez. Genel kuralda yeni evinizin, yeni work location veya qualifying school'a eski evden en az 40 kilometre daha yakın olması gerekir. Mesafe shortest usual public route üzerinden hesaplanır. Ayrıca taşınma, yeni yerde çalışmak, business yürütmek veya uygun full-time post-secondary education amacıyla yapılmalıdır.

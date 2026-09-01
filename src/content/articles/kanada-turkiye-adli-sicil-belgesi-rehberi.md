@@ -10,6 +10,9 @@ photoQuery: "Turkish criminal record certificate application Canada documents"
 excerpt: "Kanada'da kullanılacak Türkiye adli sicil belgesini doğru amaç, dil ve arşiv kaydı seçimiyle alma ve sunma rehberi."
 tags: ["adli sicil", "e-Devlet", "IRCC", "polis belgesi", "konsolosluk"]
 advisory: true
+heroImage: "/images/editorial/community-diverse.jpg"
+heroAlt: "Happy diverse people laughing while drinking beverages"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Kanada'daki bir göçmenlik, vatandaşlık, çalışma, lisanslama veya iş başvurusu için Türkiye'den adli sicil belgesi istenebilir. Fakat “sabıka kaydı” adıyla tek bir evrensel paket yoktur. Belgeyi isteyen Kanada kurumunun tarih aralığı, arşiv kaydı, dil, tercüme ve doğrulama talimatı dosyanın ölçüsüdür. Önce o talimatı kaydedin; ardından Türkiye'deki doğru kanaldan belgeyi üretin.

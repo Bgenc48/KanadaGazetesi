@@ -10,6 +10,9 @@ photoQuery: "wildfire smoke city Canada air purifier indoors"
 excerpt: "Orman yangını dumanında AQHI uyarısı, PM2.5, ev havalandırması, air purifier CADR, maske ve yüksek riskli kişiler için plan."
 tags: ["orman yangını dumanı", "AQHI", "PM2.5", "air purifier", "hava kalitesi"]
 advisory: true
+heroImage: "/images/editorial/wildfire-relief.jpg"
+heroAlt: "Firefighter Walking Towards a Forest Fire"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Orman yangını kilometrelerce uzakta olsa bile ince parçacıklar Kanada'da iç ve dış hava kalitesini etkileyebilir. Dumanın kokusunun azalması havanın güvenli olduğu anlamına gelmez; Air Quality Health Index, yerel advisory ve kişisel sağlık durumunu birlikte izlemek gerekir. Evdeki her “air purifier” etiketi de duman parçacıklarını aynı hızda filtrelemez.

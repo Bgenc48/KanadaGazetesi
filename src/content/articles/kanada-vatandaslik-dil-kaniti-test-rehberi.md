@@ -10,6 +10,9 @@ photoQuery: "Canadian citizenship language proof test preparation study"
 excerpt: "Kanada vatandaşlığı başvurusunda dil kanıtı, yaş koşulu, test daveti ve Discover Canada hazırlığını yönetme rehberi."
 tags: ["vatandaşlık", "dil kanıtı", "citizenship test", "Discover Canada", "IRCC"]
 advisory: true
+heroImage: "/images/editorial/community-diverse.jpg"
+heroAlt: "Happy diverse people laughing while drinking beverages"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Kanada vatandaşlığı başvurusunda dil kanıtı ile citizenship test iki ayrı uygunluk kapısıdır. Yaşınız, başvuruyu imzaladığınız tarihte hangi yükümlülüklerin uygulandığını belirler. Permanent residence dosyasında daha önce dil sonucu sunmuş olmanız, yanlış belge veya eksik kimlik bilgisiyle yapılan vatandaşlık başvurusunu otomatik tamamlamaz.

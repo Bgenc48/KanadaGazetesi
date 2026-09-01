@@ -10,6 +10,9 @@ photoQuery: "Kelowna Okanagan lake diverse newcomers community"
 excerpt: "Kelowna'ya yeni gelenler için B.C. settlement hizmetleri, MSP, iş, ulaşım, konut ve acil durum hazırlığı rehberi."
 tags: ["Kelowna", "Okanagan", "British Columbia", "yeni gelenler", "yerleşim"]
 advisory: false
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Kelowna'ya yerleşme planı yalnız ev ve iş bulmaktan oluşmaz. B.C. sağlık kapsamı, statüye uygun settlement hizmeti, Okanagan ulaşımı, çocukların okul veya bakım kaydı ve mevsimsel acil durum hazırlığı farklı kanallardan yürür. Her aile üyesi için kurum, belge, son tarih ve takip numarası olan bir tablo kurun.

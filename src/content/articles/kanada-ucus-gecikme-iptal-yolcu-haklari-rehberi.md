@@ -10,6 +10,9 @@ photoQuery: "delayed flight passengers airport Canada departure board"
 excerpt: "Kanada'ya, Kanada'dan ve Kanada içi uçuşlarda gecikme veya iptal için rebooking, refund, treatment, compensation claim ve CTA kanıt dosyası."
 tags: ["uçuş gecikmesi", "uçuş iptali", "APPR", "CTA", "yolcu hakları"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Kanada'daki uçuş korumalarında her gecikme aynı tazminatı doğurmaz. Sonuç; uçuşu fiilen işleten havayoluna, gecikmenin kontrol kategorisine, güvenlik gerekçesine, varış gecikmesine ve havayolunun size sunduğu yeni plana bağlıdır. Havaalanında sözlü verilen tek cümle, sonradan yapılacak claim için yeterli kanıt olmayabilir.

@@ -10,6 +10,9 @@ photoQuery: "Quebec City skyline diverse newcomers community"
 excerpt: "Québec City'ye yeni gelenler için Fransızca, belediye kuruluş dizini, Québec hizmetleri, sağlık, iş ve ulaşım rehberi."
 tags: ["Québec City", "Québec", "Fransızca", "yeni gelenler", "yerleşim"]
 advisory: false
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Québec City'ye yerleşmek, Kanada'nın diğer eyaletlerindeki newcomer rotasını aynen izlemek değildir. Québec göç ve entegrasyon hizmetlerinin önemli bölümünü kendi kurumları üzerinden yürütür; Fransızca günlük yaşam, iş ve kamu hizmetlerinin merkezindedir. Belediyenin yerel dizinini eyalet ve federal işlemlerle ayırarak kullanın.

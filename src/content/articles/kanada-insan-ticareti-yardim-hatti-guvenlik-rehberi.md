@@ -10,6 +10,9 @@ photoQuery: "Canada human trafficking hotline confidential support community"
 excerpt: "Kanada'da labour veya sex trafficking işaretlerini tanıma, yardım hattına güvenli erişim ve kanıt koruma rehberi."
 tags: ["insan ticareti", "human trafficking", "yardım hattı", "işçi sömürüsü", "güvenlik"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 İnsan ticareti yalnız sınır geçirme olayı değildir. Kanada içinde çalışma veya cinsel sömürü amacıyla tehdit, şiddet, borç, aldatma, belgeye el koyma ya da başka kontrol yöntemleri kullanılması da trafficking göstergesi olabilir. Immigration statüsü veya yapılan iş, kişinin yardım isteme hakkını ortadan kaldırmaz.

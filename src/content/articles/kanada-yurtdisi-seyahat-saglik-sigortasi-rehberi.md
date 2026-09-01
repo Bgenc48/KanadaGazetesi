@@ -10,6 +10,9 @@ photoQuery: "travel health insurance Canada passport medical documents"
 excerpt: "Kanada'dan yurtdışı seyahatte sağlık sigortası, mevcut hastalık, tahliye, repatriation, advisory ve claim kontrolü rehberi."
 tags: ["seyahat sigortası", "sağlık sigortası", "pre-existing condition", "medical evacuation", "claim"]
 advisory: true
+heroImage: "/images/editorial/hospital-doctor.jpg"
+heroAlt: "Physician in White Coat Wearing a Stethoscope"
+heroCredit: "MART PRODUCTION / Pexels"
 ---
 
 Province sağlık kartı yurtdışındaki hastane, ambulans, doktor veya medical evacuation faturasını tam ve peşin karşılayan seyahat sigortası değildir. Kredi kartındaki paket de yalnız kartı taşımakla her yolcu ve her seyahat süresi için devreye girmeyebilir. Poliçeyi satın almadan önce kişi, rota, tarih ve sağlık durumuyla eşleştirin.

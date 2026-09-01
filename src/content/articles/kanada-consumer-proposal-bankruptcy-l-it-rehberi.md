@@ -10,6 +10,9 @@ photoQuery: "Canada licensed insolvency trustee consumer proposal debt counselli
 excerpt: "Kanada'da consumer proposal ve bankruptcy seçeneklerini, Licensed Insolvency Trustee doğrulaması ve borç dosyasıyla değerlendirme rehberi."
 tags: ["consumer proposal", "bankruptcy", "LIT", "borç", "insolvency"]
 advisory: true
+heroImage: "/images/editorial/family-multicultural.jpg"
+heroAlt: "Cheerful diverse family with toddler daughter having fun at home"
+heroCredit: "William Fortunato / Pexels"
 ---
 
 Kanada'da borç ödemekte zorlanan kişi için bütçe düzenleme, creditor negotiation, debt management plan, consumer proposal veya bankruptcy gibi farklı yollar bulunur. Consumer proposal ve bankruptcy, Bankruptcy and Insolvency Act kapsamında yalnız Licensed Insolvency Trustee tarafından yürütülen resmî süreçlerdir. “Debt consultant” unvanı aynı yetkiyi göstermez.

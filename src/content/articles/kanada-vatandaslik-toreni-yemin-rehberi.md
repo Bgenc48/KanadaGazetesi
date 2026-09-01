@@ -10,6 +10,9 @@ photoQuery: "Canadian citizenship ceremony oath certificate celebration"
 excerpt: "Kanada vatandaşlık töreni daveti, oath, PR card, citizenship certificate ve tören sonrası belge işlemleri rehberi."
 tags: ["vatandaşlık töreni", "citizenship oath", "vatandaşlık sertifikası", "PR card", "IRCC"]
 advisory: true
+heroImage: "/images/editorial/identity-culture.jpg"
+heroAlt: "Flags Pinned on a World Map"
+heroCredit: "Lara Jameson / Pexels"
 ---
 
 Kanada vatandaşlık başvurusu onay aşamasına geldikten sonra vatandaşlık statüsü yalnız karar ekranıyla değil, gerekli kişinin citizenship oath almasıyla tamamlanır. Online veya yüz yüze ceremony davetindeki tarih, saat, time zone, kimlik ve bağlantı koşullarını ayrı kontrol edin. Törene katılmadan yapılacak uluslararası seyahati mevcut PR belgelerinize göre planlayın.

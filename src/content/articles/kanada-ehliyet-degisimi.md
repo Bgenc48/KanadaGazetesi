@@ -5,6 +5,7 @@ section: "rehber"
 author: "Yaşam Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-05-26
+updatedDate: 2026-08-31
 photoQuery: "driving licence car keys winter road"
 excerpt: "Ehliyet Kanada'da eyalet işi. Türk ehliyetiyle ne kadar sürebileceğinizi ve geçmişinizi belgelemenin neden para kazandırdığını anlatıyoruz."
 tags: ["ehliyet", "araba", "sigorta", "eyalet"]
@@ -24,9 +25,9 @@ Bunun pratik sonucu şu: internette okuduğunuz bir bilgi başka bir eyalete ait
 
 ## Türk ehliyetiyle sürüş
 
-Ülkeye geldiğinizde geçerli Türk ehliyetinizle belirli bir süre araba kullanabiliyorsunuz. Bu süre eyalete ve statünüze göre değişiyor; genelde birkaç aydan bir yıla kadar uzanıyor.
+Geçerli Türk ehliyetiyle araç kullanabileceğiniz süre eyalete, ikamet durumuna ve belge koşullarına göre değişir. Turist için geçerli olan süreyi yeni yerleşen için de geçerli saymayın.
 
-Süre boyunca yanınızda ehliyetinizin onaylı çevirisi ya da uluslararası sürücü belgesi bulundurmanız isteniyor. Uluslararası belgeyi Türkiye'den çıkışta almak, burada çeviri kovalamaktan çok daha kolay.
+Ehliyet İngilizce veya Fransızca değilse eyalet, belirlediği kaynaktan çeviri ya da uluslararası sürücü belgesi isteyebilir. Hangi çevirmenin ve hangi belgenin kabul edildiğini varıştan önce eyalet kurumundan doğrulayın; uluslararası belge tek başına ehliyet değildir.
 
 Süre dolduğunda yerel ehliyete geçmemiş olmak ciddi risk. Ehliyetsiz sürüş sayılabiliyor ve bir kaza durumunda sigortanız devreye girmeyebiliyor.
 
@@ -40,11 +41,11 @@ Yeni gelenler için iyi haber şu: sürüş geçmişinizi belgelerseniz kademe a
 
 Bu belge yalnızca kademe için değil, sigorta primi için de önemli. Kanada'da otomobil sigortası primleri sürüş geçmişine çok duyarlı ve geçmişi olmayan sürücüler yüksek primle başlıyor.
 
-Türkiye'den alınacak hasarsızlık belgesi ve sürücü belgesi geçmiş dökümü, pek çok sigorta şirketi tarafından dikkate alınıyor. Her şirket kabul etmiyor, bu yüzden birkaç şirketten teklif almak ve bu belgeleri sunup sunamayacağınızı sormak anlamlı fark yaratıyor.
+Türkiye'den alınacak hasarsızlık belgesi ve sürücü geçmişi bazı sigortacılar tarafından dikkate alınabilir; kabul, biçim ve indirim şirket politikasına bağlıdır. Birkaç şirketten aynı kapsamla teklif alın ve yabancı geçmiş için hangi özgün veya çevrilmiş belgeyi kabul ettiklerini yazılı sorun.
 
 ## Sınavlar
 
-Türkiye, ehliyetleri doğrudan tanınan ülkeler listesinde yer almadığı için çoğu eyalette sınav isteniyor:
+Türkiye ile doğrudan değişim anlaşması bulunmayan eyaletlerde bilgi veya yol sınavı istenebilir. Kendi eyaletinizin güncel değişim listesini kontrol edin:
 
 - **Bilgi sınavı.** Trafik kuralları ve işaretler üzerine. Resmî sürücü el kitabından çalışılıyor; kitap ücretsiz.
 - **Yol sınavı.** Yerel kurallara göre sürüş. Kademeli sistemde birden fazla yol sınavı olabiliyor.
@@ -55,7 +56,7 @@ Göz muayenesi de yapılıyor. Sınav öncesi birkaç ders almak, alışkanlıkl
 
 Kanada'da sürüşün en zorlu tarafı kış. Buzlu ve karlı yolda fren mesafesi belirgin biçimde uzuyor, ani direksiyon hareketleri savrulmaya yol açıyor.
 
-Kış lastiği bazı eyaletlerde yasal zorunluluk, diğerlerinde ise sigorta indirimi getiriyor. Dört mevsim lastikler Kanada kışı için yeterli sayılmıyor. Lastik değişimi için sezon başlamadan randevu almak gerekiyor, çünkü servisler kısa sürede doluyor.
+Kış lastiği bazı eyaletlerde ve belirli tarihlerde yasal zorunluluk olabilir; başka yerlerde sigortacı indirimi sunabilir. “All-season” ve “all-weather” işaretleri aynı değildir. Yaşadığınız bölgenin sıcaklığı, yol koşulları, dağ geçidi kuralları ve lastik üzerindeki işaretlere göre seçim yapın.
 
 Araçta acil durum çantası bulundurmak yaygın bir alışkanlık: battaniye, kürek, buz kazıyıcı, takviye kablosu ve yedek eldiven.
 
@@ -63,7 +64,7 @@ Araçta acil durum çantası bulundurmak yaygın bir alışkanlık: battaniye, k
 
 Otomobil sigortası bazı eyaletlerde kamu kurumları, bazılarında özel şirketler tarafından sunuluyor. Kamu modelinde fiyatlar daha standart, özel modelde ise şirketler arasında ciddi fark çıkabiliyor.
 
-Zorunlu asgari kapsam her eyalette var ve genelde karşı tarafa verilen zararı karşılıyor. Kendi aracınızın hasarı için ayrı bir kapsam almanız gerekiyor. Eski ve düşük değerli bir araçta bu kapsamdan vazgeçmek makul olabiliyor, yeni bir araçta ise kaçınılmaz.
+Zorunlu kapsam ve tazminat modeli eyalete göre değişir. Çarpışma, kapsamlı hasar, muafiyet ve ikame araç gibi kalemleri poliçede ayrı okuyun. Finansman veya leasing sözleşmesi, aracın kendi hasarı için belirli teminatları zorunlu tutabilir.
 
 Prim; yaşınıza, ehliyet kademenize, sürüş geçmişinize, aracın modeline, yıllık kilometrenize ve oturduğunuz posta koduna göre belirleniyor. Aynı sürücü için şirketler arasında yüzlerce dolarlık fark çıkabildiği için, her yenilemede birkaç teklif almak alışkanlık haline getirilmeli.
 
@@ -78,6 +79,11 @@ Süreler, sınav muafiyetleri, tescil ücretleri ve sigorta koşulları eyaletle
 ## Kaynaklar ve doğrulama
 
 - [Ontario hükümeti: yabancı ehliyet değişimi ve deneyim belgesi](https://www.ontario.ca/page/exchange-out-province-drivers-licence)
-- [Transport Canada: eyalet ve bölge ulaştırma kurumları](https://tc.canada.ca/en/road-transportation/motor-vehicle-safety/canadian-motor-vehicle-traffic-collision-statistics-2022/provincial-territorial-government-links)
+- [Transport Canada: eyalet ve bölge ulaştırma kurumları](https://tc.canada.ca/en/road-transportation/motor-vehicle-safety/information-links)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [İkinci el araçta lien ve recall kontrolü](/makale/kanada-ikinci-el-arac-alma-lien-recall-kontrolu)
+- [Araç sigortası ve kaza hasarı](/makale/kanada-arac-sigortasi-kaza-hasar-rehberi)

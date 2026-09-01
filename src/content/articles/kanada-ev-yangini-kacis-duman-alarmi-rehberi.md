@@ -10,6 +10,9 @@ photoQuery: "home fire escape plan smoke alarm Canada family drill"
 excerpt: "Kanada'da duman ve karbonmonoksit alarmı, iki çıkış, aile buluşma noktası ve yangın sonrası güvenlik rehberi."
 tags: ["ev yangını", "duman alarmı", "kaçış planı", "yangın tatbikatı", "9-1-1"]
 advisory: true
+heroImage: "/images/editorial/wildfire-relief.jpg"
+heroAlt: "Firefighter Walking Towards a Forest Fire"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Ev yangınında duman görüşü ve hareketi kısa sürede engelleyebilir. Kaçış kararını olay anında üretmek yerine her odadan çıkışları, dış buluşma noktasını ve kimin çocuk, yaşlı veya hayvana yardım edeceğini önceden planlayın. Alarm çaldığında eşya toplamak veya yangını görmek için gecikmeyin.

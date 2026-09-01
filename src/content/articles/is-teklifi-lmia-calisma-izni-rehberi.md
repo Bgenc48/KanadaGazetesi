@@ -10,9 +10,9 @@ photoQuery: "Canada office workers employment contract documents"
 excerpt: "Kanada'da işverene bağlı çalışma izni, LMIA gereken ve muaf dosyalar ile açık izinleri resmî IRCC kaynaklarıyla ayırıyoruz."
 tags: ["LMIA", "çalışma izni", "iş teklifi", "IRCC", "Kanada'da çalışma"]
 advisory: true
-heroImage: "/images/is-teklifi-lmia-calisma-izni-rehberi.jpg"
-heroCredit: "displayelevenstore / Openverse (CC BY-SA 2.0)"
-heroAlt: "[DEEBARKHOUSE] 3"
+heroImage: "/images/editorial/business-meeting.jpg"
+heroCredit: "Christina Morillo / Pexels"
+heroAlt: "Group of People on a Conference Room"
 ---
 
 Kanada'dan iş teklifi almak, otomatik çalışma hakkı sağlamaz. Çoğu dosyada işveren önce kendi yükümlülüğünü tamamlar, ardından çalışan uygun work permit için başvurur. Bazı görevlerde Labour Market Impact Assessment gerekir; bazıları International Mobility Program kapsamında LMIA'dan muaftır. Açık çalışma izni ise yalnızca belirlenmiş uygunluk durumlarında verilir.
@@ -72,3 +72,7 @@ Danışman kullanıyorsanız yetkisini Kanada'nın resmî temsilci kayıtlarınd
 
 Bu rehber IRCC'nin 2026 tarihli employer-specific permit, dış başvuru belgeleri, özel programlar ve işveren değişikliği sayfalarına dayanır. Kurallar ve geçici kamu politikaları değişebilir. Başvuru tarihinde güncel IRCC talimatını yeniden açın; kişisel dosya için yetkili hukuk danışmanlığı alın.
 
+## İlgili Kanada Gazetesi rehberleri
+
+- [İşveren değiştirirken çalışma izni](/makale/kanada-isveren-degistirme-calisma-izni-rehberi)
+- [Francophone Mobility çalışma izni](/makale/kanada-francophone-mobility-calisma-izni-rehberi)

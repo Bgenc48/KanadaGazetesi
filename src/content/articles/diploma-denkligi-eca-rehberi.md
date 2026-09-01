@@ -5,6 +5,7 @@ section: "goc-ve-yerlesim"
 author: "Göç Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-06-10
+updatedDate: 2026-08-31
 photoQuery: "university graduation diploma certificate"
 excerpt: "ECA nedir, hangi kurumdan alınır, ne kadar sürer? Türk diplomanızı Kanada göç sisteminde ve iş piyasasında geçerli kılmanın yolu."
 tags: ["ECA", "WES", "diploma denkliği", "göç"]
@@ -21,13 +22,13 @@ Türkiye’de dört yıl üniversite okumuş, belki yüksek lisans yapmış biri
 ECA, “Türkiye’deki şu diploma, Kanada’daki şu seviyeye denktir” diyen bir değerlendirme raporudur. İki temel yerde karşınıza çıkar:
 
 - **Göç (Express Entry) başvurusunda:** Yurt dışı eğitiminizden CRS puanı alabilmek için ECA zorunludur.
-- **İş piyasasında:** Birçok işveren ve düzenleyici kurum, yabancı diplomayı ECA ile görmek ister.
+- **İş ve eğitim süreçlerinde:** Bazı işverenler veya eğitim kurumları yabancı diplomalar için ayrı bir değerlendirme isteyebilir. Göçmenlik amacıyla alınan ECA'nın bu kurumların istediği değerlendirmeyle aynı olduğunu varsaymayın.
 
 > ECA, mesleğinizi icra etme **ruhsatı değildir.** Doktor, mühendis, öğretmen, avukat gibi “düzenlemeye tabi meslekler” için ayrıca ilgili meslek kuruluşundan lisans almanız gerekir. ECA bu sürecin yalnızca ilk adımıdır.
 
 ## Hangi kurumdan alınır?
 
-Kanada göç idaresi (IRCC), ECA için yetkilendirilmiş belirli kuruluşları tanır. Türk diplomaları için en sık kullanılanı **WES** (World Education Services) olmakla birlikte, IARED, ICES, CES gibi başka yetkili kurumlar da vardır. Doktor ve eczacı gibi meslekler için değerlendirmeyi o mesleğe özel kurumlar yapar.
+Kanada göç idaresi (IRCC), ECA için belirli kuruluşları yetkilendirir. Genel eğitim değerlendirmelerinde **CES, ICAS, WES, IQAS ve ICES** seçenekleri bulunur. Birincil mesleği mimarlık, doktorluk veya eczacılık olan bazı adayların ise IRCC'nin belirlediği mesleki kurumu kullanması gerekir. Kurumun yetkisinin ve seçtiğiniz rapor türünün başvuru tarihinde hâlâ geçerli olduğunu IRCC listesinden doğrulayın.
 
 Doğru kurumu seçmeden önce mutlaka resmî [IRCC ECA sayfasını](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/education-assessed.html) kontrol edin; yetkili kurum listesi zaman zaman güncellenir.
 
@@ -35,7 +36,7 @@ Doğru kurumu seçmeden önce mutlaka resmî [IRCC ECA sayfasını](https://www.
 
 1. **Kurumu seçin ve hesap açın.** WES gibi kurumların çevrim içi başvuru sistemi vardır.
 2. **Belgelerinizi hazırlayın.** Genellikle diploma ve **transkript** istenir. Türk üniversiteleri çoğunlukla belgeleri doğrudan değerlendirme kurumuna kapalı/zarflı veya elektronik olarak göndermelidir.
-3. **Çeviri.** Türkçe belgelerin yeminli/onaylı İngilizce (veya Fransızca) çevirileri gerekir.
+3. **Çeviri talimatını okuyun.** Türkçe belgelerin çeviri ve gönderim biçimi seçilen kuruluşun güncel talimatına göre değişir; kuruma ait belge listesini aynen uygulayın.
 4. **Bekleyin.** Belgeler eksiksiz ulaştıktan sonra değerlendirme genellikle birkaç hafta sürer; ama belgelerin üniversiteden gönderilmesi en çok zaman alan kısımdır.
 
 ## Sık yapılan hatalar
@@ -46,7 +47,7 @@ Doğru kurumu seçmeden önce mutlaka resmî [IRCC ECA sayfasını](https://www.
 
 ## Özetle
 
-ECA, Kanada’daki kariyerinizin ilk resmî tuğlasıdır. Diplomanızın değerini ortaya koyar, göç puanınıza katkı verir ve iş piyasasında size meşruiyet kazandırır. En önemli tavsiye tek cümle: **erken başlayın.** Bu belgenin gecikmesi, koca bir göç sürecini bekletebilir.
+ECA, yabancı eğitimin Express Entry gibi göç programlarında hangi Kanada düzeyine karşılık geldiğini gösterir. Meslek ruhsatı veya iş garantisi değildir. Belge gönderimi zaman alabildiği için süreci başvuru takviminden önce başlatın ve yalnız IRCC'nin güncel yetkili kuruluş listesini kullanın.
 
 ## Sonucu doğru okumak
 
@@ -58,3 +59,8 @@ Rapor geldiğinde yalnızca “tamamlandı” durumuna bakmayın; Kanada karşı
 - [Kanada hükümeti: yabancı mesleki yeterliliklerin tanınması](https://www.canada.ca/en/employment-social-development/programs/foreign-credential-recognition.html)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Express Entry ve CRS](/makale/express-entry-crs-rehberi)
+- [Kanada’da iş arama ve networking](/makale/kanadada-is-arama-ozgecmis-networking-rehberi)

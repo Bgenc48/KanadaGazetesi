@@ -10,6 +10,9 @@ photoQuery: "person reporting online fraud Canada police bank records"
 excerpt: "Kanada'da fraud veya cybercrime sonrasında ödeme durdurma, kanıt koruma, polis ve CAFC bildirim adımları."
 tags: ["CAFC", "dolandırıcılık", "cybercrime", "polis bildirimi", "kimlik hırsızlığı"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Dolandırıcılık fark edildiğinde ilk hedef faili internette teşhir etmek değil, devam eden para ve hesap erişimini durdurmaktır. Banka transferi, kart, crypto, gift card veya e-transfer kullandıysanız ilgili financial institution'ın fraud birimini resmî uygulama ya da kartın arkasındaki numaradan hemen arayın. Aktif tehdit, kişinin bulunduğunuz yere gelmesi veya can güvenliği riski varsa 911'i kullanın.

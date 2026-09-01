@@ -5,6 +5,7 @@ section: "yasam"
 author: "Yaşam Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-06-05
+updatedDate: 2026-08-31
 photoQuery: "snowy winter street canada"
 heroImage: "/images/ilk-kanada-kisina-hazirlik.jpg"
 heroAlt: "Karla kaplı bir Kanada sokağında yürüyen, kalın giyinmiş insanlar"
@@ -45,7 +46,7 @@ Kar ve buzda yazlık lastik tehlikelidir. Québec gibi bazı eyaletlerde **kış
 
 ## Karanlık ve D vitamini
 
-Kanada kışında günler kısalır; güneşi az gören birçok kişi yorgunluk ve moral düşüklüğü yaşar. Doktora danışarak **D vitamini** takviyesi, gün ışığından mümkün olduğunca yararlanmak ve düzenli hareket, kış morali için işe yarar küçük adımlardır.
+Kanada kışında günler kısalır; uyku, enerji veya ruh halinde kalıcı değişiklik fark edebilirsiniz. Gün ışığından yararlanmak ve güvenli düzenli hareket yardımcı olabilir. D vitamini ya da başka bir takviyeyi kişisel sağlık durumunuza ve kullandığınız ilaçlara göre hekim veya eczacıyla değerlendirin; genel internet önerisini kişisel doz saymayın.
 
 ## Kışı sevmek mümkün
 
@@ -61,3 +62,8 @@ Kış hazırlığının son parçası, hava durumunu yalnız sıcaklık üzerind
 - [Public Safety Canada: aşırı soğuğa hazırlık](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/extreme-cold/how-prepare.html)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Kış fırtınası ve blizzard güvenliği](/makale/kanada-kis-firtinasi-blizzard-guvenlik-rehberi)
+- [Wind chill, donma ve hipotermi](/makale/kanada-wind-chill-donma-hipotermi-rehberi)

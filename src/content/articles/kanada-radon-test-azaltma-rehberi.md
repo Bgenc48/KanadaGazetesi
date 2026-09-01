@@ -10,6 +10,9 @@ photoQuery: "radon detector lowest lived level Canadian home"
 excerpt: "Kanada evlerinde uzun süreli radon cihazı yerleşimi, sonuç okuma ve certified azaltma uzmanı seçme rehberi."
 tags: ["radon", "ev testi", "200 Bq/m3", "Health Canada", "konut güvenliği"]
 advisory: true
+heroImage: "/images/editorial/professional-networking.jpg"
+heroAlt: "People in conference room"
+heroCredit: "Christina Morillo / Pexels"
 ---
 
 Radon, toprak ve kayadaki uranium'ın doğal parçalanmasından oluşan radioactive gazdır. Görülmez, kokmaz ve tadılmaz; evdeki düzeyi bina yaşı, bölge veya komşunun sonucuna bakarak güvenilir biçimde tahmin edilemez. Uzun süreli radon maruziyeti lung cancer riskini artırır. Evinizdeki düzeyi öğrenmenin yolu doğru yerleştirilmiş uzun süreli testtir.

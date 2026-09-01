@@ -10,6 +10,9 @@ photoQuery: "extreme heat cooling centre Canada summer"
 excerpt: "Kanada'da heat warning, ev serinletme, su tüketimi, riskli kişiler, fan sınırı ve heat stroke için acil müdahale kontrolü."
 tags: ["aşırı sıcak", "heat warning", "heat stroke", "cooling centre", "acil durum"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Kanada'da aşırı sıcak yalnızca gündüz dışarıda çalışanları etkilemez. Gece serinlemeyen apartman, üst kat, ilaç kullanımı, kronik hastalık, yalnız yaşama ve klimaya erişememe riski artırabilir. Heat warning'i bekleyip ilk kez serinleme yeri aramak, özellikle ulaşımı sınırlı kişiler için geç kalmak anlamına gelebilir.

@@ -10,6 +10,9 @@ photoQuery: "bank complaint documents consumer Canada"
 excerpt: "Kanada'da banka uyuşmazlığında kanıt dosyası, iç şikâyet süreci, 56 günlük sınır, OBSI ve FCAC rollerini ayırma rehberi."
 tags: ["banka şikâyeti", "OBSI", "FCAC", "tüketici hakları", "56 gün"]
 advisory: true
+heroImage: "/images/editorial/credit-score.jpg"
+heroAlt: "Person Using a Computer and Holding a Credit Card"
+heroCredit: "Mikhail Nilov / Pexels"
 ---
 
 Kanada'da bir bankayla yaşanan ücret, transfer, hesap kapatma, fraud, kredi veya hizmet uyuşmazlığında telefonla “itiraz ettim” demek resmi complaint sürecini başlatmaya yetmeyebilir. Bankanın şikâyeti hangi tarihte aldığı, hangi dosya numarasını verdiği ve hangi çözümü istediğiniz yazılı olmalıdır.

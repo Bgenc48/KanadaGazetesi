@@ -10,6 +10,9 @@ photoQuery: "power of attorney Turkish consulate Canada legal documents"
 excerpt: "Kanada'dan Türkiye'deki işlem için konsoloslukta vekâletname düzenlerken yetki, belge, randevu ve iptal adımları rehberi."
 tags: ["vekâletname", "noterlik", "konsolosluk", "tapu", "Türkiye"]
 advisory: true
+heroImage: "/images/editorial/community-diverse.jpg"
+heroAlt: "Happy diverse people laughing while drinking beverages"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Vekâletname yalnız “birine iş yaptırma kâğıdı” değildir. Metindeki her yetki, Türkiye'deki banka, tapu, dava, miras, şirket veya araç işleminin kapsamını belirleyebilir. Gereğinden geniş yetki kötüye kullanım riski yaratırken eksik yetki işlemin reddedilmesine ve yeni randevuya yol açabilir.

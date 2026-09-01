@@ -10,6 +10,9 @@ photoQuery: "Canada Turkey tax documents calculator flags"
 excerpt: "Kanada ve Türkiye arasında yaşayanlar için vergi mukimliği, dünya geliri, çifte vergilendirme anlaşması ve kayıt planı rehberi."
 tags: ["vergi mukimliği", "çifte vergilendirme", "CRA", "Türkiye-Kanada", "dünya geliri"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Kanada ile Türkiye arasında yaşayan veya gelir elde eden kişiler için ilk soru vatandaşlık değil, ilgili dönemde vergi bakımından hangi ülkede mukim olunduğudur. Göçmenlik izni, pasaport ve vergi mukimliği ilişkili olabilir fakat aynı test değildir. Maaş, kira, şirket, yatırım veya emeklilik gelirinin sonucu gelir türüne ve ikili anlaşmanın ilgili maddesine göre değişir.

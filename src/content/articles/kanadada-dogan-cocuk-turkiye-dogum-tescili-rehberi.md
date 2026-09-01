@@ -10,6 +10,9 @@ photoQuery: "newborn birth certificate Canada Turkey consular documents"
 excerpt: "Kanada'da doğan çocuğun Türkiye nüfusuna tescilinde belge, evlilik durumu, görevli temsilcilik ve sonraki kimlik işlemleri rehberi."
 tags: ["doğum tescili", "nüfus", "konsolosluk", "Kanada", "Türk vatandaşlığı"]
 advisory: true
+heroImage: "/images/editorial/students-campus-life.jpg"
+heroAlt: "College students walking on campus"
+heroCredit: "Tima Miroshnichenko / Pexels"
 ---
 
 Kanada'da düzenlenen provincial birth certificate ile çocuğun Türkiye aile kütüğüne kaydı aynı işlem değildir. Kanada belgesi doğumu yerel sistemde kanıtlar; Türkiye doğum tescili ise anne-baba kayıtları, vatandaşlık ve aile durumuna göre dış temsilcilik üzerinden yürütülür. Kimlik veya pasaport başvurusunu, doğum kaydı tamamlanmadan yapılabilecek bağımsız bir işlem gibi planlamayın.

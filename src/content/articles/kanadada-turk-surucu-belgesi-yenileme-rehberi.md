@@ -10,6 +10,9 @@ photoQuery: "Turkish driving licence renewal consulate Canada"
 excerpt: "Kanada'daki Türk vatandaşları için T.C. sürücü belgesi yenileme randevusu, kimlik, sağlık, fotoğraf, ücret ve teslim kontrolü."
 tags: ["sürücü belgesi", "ehliyet yenileme", "konsolosluk", "Kanada", "T.C. kimlik"]
 advisory: true
+heroImage: "/images/editorial/identity-culture.jpg"
+heroAlt: "Flags Pinned on a World Map"
+heroCredit: "Lara Jameson / Pexels"
 ---
 
 Kanada province driver’s licence sahibi olmak, süresi dolan veya eski tip Türk sürücü belgesini otomatik yenilemez. Türk belgesi Türkiye makamının, Canada licence ise province veya territory motor vehicle authority'nin işlemidir. Konsoloslukta yenileme imkânı bulunsa bile kabul edilen başvuru, sağlık, fotoğraf, ücret ve teslim ayrıntısı kişinin durumuna ve görevli temsilciliğe göre değişebilir.

@@ -10,6 +10,9 @@ photoQuery: "Canada electronic travel authorization passport online application"
 excerpt: "Kanada eTA uygunluğu, resmî başvuru, passport eşleştirme, approval ve airline boarding sorunlarını yönetme rehberi."
 tags: ["eTA", "pasaport", "Kanada seyahati", "IRCC", "uçuş"]
 advisory: true
+heroImage: "/images/editorial/passport-visa.jpg"
+heroAlt: "A Person Holding Passports"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Electronic Travel Authorization, belirli visa-exempt yabancıların Kanada'ya hava yoluyla seyahatinde passport'a elektronik olarak bağlanan izin kaydıdır. eTA vize, study veya work permit değildir ve Kanada'ya giriş garantisi vermez. Kara veya deniz yoluyla girişte aynı belge kuralı uygulanmayabilir.

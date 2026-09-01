@@ -10,6 +10,9 @@ photoQuery: "power outage flashlight home Canada winter"
 excerpt: "Kanada elektrik kesintisinde hydro bildirimi, tıbbi cihaz, ısı, carbon monoxide, jeneratör, buzdolabı, dondurucu ve geri dönüş kontrolü."
 tags: ["elektrik kesintisi", "jeneratör", "carbon monoxide", "gıda güvenliği"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Elektrik kesintisi yalnızca ışık sorunu değildir. Kışın ısıtma ve donan borular, yazın aşırı sıcak, elektriğe bağlı tıbbi cihazlar, asansör, su pompası, telefon şarjı ve soğuk zincir aynı anda etkilenebilir. Güvenli plan; kesintinin kapsamını doğrulamak, resmi uyarıyı izlemek, carbon monoxide üretmemek ve tahliye eşiğini önceden belirlemektir.

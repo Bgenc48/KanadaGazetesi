@@ -10,6 +10,9 @@ photoQuery: "Turkish Mavi Kart application consulate Canada identity documents"
 excerpt: "Kanada'da yaşayan eski Türk vatandaşları ve uygun altsoy için Mavi Kart kapsamını, başvuru belgelerini ve hak sınırlarını yönetme rehberi."
 tags: ["Mavi Kart", "Türk vatandaşlığı", "5901 sayılı Kanun", "konsolosluk", "nüfus kaydı"]
 advisory: true
+heroImage: "/images/editorial/business-meeting.jpg"
+heroAlt: "Group of People on a Conference Room"
+heroCredit: "Christina Morillo / Pexels"
 ---
 
 Mavi Kart, doğumla Türk vatandaşı olup çıkma izniyle vatandaşlığını kaybeden kişiler ile kanunda belirtilen altsoyları için Türkiye'deki belirli hakların kullanılmasını belgeleyen resmî karttır. Her eski Türk vatandaşı, vatandaşlığı hangi yolla kaybettiğine bakılmadan otomatik olarak bu kapsama girmez.

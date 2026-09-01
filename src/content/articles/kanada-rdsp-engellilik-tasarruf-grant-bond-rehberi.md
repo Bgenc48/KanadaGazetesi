@@ -10,6 +10,9 @@ photoQuery: "family disability savings planning Canada RDSP"
 excerpt: "RDSP açma uygunluğu, Disability Tax Credit, Canada Disability Savings Grant ve Bond, carry-forward ve uzun vadeli çekim planı."
 tags: ["RDSP", "DTC", "disability savings grant", "disability savings bond", "engellilik"]
 advisory: true
+heroImage: "/images/editorial/health-insurance.jpg"
+heroAlt: "A Doctor Writing on a Folder"
+heroCredit: "MART PRODUCTION / Pexels"
 ---
 
 Registered Disability Savings Plan, Disability Tax Credit onayı bulunan kişinin uzun vadeli tasarrufuna yöneliktir. RDSP'ye yatırılan her dolar aynı oranda government grant getirmez; Canada Disability Savings Bond ise uygun gelir düzeyinde kişisel katkı olmadan da ödenebilir. Beneficiary, holder ve contributor rolleri karıştırılırsa hesap yönetimi ve çekim beklentisi yanlış kurulabilir.

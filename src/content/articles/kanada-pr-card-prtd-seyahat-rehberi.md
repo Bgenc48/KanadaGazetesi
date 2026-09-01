@@ -10,6 +10,9 @@ photoQuery: "Canada permanent resident card passport travel"
 excerpt: "PR card yenileme, 730 günlük ikamet yükümlülüğü, Kanada dışındayken PRTD ve seyahat kanıtlarını düzenleme rehberi."
 tags: ["PR card", "PRTD", "permanent resident", "ikamet yükümlülüğü", "IRCC"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Kanada permanent resident statüsü ile PR card aynı şey değildir. Kartın süresinin dolması statüyü kendiliğinden sona erdirmez; fakat geçerli kartı olmayan bir permanent resident, Kanada'ya ticari uçak, tren, otobüs veya gemiyle dönerken belge sorunu yaşayabilir. Kart yenileme, ikamet yükümlülüğü ve yurtdışı seyahat planı ayrı değerlendirilmelidir.

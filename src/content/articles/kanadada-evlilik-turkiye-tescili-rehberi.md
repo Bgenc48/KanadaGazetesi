@@ -10,6 +10,9 @@ photoQuery: "Canada marriage certificate Turkey consular registration documents"
 excerpt: "Kanada'da yerel makam önünde yapılan evliliğin Türkiye nüfusuna tescili için belge, temsilcilik, posta ve kayıt kontrolü rehberi."
 tags: ["evlilik tescili", "nüfus", "konsolosluk", "Kanada", "Formül B"]
 advisory: true
+heroImage: "/images/editorial/business-meeting.jpg"
+heroAlt: "Group of People on a Conference Room"
+heroCredit: "Christina Morillo / Pexels"
 ---
 
 Kanada'da evlenme töreninin yapılması ile evliliğin Türkiye nüfus kayıtlarına işlenmesi iki ayrı idari aşamadır. Province veya territory tarafından düzenlenen marriage certificate yerel evliliği kanıtlar; Türkiye'deki tescil için görevli dış temsilciliğin istediği belge, beyan ve başvuru yöntemi ayrıca tamamlanır.

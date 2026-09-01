@@ -10,6 +10,9 @@ photoQuery: "passport travel history Turkey Canada entry exit records"
 excerpt: "Türkiye giriş-çıkış belgesini e-Devlet veya konsolosluk yoluyla alma ve Kanada dosyasındaki seyahat kayıtlarıyla eşleştirme rehberi."
 tags: ["giriş çıkış kaydı", "e-Devlet", "seyahat geçmişi", "pasaport", "konsolosluk"]
 advisory: true
+heroImage: "/images/editorial/passport-visa.jpg"
+heroAlt: "A Person Holding Passports"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Türkiye giriş-çıkış kaydı, sınır hareketlerini resmî veri üzerinden gösterir ve Kanada citizenship, immigration, tax residence, employment screening veya court dosyasında destekleyici belge olarak istenebilir. Bu kayıt, Kanada'daki bütün physical presence veya travel history hesabının kendisi değildir. Başka ülkeler arasındaki yolculukları, kara geçişlerini veya kayıt kapsamı dışındaki dönemleri tek başına göstermez.

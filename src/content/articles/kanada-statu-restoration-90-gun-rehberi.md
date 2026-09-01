@@ -10,6 +10,9 @@ photoQuery: "temporary resident restoring immigration status Canada application"
 excerpt: "Kanada'da visitor, student veya worker statüsü kaybedildiğinde 90 günlük restoration süresini ve faaliyet kısıtlarını yönetme rehberi."
 tags: ["restoration", "statü kaybı", "IRCC", "90 gün", "çalışma izni"]
 advisory: true
+heroImage: "/images/editorial/identity-culture.jpg"
+heroAlt: "Flags Pinned on a World Map"
+heroCredit: "Lara Jameson / Pexels"
 ---
 
 Kanada'da visitor, student veya worker statüsü sona erdiğinde yalnızca geç başvuru ücreti ödeyerek eski hakları kesintisiz sürdürmek mümkün değildir. Restoration, uygun kişinin temporary resident statüsünü yeniden istemesine yarayan ayrı bir başvurudur; onay garantisi vermez ve çoğu durumda karar beklenirken çalışma ya da eğitim hakkı sağlamaz.

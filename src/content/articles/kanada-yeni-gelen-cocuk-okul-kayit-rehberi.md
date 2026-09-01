@@ -10,6 +10,9 @@ photoQuery: "newcomer family child school registration Canada"
 excerpt: "Yeni gelen aileler için elementary ve secondary school kaydı, catchment, belge, seviye yerleştirme, dil desteği ve settlement worker planı."
 tags: ["okul kaydı", "yeni gelen", "school board", "çocuk", "dil desteği"]
 advisory: true
+heroImage: "/images/editorial/professional-networking.jpg"
+heroAlt: "People in conference room"
+heroCredit: "Christina Morillo / Pexels"
 ---
 
 Kanada'da çocuk için okul kaydı federal bir tek form üzerinden yapılmaz. Education province ve territory sorumluluğundadır; local school board, yaş, home address, language program ve available space hangi okula ve hangi belgelerle kayıt yapılacağını belirler. Kanada dışındaki sınıf numarasını doğrudan aynı grade'e çevirmek doğru yerleştirme garantisi değildir.

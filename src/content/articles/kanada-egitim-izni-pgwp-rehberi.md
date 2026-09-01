@@ -82,3 +82,8 @@ Eş veya partner için açık çalışma izni uygunluğu da program düzeyi ve b
 ## Kaynaklar ve güncellik
 
 Bu rehber IRCC'nin Ağustos 2026 itibarıyla yayımladığı study permit, DLI, PAL/TAL, mali kanıt ve PGWP sayfalarına dayanır. Okul kabulü göçmenlik onayı değildir; PGWP ve kalıcı oturum da garanti değildir. Ödeme veya başvuru öncesinde bağlantılı resmî sayfaları yeniden açın ve kişisel risk taşıyan dosyada yetkili hukuki görüş alın.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Study permit uzatma ve DLI değişikliği](/makale/kanada-study-permit-uzatma-dli-degisikligi-rehberi)
+- [Öğrenci kredisi RAP geri ödeme](/makale/kanada-student-loan-rap-geri-odeme-rehberi)

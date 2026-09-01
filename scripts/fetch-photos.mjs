@@ -18,7 +18,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { readFrontmatter, setFrontmatterFields } from './lib/frontmatter.mjs';
 import { downloadBuffer, optimizeToJpeg } from './lib/optimize.mjs';
 import { getProvider, triggerUnsplashDownload } from './lib/providers.mjs';
@@ -242,7 +242,7 @@ async function main() {
 }
 
 // Doğrudan çalıştırıldığında ana akış; testler yardımcıları içe aktarır.
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   main().catch((err) => {
     console.error(err);
     process.exit(1);

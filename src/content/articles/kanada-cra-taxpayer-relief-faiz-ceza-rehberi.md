@@ -10,6 +10,9 @@ photoQuery: "CRA taxpayer relief penalties interest request Canada records"
 excerpt: "CRA penalties ve interest için taxpayer relief talebi hazırlama, kanıt, dönem, ödeme planı ve karar takibi rehberi."
 tags: ["CRA", "taxpayer relief", "faiz", "ceza", "RC4288"]
 advisory: true
+heroImage: "/images/editorial/retirement-planning.jpg"
+heroAlt: "Person Putting Coin in a Piggy Bank"
+heroCredit: "Joslyn Pickens / Pexels"
 ---
 
 CRA taxpayer relief provisions, belirli koşullarda penalty ve interest'in iptal edilmesi veya azaltılması için discretionary talep yoludur. Bu süreç ana tax liability'yi, assessment'ın doğruluğunu veya filing obligation'ı kendiliğinden ortadan kaldırmaz. Vergi hesabına itiraz gerekiyorsa objection süresini ayrıca koruyun.

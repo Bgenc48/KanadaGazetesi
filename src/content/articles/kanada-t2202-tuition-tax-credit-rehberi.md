@@ -10,6 +10,9 @@ photoQuery: "student reviewing T2202 tuition tax form Canada"
 excerpt: "Kanada öğrencileri için T2202, line 32300, Schedule 11, tuition transfer ve carry-forward kayıt rehberi."
 tags: ["T2202", "tuition tax credit", "Schedule 11", "line 32300", "öğrenci vergisi"]
 advisory: true
+heroImage: "/images/editorial/students-campus-life.jpg"
+heroAlt: "College students walking on campus"
+heroCredit: "Tima Miroshnichenko / Pexels"
 ---
 
 Tuition tax credit, okul ücretinin tamamının nakit iadesi değildir. Eligible tuition amount, non-refundable federal credit hesabında vergi borcunu azaltabilir. T2202'de görünen enrolment months ile ödediğiniz toplam invoice aynı şey olmayabilir; student fees, books, residence ve transit gibi her kalem eligible tuition değildir.

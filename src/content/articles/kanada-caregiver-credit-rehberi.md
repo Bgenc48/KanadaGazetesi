@@ -10,6 +10,9 @@ photoQuery: "family caregiver supporting older adult Canada home"
 excerpt: "Canada Caregiver Credit için destek, fiziksel veya zihinsel impairment, dependant geliri ve Schedule 5 kayıt rehberi."
 tags: ["Canada Caregiver Credit", "bakım veren", "CRA", "Schedule 5", "dependant"]
 advisory: true
+heroImage: "/images/editorial/health-insurance.jpg"
+heroAlt: "A Doctor Writing on a Folder"
+heroCredit: "MART PRODUCTION / Pexels"
 ---
 
 Canada Caregiver Credit (CCC), physical veya mental infirmity bulunan uygun bir spouse, common-law partner ya da dependant'ı düzenli destekleyen kişiler için non-refundable tax credit'tir. Non-refundable olması, bakım giderinin nakit olarak geri ödeneceği anlamına gelmez; hesaplanan federal vergiyi azaltabilir. Hak ve tutar, ilişki, yaş, dependant net income ve aynı kişi için kullanılan diğer credit'lere göre değişir.

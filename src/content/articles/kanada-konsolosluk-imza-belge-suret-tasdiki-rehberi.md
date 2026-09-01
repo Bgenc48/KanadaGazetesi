@@ -10,6 +10,9 @@ photoQuery: "Turkish consulate signature document copy certification Canada nota
 excerpt: "Kanada'da Türk konsolosluğunda imza tasdiki, belge sureti, tercüme ve Canadian apostille yollarını ayırma rehberi."
 tags: ["imza tasdiki", "belge sureti", "noterlik", "konsolosluk", "apostil"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Türkiye'deki bir kurum “noter onaylı”, “aslı gibidir”, “imza tasdikli” veya “tasdikli tercüme” belge istediğinde hangi işlemin kastedildiği yazılı netleştirilmelidir. İmzanın huzurda atıldığını doğrulamak, mevcut belgenin kopyasını tasdik etmek, tercümanı onaylamak ve Canadian public document'a apostille almak farklı yollardır.

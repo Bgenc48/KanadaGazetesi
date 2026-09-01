@@ -10,6 +10,9 @@ photoQuery: "Turkish voters ballot consulate Canada"
 excerpt: "Kanada'daki Türk vatandaşları için yurtdışı seçmen kütüğü sorgusu, adres beyanı, askı dönemi, itiraz ve seçim günü belge planı."
 tags: ["yurtdışı seçmen", "YSK", "oy kullanma", "adres beyanı", "Kanada"]
 advisory: true
+heroImage: "/images/editorial/conference-hall.jpg"
+heroAlt: "People at Business Conference Presentation"
+heroCredit: "ICSA / Pexels"
 ---
 
 Kanada'da yaşamak veya konsoloslukta kayıtlı olmak, Yüksek Seçim Kurulu'nun yurtdışı seçmen kütüğünde doğru ülke ve adresle göründüğünüzü otomatik olarak garanti etmez. Oy kullanabilmek için seçmen kaydını, yurtdışı yerleşim yeri bilgisini ve seçim özelindeki sandık takvimini ayrı ayrı doğrulamak gerekir. Eski bir seçimin Kanada şehirleri ve tarihleri yeni seçim için kullanılamaz.

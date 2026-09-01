@@ -10,6 +10,9 @@ photoQuery: "new immigrant arrival Canada airport permanent residence"
 excerpt: "COPR kontrolü, Kanada dışından ilk giriş, Kanada içi e-COPR, ilk PR card adresi ve statü kanıtlarını koruma rehberi."
 tags: ["COPR", "e-COPR", "landing", "permanent residence", "PR card"]
 advisory: true
+heroImage: "/images/editorial/passport-visa.jpg"
+heroAlt: "A Person Holding Passports"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Confirmation of Permanent Residence, başvurunun onaylandığını gösterir; ancak belgenin hangi aşamada permanent resident statüsünü tamamladığı başvuru sahibinin Kanada dışında veya içinde olmasına göre değişir. COPR üzerindeki hata, geçerlilik tarihi veya yanlış seyahat varsayımı son adımda ciddi sorun yaratabilir.

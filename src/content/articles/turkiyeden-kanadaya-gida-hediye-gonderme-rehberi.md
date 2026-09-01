@@ -10,6 +10,9 @@ photoQuery: "Turkish food gift parcel Canada customs"
 excerpt: "Türkiye'den Kanada'ya gıda veya hediye getirirken CFIA ürün kuralları, AIRS araması, miktar ve gümrük beyanını kontrol etme rehberi."
 tags: ["gıda", "hediye", "CFIA", "AIRS", "gümrük"]
 advisory: true
+heroImage: "/images/editorial/turkish-food.jpg"
+heroAlt: "Platters with Food and Turkish Tea on Table"
+heroCredit: "Engin Akyurt / Pexels"
 ---
 
 Türkiye'den Kanada'ya lokum, baharat, peynir, et ürünü, tohum veya başka bir hediye göndermeden önce iki soruyu ayırın: ürün Kanada'ya girebilir mi ve vergi ya da gümrük muafiyeti var mı? Bir paketin “hediye” yazması hayvan, bitki veya gıda güvenliği kuralını kaldırmaz. Yolcu bagajı, posta ve kurye için izin sonucu da aynı olmayabilir.

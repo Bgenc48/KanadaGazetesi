@@ -10,6 +10,9 @@ photoQuery: "Turkish Canadian pension service records documents"
 excerpt: "Kanada'da geçen çalışma, işsizlik veya ev kadınlığı süreleri için SGK 3201 yurtdışı borçlanma şartları, belge ve ödeme kontrolü."
 tags: ["SGK", "yurtdışı borçlanma", "Kanada", "emeklilik", "3201"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Kanada'da çalışmış olmak, bütün ikamet yıllarının Türkiye'de otomatik prim gününe dönüşmesi anlamına gelmez. SGK yurtdışı borçlanması; kişinin vatandaşlık durumu, süre türü, yaşı, sunduğu resmî belge, seçtiği gün sayısı ve süresinde ödediği tahakkuk üzerinden değerlendirilir. Kanada–Türkiye sosyal güvenlik sözleşmesi kapsamındaki hizmet birleştirmesi ile borçlanma da aynı işlem değildir.

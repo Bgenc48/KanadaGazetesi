@@ -10,6 +10,9 @@ photoQuery: "Canada LINC newcomer language class English French learning"
 excerpt: "Yeni gelenler için LINC ve CLIC ücretsiz İngilizce-Fransızca kurslarında uygunluk, assessment ve sınıf seçimi rehberi."
 tags: ["LINC", "CLIC", "dil kursu", "yeni gelenler", "language assessment"]
 advisory: true
+heroImage: "/images/editorial/community-diverse.jpg"
+heroAlt: "Happy diverse people laughing while drinking beverages"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Language Instruction for Newcomers to Canada ve Fransızca Cours de langue pour les immigrants au Canada, uygun yetişkin yeni gelenlere ücretsiz dil eğitimi sunabilir. Program yalnız grammar dersi değildir; settlement, iş, günlük hizmetler ve Canadian Language Benchmarks etrafında practical communication geliştirebilir. Her ücretsiz community kursu LINC veya CLIC değildir.

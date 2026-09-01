@@ -10,6 +10,9 @@ photoQuery: "postsecondary student financial aid application Canada"
 excerpt: "Yeni gelenler için Canada Student Grants and Loans, province başvurusu, designated school, enrolment confirmation ve repayment kayıtları."
 tags: ["öğrenci yardımı", "student grant", "student loan", "NSLSC", "eğitim"]
 advisory: true
+heroImage: "/images/editorial/graduation-ceremony.jpg"
+heroAlt: "Graduates tossing caps"
+heroCredit: "Emily Ranquist / Pexels"
 ---
 
 Kanada'da üniversite veya college kabulü almak, Canada Student Grant ya da Loan için otomatik uygunluk sağlamaz. Yardım; residence status, province veya territory bağı, designated school/program, study load, mali ihtiyaç ve aile bilgileri gibi ölçütlerle değerlendirilir. Grant geri ödemesiz olabilirken loan borçtur; offer içindeki iki kalemi ayrı okumak gerekir.

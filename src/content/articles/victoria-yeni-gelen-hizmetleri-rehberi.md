@@ -10,6 +10,9 @@ photoQuery: "Victoria British Columbia harbour diverse community newcomers"
 excerpt: "Victoria'ya yeni gelenler için B.C. yerleşim hizmetleri, MSP, ulaşım, konut ve ilk ay işlemlerini sıralayan rehber."
 tags: ["Victoria", "British Columbia", "yeni gelenler", "MSP", "yerleşim"]
 advisory: false
+heroImage: "/images/editorial/professional-networking.jpg"
+heroAlt: "People in conference room"
+heroCredit: "Christina Morillo / Pexels"
 ---
 
 Victoria'ya taşınırken belediye, British Columbia ve federal işlemleri aynı kurum yürütmez. Ulaşım ve yerel hizmetler bölgesel düzeyde, sağlık kapsamı eyalet düzeyinde, SIN ve göçmenlik işlemleri ise federal düzeyde yönetilir. İlk haftayı kurum adlarına göre değil, sağlık, iş, okul, konut ve ulaşım ihtiyaçlarının son tarihine göre planlayın.

@@ -10,6 +10,9 @@ photoQuery: "smartphone internet router contract Canada"
 excerpt: "Kanada'da mobil telefon ve internet paketi seçerken sözleşme, promosyon, iptal ve CCTS şikâyet adımlarını açıklayan rehber."
 tags: ["telefon", "internet", "CRTC", "CCTS", "tüketici hakları"]
 advisory: false
+heroImage: "/images/editorial/remote-work.jpg"
+heroAlt: "Focused Woman Working Using Laptop"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Kanada'da telefon veya internet paketinin ilan fiyatı, gerçek aylık maliyeti tek başına göstermez. Promosyonun bitiş tarihi, cihaz finansmanı, aktivasyon, modem, veri aşımı, vergi ve iptal koşulu faturayı değiştirir. Satış görüşmesindeki vaatleri yazılı sözleşme ve critical information summary ile karşılaştırın.

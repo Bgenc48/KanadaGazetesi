@@ -10,6 +10,9 @@ photoQuery: "Canada 988 crisis helpline phone support community"
 excerpt: "Kanada'da 9-8-8 kriz hattına erişim, yakın tehlikeyi ayırma ve destek sonrası güvenlik planı hazırlama rehberi."
 tags: ["988", "kriz hattı", "ruh sağlığı", "intihar önleme", "acil destek"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Kanada'da intihar düşüncesi, kendine zarar verme riski veya yoğun duygusal kriz yaşayan kişi 9-8-8'i arayabilir ya da mesaj gönderebilir. Yardım istemek için durumun “yeterince ağır” olduğunu kanıtlama zorunluluğu yoktur. Bir yakınınız için endişeleniyorsanız da nasıl destek olacağınızı konuşmak üzere hatta ulaşabilirsiniz.

@@ -10,6 +10,9 @@ photoQuery: "Canada victim services support justice directory counselling"
 excerpt: "Kanada suç mağdurları için destek dizini, polis kaydı, court information, counselling ve financial assistance arama rehberi."
 tags: ["suç mağduru", "victim services", "polis", "mahkeme", "destek"]
 advisory: true
+heroImage: "/images/editorial/newspaper-press.jpg"
+heroAlt: "Folded Newspapers"
+heroCredit: "Gül Işık / Pexels"
 ---
 
 Bir suçtan zarar gören kişi için police report, medical care, counselling, shelter, court information ve financial assistance farklı kurumlar tarafından yürütülebilir. Polise bildirim yapmış olmak bütün desteklere otomatik kayıt anlamına gelmez; bazı hizmetlere polis raporu olmadan da erişim mümkün olabilir.

@@ -12,6 +12,9 @@ tags: ["BSF186", "goods to follow", "Kanada'ya taşınma", "CBSA", "gümrük"]
 series: "Yeni Gelenler Rehberi"
 seriesOrder: 8
 advisory: true
+heroImage: "/images/editorial/passport-visa.jpg"
+heroAlt: "A Person Holding Passports"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Kanada'ya taşınırken kolilerin limana varması işin sonu değil; kişisel ve ev eşyalarının ilk girişte doğru beyan edilmesi gerekir. Özellikle Türkiye'den daha sonra gönderilecek eşyanız varsa, “goods to follow” listesini ilk girişte kayda geçirmek vergi ve gümrük sürecinin temelidir. Taşıma şirketinin envanteri bu hazırlığa yardımcı olabilir, fakat beyan sorumluluğunu ithalatçıdan kaldırmaz.

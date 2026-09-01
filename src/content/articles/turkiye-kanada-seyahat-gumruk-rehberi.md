@@ -93,3 +93,8 @@ Reçeteli ilacı özgün ambalajında, adınıza düzenlenmiş reçete veya dokt
 ## Kaynaklar ve güncellik
 
 Bu rehber CBSA'nın Mart-Ağustos 2026 tarihli sınır kontrol listesi, kişisel eşya, gıda ve currency declaration sayfalarına dayanır. Vize, transit, havayolu ve ürün kısıtları değişebilir; her belgeyi bilet ve uçuş tarihinde ilgili ülkenin resmî makamından yeniden doğrulayın.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [eTA ve pasaport eşleştirme](/makale/kanada-eta-basvuru-pasaport-eslestirme-rehberi)
+- [Çifte vatandaşlıkta seyahat ve pasaport](/makale/kanada-cifte-vatandas-seyahat-pasaport-rehberi)

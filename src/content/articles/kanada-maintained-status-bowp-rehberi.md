@@ -10,6 +10,9 @@ photoQuery: "Canada immigration permit renewal calendar documents"
 excerpt: "Kanada'da geçici statü süresini, zamanında uzatmanın sağladığı maintained status'ü, restoration sınırlarını ve BOWP uygunluğunu anlatıyoruz."
 tags: ["maintained status", "BOWP", "restoration", "çalışma izni", "IRCC"]
 advisory: true
+heroImage: "/images/editorial/community-diverse.jpg"
+heroAlt: "Happy diverse people laughing while drinking beverages"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Kanada'daki study permit, work permit veya visitor kaydında en önemli tarih uçak bileti değil, statünün sona erme tarihidir. Permanent residence profili oluşturmak, havuzda beklemek veya işverenin “uzatacağız” demesi geçici statüyü kendiliğinden korumaz. Süre dolmadan doğru başvuruyu IRCC'ye ulaştırmak gerekir.

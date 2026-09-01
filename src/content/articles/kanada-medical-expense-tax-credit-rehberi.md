@@ -10,6 +10,9 @@ photoQuery: "family organizing medical receipts Canada tax return"
 excerpt: "Kanada'da medical expense tax credit için makbuz, geri ödeme, 12 aylık dönem ve dependant ayrımı rehberi."
 tags: ["medical expense", "vergi kredisi", "CRA", "sağlık gideri", "makbuz"]
 advisory: true
+heroImage: "/images/editorial/health-insurance.jpg"
+heroAlt: "A Doctor Writing on a Folder"
+heroCredit: "MART PRODUCTION / Pexels"
 ---
 
 Kanada'daki Medical Expense Tax Credit (METC), belirli sağlık giderleri için kullanılan non-refundable vergi kredisidir. Bu tanım, uygun giderin tamamının nakit olarak geri ödeneceği anlamına gelmez; kredi hesaplanan federal ve ilgili provincial veya territorial vergiyi azaltabilir. Gider türü, hizmet sağlayıcı, reçete veya certification gereksinimi ve hastanın kimliği sonucu değiştirir.

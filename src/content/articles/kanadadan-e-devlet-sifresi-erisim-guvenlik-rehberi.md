@@ -10,6 +10,9 @@ photoQuery: "Turkish citizen secure e government login Canada"
 excerpt: "Kanada'da yaşayan Türk vatandaşları için e-Devlet şifresi, konsolosluk randevusu, alternatif giriş, iki aşamalı güvenlik ve belge doğrulama."
 tags: ["e-Devlet", "konsolosluk", "şifre", "hesap güvenliği", "Kanada"]
 advisory: true
+heroImage: "/images/editorial/remote-work.jpg"
+heroAlt: "Focused Woman Working Using Laptop"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Kanada'dan e-Devlet'e erişememek, kişisel bilgileri mesajla bir aracıya gönderme veya arama sonucundaki ilk “şifre yenileme” sitesine girme nedeni değildir. e-Devlet Kapısı yalnızca resmî turkiye.gov.tr alanında kullanılmalı; konsolosluk şifre işlemi ile online hesap kurtarma seçenekleri kişinin mevcut doğrulama araçlarına göre ayrılmalıdır.

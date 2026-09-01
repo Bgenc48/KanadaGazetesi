@@ -10,9 +10,9 @@ photoQuery: "Canada couple family immigration documents home"
 excerpt: "Kanada'da eş, partner ve çocuk sponsorluğunu; sponsor uygunluğu, mali taahhüt, ilişki kanıtı ve açık çalışma izniyle birlikte açıklıyoruz."
 tags: ["aile sponsorluğu", "eş sponsorluğu", "kalıcı oturum", "IRCC", "open work permit"]
 advisory: true
-heroImage: "/images/es-aile-sponsorlugu-rehberi.jpg"
-heroCredit: "archer10 (Dennis) / Openverse (CC BY-SA 2.0)"
-heroAlt: "DSC01600 - Rose Bank Cottage & Workshop"
+heroImage: "/images/editorial/community-hands.jpg"
+heroCredit: "Ivan Samkov / Pexels"
+heroAlt: "Group of People Putting Their Hands Together"
 ---
 
 Kanada aile sponsorluğu, bir Kanada vatandaşı veya kalıcı oturum sahibinin yakınını basitçe “davet etmesi” değildir. Sponsor ve sponsor edilen kişi aynı dijital pakette ayrı yükümlülükler üstlenir; ilişkinin yasal tanımı, sponsorun geçmişi, aile bilgilerinin eksiksiz beyanı ve kalıcı oturum uygunluğu birlikte incelenir.
@@ -77,3 +77,8 @@ Kişi Kanada'daki geçici statüsünü korumalı ve work permit onayını beklem
 ## Kaynaklar ve güncellik
 
 Bu rehber IRCC'nin Haziran-Ağustos 2026 tarihli sponsor uygunluğu, tam başvuru, undertaking ve çalışma izni sayfalarına dayanır. Aile şiddeti, statü kaybı, çocuk velayeti, önceki sponsorluğun ihlali veya yanlış beyan riski bulunan dosyalarda yetkili hukuki görüş alın.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [Super visa başvurusu](/makale/kanada-super-visa-anne-baba-rehberi)
+- [Ziyaretçi vizesi dosyası hazırlama](/makale/kanada-ziyaretci-vizesi-trv-dosya-rehberi)

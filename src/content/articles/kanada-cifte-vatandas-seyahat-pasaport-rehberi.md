@@ -10,6 +10,9 @@ photoQuery: "dual Canadian citizen two passports international air travel"
 excerpt: "Kanada-Türkiye çifte vatandaşları için uçuşta Canadian passport, diğer ülke belgesi ve iki pasaportla rezervasyon yönetimi rehberi."
 tags: ["çifte vatandaşlık", "Canadian passport", "Türk pasaportu", "uçuş", "seyahat belgesi"]
 advisory: true
+heroImage: "/images/editorial/passport-visa.jpg"
+heroAlt: "A Person Holding Passports"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Kanada ve başka bir ülkenin vatandaşlığına sahip yolcu, aynı seyahatte iki pasaport taşıyabilir; ancak hangi belgenin airline check-in, Kanada'ya boarding, sınır girişi ve diğer ülke işlemlerinde gösterileceğini önceden ayırmalıdır. Bir pasaporttaki visa veya isim bilgisinin diğerine otomatik aktarıldığını varsaymayın.

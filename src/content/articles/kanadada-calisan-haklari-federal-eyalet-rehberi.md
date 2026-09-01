@@ -10,6 +10,9 @@ photoQuery: "Canada workplace employee office construction rights"
 excerpt: "Kanada'da işyerinin federal mi eyalet mi olduğunu belirleme, çalışma kaydı tutma ve doğru kuruma zamanında başvurma rehberi."
 tags: ["çalışan hakları", "employment standards", "fazla mesai", "Ontario", "Canada Labour Code"]
 advisory: true
+heroImage: "/images/editorial/policy-document.jpg"
+heroAlt: "Person Signing Documentation Paper"
+heroCredit: "Pixabay / Pexels"
 ---
 
 Kanada'da “çalışma yasası” tek bir ülke çapı kural kitabı değildir. Banka çalışanıyla restoran çalışanı aynı şehirde yaşasa bile farklı çalışma standartlarına tabi olabilir. Ücret, fazla mesai, izin veya işten çıkarma sorununda ilk adım hakkın miktarını hesaplamak değil, işyerinin federal mi yoksa eyalet veya bölge yetkisinde mi olduğunu belirlemektir.

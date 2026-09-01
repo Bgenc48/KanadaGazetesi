@@ -10,6 +10,9 @@ photoQuery: "client verifying immigration consultant credentials Canada"
 excerpt: "Göçmenlik danışmanı veya avukat seçerken sicil kontrolü, retainer, dosya erişimi, temsilci değişikliği ve dolandırıcılık bildirimi."
 tags: ["göçmenlik temsilcisi", "CICC", "IRCC", "şikâyet", "dolandırıcılık"]
 advisory: true
+heroImage: "/images/editorial/community-diverse.jpg"
+heroAlt: "Happy diverse people laughing while drinking beverages"
+heroCredit: "Andrea Piacquadio / Pexels"
 ---
 
 Kanada göçmenlik başvurusunda bir kişiye ödeme yapmanız, onun IRCC nezdinde yetkili temsilci olduğu anlamına gelmez. “Bağlantım var”, “garantili vize” veya “özel kontenjan” gibi iddialar lisansın yerine geçmez. Temsilci formu doldursa bile gönderilen bilgilerin doğruluğundan başvuru sahibi sorumludur.

@@ -10,6 +10,9 @@ photoQuery: "fingerprint criminal record check local police Canada"
 excerpt: "Kanada'da iş, lisans, göçmenlik veya gönüllülük için doğru criminal record check türünü alma rehberi."
 tags: ["criminal record check", "parmak izi", "RCMP", "polis kaydı", "vulnerable sector"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Kanada'da “background check” tek bir belge değildir. Name-based criminal record check, police information check, certified fingerprint-based record ve vulnerable sector check farklı veri kaynakları ve amaçlarla hazırlanır. Gereğinden daha geniş bir belge istemek mahremiyet sorunu yaratabilir; yanlış ürün almak ise işe giriş veya lisans süresini geciktirebilir.

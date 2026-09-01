@@ -10,9 +10,9 @@ photoQuery: "Canada province map immigration documents"
 excerpt: "Kanada Eyalet Aday Programı rotalarını, Express Entry ve non-Express Entry farkını, adaylık sürecini ve taşınma niyetini resmî kaynaklarla anlatıyoruz."
 tags: ["PNP", "eyalet aday programı", "Express Entry", "kalıcı oturum", "IRCC"]
 advisory: true
-heroImage: "/images/eyalet-aday-programi-pnp-rehberi.jpg"
-heroCredit: "Oil_producing_countries_map.png: PLEASE COMPLETE AUTHOR INFORMATION derivative work: Fulvio314 / Openverse (CC BY-SA 3.0)"
-heroAlt: "Oil producing USA-states-Canada-provinces map"
+heroImage: "/images/editorial/community-diverse.jpg"
+heroCredit: "Andrea Piacquadio / Pexels"
+heroAlt: "Happy diverse people laughing while drinking beverages"
 ---
 
 Kanada'nın Provincial Nominee Program sistemi, eyalet ve bölgelerin kendi işgücü ve nüfus ihtiyaçlarına uygun adayları kalıcı oturum için seçmesine imkân verir. Ancak PNP tek bir başvuru kapısı değildir. Her katılımcı yönetim farklı akışlar, meslek listeleri, davet yöntemleri ve belge takvimleri belirleyebilir.

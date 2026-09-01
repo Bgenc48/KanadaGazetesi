@@ -10,6 +10,9 @@ photoQuery: "Canada Turkey trade meeting flags cargo containers"
 excerpt: "Kanada ile Türkiye arasındaki 2026 serbest ticaret anlaşması müzakerelerinin mevcut aşaması, ticaret verileri ve işletmeler için hazırlık adımları."
 tags: ["Kanada-Türkiye", "serbest ticaret anlaşması", "ihracat", "ithalat", "2026"]
 advisory: true
+heroImage: "/images/editorial/professional-networking.jpg"
+heroAlt: "People in conference room"
+heroCredit: "Christina Morillo / Pexels"
 ---
 
 Kanada ile Türkiye, 7 Temmuz 2026'da ikili serbest ticaret anlaşması müzakerelerini başlattı. Bu önemli bir diplomatik ve ticari eşik; fakat bugün gümrük vergilerinin kalktığı anlamına gelmiyor. Bir anlaşma metninin müzakere edilmesi, imzalanması, iç onay süreçlerinden geçmesi ve yürürlüğe girmesi ayrı aşamalardır. İthalatçı ve ihracatçılar mevcut tarife ve izin kurallarını uygulamaya devam etmelidir.

@@ -10,6 +10,9 @@ photoQuery: "multicultural nonprofit board meeting Canada"
 excerpt: "Türk toplum girişimleri için not-for-profit incorporation, directors, bylaws, üyelik, charity ayrımı ve yıllık uyum dosyası."
 tags: ["not-for-profit", "toplum kuruluşu", "incorporation", "charity", "yönetim"]
 advisory: true
+heroImage: "/images/editorial/community-hands.jpg"
+heroAlt: "Group of People Putting Their Hands Together"
+heroCredit: "Ivan Samkov / Pexels"
 ---
 
 Kanada'da bir kültür derneği, öğrenci ağı veya yardım girişimi kurarken “non-profit”, “not-for-profit corporation” ve “registered charity” ifadelerini aynı şey gibi kullanmak ciddi beklenti ve vergi hataları doğurur. Incorporation tüzel kişilik kurabilir; otomatik olarak charity kaydı, bağış makbuzu yetkisi veya her durumda gelir vergisi muafiyeti sağlamaz.

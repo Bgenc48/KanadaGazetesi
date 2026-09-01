@@ -10,6 +10,9 @@ photoQuery: "Canada lightning thunderstorm safety indoors hard top vehicle"
 excerpt: "Kanada'da lightning alert, güvenli shelter, açık alan ve araç davranışı ile yıldırım sonrası ilk yardım rehberi."
 tags: ["yıldırım", "gök gürültülü fırtına", "lightning", "hava uyarısı", "ilk yardım"]
 advisory: true
+heroImage: "/images/editorial/wildfire-relief.jpg"
+heroAlt: "Firefighter Walking Towards a Forest Fire"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Yıldırım fırtınanın yağmur alanının dışında da çarpabilir. Gök gürültüsünü duyabiliyorsanız yıldırım menzilindesiniz; spor, piknik, iş veya su etkinliğini sürdürmeyin. Güvenli seçenek substantial enclosed building veya metal roof'lu, camları kapalı hard-top vehicle'dır. Çardak, açık garaj, çadır ve ağaç altı güvenli shelter değildir.

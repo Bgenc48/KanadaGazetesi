@@ -7,9 +7,12 @@ authorTitle: "Kanada Gazetesi"
 pubDate: 2026-08-27
 updatedDate: 2026-08-27
 photoQuery: "Canada Home Buyers Plan RRSP withdrawal first home closing"
-excerpt: "Home Buyers' Plan ile RRSP'den ev alımı için çekim, uygunluk, form, closing ve geri ödeme rehberi."
+excerpt: "Kanada Home Buyers' Plan ile RRSP'den ilk ev alımı için çekim, uygunluk, form, closing ve geri ödeme takvimi rehberi."
 tags: ["Home Buyers' Plan", "HBP", "RRSP", "ilk ev", "CRA"]
 advisory: true
+heroImage: "/images/editorial/retirement-planning.jpg"
+heroAlt: "Person Putting Coin in a Piggy Bank"
+heroCredit: "Joslyn Pickens / Pexels"
 ---
 
 Home Buyers' Plan, uygun kişinin qualifying home satın almak veya inşa etmek için RRSP'den belirli limite kadar çekim yapmasına ve tutarı plan takviminde geri ödemesine izin verir. HBP withdrawal normal RRSP withdrawal'dan farklıdır; yanlış işlem withholding tax ve taxable income sonucu doğurabilir.

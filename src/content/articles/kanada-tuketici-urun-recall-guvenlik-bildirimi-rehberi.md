@@ -10,6 +10,9 @@ photoQuery: "consumer checking product recall model number Canada"
 excerpt: "Oyuncak, ev ürünü ve kozmetik için Health Canada recall araması, model eşleştirme, iade veya imha talimatı ve incident report dosyası."
 tags: ["recall", "ürün güvenliği", "Health Canada", "tüketici", "incident report"]
 advisory: true
+heroImage: "/images/editorial/wildfire-relief.jpg"
+heroAlt: "Firefighter Walking Towards a Forest Fire"
+heroCredit: "RDNE Stock project / Pexels"
 ---
 
 Kanada'da bir ürünün geri çağrıldığını görmek, aynı markadaki bütün ürünleri iade etmek veya yalnızca mağazanın sosyal medya mesajına güvenmek anlamına gelmez. Recall genellikle belirli model, üretim tarihi, lot, serial number veya UPC için geçerlidir. Doğru eşleştirme ve resmî remedy talimatı hem güvenlik hem refund süreci için önemlidir.

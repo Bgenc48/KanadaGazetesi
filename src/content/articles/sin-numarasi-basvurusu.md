@@ -1,20 +1,21 @@
 ---
 title: "SIN numarası: başvuru, belgeler ve dikkat edilecekler"
-deck: "Kanada'da çalışmanın ilk şartı olan Social Insurance Number'ı almanın yolu, istenen belgeler ve numarayı korumanın kuralları."
+deck: "Kanada'da ücretli çalışma ve vergi kaydı için gereken Social Insurance Number'a başvuru yolları, belge koşulları ve numarayı koruma kuralları."
 section: "rehber"
 author: "Yaşam Masası"
 authorTitle: "Kanada Gazetesi"
 pubDate: 2026-05-05
+updatedDate: 2026-08-31
 photoQuery: "government service office documents desk"
-excerpt: "SIN olmadan çalışamazsınız. Başvurunun nasıl yapıldığını, geçici statüdekiler için farkı ve numarayı korumanın kurallarını anlatıyoruz."
+excerpt: "SIN başvurusu, geçici statüde sona erme tarihi, işe başlarken üç günlük kural ve numarayı kimlerle paylaşmanız gerektiği."
 tags: ["SIN", "çalışma hayatı", "Service Canada", "belge"]
 advisory: true
-heroImage: "/images/sin-numarasi-basvurusu.jpg"
-heroCredit: "ITU Pictures / Openverse (CC BY 2.0)"
-heroAlt: "WSIS Forum 2013 - AL C7 E-business (UNCTAD, ITC and UPU) E-commerce and Development"
+heroImage: "/images/editorial/community-hands.jpg"
+heroCredit: "Ivan Samkov / Pexels"
+heroAlt: "Group of People Putting Their Hands Together"
 ---
 
-Kanada'da çalışmaya başlayacak herkesin ilk işi **Social Insurance Number**, kısaca SIN almak. Bu numara olmadan işveren sizi bordroya yazamıyor, devlet hizmetlerinin çoğuna erişemiyorsunuz.
+Kanada'da ücretli çalışacak kişinin **Social Insurance Number**, kısaca SIN için başvurması gerekir. Henüz numaranız yoksa işe başladıktan sonraki üç gün içinde başvurmuş olmanız ve numara gelir gelmez üç gün içinde işverene vermeniz gerekir. İşveren de yeni çalışandan SIN'i işe başlangıcından sonraki üç gün içinde istemekle yükümlüdür.
 
 ## SIN nedir, ne değildir?
 
@@ -24,7 +25,7 @@ Bir kimlik belgesi değil. Üzerinde fotoğraf yok ve artık plastik kart olarak
 
 ## Başvuru nasıl yapılıyor?
 
-Üç yol var: çevrimiçi, posta ve Service Canada ofisine giderek. Çevrimiçi başvuru en hızlısı ve çoğu durumda belgeleri taratıp yüklemeniz yeterli oluyor.
+Üç yol var: çevrimiçi, posta ve Service Canada ofisine giderek. Eksiksiz belgelerle yapılan ofis başvurusu aynı ziyarette sonuçlanabilir; çevrimiçi ve posta işlem sürelerini Service Canada'nın güncel hizmet standardından kontrol edin.
 
 İstenen belgeler statünüze göre değişiyor:
 
@@ -54,14 +55,14 @@ SIN yalnızca sınırlı sayıda yerde isteniyor:
 
 Bunun dışında SIN isteyen taleplere karşı temkinli olun. İş ilanı adı altında başvuru aşamasında SIN isteyen ilanlar, kimlik hırsızlığının bilinen yollarından biri. Ev kiralarken ya da mağaza kartı çıkarırken SIN vermek zorunda değilsiniz.
 
-Numaranızı yazılı olarak saklarken güvenli bir yer seçin. Kaybederseniz yeni numara verilmiyor; mevcut numaranız yeniden bildiriliyor. Yeni numara yalnızca kimlik hırsızlığı kanıtlanan durumlarda veriliyor.
+Numaranızı yazılı olarak saklarken güvenli bir yer seçin. Onay belgesini kaybetmek tek başına yeni SIN verilmesi anlamına gelmez; mevcut numaranızı Service Canada'nın güvenli kanallarından doğrulayabilirsiniz. Dolandırıcılık şüphesinde yeni numaranın otomatik çözüm olduğunu varsaymayın; Service Canada olay kanıtını ve atılması gereken adımları değerlendirir.
 
 ## Numara geldikten sonra
 
 Elinize geçtiğinde yapılacak birkaç iş var:
 
 - İşvereninize bildirin; bordro kaydınız açılsın.
-- Bankanıza bildirin, aksi halde faiz gelirinde stopaj sorunları çıkabiliyor.
+- Faiz veya yatırım geliri üreten hesabınız varsa finans kuruluşuna vergi bildirimi için iletin; genel bankacılık işlemlerinde SIN'in neden istendiğini sorun.
 - Vergi beyannamesi verirken kullanın. Beyanname vermek yalnızca vergi ödemek değil, çocuk yardımı ve çeşitli kredilerden yararlanmanın da koşulu.
 
 ## ABN benzeri bir tuzak: yüklenici olarak çalışmak
@@ -78,19 +79,25 @@ Böyle bir durumda yapılacaklar sırayla: Service Canada'ya bildirmek, iki büy
 
 ## Numarayı bekleyen için pratik not
 
-Çevrimiçi başvuruda numara çoğu zaman kısa sürede çıkıyor, ancak belge incelemesi gerekirse süre uzayabiliyor. Bu arada işe başlamanız mümkün; işvereninize başvuru yaptığınızı bildirmeniz ve numara geldiğinde iletmeniz yeterli oluyor.
+Numara henüz gelmediyse işe başladığınız ilk üç gün içinde başvurun ve başvuru kanıtını saklayın. SIN size ulaştıktan sonra üç gün içinde işverene verin. Belge incelemesi uzarsa Service Canada'nın başvuru takip kanalını kullanın; işverene yalnız “bekliyorum” demek başvuru yükümlülüğünün yerini tutmaz.
 
 Ofise giderek başvuracaksanız randevu gerekip gerekmediğini önceden kontrol edin. Belgelerin asıllarını götürmek, fotokopiyle gidip geri dönmekten daha hızlı sonuç veriyor.
 
 ## Aile üyeleri için
 
-Eş ve çocuklar için ayrı başvuru gerekiyor. Çalışma izni olan eşler kendi SIN'lerini alıyor. Çocuklar için ise genelde yardım başvuruları sırasında numara talep ediliyor.
+SIN kişiye özeldir; eşiniz kendi çalışma ve vergi durumuna göre ayrı başvurur. Çocuk için SIN, RESP gibi belirli işlemlerde gerekebilir. Çocuğun yardım hakkı veya göç statüsü tek başına otomatik SIN verildiği anlamına gelmez; uygun belge listesini Service Canada'dan kontrol edin.
 
-Başvuru adımları, belge listeleri ve işlem süreleri değişebiliyor; işleme başlamadan önce Service Canada'nın kendi SIN sayfasını esas alın. Numarasını ilk hafta içinde alan yeni gelenler, iş ve banka tarafındaki bütün adımların belirgin biçimde hızlandığını söylüyor.
+Başvuru adımları, belge listeleri ve işlem süreleri değişebilir; işleme başlamadan önce Service Canada'nın SIN sayfasını esas alın. SIN'i kimlik kartı gibi taşımayın, yalnız yasal veya açıkça gerekli amaçla paylaşın.
 
 ## Kaynaklar ve doğrulama
 
 - [Service Canada: SIN başvurusu ve gerekli belgeler](https://www.canada.ca/en/employment-social-development/services/sin/apply.html)
 - [Service Canada: SIN numarasını koruma](https://www.canada.ca/en/employment-social-development/services/sin/protection.html)
+- [Service Canada: SIN kullanım kuralları ve üç günlük işveren yükümlülüğü](https://www.canada.ca/en/employment-social-development/services/sin/reports/code-of-practice.html)
 
 Kurallar, ücretler ve hizmet saatleri değişebilir. İşlem yapacağınız gün bağlantılı resmî sayfayı yeniden kontrol edin.
+
+## İlgili Kanada Gazetesi rehberleri
+
+- [SIN kimlik hırsızlığı ve veri ihlali](/makale/kanada-sin-kimlik-hirsizligi-veri-ihlali-rehberi)
+- [Yeni gelenin ilk 30 günü](/makale/yeni-gelen-ilk-30-gun-kontrol-listesi)
