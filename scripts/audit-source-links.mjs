@@ -33,12 +33,24 @@ async function inspect(url) {
       url,
       status: response.status,
       finalUrl: response.url,
-      result: response.ok || response.status === 206 ? 'pass' : [401, 403, 405, 429].includes(response.status) ? 'protected' : 'fail',
+      result:
+        response.ok || response.status === 206
+          ? 'pass'
+          : [401, 403, 405, 429].includes(response.status)
+            ? 'protected'
+            : 'fail',
       ms: Date.now() - started,
       error: '',
     };
   } catch (error) {
-    return { url, status: 0, finalUrl: '', result: 'error', ms: Date.now() - started, error: error.message };
+    return {
+      url,
+      status: 0,
+      finalUrl: '',
+      result: 'error',
+      ms: Date.now() - started,
+      error: error.message,
+    };
   }
 }
 
@@ -55,27 +67,37 @@ await Promise.all(Array.from({ length: Math.min(16, urls.length) }, () => worker
 
 const csv = (value) => `"${String(value ?? '').replaceAll('"', '""')}"`;
 const headers = ['result', 'status', 'url', 'final_url', 'articles', 'ms', 'error'];
-const lines = results.map((row) => [
-  row.result,
-  row.status,
-  row.url,
-  row.finalUrl,
-  [...urlArticles.get(row.url)].sort().join(';'),
-  row.ms,
-  row.error,
-].map(csv).join(','));
+const lines = results.map((row) =>
+  [
+    row.result,
+    row.status,
+    row.url,
+    row.finalUrl,
+    [...urlArticles.get(row.url)].sort().join(';'),
+    row.ms,
+    row.error,
+  ]
+    .map(csv)
+    .join(','),
+);
 fs.mkdirSync(path.dirname(path.resolve(output)), { recursive: true });
 fs.writeFileSync(output, `${headers.join(',')}\n${lines.join('\n')}\n`, 'utf8');
 
 const summary = Object.groupBy(results, (row) => row.result);
-console.log(JSON.stringify({
-  uniqueUrls: urls.length,
-  pass: summary.pass?.length || 0,
-  protected: summary.protected?.length || 0,
-  fail: summary.fail?.length || 0,
-  error: summary.error?.length || 0,
-  output: path.resolve(output),
-}, null, 2));
+console.log(
+  JSON.stringify(
+    {
+      uniqueUrls: urls.length,
+      pass: summary.pass?.length || 0,
+      protected: summary.protected?.length || 0,
+      fail: summary.fail?.length || 0,
+      error: summary.error?.length || 0,
+      output: path.resolve(output),
+    },
+    null,
+    2,
+  ),
+);
 for (const row of results.filter((item) => ['fail', 'error'].includes(item.result))) {
   console.log(`${row.result}\t${row.status}\t${row.url}\t${row.error}`);
 }

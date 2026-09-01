@@ -242,7 +242,10 @@ async function main() {
 }
 
 // Doğrudan çalıştırıldığında ana akış; testler yardımcıları içe aktarır.
-if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
+if (
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href
+) {
   main().catch((err) => {
     console.error(err);
     process.exit(1);

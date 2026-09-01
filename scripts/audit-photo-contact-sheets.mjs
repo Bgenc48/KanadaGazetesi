@@ -4,13 +4,18 @@ import { join, resolve, basename } from 'node:path';
 import sharp from 'sharp';
 
 const root = resolve(process.cwd());
-const outDir = resolve(process.argv[2] || join(root, '..', '..', 'audit', 'canada-photo-sheets'));
+const outDir = resolve(
+  process.argv[2] || join(root, '..', '..', 'audit', 'canada-photo-sheets'),
+);
 const articlesDir = join(root, 'src', 'content', 'articles');
 const publicDir = join(root, 'public');
 mkdirSync(outDir, { recursive: true });
 
 function value(frontmatter, key) {
-  return frontmatter.match(new RegExp(`^${key}:\\s*["']?([^"'\\r\\n]+)`, 'm'))?.[1]?.trim() || '';
+  return (
+    frontmatter.match(new RegExp(`^${key}:\\s*["']?([^"'\\r\\n]+)`, 'm'))?.[1]?.trim() ||
+    ''
+  );
 }
 
 function escapeXml(text) {
@@ -81,4 +86,6 @@ for (let page = 0; page < Math.ceil(entries.length / pageSize); page += 1) {
   console.log(output);
 }
 
-console.log(`Audited set: ${entries.length} unique hero images across ${[...byImage.values()].reduce((sum, titles) => sum + titles.length, 0)} articles.`);
+console.log(
+  `Audited set: ${entries.length} unique hero images across ${[...byImage.values()].reduce((sum, titles) => sum + titles.length, 0)} articles.`,
+);
