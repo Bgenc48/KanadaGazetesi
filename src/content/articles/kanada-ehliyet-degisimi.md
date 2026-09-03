@@ -64,7 +64,7 @@ Araçta acil durum çantası bulundurmak yaygın bir alışkanlık: battaniye, k
 
 Otomobil sigortası bazı eyaletlerde kamu kurumları, bazılarında özel şirketler tarafından sunuluyor. Kamu modelinde fiyatlar daha standart, özel modelde ise şirketler arasında ciddi fark çıkabiliyor.
 
-Zorunlu kapsam ve tazminat modeli eyalete göre değişir. Çarpışma, kapsamlı hasar, muafiyet ve ikame araç gibi kalemleri poliçede ayrı okuyun. Finansman veya leasing sözleşmesi, aracın kendi hasarı için belirli teminatları zorunlu tutabilir.
+Zorunlu kapsam ve tazminat modeli eyalete göre değişir. Çarpışma, geniş hasar teminatı, muafiyet ve ikame araç gibi kalemleri poliçede ayrı okuyun. Finansman veya leasing sözleşmesi, aracın kendi hasarı için belirli teminatları zorunlu tutabilir.
 
 Prim; yaşınıza, ehliyet kademenize, sürüş geçmişinize, aracın modeline, yıllık kilometrenize ve oturduğunuz posta koduna göre belirleniyor. Aynı sürücü için şirketler arasında yüzlerce dolarlık fark çıkabildiği için, her yenilemede birkaç teklif almak alışkanlık haline getirilmeli.
 
