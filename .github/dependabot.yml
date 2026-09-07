@@ -17,6 +17,15 @@ updates:
           - 'typescript*'
           - 'prettier*'
           - 'vitest*'
+      # Catch-all so single-package minor/patch bumps (sharp, globals,
+      # pagefind, ...) arrive in one weekly PR instead of one PR each.
+      # Majors stay ungrouped so they still get individual review.
+      minor-and-patch:
+        patterns:
+          - '*'
+        update-types:
+          - minor
+          - patch
     # Major runtime/toolchain upgrades must be coordinated with the CI matrix
     # and Astro's peer ranges instead of being merged as unattended bundles.
     ignore:
@@ -30,3 +39,7 @@ updates:
     directory: '/'
     schedule:
       interval: weekly
+    groups:
+      github-actions:
+        patterns:
+          - '*'
