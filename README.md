@@ -17,7 +17,7 @@ npm run build    # üretim derlemesi → dist/
 npm run preview  # derlemeyi yerelde önizle
 ```
 
-Gereksinim: **Node 20+**.
+Gereksinim: **Node 22.12+**.
 
 ## Kalite ve testler
 
@@ -29,7 +29,7 @@ npm test            # Vitest birim testleri
 npm run check       # lint + typecheck + test (hepsi bir arada)
 ```
 
-Tüm bu kontroller her PR'da GitHub Actions ile (Node 20 ve 22) çalışır.
+Tüm bu kontroller her PR'da GitHub Actions ile (Node 22 ve 24) çalışır.
 `npm run build`, üretim derlemesinden sonra **Pagefind** arama indeksini
 otomatik üretir (`postbuild`). Site içi arama `/ara` adresinde sunulur.
 
