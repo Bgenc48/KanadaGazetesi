@@ -38,7 +38,7 @@ jobs:
       - name: Build Astro & upload Pages artifact
         uses: withastro/action@v6
         with:
-          node-version: 20
+          node-version: 24
           package-manager: npm
 
   deploy:

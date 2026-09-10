@@ -78,7 +78,7 @@ ana dala merge edildi ve önizleme dağıtımında doğrulandı.
 - (13) ESLint + Prettier + `astro check` yapılandırması, monorepo lint script'leri
 - (13) TypeScript strict mode'a geçiş; `tsconfig` sıkılaştırma; tip hatalarını giderme
 - (8) EditorConfig, commit-lint, Husky pre-commit kancaları
-- (13) GitHub Actions CI: kurulum + lint + tip + build matrisi (Node 20/22)
+- (13) GitHub Actions CI: kurulum + lint + tip + build matrisi (Node 22/24)
 - (8) `CONTRIBUTING.md`, PR/issue şablonları, kod sahipliği (CODEOWNERS)
 - (5) Bakım & teknik borç
 
